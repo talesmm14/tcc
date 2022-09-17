@@ -1,0 +1,99 @@
+% ---
+% Capitulo de METODOLOGIA
+% ---
+
+\chapter{Definição de experimentos}\label{cap:definicoes}
+\section{Introdução}
+O experimento proposto neste trabalho seguirá da seguinte maneira, os testes serão
+escritos na linguagem C nos dois RTOS escolhidos, ambos usarão funções iguais para
+medida de tempo, cada teste terá seu arquivo individual para que não sofra
+interferência de outros testes, todos serão disponibilizados na internet como código
+aberto, afim que qualquer pessoa possa testar e validar os resultados aqui obtidos.
+
+È muito importante que um sistema operacional de tempo real não deixe que tarefas
+ocupem muito tempo para tomarem suas responsabilidades, isto impacta diretamente no
+ciclo de toda a missão, tendo em vista que todo tempo e precioso para uma aplicação
+que reaja quase em tempo real a qualquer situação. A medida de tempo será a subtração
+do tempo de coleta inicial com o final, estas métricas são destinadas a oferecer
+informações de tempo já que se supõe que o mesmo e muito importante para missões que
+utilizem um RTOS.
+% Definir o experimento
+% Como vai ser feito
+% Resultado esperado
+
+\subsection{Velocidade de troca entre tarefas}
+Durante o processo de encerramento de uma tarefa, o sistema operacional pode realizar
+algumas operações, como vasculhar interrupções e quais as possíveis tarefas que
+entrarão em seguida, tudo isso consome um tempo precioso para a aplicação
+interferindo no tempo de troca para outra atividade, com o intuito de medir esse
+tempo em milissegundos usaremos a função millis() para obter o tempo de troca entre
+duas tarefas, subtraindo o tempo obtido no final da primeira tarefa e no começo da
+segunda. Serão criadas duas tarefas,
+
+
+%  Qual a politica de fila adotada?
+uma com prioridade maior que a outra,
+
+
+sendo a
+com menor prioridade tendo a ação de despertar a outra, o tempo que leva para a outra
+tarefa ser despertada será medido. Espera-se que a troca entre as tarefas seja a mais
+rápida possível, não apresentando gargalos, e que a tarefa com menor prioridade consiga
+despertar a outra tarefa, mesmo que seja de prioridade maior.
+
+\subsection{Tempo de passagem de mensagens entre tarefas}
+É muito importante que as tarefas possam se comunicar entre si, de preferência de
+forma mais rápida possível evitando que se encontrem bloqueadas esperando alguma
+resposta, o tempo de envio e recebimento será medido tendo entre tarefas com prioridades
+iguais, quanto entre tarefas de prioridades diferentes, espera-se que o sistema evite
+bloqueios após a solicitação de envio em uma mensagens. Durante uma missão as tarefas
+trocaram muitas mensagens, já que muito da operação depende que os módulos do satélite
+troquem informações entre si, a troca destas mensagens não pode prejudicar o andamento
+de todo o sistema.
+
+\subsection{Tempo de bloqueio e liberação de desbloqueio de Semáforo e Mutex}
+Iremos medir o tempo que o RTOS leva para bloquear um Semáforo e Mutex, junto também
+o tempo para liberação, este teste necessita apenas de uma tarefa, a qual solicita e
+libera em seguida o semáforo ou mutex. È importante que este tempo seja o mais curto
+possível, já que outras tarefas também podem depender desta mesma variável, sendo o
+tempo de liberação mais importante. Durante uma missão varias
+
+% Que tipo de operações serão realizadas?
+tarefas
+
+pediram permissão
+para usar o mesmo recurso, sendo que o controle de acesso para evitar possíveis
+conflitos responsabilidade dos Semáforos e Mutexes, pouco atraso na troca destes pode
+ocasionar em possíveis problemas de prioridades, levando com que tarefas com prioridades
+maiores levem mais tempo para conseguirem liberação.
+
+\subsection{Tempo de resposta a eventos externos atraves de interrupção}
+Durante uma missão o sistema lidara com diversas interrupções, sendo elas de alta
+prioridade e devendo serem tratadas imediatamente, este teste esta muito
+correlacionado com o primeiro, já que iremos medir o tempo que leva para uma tarefa
+despertar através desta vez por uma
+
+% Como será implementado essa rotina?
+rotina de interrupção.
+
+O controlador da missão
+terá que lidar com diversas ISR durante a missão, sendo importante que nenhuma delas
+fique para trás ou que atrapalhem o ciclo de vida do sistema.
+
+\subsection{Velocidade de alocação de memoria}
+Alocar memória para realizar alguma operação pode levar algum tempo, todo RTOS tem
+suas funções para alocação de memória, e cabe a este teste coletar medida de tempo
+nesta operação, seja qual for o tamanho de memória requisitada o sistema deve
+entrega-la rapidamente, aqui selecionaremos uma região de memória RAM e o tempo para
+aquisição e liberação da mesma será medida. Aqui se destaca cada RTOS com suas regras
+de alocação de blocos de memória, poderemos notar qual a diferença das abordagens e se
+adequam nas operações rápidas de uma tarefa.
+
+\subsection{Velocidade de leitura e gravação em memoria flash (Cartão SD)}
+Este teste é muito semelhante ao anterior, mas se difere por utilizar de memória flash,
+aqui mais especifico duas memórias, já que faremos testes alocando memoria flash
+internado ESP32 como também um cartão SD externo. Em muitas missões de CubeSat memoria
+flash externas são usadas como backup do sistema entre outras aplicações como
+armazenamentos de dados científicos antes do seu envio para a terra. Espera-se que
+esta operação seja rápida e não corrompida, já que o envio destes dados e crucial para
+o objetivo final da missão.

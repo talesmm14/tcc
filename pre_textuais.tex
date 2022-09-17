@@ -1,0 +1,205 @@
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto
+% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
+% \includepdf{folhadeaprovacao_final.pdf}
+%
+\begin{folhadeaprovacao}
+
+
+
+	\begin{center}
+		\includegraphics[width=1\textwidth]{imagens/unitins.png}
+		\ABNTEXchapterfont\Large   CURSO DE SISTEMAS DE INFORMA{\c{C}}{\~{A}}O
+
+		\par
+		\vspace*{1cm}
+		{\ABNTEXchapterfont\bfseries\large \expandafter\MakeUppercase{\imprimirtitulo}  \vspace*{1cm}    }
+		\par
+		{\large \expandafter\MakeUppercase{\imprimirautor}}
+		%\vspace*{\fill}
+		\par
+		\vspace*{1cm}
+		\hspace{.45\textwidth}
+		\begin{minipage}{.5\textwidth}
+			\small\imprimirpreambulo
+
+		\end{minipage}%
+		%	\vspace*{\fill}
+	\end{center}
+
+
+
+	\assinatura{\textbf{\imprimirorientador} \\ Orientador}
+	\assinatura{\textbf{Professor} \\ Convidado 1}
+	\assinatura{\textbf{Professor} \\ Convidado 2}
+	%\assinatura{\textbf{Professor} \\ Convidado 3}
+	%\assinatura{\textbf{Professor} \\ Convidado 4}
+
+	\begin{center}
+		\vspace*{0.5cm}
+		{\large\imprimirlocal}
+		\par
+		{\large\imprimirdata}
+		\vspace*{1cm}
+	\end{center}
+
+\end{folhadeaprovacao}
+% ---
+
+% ---
+% Dedicatória
+% ---
+\begin{dedicatoria}
+	\vspace*{\fill}
+	\centering
+	\noindent
+	\textit{A todas as pessoas que direta ou indiretamente contribuíram para a realização deste trabalho.} \vspace*{\fill}
+\end{dedicatoria}
+% ---
+
+% ---
+% Agradecimentos
+% --- Es
+\begin{agradecimentos}
+	Ao meu orientador, pelo suporte no pouco tempo que lhe coube, pelas suas correções e incentivos.
+	Agradeço a todos os  meus professores por me proporcionar o conhecimento e afetividade da educação 
+	no processo de formação profissional, pela excelência da qualidade técnica de cada um.
+	Aos meus pais que sempre me incentivaram a superar as dificuldades.
+	Aos meus amigos de jornada, por não me deixarem desistir.
+	A todos que direta ou indiretamente fizeram parte de minha formação, o meu muito obrigado.
+
+
+\end{agradecimentos}
+% ---
+
+% ---
+% Epígrafe
+% ---
+\begin{epigrafe}
+	\vspace*{\fill}
+	\begin{flushright}
+		\textit{``The way to the stars is open.''\\
+			Sergei Korolev}
+	\end{flushright}
+\end{epigrafe}
+% ---
+
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+	O desenvolvimento de satélites é explorado por empresas, entusiastas e universidades em função da 
+	redução acentuada de custos, disponibilidade tecnológica e interesse em aprimoramento científico. 
+	Atualmente, padrões para a construção de espaçonaves de dimensões reduzidas em formato cúbico fazem 
+	parte do cotidiano de estudantes. Com a utilização de componentes de prateleira e sistemas 
+	operacionais de código aberto exploram o ambiente científico voltado para o espaço. Os CubeSats são 
+	um desafio de engenharia de sistemas com o desenvolvimento de firmware e software para este tipo 
+	dispositivo dotado de severos requisitos relacionados às propriedades importantes como precisão, 
+	desempenho e determinismo. Dentre os componentes de prateleira utilizados na prototipação e implantação, 
+	se destaca o microcontrolador ESP32, o qual possui baixo consumo de energia e alta performance. 
+	Os projetos de CubeSats de código aberto buscam um sistema operacional por sua robustez, recorrendo ao 
+	FreeRTOS já validado em diversas missões, entretanto, atrelado ao potencial 
+	do microcontrolador, avaliar a utilização de outros sistemas de código aberto é um objetivo promissor. 
+	O projeto Zephy é um Sistema Operacional de Tempo Real da Fundação Linux sob licença Apache 2.0 que possui 
+	suporte às arquiteturas embarcadas utilizadas em plataformas de microssatélites. Desta forma, este trabalho 
+	propõe avaliar a precisão, desempenho em tarefas rotineiras da operação de uma missão espacial, estabelecer 
+	conjunto de testes de benchmark para comparar os dois sistemas operacionais. Os diversos benefícios gerados
+	para a comunidade são, além de oferecer uma nova ferramenta para o mercado, métricas de benchmark que
+	através deste trabalho sejam desenvolvidas outras pesquisas complementando táticas de se avaliar sistemas 
+	para missões espaciais.
+
+
+
+	\textbf{Palavras-chaves}: Embedded Kernel, Onboard computer, Software, CubeSat, RTOS, Zephyr.
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+	\begin{otherlanguage*}{english}
+With the democratization of access to space, the development of satellites increasingly becomes 
+accessible to the common public such as companies, enthusiasts and universities, with different standards emerging 
+for building spaceships with off-the-shelf components and code operating systems 
+open. Firmware and software development for this type of device needs requirements 
+strings related to important properties such as accuracy, performance, and determinism. This one 
+work aims to evaluate the Zephyr real-time operating system on the ESP32 platform, 
+as an alternative to RTOS to be used in the construction of CubeSats, whose benefits of 
+using an realtime operating system are numerous, in this work a set of benchmark tests are presented. 
+		\vspace{\onelineskip}
+
+		\noindent
+		\textbf{Key-words}: Embedded Kernel, Onboard computer, Software, CubeSat, RTOS, Zephyr.
+	\end{otherlanguage*}
+\end{resumo}
+
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\newpage
+\pdfbookmark[0]{\listtablename}{lot}
+\newpage
+\listoftables*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+\begin{siglas}
+	\item RTOS - Sistema operacional de tempo-real.
+	\item ISR - Interrupt Service Routines.
+	\item SO - Sistema operacional.
+	\item GPIO - General Purpose Input/Output.
+	\item COTS - Commercial Off The Shelf
+	\item LEO - Low Earth Orbit
+	\item UFSM - Universidade de Santa Maria
+	\item INPE - Instituto Nacional de Pesquisas Espaciais
+	\item MCTI - Ministério de Ciência e Tecnologia
+	\item AEB - Agência Espacial Brasileira
+	\item IDE - Ambiente de desenvolvimento integrado
+\end{siglas}
+% ---
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
