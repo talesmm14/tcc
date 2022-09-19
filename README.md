@@ -6,8 +6,8 @@ ALUNO: Tales Monteiro Melquiades
 
 - [ ] Introdução
 - [X] Objetivos e Escopo de Pesquisa
+- [X] Escopo de Pesquisa
 - [X] Justificativas
-- [ ] Revisão bibliométrica
 - [ ] Revisão bibliométrica
 - [ ] Trabalhos Relacionados
 - [ ] Metodologia
