@@ -35,7 +35,7 @@ Com isso em mente o trabalho aqui proposto se dispõem de construir uma bibliote
 
 ### 1.2.2. Escopo de Pesquisa
 
-
+O escopo desta pesquisa abrange um conjunto de funções escritas na linguagem C para a filtragem de dados indesejáveis vindos de sensores diversos, funções quais... , tento como característica atuar de forma amigável junto a um sistema operacional de tempo real. Assim, em um primeiro momento considerou-se desenvolver e testar a biblioteca sobre o Chip ESP32 da fabricante Espressif e em conjunto com o sistema operacional Zephyr um projeto mantido pela Fundação Linux.  
 
 ## 1.3. Justificativas
 
