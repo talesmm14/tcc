@@ -60,32 +60,21 @@ missão de cubesat.
 
 \section{Objetivos e Escopo de Pesquisa}
 \subsection{Objetivos de Pesquisa}
-% Reescrever
-Visto a complexidade de se lidar nessa etapa de desenvolvimento, escolher um RTOS já construído dá maior 
-liberdade aos engenheiros de software em concentrar esforços nas funcionalidades e critérios do satélite em vez 
-da construção de um sistema operacional novo, economizando muito tempo e esforço, com isto em mente o trabalho 
-aqui proposto se dispõem de avaliar o \cite{Zephyr} como uma alternativa ao \cite{FreeRTOS} em plataformas de 
-satélites espaciais que utilizem o processador ESP32, as motivações desse estudo estarão ligadas a critérios 
-de avaliação dos sistemas operacionais, sendo outras questões ligadas a uma missão de cubesat não serão 
-abordadas, pois escapam do escopo e metodologia do trabalho. Dessa forma, é possível obter informações importantes 
-a respeito do comportamento deste RTOS nesse tipo de arquitetura.
+Visto a exorbitante quantidade de dados provindo de sensores, somando a incerteza da qualidade de fabricação dos componentes eletrônicos de baixo custo disponíveis em ampla quantidade no mercado, torna o desenvolvimento para sistemas criticos que dependem da veracidade dos valores provindos dos sensores, ambiente assíncrono com múltiplas tarefas em simultâneo, complexos e custosos para as equipes de engenheiros de software, que utilizam de tempo para garantir a integridade e veracidades de todos os valores. 
+
+Com isso em mente o trabalho aqui proposto se dispõem de construir uma biblioteca de código aberto, que disponibilizara funções adequadas para a filtragem de dados provindo de sensores em ambiente de tempo real com multitarefas, testando a coleta e filtragem de dados no processador dual core ESP32 no sistema operacional de tempo real \cite{Zephyr}.
 
 \subsection{Objetivos secundários}
 Os objetivos secundários a serem alcançados são:
 \begin{itemize}
-\item Desenvolver uma aplicação Zephyr em CubeSat 1U
-% Reformular objetivo
-\item Desenvolvimento de código aberto de testes que poderá ser utilizado por qualquer outro interessado 
-para avaliar outro RTOS na plataforma ESP32.
+\item Realizar uma revisão bibliométrica de trabalhos que utilizam de métodos probabilísticos para filtragem de dados de sensores
+\item Disponibilizar o código de forma aberta a comunidade, para que possa ser utilizado por qualquer outro interessado em tratar dados de sensores em ambiente de multitarefas
+\item Escrever funções de filtragem utilizando os métodos de Desvio padrão e Intervalo de confiança
 \end{itemize}
 
 
 \subsection{Escopo da Pesquisa}
-O escopo desta pesquisa abrange teste de diversos critérios de \cite{Raymundo} e \cite{Garcia} utilizando linguagem 
-C++ no Chip ESP32 da fabricante Espressif. Neste trabalho serão levadas em consideração apenas detalhes ligados ao 
-sistema operacional empregado na missão de um CubeSat, sendo desconsiderada detalhes mais técnicos de um voo espacial, 
-como problemas de inversão de bit e perda de dados por culpa de radiação e outros problemas específicos. Assim, em 
-um primeiro momento considerou-se avaliar apenas a performance em um único chip fora de um chassi e estrutura de uma espaçonave.
+O escopo desta pesquisa abrange teste de diversos critérios de \cite{Raymundo} e \cite{Garcia} utilizando linguagem C++ no Chip ESP32 da fabricante Espressif. Neste trabalho serão levadas em consideração apenas detalhes ligados ao sistema operacional empregado na missão de um CubeSat, sendo desconsiderada detalhes mais técnicos de um voo espacial, como problemas de inversão de bit e perda de dados por culpa de radiação e outros problemas específicos. Assim, em um primeiro momento considerou-se avaliar apenas a performance em um único chip fora de um chassi e estrutura de uma espaçonave.
 
 
 \section{Justificativas}
