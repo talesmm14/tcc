@@ -74,38 +74,18 @@ Os objetivos secundários a serem alcançados são:
 
 
 \subsection{Escopo da Pesquisa}
-O escopo desta pesquisa abrange um conjunto de funções escritas na linguagem C para a filtragem de dados indesejáveis vindos de sensores diversos, funções quais... % Inserir métodos e pesquisas relevantes.
+O escopo desta pesquisa abrange um conjunto de funções escritas na linguagem C para a filtragem de dados indesejáveis vindos de sensores diversos, funções quais... % TODO: Inserir métodos e pesquisas relevantes.
 , tento como característica atuar de forma amigável junto a um sistema operacional de tempo real. Assim, em um primeiro momento considerou-se desenvolver e testar a biblioteca sobre o Chip ESP32 da fabricante Espressif e em conjunto com o sistema operacional Zephyr um projeto mantido pela Fundação Linux.  
 
 
 \section{Justificativas}
-A comunidade de desenvolvimento de CubeSats educacionais de código aberto utilizam em sua grande maioria de 
-poucos RTOS disponíveis no mercado, exemplo o FreeRTOS, em virtude de sua já confirmada performance e garantia 
-em embarcada, considerando os poucos recursos para empregar um sistema ainda não validado na arquitetura do 
-projeto.
-Visto que o ESP32 é um chip muito popular e já validado em viagens espaciais, destaca-se que 
-a contribuição para o setor, por meio desta pesquisa, 
-
-
-% Validar isso
-será a avaliação de um sistema novo e que promete ser mais 
-eficiente em fatores como memoria, espaço e energia, sendo que o mesmo ainda não foi validado em uma missão 
-real, 
-
-
-
-assim então economizando tempo e dinheiro das equipes e universidades que usufruem de projetos de CubeSat.
+Dados provindos do mundo real são constantemente contaminados com ruídos ou podem não corresponder a realidade, esse tipo de situação pode afetar perigosamente um software qualquer que lida com dados de sensores. Muitos programas podem depender que essa resposta deva ser rápida o suficiente para não comprometer o desempenho e a segurança do programa, um veiculo automato ou um equipamento medico por exemplo não podem trabalhar com dados incorretos, mesmo que sejam em curtos períodos de tempo, os mesmos dependem que a resposta vinda dos sensores sejam rápidas e verdadeiras, com as respostas discrepantes sendo descartadas não comprometendo sua missão. 
+Assim então este trabalho visa contribuir com a construção de uma biblioteca na linguagem C é de código aberto, onde será oferecido funções para tratamento de dados ruidosos advindos do mundo real, cuidando de se preocupar em trabalhar em conjunto com o RTOS Zephyr, economizando tempo de desenvolvimento e centralizando código aberto para todo e qualquer projetista de software interessado em consumir e contribuir ao projeto.
 
 
 \section{Organização do Trabalho}
-% Inserir resultados
-Este trabalho está organizado da seguinte forma, para o capítulo 1 apresentou-se a introdução da 
-pesquisa, com dados e justificativas baseadas na bibliografia de suas áreas, contendo 
-também os objetivos do trabalho, além do escopo e justificativas. Já no capítulo 2 apresenta-se 
-uma revisão bibliométrica acerca dos trabalhos relacionados e do escopo deste projeto. O 
-capítulo 3 contém aspectos da metodologia adotada e os requisitos necessários, com o capítulo 
-4 possuindo a definição do experimento e de seus criterios detalhadamente, que por ultimo 
-contendo o capítulo 5 traz as conclusões retiradas desta pesquisa, com suas possiveis contribuições 
-e beneficios para a sociedade, comunidade científica e de desenvolvimento de CubeSats.
+Este trabalho está organizado da seguinte forma, para o capítulo 1 apresentou-se a introdução da pesquisa, com dados e justificativas baseadas na bibliografia de suas áreas, contendo também os objetivos do trabalho, além do escopo e justificativas. Já no capítulo 2 apresenta-se uma revisão bibliométrica acerca dos trabalhos relacionados e do escopo deste projeto. O capítulo 3 contém aspectos da metodologia adotada e os requisitos necessários, com o  capítulo 4 
+% TODO: Inserir mudanças para projeto novo
+possuindo a definição do experimento e de seus  critérios detalhadamente, que por ultimo contendo o capítulo 5 traz as conclusões retiradas desta pesquisa, com suas possíveis contribuições e benefícios para a sociedade, comunidade científica e de desenvolvimento de  CubeSats.
 
 % Texto corrido

@@ -2,6 +2,7 @@
 
 ## 1.1. Entregar TCC
 
+- [ ] Introdução
 - [ ] Objetivos e Escopo de Pesquisa
 - [ ] Justificativas
 - [ ] Revisão bibliométrica
@@ -10,6 +11,9 @@
 - [ ] Metodologia
 - [ ] Resultados
 - [ ] Conclusão
+
+
+## Introdução
 
 
 ## 1.2. Objetivos e Escopo de Pesquisa
@@ -39,6 +43,7 @@ O escopo desta pesquisa abrange um conjunto de funções escritas na linguagem C
 
 ## 1.3. Justificativas
 
+Dados provindos do mundo real são constantemente contaminados com ruídos ou podem não corresponder a realidade, esse tipo de situação pode afetar perigosamente um software qualquer que lida com dados de sensores. Muitos programas podem depender que essa resposta deva ser rápida o suficiente para não comprometer o desempenho e a segurança do programa, um veiculo automato ou um equipamento medico por exemplo não podem trabalhar com dados incorretos, mesmo que sejam em curtos períodos de tempo, os mesmos dependem que a resposta vinda dos sensores sejam rápidas e verdadeiras, com as respostas discrepantes sendo descartadas não comprometendo sua missão. Assim então este trabalho visa contribuir com a construção de uma biblioteca na linguagem C é de código aberto, onde será oferecido funções para tratamento de dados ruidosos advindos do mundo real, cuidando de se preocupar em trabalhar em conjunto com o RTOS Zephyr, economizando tempo de desenvolvimento e centralizando código aberto para todo e qualquer projetista de software interessado em consumir e contribuir ao projeto.
 
 ## 1.4. Trabalhos Relacionados
 
