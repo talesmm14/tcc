@@ -53,6 +53,9 @@ Dados provindos do mundo real são constantemente contaminados com ruídos ou po
 ## 1.6. Revisão Bibliométrica
 
 
+![alt text](imagens/Cleaning_sensor_data_overlay_visualization.png "Title")
+
+
 ## 1.7. Metodologia
 
 
