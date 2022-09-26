@@ -1,0 +1,3262 @@
+TY  - CONF
+TI  - Adaptive Noise Reduction of Multichannel Signals Obtained by Capacitive ECG Sensors
+T2  - 2018 4th International Conference on Frontiers of Signal Processing (ICFSP)
+SP  - 39
+EP  - 43
+AU  - M. Seo
+AU  - J. S. Lee
+AU  - S. W. Kim
+AU  - M. Choi
+PY  - 2018
+KW  - Electrocardiography
+KW  - Adaptive filters
+KW  - Sensors
+KW  - Noise reduction
+KW  - Filtering algorithms
+KW  - Biomedical measurement
+KW  - Reliability
+KW  - adaptive filtering
+KW  - affine projection aglrotihm
+KW  - active noise cancellation
+KW  - SNR
+KW  - R peak detection
+KW  - QRS interval
+DO  - 10.1109/ICFSP.2018.8552062
+JO  - 2018 4th International Conference on Frontiers of Signal Processing (ICFSP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 4th International Conference on Frontiers of Signal Processing (ICFSP)
+Y1  - 24-27 Sept. 2018
+AB  - Capacitive electrocardiogram (ECG) sensors have been developed as a non-intrusive measurement to obtain ECG in daily life. However, the sensors are sensitive to motion noise caused by user's movement so that this paper suggests a novel noise reduction using active noise cancellation (ANC) with multichannel signals. The proposed algorithm can detect reliable QRS interval and conserve its power while noise is reduced outside the interval. As a result, the proposed algorithm achieved more accurate R peak detection of ECG measured in driving situation than single channel ANC. The method will be useful in the filed reducing noise of multichannel biomedical signal.
+ER  - 
+
+TY  - JOUR
+TI  - Distributed Combined Acoustic Echo Cancellation and Noise Reduction in Wireless Acoustic Sensor and Actuator Networks
+T2  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+SP  - 534
+EP  - 547
+AU  - S. Ruiz
+AU  - T. van Waterschoot
+AU  - M. Moonen
+PY  - 2022
+KW  - Loudspeakers
+KW  - Signal processing algorithms
+KW  - Microphones
+KW  - Acoustics
+KW  - Distributed algorithms
+KW  - Echo cancellers
+KW  - Speech processing
+KW  - Distributed signal processing
+KW  - wireless acoustic sensor and actuator networks
+KW  - acoustic echo cancellation
+KW  - noise reduction
+KW  - multichannel Wiener filter
+DO  - 10.1109/TASLP.2022.3140548
+JO  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+IS  - 
+SN  - 2329-9304
+VO  - 30
+VL  - 30
+JA  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+Y1  - 2022
+AB  - The paper presents distributed algorithms for combined acoustic echo cancellation (AEC) and noise reduction (NR) in a wireless acoustic sensor and actuator network (WASAN) where each node may have multiple microphones and multiple loudspeakers, and where the desired signal is a speech signal. A centralized integrated AEC and NR algorithm, i.e., multichannel Wiener filter (MWF), is used as starting point where echo signals are viewed as background noise signals and loudspeaker signals are used as additional input signals to the algorithm. By including prior knowledge (PK), namely that the loudspeaker signals do not contain any desired signal component, an alternative centralized cascade algorithm (PK-MWF) is obtained with an AEC stage first followed by an MWF-based NR stage which has a lower computational complexity. Distributed algorithms can then be obtained from the MWF and PK-MWF algorithm, i.e., the generalized eigenvalue decomposition (GEVD)-based distributed adaptive node-specific signal estimation (DANSE) and PK-GEVD-DANSE algorithm, respectively. In the former, each node performs a reduced dimensional integrated AEC and NR algorithm and broadcasts only 1 fused signal (instead of all its signals) to the other nodes. In the PK-GEVD-DANSE algorithm, each node performs a reduced dimensional cascade AEC and NR algorithm and broadcasts only 2 fused signals (instead of all its signals) to the other nodes. The distributed algorithms achieve the same performance, upon convergence, as the corresponding centralized integrated (MWF) and centralized cascade (PK-MWF) algorithm. It is observed, however, that the communication cost in the PK-GEVD-DANSE algorithm can also be reduced, where each node then broadcasts only 1 fused signal (instead of 2 signals) to the other nodes. The resulting algorithm, referred to as the pruned PK-GEVD-DANSE (pPK-GEVD-DANSE) algorithm, then effectively combines the lowest possible communication cost (as low as in the GEVD-DANSE algorithm) with a lowest possible computational complexity in each node (further reduced from the PK-GEVD-DANSE computational complexity), within the class of algorithms considered in this paper.
+ER  - 
+
+TY  - JOUR
+TI  - Geomagnetic Sensor Noise Reduction for Improving Calibration Compensation Accuracy Based on Improved HHT Algorithm
+T2  - IEEE Sensors Journal
+SP  - 12096
+EP  - 12104
+AU  - Y. Zhou
+AU  - G. Huang
+AU  - X. Zhang
+PY  - 2019
+KW  - Calibration
+KW  - Magnetic sensors
+KW  - Noise reduction
+KW  - Filtering
+KW  - Signal processing algorithms
+KW  - Clustering algorithms
+KW  - Geomagnetic sensor
+KW  - calibration compensation
+KW  - noise error
+KW  - attention Hilbert spectrum
+KW  - similarity criterion
+DO  - 10.1109/JSEN.2019.2940298
+JO  - IEEE Sensors Journal
+IS  - 24
+SN  - 1558-1748
+VO  - 19
+VL  - 19
+JA  - IEEE Sensors Journal
+Y1  - 15 Dec.15, 2019
+AB  - In navigation work, the geomagnetic sensor signal is susceptible to interference, so the calibration process is necessary to compensate sensor model error. However, we found the noise error in the geomagnetic sensor leads to a considerable calculation error in the calibration coefficient matrix, which is a big obstacle in obtaining the accurate signal. To improve the calibration effect, this paper analysis the characteristic of geomagnetic sensor's noise error, and then proposes the improved Hilbert-Huang transform (IHHT) algorithm to preprocessing these noise before calibration. IHHT creatively proposes an attention Hilbert spectrum, which is robust to strong noise recognition and localization. The adaptive median filtering is employed on strong noise regions. Additionally, a similarity criterion for Intrinsic Mode Function (IMF) processing is presented to save computational resources and time. Confirmed by simulation, IHHT algorithm depresses noise to be close to 0 mGuass, and declines sample variance to 13.963 mGuass2, which shows effective noise reduction capability. The experiment result shows IHHT algorithm considerably enhances calibration performance, as the calibration error drops by more than 50% compared with the results using state-of-the-art methods.
+ER  - 
+
+TY  - JOUR
+TI  - Investigation of Filtering Algorithm for Noise Reduction in Displacement Sensing Signal
+T2  - IEEE Sensors Journal
+SP  - 7808
+EP  - 7812
+AU  - C. Li
+AU  - R. Huang
+AU  - Y. Yi
+AU  - A. Bermak
+PY  - 2021
+KW  - Sensors
+KW  - Filtering algorithms
+KW  - Kalman filters
+KW  - Noise measurement
+KW  - Resistance
+KW  - Noise reduction
+KW  - Estimation
+KW  - Displacement sensor
+KW  - Kalman filtering algorithm
+KW  - noise reduction
+DO  - 10.1109/JSEN.2020.3048511
+JO  - IEEE Sensors Journal
+IS  - 6
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 15 March15, 2021
+AB  - With the emergence of new sensing technologies, soft substrate-based displacement sensing has gained popularity in the last decade. Nevertheless, performance degradation due to noise from unexpected vibrations of the substrate can affect the sensor's accuracy and lead to poor measurements. Few studies have focused on noise reduction to improve the accuracy of the sensing data. Based on mathematical modeling, this paper compares the two most representative filtering algorithms based on minimum mean square error (MMSE), namely recursive least squares (RLS) and Kalman algorithms for their predictive ability, accuracy, and reliability. Based on the modeling and comparison, we propose a Kalman filtering algorithm to suppress the vibration noise in the displacement-based dosage sensor. The filter-processed data from the sensor's measurement mainly contains the actual resistance change upon mechanical displacement of the sensor substrate and the undesired noise from its vibration. With the filtering algorithm, the noise can be reduced from the sensor's measurement, and an accurate correlation between resistance change and displacement of the sensor can be established. This would provide a straightforward sensing signal that reflects the displacement, and in turn, achieves precise dosage monitoring in drug delivery devices, which can be used as a test-bed application for the sensor.
+ER  - 
+
+TY  - JOUR
+TI  - Reducing Sensor Noise in MEG and EEG Recordings Using Oversampled Temporal Projection
+T2  - IEEE Transactions on Biomedical Engineering
+SP  - 1002
+EP  - 1013
+AU  - E. Larson
+AU  - S. Taulu
+PY  - 2018
+KW  - Electroencephalography
+KW  - Brain modeling
+KW  - Interference
+KW  - Noise reduction
+KW  - Noise measurement
+KW  - Signal processing
+KW  - Magnetoencephalography
+KW  - electroencephalography
+KW  - multichannel measurement
+KW  - sensor noise suppression
+KW  - artifact suppression
+KW  - outlier
+DO  - 10.1109/TBME.2017.2734641
+JO  - IEEE Transactions on Biomedical Engineering
+IS  - 5
+SN  - 1558-2531
+VO  - 65
+VL  - 65
+JA  - IEEE Transactions on Biomedical Engineering
+Y1  - May 2018
+AB  - Objective: Here, we review the theory of suppression of spatially uncorrelated, sensor-specific noise in electro- and magentoencephalography (EEG and MEG) arrays, and introduce a novel method for suppression. Our method requires only that the signals of interest are spatially oversampled, which is a reasonable assumption for many EEG and MEG systems. Methods: Our method is based on a leave-one-out procedure using overlapping temporal windows in a mathematical framework to project spatially uncorrelated noise in the temporal domain. Results: This method, termed “oversampled temporal projection” (OTP), has four advantages over existing methods. First, sparse channel-specific artifacts are suppressed while limiting mixing with other channels, whereas existing linear, time-invariant spatial operators can spread such artifacts to other channels with a spatial distribution which can be mistaken for one produced by an electrophysiological source. Second, OTP minimizes distortion of the spatial configuration of the data. During source localization (e.g., dipole fitting), many spatial methods require corresponding modification of the forward model to avoid bias, while OTP does not. Third, noise suppression factors at the sensor level are maintained during source localization, whereas bias compensation removes the denoising benefit for spatial methods that require such compensation. Fourth, OTP uses a time-window duration parameter to control the tradeoff between noise suppression and adaptation to time-varying sensor characteristics. Conclusion: OTP efficiently optimizes noise suppression performance while controlling for spatial bias of the signal of interest. Significance: This is important in applications where sensor noise significantly limits the signal-to-noise ratio, such as high-frequency brain oscillations.
+ER  - 
+
+TY  - CONF
+TI  - Denoising Algorithm of Environmental Sound Fused NMF and OMLSA in Non-Stationary Noise Environment
+T2  - 2021 IEEE 5th Advanced Information Technology, Electronic and Automation Control Conference (IAEAC)
+SP  - 364
+EP  - 368
+AU  - S. Guo
+AU  - L. Luo
+AU  - M. Wang
+AU  - Z. Zhou
+AU  - X. Deng
+AU  - L. Bai
+AU  - D. Zhao
+PY  - 2021
+KW  - Noise reduction
+KW  - Music
+KW  - Estimation
+KW  - Speech enhancement
+KW  - Filtering algorithms
+KW  - Noise measurement
+KW  - Signal to noise ratio
+KW  - environmental sound
+KW  - noise suppression
+KW  - non-stationary noise
+KW  - non-negative matrix factorization
+KW  - optimally-modified log-spectral amplitude
+DO  - 10.1109/IAEAC50856.2021.9391070
+JO  - 2021 IEEE 5th Advanced Information Technology, Electronic and Automation Control Conference (IAEAC)
+IS  - 
+SN  - 2689-6621
+VO  - 5
+VL  - 5
+JA  - 2021 IEEE 5th Advanced Information Technology, Electronic and Automation Control Conference (IAEAC)
+Y1  - 12-14 March 2021
+AB  - The traditional denoising algorithm can reduce the noise from environment, yet an evident downside of this is the sharp decrease of efficacy under non-stationary noise with low signal to noise ratio (SNR). In this case, this paper presents a denoising algorithm for environmental sound based on non-negative matrix factorization (NMF) and optimally-modified log-spectral amplitude (OMLSA). First of all, prior information is obtained from the noise and environmental sound dataset to separate the noise from noisy sound using supervised NMF. Then, decision-direction approach (DD) is used to calculate a priori SNR estimation according to the power spectral density (PSD) of the separated noise. Finally, under the log minimum mean square error criterion, the OMLSA gain function is obtained to filter out the noise in the environment. In this paper, the performance of the proposed algorithm is tested with white noise, F16 and babble under -5dB, 0dB and 5dB SNR conditions respectively. The experimental results show that this algorithm has strong ability of filtering out the noise superimposed in the environmental sound and improving the SNR gains. Moreover, comparing with other noise suppression algorithms, the proposed algorithm preforms better in preserving weak environmental sound, significantly reducing environmental sound distortion and avoiding the introduction of musical noise.
+ER  - 
+
+TY  - JOUR
+TI  - A Dual-Adaptive Denoising Algorithm for Brillouin Optical Time Domain Analysis Sensor
+T2  - IEEE Sensors Journal
+SP  - 22712
+EP  - 22719
+AU  - Q. Zhang
+AU  - T. Wang
+AU  - J. Zhao
+AU  - J. Liu
+AU  - Y. Wang
+AU  - J. Zhang
+AU  - L. Qiao
+AU  - M. Zhang
+PY  - 2021
+KW  - Noise reduction
+KW  - Signal to noise ratio
+KW  - Optical fiber sensors
+KW  - Optical fiber amplifiers
+KW  - Optical fibers
+KW  - Optical fiber filters
+KW  - Signal processing algorithms
+KW  - Optical fiber sensor
+KW  - stimulated Brillouin scattering
+KW  - signal to noise ratio
+KW  - particle swarm optimization
+DO  - 10.1109/JSEN.2021.3105191
+JO  - IEEE Sensors Journal
+IS  - 20
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 15 Oct.15, 2021
+AB  - A dual-adaptive denoising algorithm based on complementary ensemble empirical mode decomposition (CEEMD) and particle swarm optimization (PSO) is proposed to improve the signal-to-noise ratio (SNR) of Brillouin optical time domain analysis (BOTDA) sensor. Here, CEEMD is employed to decompose the measurement signal into a series of intrinsic mode functions (IMFs) adaptively and accurately. The spectrum centroid method is applied to quantify objectively the range of denoising. Then PSO threshold algorithm is dedicatedly designed to search for the optimal/sub-optimal denoising threshold for noised IMFs, which can adjust the threshold size adaptively according to the noise level of input signal. The results show that the SNR can be improved by more than 14 dB and the Brillouin frequency shift (BFS) accuracy is optimized by 1.12 MHz in 22.5 km sensing fiber. This algorithm does not need any condition prediction in the process of denoising, which offers an adaptation and high SNR demodulation scheme for BOTDA sensor with only modifying the software.
+ER  - 
+
+TY  - JOUR
+TI  - Noise Reduction Method of Φ-OTDR System Based on EMD-TFPF Algorithm
+T2  - IEEE Sensors Journal
+SP  - 24084
+EP  - 24089
+AU  - Y. -X. Bai
+AU  - T. -T. Lin
+AU  - Z. -C. Zhong
+PY  - 2021
+KW  - Sensors
+KW  - Vibrations
+KW  - Optical fibers
+KW  - Optical fiber sensors
+KW  - Noise reduction
+KW  - Signal processing algorithms
+KW  - Interference
+KW  - Φ-OTDR
+KW  - EMD-TFPF
+KW  - SNR
+DO  - 10.1109/JSEN.2021.3107039
+JO  - IEEE Sensors Journal
+IS  - 21
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 1 Nov.1, 2021
+AB  - The phase-sensitive optical time domain reflectometry ( $\Phi $ -OTDR) system has been gradually applied to vertical seismic profile exploration due to its excellent anti-electromagnetic interference, extremely high resolution and sensitivity, and wide detection range. However, the actual data is often disturbed by random noise, which seriously affects the system’s ability to recognize low-frequency disturbances. In order to suppress the background noise and improve the signal-to-noise ratio (SNR), a fusion noise reduction method based on empirical mode decomposition and time-frequency peak filtering (EMD-TFPF) algorithm is studied and introduced. In terms of seismic exploration data processing, the algorithm has good denoising performance. Using the  $\Phi $ -OTDR system based on optical synchronous reference heterodyne detection as the experimental platform, the EMD-TFPF noise reduction algorithm is applied to the position information and compared with the VSS-NLMS, VMD-NWT and EMD-soft methods. Experimental results show that under the conditions of 0.1 Hz and 5 V vibration interference, the EMD-TFPF method improves the SNR to 37.6 dB, which is much higher than the other three noise reduction algorithms. In addition, this method broadens the low-frequency response range of the system to 10−5 Hz. The improvement of the system’s ability to recognize low-frequency disturbance events will undoubtedly accelerate the practical process of the  $\Phi $ -OTDR system in seismic exploration.
+ER  - 
+
+TY  - JOUR
+TI  - Reduction of Magnetic Noise Originating from a Cryocooler of a Magnetoencephalography System Using Mobile Reference Sensors
+T2  - IEEE Transactions on Applied Superconductivity
+SP  - 1
+EP  - 5
+AU  - D. Oyama
+AU  - J. Kawai
+AU  - M. Kawabata
+AU  - Y. Adachi
+PY  - 2022
+KW  - Sensors
+KW  - Magnetic sensors
+KW  - Magnetic noise
+KW  - Vibrations
+KW  - Helium
+KW  - Meters
+KW  - Noise reduction
+KW  - Cryocooler
+KW  - fluxgate magnetometers
+KW  - magneto-encephalography
+KW  - noise reduction
+KW  - time-shift principal component analysis
+KW  - vibration meters
+DO  - 10.1109/TASC.2021.3133210
+JO  - IEEE Transactions on Applied Superconductivity
+IS  - 4
+SN  - 1558-2515
+VO  - 32
+VL  - 32
+JA  - IEEE Transactions on Applied Superconductivity
+Y1  - June 2022
+AB  - The use of helium recycling systems for magnetoencephalography (MEG) has rapidly expanded in recent years. Placing the cryocooler close to the MEG cryostat is expected to aid in achieving a high helium-recycling efficiency. However, the cryocooler typically introduces a large amount of magnetic interference in the MEG system owing to mechanical vibration, and electric and magnetic noise. In this study, we proposed a mobile reference sensor method using fluxgate magnetometers and vibration meters to reduce the noise originating from the cryocooler. We placed the MEG cryostat, which included superconducting quantum interference device (SQUID)-based MEG sensors and reference magnetometers, and a pulse-tube cryocooler inside a magnetically shielded room. We recorded the vibration and magnetic noise during the operation of the cryocooler using the vibration meters and fluxgate magnetometers placed on the cryocooler and reference SQUID magnetometers as the reference noise data. A noise reduction algorithm named time-shift principal component analysis (TSPCA) was applied to the recorded MEG sensor data by employing the reference noise data. A noise reduction ratio of –39 dB was achieved without temporal and spatial distortion of the MEG signal using an MEG phantom. Thus, we conclude that the mobile reference sensor method with the TSPCA algorithm is an effective technique for reducing the magnetic noise originating from the cryocooler.
+ER  - 
+
+TY  - CONF
+TI  - Research on Optical Fiber IMU Signal Processing Based on Wavelet Algorithm
+T2  - 2019 IEEE International Conference on Mechatronics and Automation (ICMA)
+SP  - 2352
+EP  - 2357
+AU  - X. Lin
+AU  - R. Guo
+AU  - Y. Yuan
+PY  - 2019
+KW  - Noise reduction
+KW  - Wavelet analysis
+KW  - Wavelet transforms
+KW  - Signal processing algorithms
+KW  - Field programmable gate arrays
+KW  - Filtering theory
+KW  - Low-pass filters
+KW  - signal processing
+KW  - Inertial navigation accelerometer
+KW  - wavelet transform
+DO  - 10.1109/ICMA.2019.8816521
+JO  - 2019 IEEE International Conference on Mechatronics and Automation (ICMA)
+IS  - 
+SN  - 2152-744X
+VO  - 
+VL  - 
+JA  - 2019 IEEE International Conference on Mechatronics and Automation (ICMA)
+Y1  - 4-7 Aug. 2019
+AB  - Based on the analysis of the signal noise characteristics of inertial navigation accelerometer, the noise in the wavelet domain is deeply studied. In order to solve the limitation of traditional Fourier filtering method in dealing with non-linear noise such as Gauss white noise, this paper optimizes the existing wavelet theory from two aspects of threshold estimation and threshold processing function, and proposes a new wavelet threshold denoising algorithm, which can effectively improve the performance of wavelet algorithm and simplify the calculation of wavelet analysis; on this basis, a new wavelet threshold denoising algorithm is proposed. The implementation of the wavelet threshold algorithm on the FPGA is studied. Finally, the system performance test shows that the new wavelet algorithm is superior to the traditional Fourier filter and the traditional wavelet filter in improving the signal-to-noise ratio (SNR) and reducing the root mean square error, and meets the real-time requirements of signal processing.
+ER  - 
+
+TY  - CONF
+TI  - Distributed combined acoustic echo cancellation and noise reduction using GEVD-based distributed adaptive node specific signal estimation with prior knowledge
+T2  - 2020 28th European Signal Processing Conference (EUSIPCO)
+SP  - 206
+EP  - 210
+AU  - S. Ruiz
+AU  - T. van Waterschoot
+AU  - M. Moonen
+PY  - 2021
+KW  - Wireless communication
+KW  - Wireless sensor networks
+KW  - Echo cancellers
+KW  - Noise reduction
+KW  - Signal processing algorithms
+KW  - Acoustic sensors
+KW  - Acoustics
+KW  - Distributed signal processing
+KW  - wireless acoustic sensor networks
+KW  - acoustic echo cancellation
+KW  - noise reduction
+DO  - 10.23919/Eusipco47968.2020.9287337
+JO  - 2020 28th European Signal Processing Conference (EUSIPCO)
+IS  - 
+SN  - 2076-1465
+VO  - 
+VL  - 
+JA  - 2020 28th European Signal Processing Conference (EUSIPCO)
+Y1  - 18-21 Jan. 2021
+AB  - Distributed combined acoustic echo cancellation (AEC) and noise reduction (NR) in a wireless acoustic sensor network (WASN) is tackled by using a specific version of the PK-GEVD-DANSE algorithm (cfr. [1]). Although this algorithm was initially developed for distributed NR with partial prior knowledge of the desired speech steering vector, it is shown that it can also be used for AEC combined with NR. Simulations have been carried out using centralized and distributed batch-mode implementations to verify the performance of the algorithm in terms of AEC quantified with the echo return loss enhancement (ERLE), as well as in terms of the NR quantified with the signal- to-noise ratio (SNR).
+ER  - 
+
+TY  - CONF
+TI  - De-noising method of aero-engine gas path electrostatic signal based on sparse representation
+T2  - 2020 IEEE 2nd International Conference on Civil Aviation Safety and Information Technology (ICCASIT
+SP  - 699
+EP  - 703
+AU  - L. Quan
+AU  - Z. Hongfu
+AU  - G. Jiachen
+AU  - J. Heng
+AU  - Z. Zhirong
+AU  - Z. Meiju
+AU  - L. Taili
+AU  - L. Yi
+PY  - 2020
+KW  - Noise reduction
+KW  - Signal processing algorithms
+KW  - Interference
+KW  - Safety
+KW  - Electrostatics
+KW  - Monitoring
+KW  - Engines
+KW  - static electricity monitoring
+KW  - aero-engine
+KW  - noise reduction
+KW  - sparse representation
+KW  - sparse decomposition
+DO  - 10.1109/ICCASIT50869.2020.9368563
+JO  - 2020 IEEE 2nd International Conference on Civil Aviation Safety and Information Technology (ICCASIT
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2020 IEEE 2nd International Conference on Civil Aviation Safety and Information Technology (ICCASIT
+Y1  - 14-16 Oct. 2020
+AB  - Aero-engine gas path electrostatic signal often have various types of noise interference, and valuable signals are usually weak and obliterated among the many strong noises. In order to solve this problem, the noise reduction method based on the sparse representation of the aero-engine gas path electrostatic signal was studied. The electrostatic signal of a civil aviation turbofan RB211 aero-engine test record was selected as the experimental data, which effectively removed the noise interference in the original signal, verifies the effectiveness of the proposed method. The processing of aero-engine gas path electrostatic signal can effectively provide early warning of engine operating status and improve safety margins.
+ER  - 
+
+TY  - JOUR
+TI  - Microphone Subset Selection for MVDR Beamformer Based Noise Reduction
+T2  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+SP  - 550
+EP  - 563
+AU  - J. Zhang
+AU  - S. P. Chepuri
+AU  - R. C. Hendriks
+AU  - R. Heusdens
+PY  - 2018
+KW  - Sensors
+KW  - Microphones
+KW  - Speech
+KW  - Speech processing
+KW  - Noise reduction
+KW  - Estimation
+KW  - Signal to noise ratio
+KW  - Sensor selection
+KW  - MVDR
+KW  - noise reduction
+KW  - sparsity
+KW  - convex optimization
+KW  - transmission power
+KW  - greedy algorithm
+DO  - 10.1109/TASLP.2017.2786544
+JO  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+IS  - 3
+SN  - 2329-9304
+VO  - 26
+VL  - 26
+JA  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+Y1  - March 2018
+AB  - In large-scale wireless acoustic sensor networks (WASNs), many of the sensors will only have a marginal contribution to a certain estimation task. Involving all sensors increases the energy budget unnecessarily and decreases the lifetime of the WASN. Using microphone subset selection, also termed as sensor selection, the most informative sensors can be chosen from a set of candidate sensors to achieve a prescribed inference performance. In this paper, we consider microphone subset selection for minimum variance distortionless response (MVDR) beamformer based noise reduction. The best subset of sensors is determined by minimizing the transmission cost while constraining the output noise power (or signal-to-noise ratio). Assuming the statistical information on correlation matrices of the sensor measurements is available, the sensor selection problem for this model-driven scheme is first solved by utilizing convex optimization techniques. In addition, to avoid estimating the statistics related to all the candidate sensors beforehand, we also propose a data-driven approach to select the best subset using a greedy strategy. The performance of the greedy algorithm converges to that of the model-driven method, while it displays advantages in dynamic scenarios as well as on computational complexity. Compared to a sparse MVDR or radius-based beamformer, experiments show that the proposed methods can guarantee the desired performance with significantly less transmission costs.
+ER  - 
+
+TY  - CONF
+TI  - Design and optimization of noise reduction patch on transformer based on acoustic array technology
+T2  - 2018 Chinese Automation Congress (CAC)
+SP  - 1365
+EP  - 1368
+AU  - P. Peng
+AU  - Y. Li
+AU  - X. Luo
+AU  - Y. Shao
+AU  - N. Zhang
+AU  - Y. Wang
+AU  - C. Ting
+AU  - B. Zhuang
+PY  - 2018
+KW  - Acoustic arrays
+KW  - Sensor arrays
+KW  - Noise reduction
+KW  - Microphone arrays
+KW  - Damping
+KW  - acoustic array
+KW  - damping and noise reduction patch
+KW  - beam-forming
+KW  - transformer noise
+DO  - 10.1109/CAC.2018.8623603
+JO  - 2018 Chinese Automation Congress (CAC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 Chinese Automation Congress (CAC)
+Y1  - 30 Nov.-2 Dec. 2018
+AB  - A set of detecting system for transformer noise was developed, which could achieve identify far-field and near-site sound source by using the acoustic localization technology and algorithm microphone array technology. According to its characteristics of sound field distribution, the mode of developed damping and noise reduction patches installed on the surface of transformer was designed and optimized and the distributed vibration absorption technique based on acoustic topology optimization was created. Thereby the reduction of transformer noise radiation would be achieved.
+ER  - 
+
+TY  - CONF
+TI  - Technique for Signal Noise Reduction based on Sparse Representation
+T2  - 2018 IEEE International Autumn Meeting on Power, Electronics and Computing (ROPEC)
+SP  - 1
+EP  - 5
+AU  - C. Morales-Perez
+AU  - J. Rangel-Magdaleno
+AU  - H. Peregrina-Barreto
+AU  - J. Martínez-Carballido
+PY  - 2018
+KW  - Noise reduction
+KW  - Dictionaries
+KW  - Sensors
+KW  - Matching pursuit algorithms
+KW  - Discrete cosine transforms
+KW  - Noise measurement
+KW  - Signal to noise ratio
+KW  - Dictionaries
+KW  - Current
+KW  - OMP Algorithm
+KW  - Noise
+KW  - Signals
+KW  - Sparse Representation
+DO  - 10.1109/ROPEC.2018.8661391
+JO  - 2018 IEEE International Autumn Meeting on Power, Electronics and Computing (ROPEC)
+IS  - 
+SN  - 2573-0770
+VO  - 
+VL  - 
+JA  - 2018 IEEE International Autumn Meeting on Power, Electronics and Computing (ROPEC)
+Y1  - 14-16 Nov. 2018
+AB  - Noise is present in everyday life, that it is a fact to find it in everything. Depending on the applications, the noise can present or not issues. In sensing process, the noise would be a huge issue when the accuracy of the system is high, when the resolution of the sensor is better than, e.g., 40 mV/A. In this case, the outputs less than 3A have a high SNR. If these signals are used in signals processing, depending on its focus, they can provoke malfunctions and false positives. This paper presents, a methodology for noise reduction based on the sparse representation of a signal using a dictionary based on Discrete Cosine Transform (DCT) and Discrete Sine Transform (DST). The proposed method is tested with synthetic signals to research its effectiveness, and then it is tested with real signals taken from the current that supply Induction Motors. After the methodology is applied, signals are analyzed to prove that the information contained is preserved. The noise reduction of the current signals was ~30dB with the Motor under normal operating conditions.
+ER  - 
+
+TY  - CONF
+TI  - Rate-Distributed Binaural LCMV Beamforming for Assistive Hearing in Wireless Acoustic Sensor Networks
+T2  - 2018 IEEE 10th Sensor Array and Multichannel Signal Processing Workshop (SAM)
+SP  - 460
+EP  - 464
+AU  - J. Zhang
+AU  - R. Heusdens
+AU  - R. C. Hendriks
+PY  - 2018
+KW  - Microphones
+KW  - Array signal processing
+KW  - Noise reduction
+KW  - Wireless communication
+KW  - Resource management
+KW  - Wireless sensor networks
+KW  - Quantization (signal)
+KW  - Rate allocation
+KW  - sensor selection
+KW  - LCMV
+KW  - noise reduction
+KW  - energy usage
+KW  - binaural cue preservation
+KW  - hearing aids
+DO  - 10.1109/SAM.2018.8448449
+JO  - 2018 IEEE 10th Sensor Array and Multichannel Signal Processing Workshop (SAM)
+IS  - 
+SN  - 2151-870X
+VO  - 
+VL  - 
+JA  - 2018 IEEE 10th Sensor Array and Multichannel Signal Processing Workshop (SAM)
+Y1  - 8-11 July 2018
+AB  - In this paper, we propose a rate-distributed linearly constrained minimum variance (LCMV) beamformer for joint noise reduction and spatial cue preservation for assistive hearing in wireless acoustic sensor networks (WASNs). The WASN can consist of wireless communicating hearing aids, extended with additional wireless microphones. Due to the fact that each sensor node has a limited power budget, it is essential to consider the energy usage when designing algorithms for such WASNs. As the energy usage in terms of data transmission is directly affected by the communication rate, the proposed method optimally distributes the bit rate for each microphone node. The rate distribution is obtained by minimizing the total transmission costs under constraints on the noise reduction performance and spatial cue preservation of interfering sources. In contrast to sensor selection, i.e., binary decisions on the usefulness of a node, rate distribution allows for soft decisions, and, will lead to more degrees of freedom for joint noise reduction and spatial cue preservation than sensor selection. Numerical results show that given a certain noise reduction requirement, the proposed method displays improved energy efficiency and can preserve the spatial cues of more interferers compared to sensor selection approaches.
+ER  - 
+
+TY  - JOUR
+TI  - Rate-Distributed Spatial Filtering Based Noise Reduction in Wireless Acoustic Sensor Networks
+T2  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+SP  - 2015
+EP  - 2026
+AU  - J. Zhang
+AU  - R. Heusdens
+AU  - R. C. Hendriks
+PY  - 2018
+KW  - Sensors
+KW  - Microphones
+KW  - Resource management
+KW  - Wireless sensor networks
+KW  - Wireless communication
+KW  - Bit rate
+KW  - Noise reduction
+KW  - Rate allocation
+KW  - sensor selection
+KW  - LCMV beamforming
+KW  - noise reduction
+KW  - energy usage
+KW  - sparsity
+KW  - wireless acoustic sensor networks
+DO  - 10.1109/TASLP.2018.2851157
+JO  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+IS  - 11
+SN  - 2329-9304
+VO  - 26
+VL  - 26
+JA  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+Y1  - Nov. 2018
+AB  - In wireless acoustic sensor networks (WASNs), sensors typically have a limited energy budget as they are often battery-driven. Energy efficiency is, therefore, essential for the design of algorithms in WASNs. One way to reduce energy costs is to select only the sensors that are most informative, a problem known as sensor selection . In this way, only sensors that significantly contribute to the task at hand will be involved. In this paper, we consider a more general approach, which is based on rate-distributed spatial filtering. Depending on the distance over which a transmission takes place, the bit rate directly influences the energy consumption. We try to minimize the battery usage due to transmission, while constraining the noise reduction performance. This results in an efficient rate allocation strategy, which depends on the underlying signal statistics, as well as the distance from sensors to a fusion center (FC). Through the utilization of a linearly constrained minimum variance beamformer, the problem is derived as a semidefinite program. Furthermore, we show that rate allocation is more general than sensor selection, and sensor selection can be seen as a special case of the presented rate-allocation solution, e.g., the best microphone subset can be determined by thresholding the rates. Finally, numerical simulations for estimating several target sources in a WASN demonstrate that the proposed method outperforms the sensor-selection-based approaches in terms of energy usage, and we find that the sensors close to the FC and point sources are allocated with higher rates.
+ER  - 
+
+TY  - JOUR
+TI  - Rate-Constrained Noise Reduction in Wireless Acoustic Sensor Networks
+T2  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+SP  - 1
+EP  - 12
+AU  - J. Amini
+AU  - R. C. Hendriks
+AU  - R. Heusdens
+AU  - M. Guo
+AU  - J. Jensen
+PY  - 2020
+KW  - Microphones
+KW  - Noise reduction
+KW  - Estimation
+KW  - Performance evaluation
+KW  - Resource management
+KW  - Quantization (signal)
+KW  - Task analysis
+KW  - Wireless acoustic sensor networks (WASNs)
+KW  - multi-microphone noise reduction
+KW  - rate-distortion trade-off
+DO  - 10.1109/TASLP.2019.2947777
+JO  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+IS  - 
+SN  - 2329-9304
+VO  - 28
+VL  - 28
+JA  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+Y1  - 2020
+AB  - Wireless acoustic sensor networks (WASNs) can be used for centralized multi-microphone noise reduction, where the processing is done in a fusion center (FC). To perform the noise reduction, the data needs to be transmitted to the FC. Considering the limited battery life of the devices in a WASN, the total data rate at which the FC can communicate with the different network devices should be constrained. In this article, we propose a rate-constrained multi-microphone noise reduction algorithm, which jointly finds the best rate allocation and estimation weights for the microphones across all frequencies. The optimal linear estimators are found to be the quantized Wiener filters, and the rates are the solutions to a filter-dependent reverse water-filling problem. The performance of the proposed framework is evaluated using simulations in terms of mean square error and predicted speech intelligibility. The results show that the proposed method is very close in performance to that of the existing optimal method based on discrete optimization. However, the proposed approach can do this at a much lower complexity, while the existing optimal reference method needs a non-tractable exhaustive search to find the best rate allocation across microphones.
+ER  - 
+
+TY  - CONF
+TI  - Suppression of distortions in signals received from Doppler sensor for vehicle speed measurement
+T2  - 2018 Signal Processing: Algorithms, Architectures, Arrangements, and Applications (SPA)
+SP  - 16
+EP  - 21
+AU  - G. Szwoch
+PY  - 2018
+KW  - Doppler effect
+KW  - Signal processing algorithms
+KW  - Velocity measurement
+KW  - Frequency measurement
+KW  - Noise reduction
+KW  - Doppler radar
+KW  - speed measurement
+KW  - Doppler radar
+KW  - noise suppression
+KW  - traffic monitoring
+DO  - 10.23919/SPA.2018.8563403
+JO  - 2018 Signal Processing: Algorithms, Architectures, Arrangements, and Applications (SPA)
+IS  - 
+SN  - 2326-0319
+VO  - 
+VL  - 
+JA  - 2018 Signal Processing: Algorithms, Architectures, Arrangements, and Applications (SPA)
+Y1  - 19-21 Sept. 2018
+AB  - Doppler sensors are commonly used for movement detection and speed measurement. However, electromagnetic interferences and imperfections in sensor construction result in degradation of the signal to noise ratio. As a result, detection of signals reflected from moving objects becomes problematic. The paper proposes an algorithm for reduction of distortions and noise in the signal received from a simple, dual-channel type of a Doppler sensor. The proposed method is based on examining phase relationship between I/Q channels of the sensor signal. A weighting function is calculated in order to suppress the distortions while preserving energy of the desired signal. Additionally, the proposed algorithm may select signals reflected by objects moving in a specific direction (e.g. towards the sensor). The processed signal may be further analyzed in order to detect signal frequency and compute the object velocity. The results of the experiments show that the proposed approach results in significant reduction of level of noise and interferences, allowing for detection and tracking of signals reflected from moving objects.
+ER  - 
+
+TY  - CONF
+TI  - The Constrained Stability Least Mean Square Algorithm for Active Noise Control
+T2  - 2018 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)
+SP  - 1
+EP  - 5
+AU  - F. Albu
+PY  - 2018
+KW  - Signal processing algorithms
+KW  - Numerical stability
+KW  - Complexity theory
+KW  - Noise reduction
+KW  - Filtering algorithms
+KW  - Noise measurement
+KW  - Stability analysis
+KW  - constrained stability least mean square
+KW  - active noise control
+KW  - adaptive filters
+KW  - distributed networks
+KW  - wireless acoustic sensors
+DO  - 10.1109/BlackSeaCom.2018.8433640
+JO  - 2018 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom)
+Y1  - 4-7 June 2018
+AB  - In this paper, we propose the constrained stability least mean square (CS-LMS) algorithm for multichannel active noise control (ANC). It is shown that the centralized version is able to have better attenuation and tracking performance for different step sizes, ideal and noisy plant models. It is also shown that the proposed distributed version using an incremental communication strategy can obtain a better noise reduction performance is a proper step is used. These performance improvements over the NLMS solutions are obtained with a price of a slight increase in the numerical complexity.
+ER  - 
+
+TY  - JOUR
+TI  - Factor Graphs for Support Identification in Compressive Sensing Aided Wireless Sensor Networks
+T2  - IEEE Sensors Journal
+SP  - 27195
+EP  - 27207
+AU  - J. Chen
+AU  - T. -Y. Wang
+AU  - J. -Y. Wu
+AU  - C. -P. Li
+AU  - S. X. Ng
+AU  - R. G. Maunder
+AU  - L. Hanzo
+PY  - 2021
+KW  - Sensors
+KW  - Wireless sensor networks
+KW  - Sparse matrices
+KW  - Signal reconstruction
+KW  - Matching pursuit algorithms
+KW  - Signal processing algorithms
+KW  - Complexity theory
+KW  - Compressive sensing
+KW  - support identification
+KW  - wireless sensor networks
+KW  - sparse sensing matrix
+KW  - noise reduction
+DO  - 10.1109/JSEN.2021.3123209
+JO  - IEEE Sensors Journal
+IS  - 23
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 1 Dec.1, 2021
+AB  - A new support identification technique based on factor graphs and belief propagation is proposed for compressive sensing (CS) aided wireless sensor networks (WSNs), which reliably estimates the locations of non-zero entries in a sparse signal through an iterative process. Our factor graph based approach achieves a support identification error rate of 10% at an signal to noise ratio (SNR) that is 6 dB lower than that required by the state-of-the-art relative frequency based support identification approach, as well as by the orthogonal matching pursuit (OMP) algorithm. We also demonstrate that our support identification technique is capable of mitigating the signal reconstruction noise by as much as 4 dB upon pruning the sparse sensing matrix. Furthermore, by intrinsically amalgamating the relative frequency based and the proposed factor graph based approach, we conceived a hybrid support identification technique for reducing communication between the sensor nodes and the fusion center (FC), while maintaining high-accuracy support identification and simultaneously mitigating the noise contaminating signal reconstruction.
+ER  - 
+
+TY  - JOUR
+TI  - A K Times Singular Value Decomposition Based Image Denoising Algorithm for DoFP Polarization Image Sensors With Gaussian Noise
+T2  - IEEE Sensors Journal
+SP  - 6138
+EP  - 6144
+AU  - W. Ye
+AU  - S. Li
+AU  - X. Zhao
+AU  - A. Abubakar
+AU  - A. Bermak
+PY  - 2018
+KW  - Dictionaries
+KW  - Sensors
+KW  - Noise reduction
+KW  - Interpolation
+KW  - Training
+KW  - Image sensors
+KW  - Matching pursuit algorithms
+KW  - Polarization image sensor
+KW  - division of focal plane
+KW  - image denoising
+KW  - singular value decomposition
+DO  - 10.1109/JSEN.2018.2846672
+JO  - IEEE Sensors Journal
+IS  - 15
+SN  - 1558-1748
+VO  - 18
+VL  - 18
+JA  - IEEE Sensors Journal
+Y1  - 1 Aug.1, 2018
+AB  - In this paper, we present a novel K times singular value decomposition (K-SVD) based denoising algorithm dedicated to the division-of-focal-plane (DoFP) polarization image sensors. The proposed method is based on sparse representation over trained dictionary. Using the proposed K-SVD algorithm to update the dictionary, the image content can be more effectively expressed. Compared with the previous denoising algorithms, the proposed implementation is capable of decomposing the input DoFP image as the optimum sparse combination of the dictionary elements, which are generated by orthogonal matching pursuit. This not only separates the Gaussian noise from the target DoFP image with a significantly elevated peak signal-to-noise ratio (PSNR) but also well-preserves ythe details of the original image. According to our extensive experimental results on various test images, the proposed algorithm outperforms the state-of-the-art principal component analysis based denoising algorithm by 3 dB in terms of PSNR. Moreover, visual comparison results, which show excellent agreement with the PSNR results, are presented as well.
+ER  - 
+
+TY  - CONF
+TI  - Distributed Trace Ratio Optimization in Fully-Connected Sensor Networks
+T2  - 2020 28th European Signal Processing Conference (EUSIPCO)
+SP  - 1991
+EP  - 1995
+AU  - C. A. Musluoglu
+AU  - A. Bertrand
+PY  - 2021
+KW  - Wireless sensor networks
+KW  - Simulation
+KW  - Noise reduction
+KW  - Signal processing algorithms
+KW  - Signal processing
+KW  - Sensors
+KW  - Optimization
+KW  - Dimensionality reduction
+KW  - distributed optimization
+KW  - trace ratio
+KW  - discriminant analysis
+KW  - SNR optimization
+KW  - wireless sensor networks
+DO  - 10.23919/Eusipco47968.2020.9287589
+JO  - 2020 28th European Signal Processing Conference (EUSIPCO)
+IS  - 
+SN  - 2076-1465
+VO  - 
+VL  - 
+JA  - 2020 28th European Signal Processing Conference (EUSIPCO)
+Y1  - 18-21 Jan. 2021
+AB  - The trace ratio optimization problem consists of maximizing a ratio between two trace operators and often appears in dimensionality reduction problems for denoising or discriminant analysis. In this paper, we propose a distributed and adaptive algorithm to solve the trace ratio optimization problem over network-wide covariance matrices, which capture the spatial correlation across sensors in a wireless sensor network. We focus on fully-connected network topologies, in which case the distributed algorithm reduces the communication bottleneck by only sharing a compressed version of the observed signals at each given node. Despite this compression, the algorithm can be shown to converge to the maximal trace ratio as if all nodes would have access to all signals in the network. We provide simulation results to demonstrate the convergence and optimality properties of the proposed algorithm.
+ER  - 
+
+TY  - JOUR
+TI  - Affine Projection Algorithm Over Acoustic Sensor Networks for Active Noise Control
+T2  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+SP  - 448
+EP  - 461
+AU  - M. Ferrer
+AU  - M. de Diego
+AU  - G. Piñero
+AU  - A. Gonzalez
+PY  - 2021
+KW  - Microphones
+KW  - Signal processing algorithms
+KW  - Loudspeakers
+KW  - Acoustics
+KW  - Approximation algorithms
+KW  - Actuators
+KW  - Convergence
+KW  - Active noise control
+KW  - acoustic sensor networks
+KW  - affine projection algorithm
+KW  - distributed algorithms
+KW  - adaptive filters
+DO  - 10.1109/TASLP.2020.3042590
+JO  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+IS  - 
+SN  - 2329-9304
+VO  - 29
+VL  - 29
+JA  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+Y1  - 2021
+AB  - Acoustic sensor networks (ASNs) are an effective solution to implement active noise control (ANC) systems by using distributed adaptive algorithms. On one hand, ASNs provide scalable systems where the signal processing load is distributed among the network nodes. On the other hand, their noise reduction performance is comparable to that of their respective centralized processing systems. In this sense, the distributed multiple error filtered-x least mean squares (DMEFxLMS) adaptive algorithm has shown to obtain the same performance than its centralized counterpart as long as there are no communications constraints in the underlying ASN. Regarding affine projection (AP) adaptive algorithms, some distributed approaches that are approximated versions of the multichannel filtered-x affine projection (MFxAP) algorithm have been previously proposed. These AP algorithms can efficiently share the processing load among the nodes, but at the expense of worsening their convergence properties. In this paper we develop the exact distributed multichannel filtered-x AP (EFxAP) algorithm, which obtains the same solution as that of the MFxAP algorithm as long as there are no communications constraints in the underlying ASN. In the EFxAP algorithm each node can compute a part or the entire inverse matrix needed by the centralized MFxAP algorithm. Thus, we propose three different strategies that obtain significant computational saving: 1) Gauss Elimination, 2) block LU factorization, and 3) matrix inversion lemma. As a result, each node computes only between 25% - 60% of the number of multiplications required by the direct inversion of the matrix. Regarding the performance in transient and steady states, the EFxAP exhibits the fastest convergence and the highest noise level reduction for any size of the acoustic network and any projection order of the AP algorithm compared to the DMEFxLMS and two previously reported distributed AP algorithms.
+ER  - 
+
+TY  - CONF
+TI  - A New Hybrid Peak Detection Methods for Fiber Bragg Grating Temperature Sensor
+T2  - 2021 29th Signal Processing and Communications Applications Conference (SIU)
+SP  - 1
+EP  - 4
+AU  - Z. Saraç
+AU  - B. Kurt
+AU  - C. Erdemir
+PY  - 2021
+KW  - Temperature sensors
+KW  - Fiber gratings
+KW  - Temperature measurement
+KW  - Optical fiber sensors
+KW  - Wavelet transforms
+KW  - Optical fiber communication
+KW  - Noise reduction
+KW  - Fiber Bragg Grating Temperature Sensor
+KW  - OptiSytem 17
+KW  - Fourier Filtering Method
+KW  - Wavelet Denoising
+DO  - 10.1109/SIU53274.2021.9478037
+JO  - 2021 29th Signal Processing and Communications Applications Conference (SIU)
+IS  - 
+SN  - 2165-0608
+VO  - 
+VL  - 
+JA  - 2021 29th Signal Processing and Communications Applications Conference (SIU)
+Y1  - 9-11 June 2021
+AB  - The center of temperature measured in the Fiber Bragg Grating temperature sensor produces a shift in the Bragg wavelength. There are a wide variety of algorithms used to detect this shift. However, these algorithms are highly affected by the noise generated in the sensor system. In recent years, many techniques have emerged that suppress this noise. Of these, wavelet noise reduction stands out as a popular technique. When the literature is reviewed, it is stated that this popular approach is superior to traditional methods. Contrary to what is said in the literature, this study proves that without the need for complex wavelet system or even curve fitting, it leads us to the same results and sometimes even better than traditional filtering. The hybrid approach proposed here is based on the traditional Fourier Filtering technique and the maximum method, which is a direct method in determining the central wavelength. In the error analysis, it is seen that the hybrid algorithm based on Fourier Filtering, which is the traditional filtering technique, gives the smallest relative error when compared with the real value.
+ER  - 
+
+TY  - CONF
+TI  - Application of a Combined Denoising Method in Ground Penetrating Radar Signal Pre-processing
+T2  - 2019 IEEE International Conference on Mechatronics and Automation (ICMA)
+SP  - 203
+EP  - 207
+AU  - D. Xu
+AU  - Y. Wu
+AU  - F. Shen
+PY  - 2019
+KW  - Noise reduction
+KW  - Ground penetrating radar
+KW  - Signal to noise ratio
+KW  - Multiresolution analysis
+KW  - Gaussian noise
+KW  - Wavelet domain
+KW  - Wavelet transforms
+KW  - Remote Sensor
+KW  - Ground Penetrating Radar
+KW  - Wavelet Threshold Function
+KW  - Signal Processing
+DO  - 10.1109/ICMA.2019.8816472
+JO  - 2019 IEEE International Conference on Mechatronics and Automation (ICMA)
+IS  - 
+SN  - 2152-744X
+VO  - 
+VL  - 
+JA  - 2019 IEEE International Conference on Mechatronics and Automation (ICMA)
+Y1  - 4-7 Aug. 2019
+AB  - Aiming at the difficulties of low signal-to-noise ratio (SNR) and difficulty of extracting the features in step frequency continuous wave ground penetrating radar (SFCW-GPR) echo pre-processing, a new method of echo pre-processing combined with wavelet threshold denoising algorithm and high-pass filter is proposed. The combined method realizes the extraction of useful signals with slowly changing speed by multi-resolution analysis of signals containing Gauss white noise. Compared with traditional processing methods, the wavelet threshold denoising algorithm has higher SNR and smaller mean square error (MSE) and has better processing effect and imaging effect.
+ER  - 
+
+TY  - CONF
+TI  - Unmanned Noise Reduction Method of Micro-Electro-Mechanical System Inertial Measurement Unit Based on Improved EMD
+T2  - 2020 IEEE 3rd International Conference on Electronic Information and Communication Technology (ICEICT)
+SP  - 413
+EP  - 417
+AU  - Z. Zhang
+AU  - Q. Sun
+AU  - Y. Tian
+PY  - 2020
+KW  - Micromechanical devices
+KW  - Microelectromechanical systems
+KW  - Noise reduction
+KW  - Software algorithms
+KW  - Software
+KW  - Sensor systems
+KW  - Sensors
+KW  - Micro-Electro-Mechanical System
+KW  - Empirical Mode Decomposition
+KW  - Extreme Learning Machine
+KW  - signal denoising
+DO  - 10.1109/ICEICT51264.2020.9334304
+JO  - 2020 IEEE 3rd International Conference on Electronic Information and Communication Technology (ICEICT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2020 IEEE 3rd International Conference on Electronic Information and Communication Technology (ICEICT)
+Y1  - 13-15 Nov. 2020
+AB  - The traditional Fourier algorithm cannot fix the problem of non-stationary noise deduction for MEMS-IMU, therefore this article uses Empirical Mode Decomposition (EMD) algorithm to denoise the signal. In this article, Extreme Learning Machine (ELM) is combined to reduce the influence of end effect in the decomposition. First, the MEMS-IMU simulate signal generated by matlab is taken as the test object, and EMD as well as ELM extension decomposition are carried out for it respectively. The decomposition noise reduction effect is compared and analyzed to study the role of EMD and ELM in the process. Second, carry out a test on the authentically measured MEMS-IMU signal. In de-noising the MEMS-IMU simulate signal and authentic signal, we can analyze the noise deduction effect and observe the changes of parameters related to random error. The results show that the method based on ELM and EMD can achieve good noise reduction effect for MEMS signal.
+ER  - 
+
+TY  - JOUR
+TI  - Dimensionality Reduction for Signal Detection
+T2  - IEEE Signal Processing Letters
+SP  - 145
+EP  - 148
+AU  - S. Kay
+PY  - 2022
+KW  - Probability density function
+KW  - Mean square error methods
+KW  - Gaussian noise
+KW  - Dimensionality reduction
+KW  - Bayes methods
+KW  - Standards
+KW  - Manifolds
+KW  - Signal detection
+KW  - principal component analysis
+KW  - inference algorithms
+DO  - 10.1109/LSP.2021.3129453
+JO  - IEEE Signal Processing Letters
+IS  - 
+SN  - 1558-2361
+VO  - 29
+VL  - 29
+JA  - IEEE Signal Processing Letters
+Y1  - 2022
+AB  - A new approach to the problem of dimensionality reduction is proposed. The specific application is to the detection of signals in noise, although it should be applicable to other signal processing problems of current interest. Using a minimum mean square error estimator of the likelihood ratio one can determine a low dimensional statistic, not necessarily linear in the data, that performs well for detection, i.e., with minimal loss of information. If a sufficient statistic does exist for the problem then the proposed approach yields the well known result that one should use the likelihood ratio of the sufficient statistic for detection. Other interesting relationships are explored and some specific examples are given.
+ER  - 
+
+TY  - CONF
+TI  - Environmental sound classification based on adding noise
+T2  - 2021 IEEE 2nd International Conference on Information Technology, Big Data and Artificial Intelligence (ICIBA)
+SP  - 887
+EP  - 892
+AU  - W. Zhao
+AU  - B. Yin
+PY  - 2021
+KW  - Training
+KW  - Soft sensors
+KW  - Neural networks
+KW  - Noise reduction
+KW  - Interference
+KW  - White noise
+KW  - Classification algorithms
+KW  - environmental sound classification
+KW  - noise addition
+KW  - signal-to-noise ratio
+KW  - neural network
+DO  - 10.1109/ICIBA52610.2021.9688248
+JO  - 2021 IEEE 2nd International Conference on Information Technology, Big Data and Artificial Intelligence (ICIBA)
+IS  - 
+SN  - 
+VO  - 2
+VL  - 2
+JA  - 2021 IEEE 2nd International Conference on Information Technology, Big Data and Artificial Intelligence (ICIBA)
+Y1  - 17-19 Dec. 2021
+AB  - As ESC is widely used in daily life, it has developed rapidly in recent years. Environment sound classification is a type of sound event recognition (SER). Because of the different position between the sound source and the physical medium of collecting information and the interference of many other sound sources in the process of receiving sound, it leads to the confusion and overlapping of sound events and other complex environmental sound. Combined with the characteristics of environmental sound mentioned above, neural network training with typical experience risk minimization is prone to memory of specific individual voice in the training stage, which will lead to unsatisfactory prediction results when predicting data outside the training distribution, that is, the occurrence of over-fitting. In order to solve the problem of low generalization of neural network, this paper started from the data source to explore the effect of adding gaussian white noise and SNR noise into environmental sound, which are two kinds of audio enhancement algorithms, and organized a series of experiments on Urbansoud8K public environmental sound dataset to verify.
+ER  - 
+
+TY  - JOUR
+TI  - A Study on Noise Reduction of Φ-OTDR System Based on VSS-NLMS Algorithm
+T2  - IEEE Sensors Journal
+SP  - 7648
+EP  - 7656
+AU  - Q. Ma
+AU  - X. Gao
+AU  - Y. Gao
+AU  - X. Zhang
+AU  - Z. Zhong
+PY  - 2021
+KW  - Noise reduction
+KW  - Signal to noise ratio
+KW  - Vibrations
+KW  - Filtering
+KW  - Mathematical model
+KW  - Convergence
+KW  - Signal processing algorithms
+KW  - Φ-OTDR system
+KW  - VSS-NLMS
+KW  - location information
+KW  - SNR
+DO  - 10.1109/JSEN.2021.3049390
+JO  - IEEE Sensors Journal
+IS  - 6
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 15 March15, 2021
+AB  - To improve the signal-to-noise ratio (SNR) of vibration location information in Φ-OTDR system, a variable step size normalized least mean square (VSS-NLMS) denoising method is proposed in the article. First, the mathematical principle of VSS-NLMS method is established. The method can adaptively filter the input signal and adjust the parameters. It can also update the step factor adaptively. The simulation results show that the SNR of this method is improved from -1.16 dB to 12.01 dB. Second, a heterodyne coherent optical system is built. After the detected beat signal is demodulated by I/Q quadrature demodulation, the amplitude signal and phase signal of the Rayleigh backscattered light are acquired. The amplitude signal determines the location information and the phase signal determines the vibration signal. Finally, the wavelet denoising method, the empirical mode decomposition soft threshold (EMD-soft) denoising method and the variational mode decomposition nonlinear wavelet threshold (VMD-NWT) denoising method are compared with the VSS-NLMS denoising method in the experiment. The experimental results show that the location information SNR of the VSS-NLMS denoising method is improved to 59.31 dB, 46.81 dB, 50.14 dB, 34.00 dB and 67.09 dB for 5 groups of 100 Hz - 500 Hz vibration events at the location of the 10.14 km sensing fiber. At the same time, the vibration signals of 5 groups are demodulated. This method has laid a foundation for the application of oil and gas pipelines.
+ER  - 
+
+TY  - JOUR
+TI  - An Interrogation Method to Enhance SNR for Far-End Disturbances in Fiber-Optic Distributed Disturbance Sensor Based on  $\varphi$ -OTDR
+T2  - IEEE Sensors Journal
+SP  - 1064
+EP  - 1072
+AU  - Y. Wu
+AU  - S. Liang
+AU  - S. Lou
+AU  - X. Sheng
+PY  - 2019
+KW  - Signal to noise ratio
+KW  - Optical fiber sensors
+KW  - Noise reduction
+KW  - Image edge detection
+KW  - Optical fiber amplifiers
+KW  - Fiber-optic distributed disturbance sensor
+KW  - phase-sensitive optical time reflectometry (φ-OTDR)
+KW  - signal to noise ratio (SNR)
+KW  - far-end disturbance
+KW  - wavelet de-noising
+KW  - simulated annealing algorithm (SAA)
+KW  - two-dimensional (2-D) edge detection
+DO  - 10.1109/JSEN.2018.2878238
+JO  - IEEE Sensors Journal
+IS  - 3
+SN  - 1558-1748
+VO  - 19
+VL  - 19
+JA  - IEEE Sensors Journal
+Y1  - 1 Feb.1, 2019
+AB  - In this paper, an interrogation method for a fiber-optic distributed disturbance sensor based on φ-optical time reflectometry to enhance the signal-to-noise ratio (SNR) for far-end disturbance is proposed. The wavelet de-noising based on simulated annealing algorithm with an adaptive threshold is utilized to smooth the noises and recover the signal. Then, the 2-D edge detection is employed to detect and locate multiple disturbances, simultaneously by calculating the spatial gradient of the grey image of the Rayleigh backscattering traces. This method is validated in a long-term field test, and three different disturbance events are detected and located along a 25.05-km-long sensing fiber, simultaneously. Experimental results show that the proposed method can reduce the gain imbalance between the front end and far end due to the attenuation of Rayleigh backscattered light, which means that it is effective to improve the SNR of far-end disturbance and recognize the location of disturbance in a harsh environment with strong background noises.
+ER  - 
+
+TY  - JOUR
+TI  - Image Noise Reduction Based on a Fixed Wavelet Frame and CNNs Applied to CT
+T2  - IEEE Transactions on Image Processing
+SP  - 9386
+EP  - 9401
+AU  - L. A. Zavala-Mondragón
+AU  - P. H. N. de With
+AU  - F. van der Sommen
+PY  - 2021
+KW  - Noise reduction
+KW  - Discrete wavelet transforms
+KW  - Wireless sensor networks
+KW  - Computed tomography
+KW  - Kernel
+KW  - Convolution
+KW  - Image reconstruction
+KW  - CNN
+KW  - wavelets
+KW  - shrinkage
+KW  - encoder-decoder
+KW  - denoising
+DO  - 10.1109/TIP.2021.3125489
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - Radiation exposure in CT imaging leads to increased patient risk. This motivates the pursuit of reduced-dose scanning protocols, in which noise reduction processing is indispensable to warrant clinically acceptable image quality. Convolutional Neural Networks (CNNs) have received significant attention as an alternative for conventional noise reduction and are able to achieve state-of-the art results. However, the internal signal processing in such networks is often unknown, leading to sub-optimal network architectures. The need for better signal preservation and more transparency motivates the use of Wavelet Shrinkage Networks (WSNs), in which the Encoding-Decoding (ED) path is the fixed wavelet frame known as Overcomplete Haar Wavelet Transform (OHWT) and the noise reduction stage is data-driven. In this work, we considerably extend the WSN framework by focusing on three main improvements. First, we simplify the computation of the OHWT that can be easily reproduced. Second, we update the architecture of the shrinkage stage by further incorporating knowledge of conventional wavelet shrinkage methods. Finally, we extensively test its performance and generalization, by comparing it with the RED and FBPConvNet CNNs. Our results show that the proposed architecture achieves similar performance to the reference in terms of MSSIM (0.667, 0.662 and 0.657 for DHSN2, FBPConvNet and RED, respectively) and achieves excellent quality when visualizing patches of clinically important structures. Furthermore, we demonstrate the enhanced generalization and further advantages of the signal flow, by showing two additional potential applications, in which the new DHSN2 is used as regularizer: (1) iterative reconstruction and (2) ground-truth free training of the proposed noise reduction architecture. The presented results prove that the tight integration of signal processing and deep learning leads to simpler models with improved generalization.
+ER  - 
+
+TY  - CONF
+TI  - Post-processing algorithm for removing soft-tissue movement artifacts from vibroarthrographic knee-joint signal
+T2  - 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+SP  - 936
+EP  - 939
+AU  - R. Gong
+AU  - K. Hase
+AU  - H. Goto
+AU  - K. Yoshioka
+PY  - 2020
+KW  - Accelerometers
+KW  - Biological tissues
+KW  - Noise reduction
+KW  - Low pass filters
+KW  - Signal to noise ratio
+KW  - Finite impulse response filters
+KW  - Interference
+KW  - soft tissue movement artifact
+KW  - denoise
+KW  - baseline wander
+KW  - vibroarthrographic (VAG) signal
+DO  - 10.1109/EMBC44109.2020.9176271
+JO  - 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+IS  - 
+SN  - 2694-0604
+VO  - 
+VL  - 
+JA  - 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+Y1  - 20-24 July 2020
+AB  - Vibroarthrographic (VAG) signals are sounds or vibrations caused when a knee joint is flexed or stretched. VAG signal collection is noninvasive and can be performed using an accelerometer or microphone attached to the skin. However, the sensor attached to the skin will move with the soft tissue caused by flexion and extension, causing the baseline of the VAG signal to drift. We call these interferences soft tissue movement artifacts (STMAs). In this study, an algorithm is proposed to filter out STMAs. We compare the proposed method's results with noises collected by an accelerometer. The noise reduction effect is evaluated, revealing an 11.85% increase in the peak signal-to-noise ratio and a 28.18% increase in signal-to-noise ratio compared with the case in which STMA noise was not removed.
+ER  - 
+
+TY  - CONF
+TI  - Multimodal Graph Signal Denoising Via Twofold Graph Smoothness Regularization with Deep Algorithm Unrolling
+T2  - ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+SP  - 5862
+EP  - 5866
+AU  - M. Nagahama
+AU  - Y. Tanaka
+PY  - 2022
+KW  - Noise reduction
+KW  - Signal processing algorithms
+KW  - Signal processing
+KW  - Minimization
+KW  - Sensors
+KW  - Signal denoising
+KW  - Noise measurement
+KW  - Graph signal processing
+KW  - deep algorithm unrolling
+KW  - signal denoising
+DO  - 10.1109/ICASSP43922.2022.9747784
+JO  - ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+IS  - 
+SN  - 2379-190X
+VO  - 
+VL  - 
+JA  - ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+Y1  - 23-27 May 2022
+AB  - We propose a denoising method of multimodal graph signals with twofold smoothness regularization. Graph signal processing assumes that a signal has an underlying structure that is represented by a graph. In each node of the graph, we often have multimodal data or features that are correlated across modalities. Since these multimodal data are measured by various sensors, the observed data will be noisy. In this paper, we assume that a multimodal signal is smooth on two underlying graphs: One is a spatial graph (i.e., relationship among nodes) and the other is a modality graph (i.e., relationship among modalities). We formulate a regularized minimization problem based on smoothness on the twofold graphs. The problem is solved with an alternating minimization scheme. To avoid a hand-crafted parameter tuning that is usually costly and converges to local minima, we utilize deep algorithm unrolling (DAU) to train the parameters in the algorithm. To validate the proposed method, we conduct experiments on synthetic data and demonstrate that our method outperforms various existing graph signal denoising methods.
+ER  - 
+
+TY  - JOUR
+TI  - Cooperative Cross-Correlation Algorithm to Optimize Linearity of Fused RF Sensors
+T2  - IEEE Sensors Journal
+SP  - 3766
+EP  - 3776
+AU  - N. Kleber
+AU  - C. R. Dietlein
+AU  - J. D. Chisum
+PY  - 2020
+KW  - Sensor fusion
+KW  - Linearity
+KW  - Radio frequency
+KW  - Thermal sensors
+KW  - Attenuation
+KW  - Distortion
+KW  - Cognitive radio
+KW  - cross-correlation
+KW  - linearity
+KW  - noise reduction
+KW  - spectrum sensing
+DO  - 10.1109/JSEN.2019.2959255
+JO  - IEEE Sensors Journal
+IS  - 7
+SN  - 1558-1748
+VO  - 20
+VL  - 20
+JA  - IEEE Sensors Journal
+Y1  - 1 April1, 2020
+AB  - Fusing data from multiple sensors can improve performance beyond that of any individual sensor and at worst is limited to the best individual performance among the sensors. In this work, nominally identical RF sensors are spaced closely enough such that they receive equivalent signals. However, the sensors have independent variable front-end attenuations and thermal noise. If all pair-wise cross-correlations of signals among the sensors are averaged, a proper choice of attenuation settings can optimize the linearity of the result as measured by signal to distortion and noise (SINAD) ratio. With the receiver gain and 1dB compression point (IP1) as variables, a closed-form expression for the optimal attenuation settings is derived for two sensors and is extended for any number of coherent sensors with phase-aligned reception. The expression is verified with experimental measurements up to four sensors. However, in reality, the sensors measure differing signal powers, which violates the original assumptions of the derivation. Nonetheless, the derived result is robust to slight variations since the measured SINAD is within 1dB of the optimum as long as the difference in measured signal power between two sensors is less than 5dB. For the cases in which the measured signal powers differ by more than 5dB, this work presents an algorithm to adjust the attenuation values and the number of signal captures to compensate the loss in linearity. All results are corroborated with experimental measurements taken with four low-cost RadioHound sensors.
+ER  - 
+
+TY  - JOUR
+TI  - SNR Enhancement of Far-End Disturbances on Distributed Sensor Based on Phase-Sensitive Optical Time-Domain Reflectometry
+T2  - IEEE Sensors Journal
+SP  - 1957
+EP  - 1964
+AU  - D. Li
+AU  - S. Lou
+AU  - Q. Xin
+AU  - S. Liang
+AU  - X. Sheng
+PY  - 2021
+KW  - Sensors
+KW  - Noise reduction
+KW  - Optical fiber sensors
+KW  - Signal to noise ratio
+KW  - Optical fibers
+KW  - Clustering algorithms
+KW  - Optical sensors
+KW  - Signal-to-noise ratio (SNR)
+KW  - far-end disturbances
+KW  - denoising
+KW  - location accuracy rate
+KW  - phase-sensitive optical time-domain reflectometry (Φ-OTDR)
+KW  - singular value decomposition (SVD)
+KW  - particle swarm optimization (PSO)
+KW  - clustering algorithm
+DO  - 10.1109/JSEN.2020.3019838
+JO  - IEEE Sensors Journal
+IS  - 2
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 15 Jan.15, 2021
+AB  - A denoising method based on singular value decomposition (SVD) with particle swarm optimization (PSO) is proposed to improve the signal-to-noise ratio (SNR) of far-end disturbances in distributed sensor system based on phase-sensitive optical time-domain reflectometry ( $\Phi $ -OTDR). Also, an improved clustering algorithm is introduced to locate the position of disturbance. The effective sensing distance of the  $\Phi $ -OTDR system is 25.05 km and four kinds of disturbance events, including watering, knocking, climbing and pressing, are applied on the sensing fiber respectively. A series of experiments of single-point far-end disturbances and five-point disturbances are carried out. Experimental results demonstrate that the SNR of far-end disturbance can be effectively improved to over 12dB, the processing time is less than 3 seconds, and the average location accuracy rate is more than 96%. Compared with the commonly used denoising methods, such as empirical mode decomposition (EMD), wavelet-1D and wavelet-2D, the SVD denoising with PSO method has better performance in SNR enhancement and real-time, which is beneficial for accurate positioning.
+ER  - 
+
+TY  - JOUR
+TI  - Low-Noise Photoplethysmography Sensor Using Correlated Double Sampling for Heartbeat Interval Acquisition
+T2  - IEEE Transactions on Biomedical Circuits and Systems
+SP  - 1552
+EP  - 1562
+AU  - K. Watanabe
+AU  - S. Izumi
+AU  - K. Sasai
+AU  - Y. Yano
+AU  - H. Kawaguchi
+AU  - M. Yoshimoto
+PY  - 2019
+KW  - Light emitting diodes
+KW  - Heart beat
+KW  - Power demand
+KW  - Heart rate variability
+KW  - Error compensation
+KW  - Biomedical measurement
+KW  - Current measurement
+KW  - Current integration circuit
+KW  - heartbeat interval
+KW  - LED power reduction
+KW  - low-power sensor
+KW  - photoplethysmogram (PPG)
+KW  - sampling error compensation
+DO  - 10.1109/TBCAS.2019.2956948
+JO  - IEEE Transactions on Biomedical Circuits and Systems
+IS  - 6
+SN  - 1940-9990
+VO  - 13
+VL  - 13
+JA  - IEEE Transactions on Biomedical Circuits and Systems
+Y1  - Dec. 2019
+AB  - This study designs a low-power photoplethysmography (PPG) sensor based on the error compensation method for heartbeat interval acquisition. To perform heartbeat monitoring in daily life, it is necessary to obtain long-term and accurate heartbeat interval data with low power consumption, because of the limited size and battery capacity of the PPG sensor. Effective reduction in the power consumption of the sensor requires the duty-cycled LEDs and lowering pulse repetition frequency (PRF), i.e., decreasing the sampling rate. However, these methods reduce the accuracy of the heartbeat interval measurement because of signal-to-noise ratio (SNR) degradation and sampling errors. We propose an algorithm for heartbeat interval error compensation and incorporate a low-noise readout circuit to improve SNR. The readout circuit uses current integration to achieve low duty-cycle LED driving. A correlated double sampling (CDS) is introduced to minimize the random noise arising from the switching operation of the integration circuit. An error compensation method based on the PPG waveform similarity is also introduced using the autocorrelation and linear interpolation. The measurement results obtained from nine subjects show that a total current consumption of 28.2 μA is achieved with a 20-Hz PRF and 0.3% LED duty cycle. The proposed design effectively reduces the mean absolute error (MAE) of the heartbeat interval to an average of 6.2 ms.
+ER  - 
+
+TY  - CONF
+TI  - Operational Rate-Constrained Beamforming in Binaural Hearing Aids
+T2  - 2018 26th European Signal Processing Conference (EUSIPCO)
+SP  - 2504
+EP  - 2508
+AU  - J. Amini
+AU  - R. C. Hendriks
+AU  - R. Heusdens
+AU  - M. Guo
+AU  - J. Jensen
+PY  - 2018
+KW  - Microphones
+KW  - Array signal processing
+KW  - Radio spectrum management
+KW  - Wireless communication
+KW  - Signal processing algorithms
+KW  - Wireless sensor networks
+KW  - Noise reduction
+KW  - Binaural hearing aids
+KW  - multi-microphone noise reduction
+KW  - operational rate-distortion tradeoff
+DO  - 10.23919/EUSIPCO.2018.8553403
+JO  - 2018 26th European Signal Processing Conference (EUSIPCO)
+IS  - 
+SN  - 2076-1465
+VO  - 
+VL  - 
+JA  - 2018 26th European Signal Processing Conference (EUSIPCO)
+Y1  - 3-7 Sept. 2018
+AB  - Modern binaural hearing aids (HAs) can collaborate wirelessly with each other as well as with other assistive (wireless) devices. This enables multi-microphone noise reduction over small wireless acoustic sensor networks (WASNs) to increase the intelligibility under adverse conditions. In this work, we assume one of the HAs to serve as the fusion center (FC). The optimal beamforming strategy for processing the received data at the FC depends on the acoustic scene and physical constraints (e.g., the bit-rate for transmission to the FC), and might be frequency dependent. Selection of the optimal beamforming strategy, while satisfying rate constraints on the communication between the different devices is an important challenge in such setups. In this paper, we propose an operational rate-constrained beamforming system for optimal rate allocation and strategy selection across frequency. We show an example of the proposed framework, where both the algorithm selection as well as the required rates to transmit the necessary microphone signals are optimized using uniform quantizers, while minimizing the mean-square error (MSE) distortion measure. In contrast to a well-known (theoretically optimal) reference method based on remote source coding for two devices, the presented algorithm is practically implementable and only requires knowledge of joint signal statistics at the FC. Evaluations (based on simulation experiments) show clear improvement over other practically implementable strateuies.
+ER  - 
+
+TY  - JOUR
+TI  - Graph Signal Restoration Using Nested Deep Algorithm Unrolling
+T2  - IEEE Transactions on Signal Processing
+SP  - 3296
+EP  - 3311
+AU  - M. Nagahama
+AU  - K. Yamada
+AU  - Y. Tanaka
+AU  - S. H. Chan
+AU  - Y. C. Eldar
+PY  - 2022
+KW  - Signal processing algorithms
+KW  - Image restoration
+KW  - Signal restoration
+KW  - Noise reduction
+KW  - Task analysis
+KW  - Symmetric matrices
+KW  - Optimization
+KW  - Graph signal processing
+KW  - signal restoration
+KW  - deep algorithm unrolling
+KW  - Plug-and-Play ADMM
+DO  - 10.1109/TSP.2022.3180546
+JO  - IEEE Transactions on Signal Processing
+IS  - 
+SN  - 1941-0476
+VO  - 70
+VL  - 70
+JA  - IEEE Transactions on Signal Processing
+Y1  - 2022
+AB  - Graph signal processing is a ubiquitous task in many applications such as sensor, social, transportation and brain networks, point cloud processing, and graph neural networks. Often, graph signals are corrupted in the sensing process, thus requiring restoration. In this paper, we propose two graph signal restoration methods based on deep algorithm unrolling (DAU). First, we present a graph signal denoiser by unrolling iterations of the alternating direction method of multiplier (ADMM). We then suggest a general restoration method for linear degradation by unrolling iterations of Plug-and-Play ADMM (PnP-ADMM). In the second approach, the unrolled ADMM-based denoiser is incorporated as a submodule, leading to a nested DAU structure. The parameters in the proposed denoising/restoration methods are trainable in an end-to-end manner. Our approach is interpretable and keeps the number of parameters small since we only tune graph-independent regularization parameters. We overcome two main challenges in existing graph signal restoration methods: 1) limited performance of convex optimization algorithms due to fixed parameters which are often determined manually. 2) large number of parameters of graph neural networks that result in difficulty of training. Several experiments for graph signal denoising and interpolation are performed on synthetic and real-world data. The proposed methods show performance improvements over several existing techniques in terms of root mean squared error in both tasks.
+ER  - 
+
+TY  - CONF
+TI  - Review and comparison of smoothing algorithms for one-dimensional data noise reduction
+T2  - 2018 International Interdisciplinary PhD Workshop (IIPhDW)
+SP  - 277
+EP  - 281
+AU  - P. Kowalski
+AU  - R. Smyk
+PY  - 2018
+KW  - Smoothing methods
+KW  - Microsoft Windows
+KW  - Kernel
+KW  - Kalman filters
+KW  - Standards
+KW  - Signal processing algorithms
+KW  - Noise reduction
+KW  - noise reduction
+KW  - smoothing
+KW  - smoothing algorithms
+KW  - mean filter
+KW  - median filter
+KW  - least-square
+KW  - Savitzky-Golay
+KW  - Kalman filter
+KW  - Gaussian filter
+KW  - kernel smoothing
+KW  - signal processing
+KW  - denoising filters
+DO  - 10.1109/IIPHDW.2018.8388373
+JO  - 2018 International Interdisciplinary PhD Workshop (IIPhDW)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 International Interdisciplinary PhD Workshop (IIPhDW)
+Y1  - 9-12 May 2018
+AB  - The paper considers the choice of parameters of smoothing algorithms for data denoising. The impact of the window size on smoothing accuracy was analyzed. The parameters of denoising filters were selected with respect to the mean-square error between the computed linear regression and the noisy signal. Finally, we have compared mean, median, Savitzky-Golay, Kalman and Gaussian filter algorithms for the data from the digital sensor. The figure of merit was also the algorithm execution time.
+ER  - 
+
+TY  - JOUR
+TI  - A Flexible Approach to Interference Cancellation in Distributed Sensor Networks
+T2  - IEEE Communications Letters
+SP  - 1853
+EP  - 1856
+AU  - M. Shamsi
+AU  - A. M. Haghighi
+AU  - N. Bagheri
+AU  - F. Marvasti
+PY  - 2021
+KW  - Estimation
+KW  - Signal processing algorithms
+KW  - Distributed algorithms
+KW  - Noise measurement
+KW  - Steady-state
+KW  - Adaptation models
+KW  - Tuning
+KW  - Distributed algorithm
+KW  - noise reduction
+KW  - distributed estimation
+KW  - learning on graph
+KW  - noise propagation
+DO  - 10.1109/LCOMM.2021.3057085
+JO  - IEEE Communications Letters
+IS  - 6
+SN  - 1558-2558
+VO  - 25
+VL  - 25
+JA  - IEEE Communications Letters
+Y1  - June 2021
+AB  - In a distributed algorithm several processing nodes communicate with each other and incorporate in order to reach a common goal. Each unit has its own locally-observed environment while it can either help or mislead other units when sharing its information. This could be either intentional or simply due to the observation noise. Previous works mainly focus on locating the agents properly and assigning weights based on stationary environment in order to minimize the impact of noisy nodes. We, however, propose a method capable of assigning combination weights in accordance with momentary performance of the neighboring nodes. In order to demonstrate this capability, the proposed algorithm has been applied to well-known diffusion LMS algorithms. Unlike uniform weighting policy, the proposed method is robust to changes caused by malfunctioning nodes.
+ER  - 
+
+TY  - JOUR
+TI  - An Algorithm for Sensor Data Uncertainty Quantification
+T2  - IEEE Sensors Letters
+SP  - 1
+EP  - 4
+AU  - J. T. Meech
+AU  - P. Stanley-Marbell
+PY  - 2022
+KW  - Temperature measurement
+KW  - Sensors
+KW  - Temperature sensors
+KW  - Noise measurement
+KW  - Measurement uncertainty
+KW  - Uncertainty
+KW  - Particle measurements
+KW  - Sensor signal processing
+KW  - Bayes
+KW  - noise
+KW  - rule
+KW  - sensor
+KW  - uncertainty
+DO  - 10.1109/LSENS.2021.3133761
+JO  - IEEE Sensors Letters
+IS  - 1
+SN  - 2475-1472
+VO  - 6
+VL  - 6
+JA  - IEEE Sensors Letters
+Y1  - Jan. 2022
+AB  - This letter presents an algorithm for reducing measurement uncertainty of one physical quantity when oversampling measurements of two physical quantities with correlated noise. The algorithm assumes that the aleatoric measurement uncertainty in both physical quantities follows a Gaussian distribution and relies on sampling faster than it is possible for the measurand (the true value of the physical quantity that we are trying to measure) to change (due to the system thermal time constant) to calculate the parameters of the noise distribution. In contrast to the Kalman and particle filters, which, respectively, require state update equations and a map of one physical quality, our algorithm requires only the oversampled sensor measurements. When applied to temperature-compensated humidity sensors, it provides reduced uncertainty in humidity estimates from correlated temperature and humidity measurements. In an experimental evaluation, the algorithm achieves average uncertainty reduction of 10.3%. The algorithm incurs an execution time overhead of 5.3% when compared to the minimum algorithm required to measure and calculate the uncertainty. Detailed instruction-level emulation of a C-language implementation compiled to the RISC-V architecture shows that the uncertainty reduction program required 0.05% more instructions per iteration than the minimum operations required to calculate the uncertainty.
+ER  - 
+
+TY  - JOUR
+TI  - Enhanced Sensitivity of CO Photoacoustic Sensors Using Empirical Mode Decomposition Denoising Algorithm
+T2  - IEEE Photonics Journal
+SP  - 1
+EP  - 7
+AU  - L. Li
+AU  - L. Tang
+AU  - F. Han
+AU  - S. Wang
+AU  - Y. Gao
+AU  - Y. Qiao
+AU  - C. Shan
+PY  - 2022
+KW  - Absorption
+KW  - Signal to noise ratio
+KW  - Sensors
+KW  - Noise reduction
+KW  - Sensitivity
+KW  - Spectroscopy
+KW  - Filtering algorithms
+KW  - CO sensor
+KW  - empirical mode decomposition algorithm
+KW  - near-infrared light source
+KW  - photoacoustic spectroscopy
+DO  - 10.1109/JPHOT.2022.3168966
+JO  - IEEE Photonics Journal
+IS  - 3
+SN  - 1943-0655
+VO  - 14
+VL  - 14
+JA  - IEEE Photonics Journal
+Y1  - June 2022
+AB  - A CO sensor based on photoacoustic spectroscopy (PAS) with empirical mode decomposition (EMD) algorithm is investigated and demonstrated in this paper. In the PAS system, the complicated photo-thermal-acoustic conversion is a nonlinear and non-stationary process and contains various noise. In order to compensate the low signal-to-noise ratio (SNR), the EMD is introduced in the PAS system to deal with the photoacoustic signal. The experimental results show that a gain factor of ∼3.0 on the SNR is achieved and the sensor has an excellent linear response to the gas concentration. The minimum detection level (MDL) for CO detection is reduced to 1.14 ppm with a 300 ms integrated time at room temperature and atmospheric pressure.
+ER  - 
+
+TY  - CONF
+TI  - A Simulation Investigation of Modified FxLMS Algorithms for Feedforward Active Noise Control
+T2  - 2019 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+SP  - 1833
+EP  - 1837
+AU  - C. Shi
+AU  - N. Jiang
+AU  - R. Xie
+AU  - H. Li
+PY  - 2019
+KW  - Standards
+KW  - Systems simulation
+KW  - Convergence
+KW  - Noise reduction
+KW  - Feedforward systems
+KW  - Sensor systems
+DO  - 10.1109/APSIPAASC47483.2019.9023193
+JO  - 2019 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+IS  - 
+SN  - 2640-0103
+VO  - 
+VL  - 
+JA  - 2019 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+Y1  - 18-21 Nov. 2019
+AB  - In this paper, two modified FxLMS algorithms are proposed based on the post-masking-based LMS (PMLMS) algorithm. They are the PMl-FxLMS and the signed PMl-FxLMS (SPMl-FxLMS) algorithms. In both algorithms, l denotes the length of the error signal memory. The control filter coefficients are updated by the maximum absolute value in the error signal memory, instead of the immediate value. The difference between the two modified FxLMS algorithms is that the PMl-FxLMS algorithm keeps the sign of the error sample with the largest absolute value, while the SPMl-FxLMS algorithm uses the sign of the immediate error sample. The simulation results show that the SPMl-FxLMS algorithm converges faster than the standard FxLMS algorithm with the same step-size, and the PMl-FxLMS algorithm may be difficult to converge when l is large.
+ER  - 
+
+TY  - CONF
+TI  - Sensor Selection and Rate Distribution Based Beamforming in Wireless Acoustic Sensor Networks
+T2  - 2019 27th European Signal Processing Conference (EUSIPCO)
+SP  - 1
+EP  - 5
+AU  - J. Zhang
+AU  - R. Heusdens
+AU  - R. C. Hendriks
+PY  - 2019
+KW  - Microphones
+KW  - Array signal processing
+KW  - Noise reduction
+KW  - Wireless sensor networks
+KW  - Wireless communication
+KW  - Resource management
+KW  - Acoustic sensors
+KW  - Wireless acoustic sensor networks
+KW  - beamforming
+KW  - sensor selection
+KW  - rate distribution
+KW  - energy consumption
+DO  - 10.23919/EUSIPCO.2019.8903015
+JO  - 2019 27th European Signal Processing Conference (EUSIPCO)
+IS  - 
+SN  - 2076-1465
+VO  - 
+VL  - 
+JA  - 2019 27th European Signal Processing Conference (EUSIPCO)
+Y1  - 2-6 Sept. 2019
+AB  - Power usage is an important aspect of wireless acoustic sensor networks (WASNs) and reducing the amount of information that is to be transmitted is one effective way to save it. In previous contributions, we presented sensor selection as well as rate distribution methods to reduce the power usage of beamforming algorithms in WASNs. Taking only transmission power into account, it was shown that rate distribution is a generalization of sensor selection and that rate distribution is more efficient than sensor selection with respect to the power usage versus performance trade-off. However, this excludes the energy consumption that it takes to keep the WASN nodes activated. In this paper, we present a more detailed comparison between sensor selection and rate-allocation by taking also into account the power to keep sensors activated for centralized WASNs. The framework is formulated by minimizing the total power usage, while lower bounding the noise reduction performance. Numerical results show that whether rate distribution is more efficient than sensor selection depends on the actual power that is used to keep sensors activated.
+ER  - 
+
+TY  - JOUR
+TI  - Reduce the Noise of Transient Electromagnetic Signal Based on the Method of SMA-VMD-WTD
+T2  - IEEE Sensors Journal
+SP  - 14959
+EP  - 14969
+AU  - X. Wei
+AU  - G. Feng
+AU  - T. Qi
+AU  - J. Guo
+AU  - Z. Li
+AU  - D. Zhao
+AU  - Z. Li
+PY  - 2022
+KW  - Electromagnetics
+KW  - Transient analysis
+KW  - Optimization
+KW  - Noise reduction
+KW  - Entropy
+KW  - Electromagnetic scattering
+KW  - Geology
+KW  - Transient electromagnetic
+KW  - signal noise
+KW  - VMD
+KW  - SMA
+KW  - WTD
+DO  - 10.1109/JSEN.2022.3184697
+JO  - IEEE Sensors Journal
+IS  - 15
+SN  - 1558-1748
+VO  - 22
+VL  - 22
+JA  - IEEE Sensors Journal
+Y1  - 1 Aug.1, 2022
+AB  - To reduce all kinds of noise interference in the transient electromagnetic signal, and improve the resolution of abnormal resistance in detection area. In this paper, a method based on Slime Mould Algorithm (SMA) optimized Variational Mode Decomposition (VMD) combined with Wavelet Threshold Denoising (SMA-VMD-WTD) was proposed to identify and eliminate the noise. Firstly, the slime mould algorithm (SMA) was used to select the key parameters in VMD. Then, the signal was adaptively decomposed by VMD according to the optimized parameters to obtain certain modal components, and divided them into effective signal components and noise components. Finally, the effective signal components were further processed by Wavelet Threshold Denoising (WTD) and reconstructed to obtain the transient electromagnetic signal with noise removal. The simulation signal tests with different noise intensity were built, and this method was compared with Ensemble Empirical Mode Decomposition (EEMD), WTD, unoptimized VMD and SMA to optimize VMD for reducing noise analysis of simulation tests. The results showed that SMA-VMD-WTD was more effective in identifying and eliminating transient electromagnetic signal noise. The method was applied to a geological exploration area, which verified the field applicability of this method. The results of the simulation tests and field test showed that SMA-VMD-WTD was a better denoising method for transient electromagnetic signal.
+ER  - 
+
+TY  - JOUR
+TI  - Anti-Interference Technology of Surface Acoustic Wave Sensor Based on K-Means Clustering Algorithm
+T2  - IEEE Sensors Journal
+SP  - 8998
+EP  - 9007
+AU  - Y. Fan
+AU  - Y. Liu
+AU  - H. Qi
+AU  - F. Liu
+AU  - X. Ji
+PY  - 2021
+KW  - Surface acoustic waves
+KW  - Interference
+KW  - Entropy
+KW  - Signal sampling
+KW  - Oscillators
+KW  - Noise reduction
+KW  - Feature extraction
+KW  - SAW
+KW  - envelope
+KW  - entropy energy
+KW  - K-Means algorithm
+KW  - anti-interference
+DO  - 10.1109/JSEN.2021.3052957
+JO  - IEEE Sensors Journal
+IS  - 7
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 1 April1, 2021
+AB  - Various types of interference signals are available in the working environment of passive wireless surface acoustic wave (SAW) sensors. Among these kinds of interference, co-channel interference is difficult to suppress. To solve this problem, a SAW sensor anti-interference technology was proposed to improve the reliability of the SAW sensor. Wavelet denoising method was used to denoise SAW resonator (SAWR) response, which can maintain the envelope characteristics of the SAW response. The entropy energy model of the SAW response signal was established, and the signal envelope was extracted from the proposed entropy energy function. The waveform envelope and the entropy energy curve were adopted as the signal characteristics to form two-dimensional points. The K-Means algorithm was used to classify the two-dimensional points to distinguish the SAW response from sinusoidal interference. Simulation results showed that the SAW response can be detected with a rate of more than 85% when the signal-to-noise ratio was greater than 4 dB, whereas the false detection rate of the sinusoidal interference signal was less than 8%. Finally, the proposed algorithm was used to detect the actual SAW response and sinusoidal interference signal. The experimental results showed that the proposed method can clearly distinguish the SAW response from the co-channel interference signal. Moreover, the proposed method can be used as the anti-interference technology to improve the stability of the SAW sensor.
+ER  - 
+
+TY  - CONF
+TI  - NRCS-CE: A Noise-Resistance UWB Channel Estimation Method for WSN and IoT Applications
+T2  - 2020 IEEE 92nd Vehicular Technology Conference (VTC2020-Fall)
+SP  - 1
+EP  - 5
+AU  - M. Wu
+AU  - Z. Yin
+AU  - Z. Wu
+PY  - 2020
+KW  - Wireless sensor networks
+KW  - Channel estimation
+KW  - Matching pursuit algorithms
+KW  - Pollution measurement
+KW  - Internet of Things
+KW  - Covariance matrices
+KW  - Signal to noise ratio
+KW  - Channel estimation
+KW  - compressed sensing
+KW  - noise-resistance
+KW  - ultra-wideband
+KW  - sparsity adaptive
+DO  - 10.1109/VTC2020-Fall49728.2020.9348781
+JO  - 2020 IEEE 92nd Vehicular Technology Conference (VTC2020-Fall)
+IS  - 
+SN  - 2577-2465
+VO  - 
+VL  - 
+JA  - 2020 IEEE 92nd Vehicular Technology Conference (VTC2020-Fall)
+Y1  - 18 Nov.-16 Dec. 2020
+AB  - Ultra-wideband (UWB) technology is a potential candidate solution for Wireless Sensor Network (WSN) and Internet of Things (IoT) applications due to the advantages of high-speed communication and accurate positioning. Channel estimation plays a key role in UWB systems, especially in low signal-to-noise ratio (SNR) environments. In this paper, a noise-resistance channel estimation method based on compressed sensing is proposed for accurate estimation of UWB channels contaminated by noise. The proposed algorithm based on compressed sensing relies on the fact that the multipath signals of UWB have a sparse representation in the time domain or other domains. However, the reconstruction of multipath signals is difficult owing to the additive noise and noise-folding effect. In order to improve the noise robustness, UWB multipath signals are sparse representation by using the orthogonal basis of an eigen-based dictionary. Three approaches are applied to the proposed noise-resistance algorithm, including average pilot noise reduction, denoising whitening measurement, and sparsity adaptive matching pursuit (SAMP) algorithm. The improved relative residue is proposed to calculate the iteration termination condition of SAMP. Simulation results demonstrate that the algorithm provides good noise-resistance performances in terms of normalized mean square error (NMSE) of channel estimation and the bit error rate of Rake receivers, especially in low SNR environments.
+ER  - 
+
+TY  - CONF
+TI  - Research on the Detection and Multi Threshold Denoising Technology of Weak Infrared Sensing Signal
+T2  - 2018 Chinese Automation Congress (CAC)
+SP  - 3141
+EP  - 3144
+AU  - T. Ye
+AU  - X. Huang
+AU  - X. Peng
+PY  - 2018
+KW  - Temperature sensors
+KW  - Noise reduction
+KW  - Infrared sensors
+KW  - Wavelet transforms
+KW  - Signal processing
+KW  - Temperature measurement
+KW  - Infrared Sensing
+KW  - Weak Signal
+KW  - Detection Technology
+KW  - Signal Processing
+DO  - 10.1109/CAC.2018.8623342
+JO  - 2018 Chinese Automation Congress (CAC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 Chinese Automation Congress (CAC)
+Y1  - 30 Nov.-2 Dec. 2018
+AB  - The infrared sensing information often belongs to the weak signal in the detection system. In order to detect weak infrared sensing signal effectively, the paper designs a detection system scheme and detecting amplified circuit with the function of temperature compensation, and the detecting amplified circuit can effectively suppress the noise. Based on the above, a wavelet multi-scale and multi threshold processing algorithm of weak sensing information is proposed. In order to reduce the problem of signal distortion caused by general threshold de-noising, the paper uses an improved threshold function. In the de-noising process, the soft and hard threshold functions can be chosen flexibly by setting a constant. The experiment results show that the hardware and software signal processing and de-noising methods have good effect on the detection of weak infrared sensing signals.
+ER  - 
+
+TY  - CONF
+TI  - Noise Reduction of ECG using Chebyshev filter and Classification using Machine Learning Algorithms
+T2  - 2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)
+SP  - 434
+EP  - 441
+AU  - M. B. Prakash
+AU  - S. V
+AU  - G. E. A
+AU  - S. K. P
+PY  - 2021
+KW  - Noise reduction
+KW  - Cardiac disease
+KW  - Filtering algorithms
+KW  - Chebyshev approximation
+KW  - Electrocardiography
+KW  - Feature extraction
+KW  - Task analysis
+KW  - Ecg
+KW  - Noise Filtering
+KW  - Machine Learning Algorithms
+KW  - Classification
+KW  - Chebfun
+KW  - Chebyshev Type II Filter
+DO  - 10.1109/ICCCIS51004.2021.9397163
+JO  - 2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)
+Y1  - 19-20 Feb. 2021
+AB  - Cardiac disease detection is a tedious process. Classification of electrocardiogram (ECG) signals plays an important role in the diagnosis of heart diseases. The most important factor that limits the detection of cardiac disease is the rare availability of instances of the abnormal condition collected using ECG sensors. And if the signals contain noise, then the classification might become a challenging task. In this work, we address the problem of cardiac disease detection when the dataset has less number of noisy ECG sensor signals. Here, Chebyshev Type II filter and Chebyshev function, which is termed as Chebfun, are used. The Chebyshev filter is used for high-frequency noise removal and Chebfun is used to approximate the signal with its coefficients. These coefficients known as Chebfun coefficients are used as the features. These features are used for classification. In the proposed work, machine learning algorithms, like SVM, logistic regression, decision tree, and AdaBoost, are used for classifying the features extracted from Chebfun.
+ER  - 
+
+TY  - JOUR
+TI  - Adaptive Estimation and Reduction of Noises Affecting a Self-Mixing Interferometric Laser Sensor
+T2  - IEEE Sensors Journal
+SP  - 9806
+EP  - 9815
+AU  - Z. A. Khan
+AU  - U. Zabit
+AU  - O. D. Bernal
+AU  - T. Hussain
+PY  - 2020
+KW  - Sensors
+KW  - Adaptive filters
+KW  - Optical interferometry
+KW  - Optical feedback
+KW  - Noise measurement
+KW  - Adaptation models
+KW  - Laser feedback
+KW  - Adaptive filter
+KW  - noise estimation
+KW  - optical feedback
+KW  - self-mixing interferometry
+KW  - SNR
+KW  - vibration measurement
+DO  - 10.1109/JSEN.2020.2992848
+JO  - IEEE Sensors Journal
+IS  - 17
+SN  - 1558-1748
+VO  - 20
+VL  - 20
+JA  - IEEE Sensors Journal
+Y1  - 1 Sept.1, 2020
+AB  - Experimental Self-Mixing (SM) or optical feedback interferometric signals are usually affected by additive white Gaussian noise (AWGN) and impulsive noise. Depending on SM sensing set-up, these noises can significantly reduce the signal to noise ratio (SNR) of SM signals which in turn affects the measurement performance of signal processing algorithms employed for metric information retrieval. In this paper, adaptive line enhancement (ALE) technique is proposed to remove AWGN and impulsive noise from SM signals. Specifically, a recursive least squares (RLS) based ALE algorithm has been designed and the results have been compared with established methods such as high-order digital low-pass filtering and discrete wavelet transform. The comparison indicates better precision in case of use of RLS-ALE even when significant variations occur in the operating optical feedback regime and remote target velocity as well as in presence of speckle. The proposed algorithm can also estimate the SNR of SM signals belonging to weak-, moderate-, and strong-optical feedback regime with SNR ranging from 0 dB to 40 dB, with a mean absolute error of 1.35 dB and a 1.09 dB precision. Statistical analysis of noise recovered from different experimental SM signals attests the Gaussian- and impulsive-nature of noise. Thus, the proposed method also enables a simple and reliable quantitative analysis and comparison of different laser diode based SM laser sensors operating under variable optical conditions.
+ER  - 
+
+TY  - JOUR
+TI  - Incremental Learning Based Adaptive Filter for Nonlinear Distributed Active Noise Control System
+T2  - IEEE Open Journal of Signal Processing
+SP  - 1
+EP  - 13
+AU  - R. Kukde
+AU  - M. S. Manikandan
+AU  - G. Panda
+PY  - 2020
+KW  - Noise cancellation
+KW  - Sensor systems
+KW  - Signal processing algorithms
+KW  - Loudspeakers
+KW  - Control systems
+KW  - Acoustic sensor nodes
+KW  - active noise control (ANC)
+KW  - adaptive signal processing
+KW  - distributed processing
+KW  - functional link artificial neural networks
+KW  - incremental strategy
+DO  - 10.1109/OJSP.2020.2975768
+JO  - IEEE Open Journal of Signal Processing
+IS  - 
+SN  - 2644-1322
+VO  - 1
+VL  - 1
+JA  - IEEE Open Journal of Signal Processing
+Y1  - 2020
+AB  - Active control of noise for multi-channel applications is affected by the existence of nonlinear primary and secondary paths. There is a degradation in the performance of linear multi-channel active noise control (LMANC) systems based on minimization of sum of squared errors obtained from multiple sensors in presence of nonlinear primary path (NPP) and nonlinear secondary path (NSP) conditions. The NPP and NSP problems are more prominent and challenging for multi-point noise control applications owing to different locations of silent zones and acoustic coupling between secondary sources and error sensors. In order to surmount this problem, an incremental strategy based nonlinear distributed ANC (NDANC) system is developed in this article. The adaptive exponential functional link network (AE-FLN) is employed as an adaptive control unit at the acoustic sensor nodes (ASNs) for the design of NDANC system. The incremental co-operation scheme is utilized to provide uniform noise cancellation in presence of NPP and NSP conditions. Simulation study is conducted extensively to demonstrate the efficiency of the proposed system for different practical NPP and NSP scenarios. The detailed computational load analysis and subjective evaluation of reduction in perceptual noise levels are performed for different real noise conditions.
+ER  - 
+
+TY  - CONF
+TI  - The Damage Physical Features Extraction Algorithms Based on Denoising FBG Signal in Aluminum Alloy Structures
+T2  - 2020 11th International Conference on Prognostics and System Health Management (PHM-2020 Jinan)
+SP  - 17
+EP  - 22
+AU  - M. Zhang
+AU  - W. Zhang
+AU  - Y. Zhao
+AU  - W. Dai
+AU  - Y. Lan
+PY  - 2020
+KW  - Feature extraction
+KW  - Noise reduction
+KW  - Monitoring
+KW  - Signal processing algorithms
+KW  - Fiber gratings
+KW  - Strain
+KW  - Reflection
+KW  - fiber Bragg grating
+KW  - signal processing
+KW  - physical damage features extraction algorithm
+DO  - 10.1109/PHM-Jinan48558.2020.00011
+JO  - 2020 11th International Conference on Prognostics and System Health Management (PHM-2020 Jinan)
+IS  - 
+SN  - 2166-5656
+VO  - 
+VL  - 
+JA  - 2020 11th International Conference on Prognostics and System Health Management (PHM-2020 Jinan)
+Y1  - 23-25 Oct. 2020
+AB  - Fiber Bragg gratings (FBG) sensor has attracted considerable attention for structural health monitoring (SHM) in aerospace aluminum alloy structures in recent years. The experimental FBG signals used to detect flaws contains noise. Therefore, in this paper, an algorithm that combines variational mode decomposition (VMD) with discrete wavelet transform (DWT) was proposed to deal with the signal denoising problem. Then, it is a challenge problem for structural damage detection to extract the features that sensitive to damage and robust to noise from the FBG signal response. This paper presents several damage features extraction algorithms, such as the multi-peaks central wavelength algorithm, full width at half Maximum (FWHM) algorithm, the spectral difference algorithm and the spectral area algorithm. Then, the denoised structure signal can be used to test the damage features extraction algorithm effectiveness and for future damage detection.
+ER  - 
+
+TY  - CONF
+TI  - Opti2: A reconstruction approach for periodic signals using compressive sensing
+T2  - 2022 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)
+SP  - 1
+EP  - 6
+AU  - D. A. Pérez
+AU  - C. Schöffmann
+AU  - H. Zangl
+PY  - 2022
+KW  - Noise reduction
+KW  - Estimation
+KW  - Reconstruction algorithms
+KW  - Robustness
+KW  - Relaxation methods
+KW  - Signal representation
+KW  - Iterative methods
+KW  - periodic signals
+KW  - compressive sampling
+KW  - recovery algorithm
+KW  - frequency sparse
+KW  - spectral leakage
+DO  - 10.1109/I2MTC48687.2022.9806644
+JO  - 2022 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)
+IS  - 
+SN  - 2642-2077
+VO  - 
+VL  - 
+JA  - 2022 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)
+Y1  - 16-19 May 2022
+AB  - The reconstruction of frequency-sparse signals from a low number of samples using a compressed sensing concept is a widely studied problem and solutions based on greedy and relaxation methods are available. However, their performance is degraded in presence of spectral leakage, which affects the sparsity of the signal representation and consequently, its estimation accuracy. In this paper a two-stage optimization approach, called Opti2, is proposed for the reconstruction of periodic signals that can be expressed in terms of fundamental frequency and harmonics. The estimation provided by basis pursuit denoising (BPDN) sparse optimization approach is computed in the first stage and used as initial guess for the second stage, where a constrained non-linear optimization problem is solved in an iterative fashion, aiming to improve the estimation of the signal parameters. The evaluation of the proposed method with simulated and experimental data demonstrates that it outperforms existing approaches in term of accuracy, showing its robustness to noise, compression rate and dictionary refinement factor.
+ER  - 
+
+TY  - CONF
+TI  - Classification of Quality of Granary using Machine Learning based on Software-Defined Wireless Sensor Network
+T2  - 2021 8th International Conference on Signal Processing and Integrated Networks (SPIN)
+SP  - 652
+EP  - 656
+AU  - R. Kaushik
+AU  - J. Singhai
+PY  - 2021
+KW  - Temperature sensors
+KW  - Temperature measurement
+KW  - Wireless sensor networks
+KW  - Machine learning algorithms
+KW  - Temperature
+KW  - Signal processing algorithms
+KW  - Prediction algorithms
+KW  - Post-harvest stored grain
+KW  - Sensors
+KW  - Software-Defined Wireless Sensor Network
+KW  - Shelf-life
+KW  - Machine learning algorithms
+DO  - 10.1109/SPIN52536.2021.9566090
+JO  - 2021 8th International Conference on Signal Processing and Integrated Networks (SPIN)
+IS  - 
+SN  - 2688-769X
+VO  - 
+VL  - 
+JA  - 2021 8th International Conference on Signal Processing and Integrated Networks (SPIN)
+Y1  - 26-27 Aug. 2021
+AB  - In India, several million tons of grain are stored in silos, warehouses, and gunny bags for future use. Temperature and grain moisture content are the most important factors responsible for the growth of mold, fungus, insects within the stored grain. If these factors are not monitored at early stages, contamination and insect infestation will damage all stored grain. In addition to these factors, CO2 evolution is also taken as a measure to detect deterioration in grain. The sensor network is a prominent technique through which environmental factors can be monitored. Although, this technique faces issues such as constraints of devices like limited energy, computational capability, and data storage. To overcome such issues, this paper proposes an architecture and methodology for monitoring temperature, moisture content, and CO2 concentration for granary called as Software-Defined Wireless Sensor Network. Data aggregation and data smoothing algorithms has proposed to reduce energy consumption by a node and to reduce noise. To predict the quality of stored grain, machine learning algorithms such as K-Nearest Neighbor, Random Forest, and Linear Regression has implemented at controller in control plane. Results show that Random Forest performs better and correctly predicted the quality of grain with the highest accuracy among all classifiers.
+ER  - 
+
+TY  - CONF
+TI  - An array detection method for partial discharge based on sparse decomposition theory and RD-MUSIC
+T2  - 2020 5th Asia Conference on Power and Electrical Engineering (ACPEE)
+SP  - 1713
+EP  - 1718
+AU  - M. Junpeng
+AU  - W. Han
+AU  - Q. Yanxun
+AU  - L. Hongliang
+PY  - 2020
+KW  - Partial discharges
+KW  - Array signal processing
+KW  - Handheld computers
+KW  - Navigation
+KW  - Noise reduction
+KW  - Signal processing algorithms
+KW  - Matching pursuit algorithms
+KW  - Partial discharge
+KW  - sensor
+KW  - matching pursuit algorithm
+KW  - RD-MUSIC algorithm
+DO  - 10.1109/ACPEE48638.2020.9136295
+JO  - 2020 5th Asia Conference on Power and Electrical Engineering (ACPEE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2020 5th Asia Conference on Power and Electrical Engineering (ACPEE)
+Y1  - 4-7 June 2020
+AB  - Partial discharge (PD) detection is important to many scholars around the world. As an applicable method of PD detection, the ultrasonic array detection combines the ultrasonic array sensor and the array signal processing technique to detect PD. The PD ultrasonic array detection is affected by field noise and traditional PD direction algorithms generally face various problems such as low precision and a complex computational process. Considering this, we proposed a PD ultrasonic array detection method based on the de-noising method in spare decomposition theory and the reduced dimension multiple signal classification (RD-MUSIC) algorithm. Firstly, the matching pursuit (MP) algorithm in spare decomposition theory is improved to conduct simulations of PD signals; secondly, direction-finding is simulated for PD signals by using the RDMUSIC algorithm. Finally, the experimental data are subjected to de-noising and direction-finding by using spare decomposition theory and the RD-MUSIC algorithm after conducting an experimental study under laboratory conditions. Moreover, a comparison is made between the location results after, and before, de-noising to verify that the method is practicable.
+ER  - 
+
+TY  - CONF
+TI  - Kalman Filter-Based Noise Reduction Framework for Posture Estimation Using Depth Sensor
+T2  - 2019 IEEE 18th International Conference on Cognitive Informatics & Cognitive Computing (ICCI*CC)
+SP  - 150
+EP  - 158
+AU  - F. Ahmed
+AU  - A. S. M. Hossain Bari
+AU  - B. Sieu
+AU  - J. Sadeghi
+AU  - J. Scholten
+AU  - M. L. Gavrilova
+PY  - 2019
+KW  - Kalman filters
+KW  - Noise reduction
+KW  - Medical services
+KW  - Estimation
+KW  - Skeleton
+KW  - Three-dimensional displays
+KW  - Cognitive systems
+KW  - Cognitive computing
+KW  - human-machine cooperation
+KW  - motion denoising
+KW  - posture correction
+KW  - Kalman filter
+KW  - body limb length estimation
+KW  - Kinect sensor
+KW  - physiotherapy
+DO  - 10.1109/ICCICC46617.2019.9146069
+JO  - 2019 IEEE 18th International Conference on Cognitive Informatics & Cognitive Computing (ICCI*CC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 IEEE 18th International Conference on Cognitive Informatics & Cognitive Computing (ICCI*CC)
+Y1  - 23-25 July 2019
+AB  - Significant benefits can be achieved through the integration of cognitive computing technologies in healthcare delivery services, including physiotherapy. The traditional approach to physiotherapy requires attaching a marker-based tracking device with the patients and conducting analysis to diagnose by physiotherapists and chiropractors. Tracking efficiency of patient rehabilitation frequently depends on the physiotherapist's notes, which is tedious and prone to errors. In order to streamline the process of data collection and record-keeping, and to make more informed decisions on the effectiveness of prescribed therapy, depth sensors can be integrated with current physician practices. This paper is one of the very first attempts to assist physicians through proprietary Kinect sensor-based technologies. The goal is to make sure static posture estimation is highly accurate. Thus, this paper introduces the solution through a noise reduction framework where the Kalman filter and a recursive noise reduction algorithm are combined to improve the accuracy and the consistency of the human 3D skeleton motion data. The Kalman filter is used for the reduction of tremors by abnormal estimation of body joints in real-time using Kinect v2. The posture correction algorithm is incorporated in the proposed framework to reduce anthropometrically inconsistent estimation of limb lengths of the human body. The proposed posture correction algorithm was extensively validated on the proprietary data set.
+ER  - 
+
+TY  - CONF
+TI  - A Hybrid Denoising Algorithm for DoFP Polarization Image Sensors
+T2  - 2019 International Conference on Electrical and Computing Technologies and Applications (ICECTA)
+SP  - 1
+EP  - 4
+AU  - A. Abubakar
+AU  - X. Zhao
+AU  - M. Takruri
+AU  - E. Bastaki
+AU  - A. Bermak
+PY  - 2019
+KW  - Image sensors
+KW  - Computers
+KW  - Polarization
+KW  - Three-dimensional displays
+KW  - Filtering
+KW  - Collaborative filtering
+KW  - Noise reduction
+KW  - Polarization image
+KW  - division of focal plane
+KW  - image denoising
+KW  - collaborative filtering
+KW  - hybrid denoising
+DO  - 10.1109/ICECTA48151.2019.8959597
+JO  - 2019 International Conference on Electrical and Computing Technologies and Applications (ICECTA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 International Conference on Electrical and Computing Technologies and Applications (ICECTA)
+Y1  - 19-21 Nov. 2019
+AB  - In this paper, we present a hybrid denoising algorithm for division-of-focal-plane (DoFP) polarization image sensors, which is based on Block-Matching and 3D Filtering (BM3D) and K-times Singular Value Decomposition (KSVD) denoising algorithms. The proposed algorithm employs the KSVD denoising algorithm to improve the “First Estimate” image in BM3D algorithm, which dictates the second round of grouping. In addition to improving the second round of grouping, the proposed algorithm improves the final denoised image through proper matching of the two algorithms which also helps to preserve key image details. Extensive experimental results on DoFP images show that the proposed algorithm outperforms a vast selection of existing denoising algorithms for DoFP polarization images including the state-of-the-art BM3D denoising algorithm visually as well as numerically in terms of Peak-Signal-to-Noise-Ratio (PSNR) and Structural Similarity (SSIM) Index.
+ER  - 
+
+TY  - CONF
+TI  - A Filtered RSSI Model Based on Hardware Characteristic for Localization Algorithm in Wireless Sensor Networks
+T2  - 2018 32nd International Conference on Advanced Information Networking and Applications Workshops (WAINA)
+SP  - 118
+EP  - 123
+AU  - D. El Houssaini
+AU  - Z. Mohamed
+AU  - S. Khriji
+AU  - K. Besbes
+AU  - O. Kanoun
+PY  - 2018
+KW  - Wireless sensor networks
+KW  - Hardware
+KW  - Mathematical model
+KW  - Attenuation
+KW  - Computational modeling
+KW  - Received signal strength indicator
+KW  - Position measurement
+KW  - Wireless Sensor Network
+KW  - RSSI
+KW  - feedback and average filters
+KW  - panStamp node
+KW  - sensors
+DO  - 10.1109/WAINA.2018.00073
+JO  - 2018 32nd International Conference on Advanced Information Networking and Applications Workshops (WAINA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 32nd International Conference on Advanced Information Networking and Applications Workshops (WAINA)
+Y1  - 16-18 May 2018
+AB  - Localization is considered as a tough, complicated and important problem in Wireless Sensor Networks (WSNs) due to challenges related to energy consumption, coverage and connectivity. Received Signal Strength (RSSI) is one of the most important techniques to measure nodes position. It is based on the use of the path loss model of the radio frequency propagation. This makes the RSSI based technique vulnerable to fading and shadowing problem, multipathing and environmental effects. To reduce the impact of those problems a filtering model related to signal attenuation is proposed. It implements the feedback filter to reduce noise during signal transmission with consideration of earlier values of received signal strength. This enables to predict possible values of the RSSI and thus the position of nodes. To improve the localization accuracy, hardware characteristics are introduced in the filtering model. The proposed model explore the multiplication and summation errors of the node. Real experiments are carried out on the panStamp sensor node at two different temperatures. The new proposed RSSI technique shows a reduced localization error compared to the simple RSSI method.
+ER  - 
+
+TY  - JOUR
+TI  - A Method of Fiber Bragg Grating Sensing Signal De-Noise Based on Compressive Sensing
+T2  - IEEE Access
+SP  - 28318
+EP  - 28327
+AU  - Y. Chen
+AU  - Z. Liu
+AU  - H. Liu
+PY  - 2018
+KW  - Fiber gratings
+KW  - Sensors
+KW  - Matching pursuit algorithms
+KW  - Compressed sensing
+KW  - Noise reduction
+KW  - Reconstruction algorithms
+KW  - Fiber Bragg Grating (FBG)
+KW  - de-noising
+KW  - compressive sensing
+KW  - orthogonal matching pursuit
+KW  - sparsity
+DO  - 10.1109/ACCESS.2018.2819647
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 6
+VL  - 6
+JA  - IEEE Access
+Y1  - 2018
+AB  - A novel de-noising method based on the compressive sensing reconstruction algorithm is proposed in this paper, which is used to solve the problem that the fiber Bragg grating (FBG) sensing signal is easily affected by environment interference. By analyzing the characteristics of the FBG signal in the sparse domain, we calculated the sparsity of the FBG signal through the exponential fitting method. Considering the complexity of the traditional algorithm, we proposed a reasonable threshold for selecting multi-atom to reduce the run time of the reconstruction algorithm. In addition, we designed the elimination strategy and double termination conditions to improve the precision of the reconstructed signal. The experiment results show that the maximum reconstructed signal-to-noise ratio of our method is 49.2 dB, with a relative error of 0.0034~0.0074. The run time of the proposed algorithm is much lower than the same-type algorithms. The reconstruction precision is far beyond the wavelet threshold de-noising and empirical mode decomposition.
+ER  - 
+
+TY  - JOUR
+TI  - Collaborative Data Transmission in Wireless Sensor Networks
+T2  - IEEE Access
+SP  - 39647
+EP  - 39658
+AU  - L. Berbakov
+AU  - G. Dimić
+AU  - M. Beko
+AU  - J. Vasiljević
+AU  - Ž. Stojković
+PY  - 2020
+KW  - Sensors
+KW  - Wireless sensor networks
+KW  - Synchronization
+KW  - Collaboration
+KW  - Perturbation methods
+KW  - Array signal processing
+KW  - Clustering algorithms
+KW  - Collaborative beamforming
+KW  - collaborative communication
+KW  - wireless sensor network
+DO  - 10.1109/ACCESS.2020.2975834
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Collaborative beamforming (CBF) is a promising technique aimed at improving energy efficiency of communication in wireless sensor networks (WSNs) which has attracted considerable attention in the research community recently. It is based on a fact that beampattern with stable mainlobe can be formed, if multiple sensors synchronize their oscillators and jointly transmit a common message signal. In this paper, we consider application of CBF with one bit of feedback in different communication scenarios and analyze the impact of constraints imposed by simple sensor node hardware, on the resulting signal strength. First, we present a CBF scheme capable of reducing interference levels in the nearby WSN clusters by employing joint feedback from multiple base stations that surround the WSN of interest. Then, we present a collaborative power allocation and sensor selection algorithm, capable of achieving beamforming gains with transmitters that are not able to adjust their oscillators' signal phase. The performance of the algorithms is assessed by means of achieved beamforming gain which is given as a function of algorithm iterations. The presented results, which are based on numerical simulations and mathematical analysis, are compared with the ideal case without constraints and with negligible noise at the Base Station (BS).
+ER  - 
+
+TY  - CONF
+TI  - Selective Virtual Sensing Technique for Multi-channel Feedforward Active Noise Control Systems
+T2  - ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+SP  - 8489
+EP  - 8493
+AU  - C. Shi
+AU  - R. Xie
+AU  - N. Jiang
+AU  - H. Li
+AU  - Y. Kajikawa
+PY  - 2019
+KW  - Sensors
+KW  - Microphones
+KW  - Optimized production technology
+KW  - Training
+KW  - Noise reduction
+KW  - Frequency control
+KW  - Feedforward systems
+KW  - Multi-channel active noise control
+KW  - virtual sensing technique
+KW  - FxLMS algorithm
+KW  - adaptive filtering
+DO  - 10.1109/ICASSP.2019.8682705
+JO  - ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+IS  - 
+SN  - 2379-190X
+VO  - 
+VL  - 
+JA  - ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+Y1  - 12-17 May 2019
+AB  - The virtual sensing technique allows the active noise control (ANC) system to work with error microphones that are placed far from the desired zone of quietness (ZoQ). Conventionally, a training stage is required to obtain the auxiliary filters with the temporary error microphones placed in the ZoQ. When the characteristics of the primary noise changes, the auxiliary filters have to be retrained. As a result, the conventional virtual sensing technique can only be used when the frequency band of the primary noise remains unchanged. In order to solve this limitation, this paper proposes a selective virtual sensing technique for the multi-channel feedforward ANC system. The selective virtual sensing technique obtains a bank of auxiliary filters in the subband structure. Based on the frequency-band-matching mechanism, a linear combination of the auxiliary filters is calculated and used in the real-time control stage. Experimental results show that the selective virtual sensing technique achieves better noise reduction performance than the conventional virtual sensing technique when the frequency band of the primary noise fluctuates.
+ER  - 
+
+TY  - CONF
+TI  - A Root-RARE Algorithm for DOA Estimation with Partly Calibrated Uniform Linear Arrays
+T2  - 2019 IEEE International Workshop on Signal Processing Systems (SiPS)
+SP  - 336
+EP  - 340
+AU  - Z. Fang
+AU  - Z. Cao
+AU  - L. Wang
+PY  - 2019
+KW  - Direction-of-arrival estimation
+KW  - Estimation
+KW  - Signal to noise ratio
+KW  - Signal processing algorithms
+KW  - Sensor arrays
+KW  - Array signal processing
+KW  - Covariance matrices
+KW  - Rank-reduction (RARE)
+KW  - direction of arrival (DOA)
+KW  - uniform linear arrays (ULAs)
+KW  - polynomial root finding
+DO  - 10.1109/SiPS47522.2019.9020315
+JO  - 2019 IEEE International Workshop on Signal Processing Systems (SiPS)
+IS  - 
+SN  - 2374-7390
+VO  - 
+VL  - 
+JA  - 2019 IEEE International Workshop on Signal Processing Systems (SiPS)
+Y1  - 20-23 Oct. 2019
+AB  - The rank-reduction (RARE) algorithm is a well-known class of algorithms for direction of arrival (DOA) es-timation in the presence of imperfect array manifolds. Since the spectral peak search is inevitable for the current RARE algorithm, it may bring a huge occupational load for practical implementations. In order to reduce the computational com-plexity, in this paper, we propose a root-RARE algorithm for DOA estimation with partly calibrated uniform linear arrays (ULAs). Through replacing the spectral peak search with a polynomial root finding, our proposed method can get much higher efficiency than the original RARE method. Simulation results demonstrate that our method can significantly reduce the computational complexity and improve the DOA estimation performance in a low SNR case.
+ER  - 
+
+TY  - CONF
+TI  - Speaker Localization in Smartphones using Adaptive Eigenvalue Decomposition with Noise Reduction
+T2  - TENCON 2021 - 2021 IEEE Region 10 Conference (TENCON)
+SP  - 242
+EP  - 247
+AU  - J. M. Mendoza
+AU  - F. De Leon
+PY  - 2021
+KW  - Location awareness
+KW  - Switching systems
+KW  - Heuristic algorithms
+KW  - Noise reduction
+KW  - Estimation
+KW  - Mean square error methods
+KW  - Eigenvalues and eigenfunctions
+KW  - sound source localization
+KW  - time delay estimation
+KW  - adaptive eigenvalue decomposition
+KW  - minimum mean-square error decision-directed
+DO  - 10.1109/TENCON54134.2021.9707231
+JO  - TENCON 2021 - 2021 IEEE Region 10 Conference (TENCON)
+IS  - 
+SN  - 2159-3450
+VO  - 
+VL  - 
+JA  - TENCON 2021 - 2021 IEEE Region 10 Conference (TENCON)
+Y1  - 7-10 Dec. 2021
+AB  - Most smartphones are dual microphone devices capable of determining the direction of arrival of an utterance from a speaker source. The widespread use of such devices helps in improving hearing aid systems without increased expenses. These types of sound source localization (SSL) systems with two sensors take advantage of time delay estimation (TDE) techniques such as cross-correlation and adaptive eigenvalue decomposition (AED). The former lacks reliability in situations with reverb, while the latter suffers from background noise. In this paper, we observed the effect of integrating a noise reduction algorithm to AED for SSL applications. Given the robustness of AED with room reverb, we expect performance improvement of TDE from noise-reduced outputs. The minimum mean-square error with decision-directed (MMSE-DD) noise estimation algorithm acts as a filter for the received signals. We proposed $\text{MMSE}-\text{DD}+\text{AED}$ to obtain an SSL algorithm in poor environment conditions. The empirical results of the system yielded 69.87%, which is a significant improvement from previous SSL algorithms in smartphones. Furthermore, a tilt compensation solution boosted the accuracy to 79.28%, addressing the dynamic behavior of the built-in microphones of the device.
+ER  - 
+
+TY  - CONF
+TI  - Self-Noise Cancellation in Passive SONAR using Deep Regression Neural Network
+T2  - 2021 International Symposium on Ocean Technology (SYMPOL)
+SP  - 1
+EP  - 6
+AU  - M. Remadevi
+AU  - G. K. Abraham
+AU  - N. Sureshkumar
+AU  - R. Rajesh
+PY  - 2021
+KW  - Training
+KW  - Oceans
+KW  - Neural networks
+KW  - Noise reduction
+KW  - Noise cancellation
+KW  - Acoustic arrays
+KW  - Acoustics
+KW  - tow ship noise
+KW  - tow ship noise cancellation
+KW  - deep regression neural network
+KW  - towed sensor array
+DO  - 10.1109/SYMPOL53555.2021.9689378
+JO  - 2021 International Symposium on Ocean Technology (SYMPOL)
+IS  - 
+SN  - 2326-5566
+VO  - 
+VL  - 
+JA  - 2021 International Symposium on Ocean Technology (SYMPOL)
+Y1  - 9-11 Dec. 2021
+AB  - Target signal detection in the presence of tow-ship noise is an important requirement in towed array sonar applications. The self-interference is a severe problem especially in the ocean conditions where multipath propagation is supported. In this paper, we propose a novel deep learning-based algorithm using deep regression neural network (DRNN) for effective self-noise suppression with minimal power loss for target signal. In the training phase, the designed DRNN tries to minimize the root mean square error between the received signal and the desired output which is the target alone signal. In the testing phase, the DRNN is fed with the received signal and the neural network learns to suppress the self-noise caused by the tow ship. Due to the self-learning ability and high feature extraction capability, the network performs extremely well. To the best of our knowledge, deep learning-based algorithm is employed for the first time, for tow-ship noise suppression application, as per literature. The efficacy of the proposed method is evaluated over simulated data and the simulations were done as received by a towed linear array of acoustic sensors in the shallow ocean scenario. Experimental results show that the proposed method can improve the accuracy significantly.
+ER  - 
+
+TY  - CONF
+TI  - Energy-Efficient Transmission Technique based on Dijkstra Algorithm for decreasing energy consumption in WSNs
+T2  - 2019 19th International Conference on Sciences and Techniques of Automatic Control and Computer Engineering (STA)
+SP  - 599
+EP  - 604
+AU  - M. Abderrahim
+AU  - H. Hakim
+AU  - H. Boujemaa
+AU  - F. Touati
+PY  - 2019
+KW  - Relays
+KW  - Wireless sensor networks
+KW  - Power demand
+KW  - Clustering algorithms
+KW  - Voting
+KW  - Energy consumption
+KW  - Signal to noise ratio
+KW  - Wireless Sensor Network
+KW  - election CH
+KW  - Dijkstra algorithm
+KW  - power consumption
+KW  - energy saving
+DO  - 10.1109/STA.2019.8717210
+JO  - 2019 19th International Conference on Sciences and Techniques of Automatic Control and Computer Engineering (STA)
+IS  - 
+SN  - 2573-539X
+VO  - 
+VL  - 
+JA  - 2019 19th International Conference on Sciences and Techniques of Automatic Control and Computer Engineering (STA)
+Y1  - 24-26 March 2019
+AB  - In this paper, we propose an energy-efficient multihop transmission technique for Wireless Sensor Networks (WSN) based on Dijkstra algorithm. We consider a WSN composed of N sensor nodes. Firstly, we group the sensor nodes into clusters according to their placement in the monitoring area, then we organize the nodes within each cluster by electing the appropriate node as cluster head and classifying the remaining nodes into active nodes and sleeping nodes. Then, we select the set of reliable relays which cooperate to forward data with the least transmit power. Our proposed relay selection algorithm is based on Dijkstra algorithm. The main contribution of the paper is to define a new transmission strategy that improves the results of our previous work proposed in [?] by better minimizing power consumption. Therefore, the proposed transmission technique can improve significantly the reduction of power consumption compared to the previous transmission technique. Simulations results prove that the new transmission technique based on Dijkstra algorithm increases the energy savings to prolong the network lifetime.
+ER  - 
+
+TY  - CONF
+TI  - Error Analysis and Extracting Method of BTT Signals Using Eddy Current Sensor
+T2  - 2018 Annual Reliability and Maintainability Symposium (RAMS)
+SP  - 1
+EP  - 7
+AU  - J. Zhang
+AU  - L. Zhang
+AU  - L. Duan
+PY  - 2018
+KW  - Blades
+KW  - Noise measurement
+KW  - Vibrations
+KW  - Noise reduction
+KW  - Vibration measurement
+KW  - Pollution measurement
+KW  - Approximation algorithms
+KW  - EEMD
+KW  - Blade tip-timing signal
+KW  - Denoising
+KW  - Shaping
+KW  - Blade vibration
+DO  - 10.1109/RAM.2018.8463056
+JO  - 2018 Annual Reliability and Maintainability Symposium (RAMS)
+IS  - 
+SN  - 2577-0993
+VO  - 
+VL  - 
+JA  - 2018 Annual Reliability and Maintainability Symposium (RAMS)
+Y1  - 22-25 Jan. 2018
+AB  - Nowadays, blade tip timing (BTT) is becoming an effective and promising method in blade vibration monitoring. However, blade tip-timing signals are usually disturbed by strong noises in the actual production. How to extract the tip-timing signals accurately from noising signals is still a challenge. In this paper, a novel blade tip-timing signals extracting method is proposed. The method consists of two key steps. First, a denoising algorithm and the multi-scale filters based on EEMD for blade tip-timing signals is designed. The noisy signals are decomposed into several intrinsic modes and a residue from high frequency to low frequency, and denoising signals are reconstructed by using different filters. Second, a square-wave shaping algorithm is proposed to extract the standard unit pulse signals from denoising signals. The approximation index and relevance index are set as a judgment criterion of algorithms. The numerical simulation noisy signals and the real measurement signals are tested to validate the feasibility of the proposed method. Compared with the traditional calibration method, the proposed mothed has a higher precision and a lower error.
+ER  - 
+
+TY  - CONF
+TI  - Features of the Implementation of the Extremal Filtration Method in the Distributed Optic-Fiber Temperature Sensor
+T2  - 2021 International Seminar on Electron Devices Design and Production (SED)
+SP  - 1
+EP  - 5
+AU  - I. A. Ershov
+AU  - O. V. Stukach
+AU  - N. V. Myasnikova
+PY  - 2021
+KW  - Temperature sensors
+KW  - Temperature measurement
+KW  - Optical fibers
+KW  - Optical fiber sensors
+KW  - Filtration
+KW  - Optical variables measurement
+KW  - Sensor systems
+KW  - fiber optical temperature sensor
+KW  - DTS
+KW  - signal processing
+KW  - spatial resolution
+KW  - measurement accuracy
+KW  - EMD data processing
+KW  - Raman scattering
+DO  - 10.1109/SED51197.2021.9444514
+JO  - 2021 International Seminar on Electron Devices Design and Production (SED)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 International Seminar on Electron Devices Design and Production (SED)
+Y1  - 27-28 April 2021
+AB  - The signal processing method based on extremal filtration in low signal-to-noise ratio conditions was proposed. The extremal filtration is similar to the empirical mode decomposition (EMD) method, but complex mathematical calculations are absent that is the main advantage. Using it in real measuring devices significantly increases the speed rate. The extremal filtration process is an algorithm that involves sequentially repeating until an optimal result. The disadvantage of this method is decreasing the spatial resolution since every iteration due to a reduction in the number of samples. It is an especially negative fact in areas of sharp signal change. This paper demonstrates how to solve this problem using linear interpolation and to improve the result obtained by simple extremal filtration.
+ER  - 
+
+TY  - JOUR
+TI  - Effects of Cooling on the SNR and Contrast Detection of a Low-Light Event-Based Camera
+T2  - IEEE Transactions on Biomedical Circuits and Systems
+SP  - 1467
+EP  - 1474
+AU  - X. Berthelon
+AU  - G. Chenegros
+AU  - T. Finateu
+AU  - S. -H. Ieng
+AU  - R. Benosman
+PY  - 2018
+KW  - Cameras
+KW  - Temperature measurement
+KW  - Cooling
+KW  - Temperature sensors
+KW  - Thermal noise
+KW  - Microscopy
+KW  - Signal to noise ratio
+KW  - Event-based
+KW  - low-light
+KW  - neuromorphic
+KW  - optical flow
+KW  - Peltier-effect
+DO  - 10.1109/TBCAS.2018.2875202
+JO  - IEEE Transactions on Biomedical Circuits and Systems
+IS  - 6
+SN  - 1940-9990
+VO  - 12
+VL  - 12
+JA  - IEEE Transactions on Biomedical Circuits and Systems
+Y1  - Dec. 2018
+AB  - Johnson-Nyquist noise is the electronic noise generated by the thermal agitation of charge carriers, which increases when the sensor overheats. Current high-speed cameras used in low-light conditions are often cooled down to reduce thermal noise and increase their signal to noise ratio. These sensors, however, record hundreds of frames per second, which takes time, requires energy, and heavy computing power due to the substantial data load. Event-based sensors benefit from a high temporal resolution and record the information in a sparse manner. Based on an asynchronous time-based image sensor, we developed another version of this event-based camera whose pixels were designed for low-light applications and added a Peltier-effect-based cooling system at the back of the sensor in order to reduce thermal noise. We show the benefits from thermal noise reduction and study the improvement of the signal to noise ratio in the estimation of event-based normal flow norm and angle and particle tracking in microscopy.
+ER  - 
+
+TY  - JOUR
+TI  - Real-Time Robust Heart Rate Estimation From Wrist-Type PPG Signals Using Multiple Reference Adaptive Noise Cancellation
+T2  - IEEE Journal of Biomedical and Health Informatics
+SP  - 450
+EP  - 459
+AU  - S. S. Chowdhury
+AU  - R. Hyder
+AU  - M. S. B. Hafiz
+AU  - M. A. Haque
+PY  - 2018
+KW  - Heart rate
+KW  - Estimation
+KW  - Accelerometers
+KW  - Robustness
+KW  - Acceleration
+KW  - Noise cancellation
+KW  - Sensors
+KW  - Adaptive noise cancellation (ANC)
+KW  - heart rate (HR) monitoring
+KW  - motion artifact (MA)
+KW  - periodogram
+KW  - photoplethysmography (PPG)
+KW  - recursive least-squares (RLS) adaptive filter
+DO  - 10.1109/JBHI.2016.2632201
+JO  - IEEE Journal of Biomedical and Health Informatics
+IS  - 2
+SN  - 2168-2208
+VO  - 22
+VL  - 22
+JA  - IEEE Journal of Biomedical and Health Informatics
+Y1  - March 2018
+AB  - Heart rate (HR) monitoring using photoplethysmographic (PPG) signals recorded from wearers' wrist greatly facilitates design of wearable devices and maximizes user experience. However, placing PPG sensors in wrist causes much stronger and complicated motion artifacts (MA) due to loose interface between sensors and skin. Therefore, developing robust HR estimation algorithms for wrist-type PPG signals has significant commercial values. In this paper, we propose a robust HR estimation algorithm for wrist-type PPG signals using multiple reference adaptive noise cancellation (ANC) technique-termed here as “MURAD.” The main challenge of using ANC for MA reduction is to devise a qualified reference noise signal (RNS) to the adaptive filter. We propose a novel solution by using four RNSs, namely, the three-axis accelerometer data and the difference signal between the two PPG signals. For each RNS, we get a different version of the cleaned PPG signal. Then, a set of probable HR values is estimated using all of the cleaned PPG signals, and then, the value that is closest to the estimated HR of the previous time window is chosen to be the HR estimate of the current window. Then, some peak verification techniques are employed to ensure accurate HR estimations. The proposed technique gives lower average absolute error compared to state-of-the art methods. So, MURAD method provides a promising solution to the challenge of HR monitoring using PPG in wearable devices during severe MA conditions.
+ER  - 
+
+TY  - JOUR
+TI  - Multi-Resolution Generalized S-Transform Denoising for Precise Localization of Partial Discharge in Substations
+T2  - IEEE Sensors Journal
+SP  - 4966
+EP  - 4980
+AU  - S. Wang
+AU  - Y. He
+AU  - B. Yin
+AU  - W. Zeng
+AU  - C. Li
+AU  - S. Ning
+PY  - 2021
+KW  - Time-frequency analysis
+KW  - Partial discharges
+KW  - Sensors
+KW  - Narrowband
+KW  - Noise reduction
+KW  - Substations
+KW  - Gaussian noise
+KW  - Denoising
+KW  - generalized S-transform (GST)
+KW  - localization
+KW  - partial discharge (PD)
+KW  - ultra-high frequency (UHF) sensor
+DO  - 10.1109/JSEN.2020.3032012
+JO  - IEEE Sensors Journal
+IS  - 4
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 15 Feb.15, 2021
+AB  - Denoising is a crucial step in the localization of partial discharge (PD) in a substation. In this paper, a novel multi-resolution generalized S-transform (GST) denoising algorithm for precise localization of PD in substations is proposed. The algorithm denoises the PD signal received by the ultra-high frequency (UHF) sensor in two steps. First, the GST with the high frequency resolution is used to analyze the PD signal, and a GST filter is designed to filter out periodic narrowband noises. Then, the S-transform (a particular case of GST) is applied to analyze the PD signal, and the white Gaussian noise is suppressed according to the statistical characteristic difference between the noise and effective signal. Finally, the denoised PD signal is obtained and applied to PD localization. The simulations results show that the proposed algorithm can effectively suppress noise and can extract accurate time delay data from the denoised PD signal. The experiment results show that, compared with the wavelet transform, the localization error of the proposed algorithm is the smallest, which is 1.59m. The proposed algorithm can realize the precise localization of PD.
+ER  - 
+
+TY  - CONF
+TI  - Speech Noise Reduction with Wavelet Transform Domain Adaptive Filters
+T2  - 2021 Global Congress on Electrical Engineering (GC-ElecEng)
+SP  - 15
+EP  - 20
+AU  - E. Özen
+AU  - N. Özkurt
+PY  - 2021
+KW  - Wavelet transforms
+KW  - Electrical engineering
+KW  - Wavelet domain
+KW  - Noise reduction
+KW  - Adaptive filters
+KW  - Speech enhancement
+KW  - Noise cancellation
+KW  - Noise Reduction
+KW  - Speech Enhancement
+KW  - Signal Processing
+KW  - Adaptive filters in transform domain
+KW  - Adaptive system
+KW  - Wavelet Transform Domain-LMS
+KW  - MATLAB
+DO  - 10.1109/GC-ElecEng52322.2021.9788190
+JO  - 2021 Global Congress on Electrical Engineering (GC-ElecEng)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 Global Congress on Electrical Engineering (GC-ElecEng)
+Y1  - 10-12 Dec. 2021
+AB  - Adaptive filters are one of the most promising solutions to several signal enhancement problems in a non-stationary environment. However, depending on the characteristics of the signals and noise, the processing complexity and convergence speed for adaptive filters vary. Therefore, it is often preferred to apply adaptive filters in the transform domain to reduce complexity and increase convergence speed. In this paper, the application of the LMS (Least Mean Square) algorithm, which is the most preferred algorithm of adaptive filters in the field of speech noise cancellation, in the wavelet transform domain was studied. For this purpose, improving speech signals with different Signal to Noise Ratio (SNR) using Wavelet Transform Domain LMS (WTD-LMS) algorithm in the proposed method was applied. The results obtained were evaluated with measures that are frequently used in speech enhancement applications. It is observed that the success of the proposed method outperforms adaptive and traditional methods for two sensor measurements are available.
+ER  - 
+
+TY  - CONF
+TI  - Active Noise Control with Virtual Sensing Technology for Headrest
+T2  - 2018 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+SP  - 1272
+EP  - 1275
+AU  - H. -S. Deng
+AU  - C. -Y. Chang
+AU  - S. M. Kuo
+PY  - 2018
+KW  - Feedforward systems
+KW  - Microphones
+KW  - Sensors
+KW  - Ear
+KW  - Loudspeakers
+KW  - White noise
+KW  - Broadband communication
+KW  - Active noise control (ANC)
+KW  - Real time processing
+KW  - Headrest
+KW  - Virtual sensing
+DO  - 10.23919/APSIPA.2018.8659516
+JO  - 2018 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+IS  - 
+SN  - 2640-0103
+VO  - 
+VL  - 
+JA  - 2018 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+Y1  - 12-15 Nov. 2018
+AB  - This paper presents using a 1×2×2 active noise control (ANC) system with virtual sensing technology on headrests. Based on the feedforward structure and the filtered-x least mean square (FXLMS) algorithm, the proposed system cancels broadband noise without put an error sensor at desired location. Real time processing experiments show that the 1×2×2 feedforward ANC system with integration of virtual sensing technique achieves satisfactory performance for noise reduction. The zone of quiet (ZoQ) is measured to assure system performance.
+ER  - 
+
+TY  - CONF
+TI  - Research on Denoising Method of Optical Fiber Sensing Vibration Signal Based on Enhanced Network
+T2  - 2021 IEEE International Conference on Data Science and Computer Application (ICDSCA)
+SP  - 738
+EP  - 741
+AU  - X. Xu
+AU  - Y. Hu
+AU  - S. Wang
+AU  - X. Ai
+PY  - 2021
+KW  - Vibrations
+KW  - Deconvolution
+KW  - Convolution
+KW  - Neural networks
+KW  - Noise reduction
+KW  - Charge carrier processes
+KW  - Attenuation
+KW  - attenuation noise
+KW  - trapezoidal convolution kernel
+KW  - up-sampling network
+KW  - down-sampling network
+DO  - 10.1109/ICDSCA53499.2021.9650235
+JO  - 2021 IEEE International Conference on Data Science and Computer Application (ICDSCA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 IEEE International Conference on Data Science and Computer Application (ICDSCA)
+Y1  - 29-31 Oct. 2021
+AB  - There are many kinds of noises in optical fiber sensing signals. Environmental natural noise and attenuation noise are the two most widely existing noises. They directly affect the quality of optical fiber sensing vibration signal. This paper mainly deals with the attenuation noise in the vibration signal of optical fiber sensing. Firstly, a neural network with trapezoidal convolution kernel structure is constructed to enhance the amplitude of optical fiber sensing vibration signal. The network consists of up-down sampling network. The down-sampling network obtains the dimensional features by learning a specific mapping relationship. The up-sampling network obtains the enhanced signal directly from the features through the deconvolution network. Secondly, the parameters of the network are set and the network is trained. Finally, qualitative and quantitative experiments are used to evaluate the advantages of the proposed algorithm. The results show that the proposed algorithm has better amplitude enhancement effect than other algorithms.
+ER  - 
+
+TY  - JOUR
+TI  - Distributed Adaptive Signal Estimation in Wireless Sensor Networks With Partial Prior Knowledge of the Desired Sources Steering Matrix
+T2  - IEEE Transactions on Signal and Information Processing over Networks
+SP  - 478
+EP  - 492
+AU  - R. Van Rompaey
+AU  - M. Moonen
+PY  - 2021
+KW  - Wireless sensor networks
+KW  - Estimation
+KW  - Correlation
+KW  - Knowledge engineering
+KW  - Information processing
+KW  - Speech enhancement
+KW  - Optimization
+KW  - Wireless sensor networks (WSN)
+KW  - distributed estimation
+KW  - multichannel wiener filter (MWF)
+KW  - generalized eigenvalue decomposition (GEVD)
+KW  - prior knowledge
+DO  - 10.1109/TSIPN.2021.3098941
+JO  - IEEE Transactions on Signal and Information Processing over Networks
+IS  - 
+SN  - 2373-776X
+VO  - 7
+VL  - 7
+JA  - IEEE Transactions on Signal and Information Processing over Networks
+Y1  - 2021
+AB  - In the past two decades, wireless sensor networks (WSNs) and their applications have been the topic of many studies. Different multi-sensor nodes are used to collect, process and distribute data over wireless links to perform different tasks such as smart detection, target tracking, node localization, etc. In this article, the problem of distributed adaptive estimation of node-specific signals for signal enhancement or noise reduction is addressed. First the centralized rank R generalized eigenvalue decomposition (GEVD) based multichannel Wiener filter (MWF) with prior knowledge for node-specific signal estimation in a WSN is introduced, where (some of) the nodes have partial prior knowledge of the desired sources steering matrix. A distributed adaptive estimation algorithm for a fully-connected WSN is then proposed demonstrating that this MWF can be obtained by letting the nodes work on compressed (i.e. reduced-dimensional) sensor signals compared to the centralized algorithm. The distributed algorithm can be used in applications such as speech enhancement in a wireless acoustic sensor network (WASN), where (some of) the nodes have prior knowledge on the location of the desired speech sources and on their local microphone array geometry or have access to clean noise reference signals. Foundations for a proof of convergence using a Lagrangian framework, are given, since convergence is observed in batch-mode simulations. Finally, numerical simulation results are provided for a speech enhancement scenario.
+ER  - 
+
+TY  - JOUR
+TI  - High-Precision Sensor Tuning of Proton Precession Magnetometer by Combining Principal Component Analysis and Singular Value Decomposition
+T2  - IEEE Sensors Journal
+SP  - 9688
+EP  - 9696
+AU  - H. Liu
+AU  - H. Dong
+AU  - J. Ge
+AU  - Z. Liu
+AU  - Z. Yuan
+AU  - J. Zhu
+AU  - H. Zhang
+PY  - 2019
+KW  - Tuning
+KW  - Magnetometers
+KW  - Capacitors
+KW  - Magnetic sensors
+KW  - Protons
+KW  - Magnetic resonance
+KW  - Free induction decay (FID) signal
+KW  - sensor tuning
+KW  - high precision
+KW  - geomagnetic field
+KW  - proton precession magnetometer
+DO  - 10.1109/JSEN.2019.2927998
+JO  - IEEE Sensors Journal
+IS  - 21
+SN  - 1558-1748
+VO  - 19
+VL  - 19
+JA  - IEEE Sensors Journal
+Y1  - 1 Nov.1, 2019
+AB  - The sensor tuning of a proton precession magnetometer determines the signal-to-noise ratio (SNR) of induced free induction decay (FID) signal, while the quality of the FID influences the measurement accuracy of the geomagnetic field. Even though numerous methods have been proven to be effective in improving the tuning precision, how to efficiently decrease tuning error in a noisy environment is still a crucial challenge. To end this, a new tuning algorithm based on the combination of principal component analysis (PCA) and singular value decomposition (SVD), namely C-PCASVD, was presented in this paper. This novel algorithm aims to suppress the interference of the FID signal. The proposed C-PCASVD can obtain the dominant principal components of FID and noise, respectively. In addition, it is able to identify the corresponding singular values of interference, which could achieve an optimum trade-off between the denoised FID and noise reduction efficiency. The performance of the proposed method is tested on synthetic and field signals from different surveys. Good tuning frequency estimations are obtained at different SNRs. Through comparing the proposed C-PCASVD tuning algorithm with the state-of-the-art methods, including peak detection (PD), auto-correction and FFT (AC-FFT), and secondary tuning based on SVD (ST-SVD), the experimental results demonstrate that the C-PCASVD can significantly improve the tuning precision of proton precession magnetometer in a noisy environment.
+ER  - 
+
+TY  - JOUR
+TI  - Spatial Noise-Field Control With Online Secondary Path Modeling: A Wave-Domain Approach
+T2  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+SP  - 2355
+EP  - 2370
+AU  - W. Zhang
+AU  - C. Hofmann
+AU  - M. Buerger
+AU  - T. D. Abhayapala
+AU  - W. Kellermann
+PY  - 2018
+KW  - Sensors
+KW  - Adaptive algorithms
+KW  - Loudspeakers
+KW  - Microphone arrays
+KW  - Transforms
+KW  - Active noise reduction
+KW  - Active noise control
+KW  - secondary path modelling
+KW  - wave domain
+KW  - adaptive processing
+KW  - feedback system
+DO  - 10.1109/TASLP.2018.2864577
+JO  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+IS  - 12
+SN  - 2329-9304
+VO  - 26
+VL  - 26
+JA  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+Y1  - Dec. 2018
+AB  - Due to strong interchannel interference in multichannel active noise control (ANC), there are fundamental problems associated with the filter adaptation and online secondary path modeling remains a major challenge. This paper proposes a wave-domain adaptation algorithm for multichannel ANC with online secondary path modelling to cancel tonal noise over an extended region of two-dimensional plane in a reverberant room. The design is based on exploiting the diagonal-dominance property of the secondary path in the wave domain. The proposed wave-domain secondary path model is applicable to both concentric and nonconcentric circular loudspeakers and microphone array placement, and is also robust against array positioning errors. Normalized least mean squares-type algorithms are adopted for adaptive feedback control. Computational complexity is analyzed and compared with the conventional time-domain and frequency-domain multichannel ANCs. Through simulation-based verification in comparison with existing methods, the proposed algorithm demonstrates more efficient adaptation with low-level auxiliary noise.
+ER  - 
+
+TY  - CONF
+TI  - Mitigation Methods of Short-time Diurnal Magnetic Noise in Airborne Magnetic Survey
+T2  - 2022 2nd Asia-Pacific Conference on Communications Technology and Computer Science (ACCTCS)
+SP  - 374
+EP  - 378
+AU  - C. Du
+AU  - C. Zhang
+AU  - X. Peng
+AU  - H. Guo
+PY  - 2022
+KW  - Filtering
+KW  - Shape
+KW  - Magnetic separation
+KW  - Magnetic sensors
+KW  - Noise reduction
+KW  - Magnetic noise
+KW  - Real-time systems
+KW  - short-time diurnal variation magnetic noise
+KW  - Least Mean Square
+KW  - Kalman filtering method
+KW  - adaptive filtering mehtod
+KW  - aeromagnetic survey
+DO  - 10.1109/ACCTCS53867.2022.00083
+JO  - 2022 2nd Asia-Pacific Conference on Communications Technology and Computer Science (ACCTCS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 2nd Asia-Pacific Conference on Communications Technology and Computer Science (ACCTCS)
+Y1  - 25-27 Feb. 2022
+AB  - The short-time diurnal variation magnetic noise is an important factor restricting the further improvement of the quality of airborne magnetic survey data. Since it is random and nonstationary, simple filtering methods cannot suppress it. Considering its characteristics of wide spatial distribution and strong spatial consistency, this paper proposes two adaptive filtering methods, Kalman filtering method and an improved normalized Least Mean Square (INLMS) adaptive filtering algorithm, to remove the diurnal variation magnetic noise measured by airborne magnetic sensors. These two methods can not only reduce in real time the influence of short-time diurnal variation magnetic noise by setting a reference magnetic sensor, but also avoid the influence of the outliers in the reference magnetic data. The actual experiments show that the two methods can effectively suppress the diurnal variation magnetic noise in airborne magnetic survey data, thereby improving the signal-noise ratio (SNR) of magnetic survey data and recovering the target magnetic signal well.
+ER  - 
+
+TY  - CONF
+TI  - Sparse and Supervised Tucker Decomposition for Tensor-based Multichannel Noise Reduction
+T2  - 2020 15th IEEE International Conference on Signal Processing (ICSP)
+SP  - 6
+EP  - 10
+AU  - R. Tong
+AU  - S. Pu
+AU  - Y. Chen
+AU  - Z. Chen
+PY  - 2020
+KW  - Tensors
+KW  - Noise measurement
+KW  - Matrix decomposition
+KW  - Sparse matrices
+KW  - Training
+KW  - Testing
+KW  - Sensors
+KW  - multichannel noise reduction
+KW  - tensor decomposition
+KW  - factoring matrices
+KW  - core tensor
+KW  - minimum risk
+DO  - 10.1109/ICSP48669.2020.9321057
+JO  - 2020 15th IEEE International Conference on Signal Processing (ICSP)
+IS  - 
+SN  - 2164-5221
+VO  - 1
+VL  - 1
+JA  - 2020 15th IEEE International Conference on Signal Processing (ICSP)
+Y1  - 6-9 Dec. 2020
+AB  - Recently, tensor-based multichannel noise reduction has been widely studied by many researchers. In this framework, researchers represent observed multichannel signals as a 3-dimensional tensor. Then, the tensor's multi-linear filtering theory is adopted to reduce spatially white or colored noise. The alternating least square approach is adopted and these algorithms generally need several iterations to converge. In this paper, we use the tensor decomposition theory and develop a supervised machine learning algorithm to obtain adaptive factoring matrices. The obtained matrices can transform the input noisy tensor into a sparse core tensor. Then, we reduce the noise by manipulating coefficients in the core tensor according to their amplitude. Specifically, we start from the minimum risk point of view and calculate an optimal threshold that kills the small entries and keep only the large entries in the core tensor. Our simulations show the proposed algorithm can significantly reduce spatially white noise and cause little distortion.
+ER  - 
+
+TY  - JOUR
+TI  - Photoplethysmography Motion Artifacts Removal Based on Signal-Noise Interaction Modeling Utilizing Envelope Filtering and Time-Delay Neural Network
+T2  - IEEE Sensors Journal
+SP  - 3732
+EP  - 3744
+AU  - K. Xu
+AU  - X. Jiang
+AU  - W. Chen
+PY  - 2020
+KW  - Heart rate
+KW  - Motion artifacts
+KW  - Detectors
+KW  - Noise reduction
+KW  - Estimation
+KW  - Biomedical monitoring
+KW  - Photoplethysmography (PPG)
+KW  - motion artifacts (MA)
+KW  - time-delay neural network (TDNN)
+KW  - envelope filtering
+KW  - heart rate estimation
+KW  - physiological feature extraction
+DO  - 10.1109/JSEN.2019.2960370
+JO  - IEEE Sensors Journal
+IS  - 7
+SN  - 1558-1748
+VO  - 20
+VL  - 20
+JA  - IEEE Sensors Journal
+Y1  - 1 April1, 2020
+AB  - Physiological features extraction from Motion Artifacts (MA) corrupted Photoplethysmography (PPG) signals are of great difficulty due to the non-linear interaction between clean PPG and noise. To accurately extract features such as heart rate, blood pressure, and Oxygen Saturation in Blood, a robust PPG de-noising and waveform recovering method is required. However, traditional adaptive filtering or signal decomposition methods fail to achieve this goal. In this paper, a Signal-Noise Interaction modeling based algorithm for motion artifacts removal (SniMA) under strenuous physical exercise utilizing Envelope Filtering (EF) and Time-Delay Neural Network (TDNN) is proposed. Envelope Filtering normalizes raw data and eliminates imbalance training problem for neural networks, while TDNN is a hidden-state included method aiming at modeling PPG signal-noise interaction. An accelerometer as well as a gyroscope functions as the noise reference. Results comparing 8 performance indexes extracted from 4 types of waveform related features (heart rate, waveform correlation, pulse width, and pulse area) on an open access dataset we built show SniMA's effectiveness for PPG MA removal. The proposed algorithm provides a significant improvement in PPG waveform recovery and PPG feature estimation accuracy. This is the first time that a TDNN has been introduced for PPG de-noising. This study also indicates the potential of other hidden-state involved signal-noise interaction modeling methods for PPG de-noising.
+ER  - 
+
+TY  - JOUR
+TI  - Ambient Noise Tomography With Common Receiver Clusters in Distributed Sensor Networks
+T2  - IEEE Transactions on Signal and Information Processing over Networks
+SP  - 656
+EP  - 666
+AU  - S. Wang
+AU  - F. Li
+AU  - M. Panning
+AU  - S. Tharimena
+AU  - S. Vance
+AU  - W. Song
+PY  - 2020
+KW  - Tomography
+KW  - Stacking
+KW  - Receivers
+KW  - Network topology
+KW  - Information processing
+KW  - Planets
+KW  - Distributed computing
+KW  - ambient noise
+KW  - Eikonal tomography
+KW  - Near-surface imaging
+KW  - sensor network
+DO  - 10.1109/TSIPN.2020.3019328
+JO  - IEEE Transactions on Signal and Information Processing over Networks
+IS  - 
+SN  - 2373-776X
+VO  - 6
+VL  - 6
+JA  - IEEE Transactions on Signal and Information Processing over Networks
+Y1  - 2020
+AB  - Near-surface imaging with distributed sensor networks (DSN) is promising for planet exploration, which affordably generates a near-surface velocity model. Recently, an Eikonal tomography-based ambient noise seismic imaging (ANSI) algorithm was implemented in a DSN to realize real-time and in-situ near-surface imaging. However, only using data from neighbors to generate a velocity map cannot have enough stacking samples to generate high-quality results. Also, the neighbor range increase will result in the exponential rise of communication costs. To overcome this problem, we propose a new decentralized Eikonal tomography algorithm in the DSN. The main idea is to change the source-based algorithm to a receiver-based one, which we call common receiver decentralized Eikonal tomography (CR-TomoEK). With CR-TomoEK, nodes fully utilize signals from neighbors to generate partial velocity maps, when combined, lead to the final output. When compared with the original Eikonal algorithm, the stacking number is significantly increased, output quality is higher than before, and there is a significant reduction in communication cost. We performed experiments on both synthetic data and real data from the USArray Transportable Array. Both imaging quality and communication cost are considered in the algorithm validation. The result shows that our algorithm significantly increases the output quality while keeping the communication cost safe to generate a real-time result.
+ER  - 
+
+TY  - JOUR
+TI  - Research on Multiple Sensors Vehicle Detection With EMD-Based Denoising
+T2  - IEEE Internet of Things Journal
+SP  - 6262
+EP  - 6270
+AU  - J. Li
+AU  - Y. Xiang
+AU  - J. Fang
+AU  - W. Wang
+AU  - Y. Pi
+PY  - 2019
+KW  - Noise reduction
+KW  - Sensors
+KW  - Radar detection
+KW  - Vehicle detection
+KW  - Probability density function
+KW  - Signal to noise ratio
+KW  - Generalized likelihood ratio test (GLRT)
+KW  - multisensor
+KW  - signal denoising
+KW  - spatial–temporal correlation
+KW  - vehicle detection
+DO  - 10.1109/JIOT.2018.2890541
+JO  - IEEE Internet of Things Journal
+IS  - 4
+SN  - 2327-4662
+VO  - 6
+VL  - 6
+JA  - IEEE Internet of Things Journal
+Y1  - Aug. 2019
+AB  - The performance of vehicle detection system is often affected by both internal and external noise. In this paper, a novel vehicle detection scheme called vehicle detector based on EMD-HT and multichannel GLRT (V-EHMG) is proposed, which composed of signal denoising part based on empirical mode decomposition (EMD) and signal detection part which takes advantage of the spatial–temporal relationship acquired by multiple sensors. In the first part, we propose a new denoising algorithm null-hypothesis interval threshold EMD denoising (EMD-HT) to check the similarity between the probability density function of the decomposed intrinsic mode functions (IMFs) from input signal and the generalized Gaussian distribution to determine relevant IMFs for signal reconstruction. Combined the interval threshold method, the denoised signals are acquired. In the second part, we use multichannel generalized likelihood ratio test (GLRT) detector to judge the presence of other vehicles with the denoised signals as the input. Simulation and physical experimental results show that with V-EHMG, the signal-to-noise ratio of the signal is doubled and the detection range is improved more than 40% compared with the traditional methods.
+ER  - 
+
+TY  - CONF
+TI  - Wave-Domain Optimization of Secondary Source Placement Free From Information of Error Sensor Positions
+T2  - ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+SP  - 166
+EP  - 170
+AU  - J. Xu
+AU  - K. Chen
+AU  - Y. Li
+PY  - 2021
+KW  - Transducers
+KW  - Simulation
+KW  - Noise reduction
+KW  - Optimization methods
+KW  - Signal processing algorithms
+KW  - Signal processing
+KW  - Cost function
+KW  - Active noise control
+KW  - secondary source placement
+KW  - wave-domain
+KW  - plane wave decomposition
+KW  - enclosure
+DO  - 10.1109/ICASSP39728.2021.9414622
+JO  - ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+IS  - 
+SN  - 2379-190X
+VO  - 
+VL  - 
+JA  - ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+Y1  - 6-11 June 2021
+AB  - During the design of transducers placement for an active noise control system, current optimization methods need to predetermine the error sensors placement, which makes the secondary source placement dependent on the error sensors positions and increases the workload of joint optimization. In this study, a method free from the information of specific error sensors positions is proposed. Using plane wave decomposition, the prior knowledge of primary pressures and acoustic transfer impedances is transformed to corresponding plane waves, and the cost function for active noise control is formulated in wave-domain. Simulated experiments are conducted to evaluate the proposed method and compare it with two other traditional methods. Results show that the proposed method can optimize the secondary source placement effectively, and better global noise reduction can be achieved.
+ER  - 
+
+TY  - JOUR
+TI  - Wavelet Analysis of RTS Noise in CMOS Image Sensors Irradiated With High-Energy Photons
+T2  - IEEE Transactions on Nuclear Science
+SP  - 1732
+EP  - 1737
+AU  - B. Hendrickson
+AU  - R. Widenhorn
+AU  - M. Blouke
+AU  - D. Heidtmann
+AU  - E. Bodegom
+PY  - 2020
+KW  - Discrete wavelet transforms
+KW  - Multiresolution analysis
+KW  - Noise reduction
+KW  - Microsoft Windows
+KW  - Windows
+KW  - CMOS image sensor
+KW  - dark current random telegraph signal (DC-RTS)
+KW  - denoising
+KW  - gamma irradiation
+KW  - secondorder defect generation
+KW  - wavelet transform
+DO  - 10.1109/TNS.2020.2995309
+JO  - IEEE Transactions on Nuclear Science
+IS  - 7
+SN  - 1558-1578
+VO  - 67
+VL  - 67
+JA  - IEEE Transactions on Nuclear Science
+Y1  - July 2020
+AB  - This article explores the phenomenon of dark current random telegraph signal (DC-RTS) noise in commercial off-the-shelf CMOS image sensors. Five sensors were irradiated with high-energy photons to a variety of doses and analyzed with a wavelet-based signal reconstruction algorithm. The algorithm is explained in detail and the radiation effects on individual pixels are discussed. Finally, the production rate of RTS pixels as a function of dose is explored, providing information on the underlying defect structure responsible for this noise source.
+ER  - 
+
+TY  - CONF
+TI  - Noise Reduction for Time-Domain Sensing Signal of Brillouin Scattering Based on Time Series Analysis and Kalman Filter Algorithm
+T2  - 2019 IEEE International Conference on Energy Internet (ICEI)
+SP  - 232
+EP  - 237
+AU  - H. Yang
+AU  - J. Zhao
+AU  - H. Wu
+AU  - C. Fan
+AU  - Y. Lv
+PY  - 2019
+KW  - Temperature measurement
+KW  - Temperature sensors
+KW  - Strain
+KW  - Optical sensors
+KW  - Transmission line measurements
+KW  - Optical scattering
+KW  - BOTDR
+KW  - Kalman filter
+KW  - non-stationary time series analysis
+KW  - autoregressive integrated moving average model
+DO  - 10.1109/ICEI.2019.00048
+JO  - 2019 IEEE International Conference on Energy Internet (ICEI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 IEEE International Conference on Energy Internet (ICEI)
+Y1  - 27-31 May 2019
+AB  - To improve the accuracy of Brillouin time-domain reflection sensing signal to address precise strain and temperature sensing issues of overhead transmission lines or fibers, we propose a hybrid data noise reduction algorithm combining time series analysis with Kalman filter. The basic idea of the algorithm is to utilize the time series analysis theory to build a non-stationary model for compound strain and temperature variance rules, which can be considered as the state transition equation of Kalman filter. Secondly, we can obtain the observation equation of the Kalman filter via BOTDR technology measuring the strain and temperature of the sensing fiber. Then, the strain and temperature sensing and sampling data are processed by the recursive filtering of Kalman prediction. In a word, one can promptly and accurately locate or predict the icing and lightning strike on the overhead transmission lines or fibers with our proposed algorithm. According to the experimental results, the accuracy and rapid convergence of our algorithm is verified.
+ER  - 
+
+TY  - CONF
+TI  - Thresholding wavelet-based forward BSS algorithm for speech enhancement and complexity reduction
+T2  - 2018 2nd International Conference on Natural Language and Speech Processing (ICNLSP)
+SP  - 1
+EP  - 6
+AU  - K. Ghribi
+AU  - M. Djendi
+AU  - D. Berkani
+PY  - 2018
+KW  - Discrete wavelet transforms
+KW  - Signal processing algorithms
+KW  - Speech enhancement
+KW  - Blind source separation
+KW  - Simulation
+KW  - Noise cancellation
+KW  - wavelet transform
+KW  - wavelet thresholding
+KW  - convolutive mixture
+KW  - speech enhancement
+DO  - 10.1109/ICNLSP.2018.8374376
+JO  - 2018 2nd International Conference on Natural Language and Speech Processing (ICNLSP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 2nd International Conference on Natural Language and Speech Processing (ICNLSP)
+Y1  - 25-26 April 2018
+AB  - This paper presents a new speech enhancement method based on wavelet thresholds. Previously, we have proposed the forward blind source separation (FBSS) structure implemented in wavelet transform domain (WFBSS) to reduce acoustic noise components in a two-sensor configuration system. In the simulations results, The WFBSS algorithm has shown superiority in term of convergence speed in comparison with the FBSS algorithm. However, this algorithm has a heavy computational complexity. This problem may be reduced by applying a thresholding method. To achieve this objective, we propose, in this paper, a Two-channel threshold Wavelet-based forward blind source separation algorithm (TWFBSS) algorithm. Performance of the proposed algorithm is evaluated on the estimated speech signal by several criteria in real conditions.
+ER  - 
+
+TY  - JOUR
+TI  - A Denoising Method Based on Pulse Interval Compensation for High-Speed Spike-Based Image Sensor
+T2  - IEEE Transactions on Circuits and Systems for Video Technology
+SP  - 2966
+EP  - 2980
+AU  - J. Xu
+AU  - L. Xu
+AU  - Z. Gao
+AU  - P. Lin
+AU  - K. Nie
+PY  - 2021
+KW  - Image sensors
+KW  - Noise reduction
+KW  - Image reconstruction
+KW  - Filtering algorithms
+KW  - Transforms
+KW  - Photodiodes
+KW  - Spike-based image sensor
+KW  - pulse interval error
+KW  - non-uniformity
+KW  - compensation algorithm
+KW  - image correction
+DO  - 10.1109/TCSVT.2020.3034649
+JO  - IEEE Transactions on Circuits and Systems for Video Technology
+IS  - 8
+SN  - 1558-2205
+VO  - 31
+VL  - 31
+JA  - IEEE Transactions on Circuits and Systems for Video Technology
+Y1  - Aug. 2021
+AB  - In order to eliminate the noise on the pulse interval of high-speed spike-based image sensor, a pulse interval compensation (PIC) algorithm is proposed. Based on the analysis of the principle of sensor noise generation, a pulse interval error model is constructed and the compensation algorithm is developed. First, raw pulse data is obtained from the sensor system, and then the coefficient matrix is used to compensate the non-uniform pulse interval caused by the dark current. Then, the guided filter separates high-frequency noise from scenes details and the pulse interval compensation matrix is obtained in the corresponding pulse interval. Finally, the pulse interval compensation is performed on the raw pulse data for correction. In static scene experiments, the proposed method is compared with the existing state-of-the-art methods and shows a clear advantage in denoising in both low texture and rich texture scenes. In the experiment to film a turntable at a rotation speed of 2000 r/min, 3000 r/min, 6000 r/min, the average roughness decreases from 0.2830 to 0.2034, 0.2937 to 0.2139 and 0.3252 to 0.2501 respectively. These experiments proved that the proposed method can effectively eliminate the noise of the spike-based image sensor.
+ER  - 
+
+TY  - CONF
+TI  - Two-dimensional DOA Estimation for Coherently Distributed Noncircular Sources Using Rank Reduction Estimator
+T2  - 2019 IEEE 3rd Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)
+SP  - 896
+EP  - 899
+AU  - S. Li
+AU  - X. Zhang
+AU  - X. Liu
+AU  - Z. Zhou
+PY  - 2019
+KW  - Two-dimensional(2D) direction-of-arrival(DOA)
+KW  - coherently distributed noncircular sources
+KW  - two parallel linear arrays
+KW  - rank reduction estimator (RARE)
+DO  - 10.1109/IMCEC46724.2019.8983982
+JO  - 2019 IEEE 3rd Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 IEEE 3rd Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)
+Y1  - 11-13 Oct. 2019
+AB  - In this paper, we propose a direction-finding algorithm for coherently distributed noncircular sources using two parallel linear arrays. First, we establish the relation between the generalized array manifolds of the two linear sub-arrays. Secondly, taking advantage of non-circularity properties of noncircular signal, we use the receiving data and it's conjugate to extend observation vector. Thirdly, the theory of rank reduction estimator (RARE) is used to estimate central direction of arrival (DOA) and non-circularity phase. The algorithm has good performance in low signal-to-noise ratio (SNR). Moreover, the sensor arrays are extended to estimate more DOAs. Computer simulations are shown to verify the efficacy of the proposed algorithm. It can also estimate the 2D DOA independently of deterministic angular signal distribution function.
+ER  - 
+
+TY  - CONF
+TI  - HLS Accelerated Noise Reduction Approach Using Image Stacking on Xilinx PYNQ
+T2  - 2019 8th International Conference on Modern Circuits and Systems Technologies (MOCAST)
+SP  - 1
+EP  - 4
+AU  - D. Tsiktsiris
+AU  - D. Ziouzios
+AU  - M. Dasygenis
+PY  - 2019
+KW  - Cameras
+KW  - Merging
+KW  - Noise reduction
+KW  - Hardware
+KW  - Image color analysis
+KW  - Sensors
+KW  - Circuits and systems
+KW  - SNR
+KW  - sampling enhancement
+KW  - noise reduction
+KW  - acceleration
+KW  - image enhancement
+KW  - FPGA
+DO  - 10.1109/MOCAST.2019.8741574
+JO  - 2019 8th International Conference on Modern Circuits and Systems Technologies (MOCAST)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 8th International Conference on Modern Circuits and Systems Technologies (MOCAST)
+Y1  - 13-15 May 2019
+AB  - Eliminating noise from the original signal is still a demanding problem for researchers. There has been a number of published algorithms and each approach has its limitations, advantages, and constraints. Here we present our own contribution on the noise reduction problem by proposing an intermediary step between the image sensor and the post-processing software in the image capturing process. Our accelerated method, compared to other researchers, can be used either as a standalone solution or combined with an existing algorithm to further results improvement. Our solution matches the discrete samples between multiple frames and averages the pixel values. The output image maintains its structural integrity, holds better color accuracy and incurs less noise than others.
+ER  - 
+
+TY  - JOUR
+TI  - A Nonlinear Model for Nano-Electro Mechanical Mass Sensing Signals Processing
+T2  - IEEE Sensors Journal
+SP  - 21852
+EP  - 21861
+AU  - T. Fortin
+AU  - B. Vysotskyi
+AU  - M. Defoort
+AU  - A. Reynaud
+AU  - S. -H. Lai
+AU  - S. Dominguez-Medina
+AU  - K. Clement
+AU  - V. Cumaku
+AU  - S. Hentz
+AU  - C. Masselon
+PY  - 2021
+KW  - Nanoelectromechanical systems
+KW  - Resonant frequency
+KW  - Mathematical model
+KW  - Frequency measurement
+KW  - Noise reduction
+KW  - Gaussian noise
+KW  - Time-frequency analysis
+KW  - Automatic parameters selection
+KW  - colored noise
+KW  - mass measurement
+KW  - mass-resolution increase
+KW  - nanomechanical sensor (NEMS)
+KW  - nonlinear coupling
+KW  - resonance frequency denoising
+KW  - total variation algorithm
+DO  - 10.1109/JSEN.2021.3103713
+JO  - IEEE Sensors Journal
+IS  - 19
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 1 Oct.1, 2021
+AB  - Due to their physical properties, nanomechanical sensors (NEMS) can achieve mass measurements in the mega- to gigadalton range, which is hardly obtained with conventional mass-spectrometers. However, NEMS signals are subject to noise, causing a loss of mass resolution and thus emphasizing the need of noise control. We propose a denoising model that relies on a total variation formulation, which deals with different noise models (particularly colored noise) affecting NEMS. The model also takes into account the physics of NEMS, such as the non-linear coupling between signals of individual NEMS. The performance of the proposed model is tested on simulated data which parameters are chosen similar to true experimental conditions. The obtained results confirm the interest of our model with a mass-resolution increase over 20% compared to methods used in literature.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing SNR by Anisotropic Diffusion for Brillouin Distributed Optical Fiber Sensors
+T2  - Journal of Lightwave Technology
+SP  - 5844
+EP  - 5852
+AU  - K. Luo
+AU  - B. Wang
+AU  - N. Guo
+AU  - K. Yu
+AU  - C. Yu
+AU  - C. Lu
+PY  - 2020
+KW  - Signal to noise ratio
+KW  - Scattering
+KW  - Optical fiber sensors
+KW  - Temperature measurement
+KW  - Noise reduction
+KW  - Image edge detection
+KW  - Anisotropic diffusion
+KW  - Brillouin distributed optical fiber sensor
+KW  - noise reduction
+KW  - spatial resolution
+DO  - 10.1109/JLT.2020.3004129
+JO  - Journal of Lightwave Technology
+IS  - 20
+SN  - 1558-2213
+VO  - 38
+VL  - 38
+JA  - Journal of Lightwave Technology
+Y1  - 15 Oct.15, 2020
+AB  - Anisotropic diffusion (AD) is employed to enhance the signal-to-noise ratio (SNR) of Brillouin distributed optical fiber sensor. A Brillouin optical time-domain analyzer (BOTDA) with 99-km-long fiber under test is set up, where a section of 2.3 m and another 182 m section at the end of the fiber are heated for experimental verification. The SNR of experimental data sets with different sampling point numbers are enhanced to several improvement levels by AD and three other methods for comparison. Results show that the 2.3 m section and the temperature transition region of the 182 m section are better preserved by AD than other methods for the same SNR improvement. Objective criteria analysis shows that AD achieves the best measured spatial resolution and temperature accuracy among the four methods, the location of temperature transition can be detected more accurately for data with low SPNs after AD denoising. In addition, the processing time of AD is 1/3 that of non-local means (NLM) and 60/00 that of block-matching and 3D filtering (BM3D). The edge-preserving quality and fast processing speed allow the proposed algorithm to be a competitive denoising alternative for sensors based on Brillouin scattering.
+ER  - 
+
+TY  - CONF
+TI  - Defect Detection of Shallow Pipes by UWB Sensor
+T2  - 2020 28th Iranian Conference on Electrical Engineering (ICEE)
+SP  - 1
+EP  - 5
+AU  - K. Esmaili
+AU  - S. Chamaani
+PY  - 2020
+KW  - Clutter
+KW  - Synthetic aperture radar
+KW  - Signal processing algorithms
+KW  - Covariance matrices
+KW  - Principal component analysis
+KW  - Eigenvalues and eigenfunctions
+KW  - PSNR
+KW  - Buried Pipeline Assessment
+KW  - Clutter reduction
+KW  - Ground Penetrating Radar (GPR)
+KW  - Phase Shift Migration
+DO  - 10.1109/ICEE50131.2020.9260617
+JO  - 2020 28th Iranian Conference on Electrical Engineering (ICEE)
+IS  - 
+SN  - 2642-9527
+VO  - 
+VL  - 
+JA  - 2020 28th Iranian Conference on Electrical Engineering (ICEE)
+Y1  - 4-6 Aug. 2020
+AB  - Buried pipelines and cables are being broken as a result of numerous reasons. As pipes and cables are buried in the ground most of the time and could not be accessible visually, locating the destructed area is a major challenge. To this aim, Ground Penetrating Radar (GPR) could be helpful to locate the approximate location of the discrepancy in pipes and save a huge amount of time and budget. However, because the surrounding medium obstructs access to the pipes and causes clutter it could prevent the system to perform properly. Therefore, clutter reduction techniques are very instrumental to resolve this problem. This article presents Singular Value Decomposition (SVD), Principle Component Analysis (PCA), Independent Component Analysis (ICA) and Non-Negative Matrix Factorization (NMF) as clutter reduction algorithms. These algorithms are applied to a synthetic aperture radar (SAR) measurement system. Phase Shift Migration (PSM) is applied for image reconstruction. A scenario of a GPR scan was conducted to locate a discontinuity in buried pipes and the resulting images of diverse algorithms are compared by their Signal to Clutter and Noise Ratio (SCNR) and Peak Signal to Noise Ratio (PSNR). All of the algorithms are capable of detecting the crack but based on the comparisons, Non-Negative Matrix Factorization (NMF) and Independent Component Analysis (ICA) would be better options for GPR imaging.
+ER  - 
+
+TY  - JOUR
+TI  - IoT-Based Signal Enhancement and Compression Method for Efficient Motor Bearing Fault Diagnosis
+T2  - IEEE Sensors Journal
+SP  - 1820
+EP  - 1828
+AU  - H. Tang
+AU  - S. Lu
+AU  - G. Qian
+AU  - J. Ding
+AU  - Y. Liu
+AU  - Q. Wang
+PY  - 2021
+KW  - Fault diagnosis
+KW  - Vibrations
+KW  - Traction motors
+KW  - Codecs
+KW  - Sensors
+KW  - Signal to noise ratio
+KW  - Demodulation
+KW  - Motor bearing
+KW  - fault diagnosis
+KW  - IoT
+KW  - signal enhancement and compression
+KW  - edge computing
+DO  - 10.1109/JSEN.2020.3017768
+JO  - IEEE Sensors Journal
+IS  - 2
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 15 Jan.15, 2021
+AB  - Continuous condition monitoring and fault diagnosis of motor bearings are vital to guarantee motor safety operation and reduce breakdown losses. With numerous Internet of things (IoT) sensors being installed on motors for condition monitoring, data transmission and storage problems have become new challenges. This study designed a signal enhancement and compression (SEC) method and implemented on an IoT platform for motor bearing fault diagnosis. First, vibration signal is acquired from an accelerometer installed on the motor. The bearing signal is demodulated using an online demodulation algorithm. Second, an envelope signal is downsampled and enhanced using a stochastic resonance-based nonlinear filter. The enhanced signal is compressed using an Opus encoder and transmitted to a receiver. Lastly, the received signal is decompressed using the Opus decoder, and the bearing fault type can be recognized. The effectiveness and efficiency of the proposed SEC method are verified on an IoT platform compared with a conventional method. The proposed method improves 3.83 dB of the average signal-to-noise ratio (SNR), and reduces 94.7% of the total time and 94.6% of the dissipative power. The advantages of the proposed SEC method include high output SNR, low power consumption, and compatibility with edge computing. These advantages show potential applications in remote motor fault diagnosis using battery power supply.
+ER  - 
+
+TY  - JOUR
+TI  - Simulator of a Full Fetal Electrocardiogram Measurement Chain by Multichannel Capacitive Sensing
+T2  - IEEE Transactions on Instrumentation and Measurement
+SP  - 4348
+EP  - 4357
+AU  - L. Xu
+AU  - C. Rabotti
+AU  - Y. Zhang
+AU  - R. Vullings
+AU  - M. Meftah
+AU  - S. Ouzounov
+AU  - P. J. A. Harpe
+AU  - M. Mischi
+PY  - 2020
+KW  - Electrodes
+KW  - Electrocardiography
+KW  - Fetal heart rate
+KW  - Monitoring
+KW  - Conductors
+KW  - Frequency modulation
+KW  - Signal to noise ratio
+KW  - Ambulatory monitoring
+KW  - blind source separation (BSS)
+KW  - capacitive electrode
+KW  - fetal electrocardiography
+KW  - motion artifacts (MAs)
+KW  - simulation
+KW  - unobtrusive
+DO  - 10.1109/TIM.2019.2947979
+JO  - IEEE Transactions on Instrumentation and Measurement
+IS  - 7
+SN  - 1557-9662
+VO  - 69
+VL  - 69
+JA  - IEEE Transactions on Instrumentation and Measurement
+Y1  - July 2020
+AB  - Long-term ambulatory monitoring of the fetal heart rate (fHR) can greatly increase insight into fetal well-being and reduce pregnancy risks. Unfortunately, the existing solutions using wet or dry electrodes are unsuitable for long-term fHR monitoring due to the use of a gel or direct skin contact. Capacitive electrodes can measure an electrocardiographic (ECG) signal through clothes and, therefore, are perfectly suitable for long-term monitoring of the fHR. However, capacitive fetal ECG (fECG) measurements are challenging due to the high sensitivity of capacitive sensors to motion artifacts (MAs) and the low amplitude of the fECG. This article aims at investigating the feasibility of fECG measurements using capacitive electrodes with dedicated postprocessing algorithms for signal-to-noise ratio (SNR) improvement and MA reduction. To this end, a novel simulator of the full measurement chain is realized that generates multichannel capacitive fECG data with artificial MAs and system noise. A dedicated blind source separation (BSS) algorithm is then employed for MA removal and fECG extraction. The extracted fECG is evaluated by SNR calculation and R-peak detection. Our results show that the BSS algorithm may extract the fECG signal from noisy capacitive data. In addition, lower system noise or higher number of channels may lead to better fECG extraction. A maximum increase of 0.5 dB in the SNR and decrease of 80.7 % in the R-peak detection error are observed with increased electrode number from 8 to 20. Our findings provide useful insights for the hardware design of a capacitive fECG measurement system.
+ER  - 
+
+TY  - CONF
+TI  - Compressed sensing based on K-SVD algorithm for signal recovery in BOTDA system
+T2  - 2021 19th International Conference on Optical Communications and Networks (ICOCN)
+SP  - 1
+EP  - 3
+AU  - Y. Dong
+AU  - Y. -n. Yang
+AU  - K. Yu
+PY  - 2021
+KW  - Integrated optics
+KW  - Noise reduction
+KW  - Scattering
+KW  - Transforms
+KW  - Optical fiber communication
+KW  - Optical sensors
+KW  - Optical noise
+KW  - BOTDA
+KW  - K-SVD
+KW  - compressed sensing
+DO  - 10.1109/ICOCN53177.2021.9563633
+JO  - 2021 19th International Conference on Optical Communications and Networks (ICOCN)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 19th International Conference on Optical Communications and Networks (ICOCN)
+Y1  - 23-27 Aug. 2021
+AB  - We propose a compressed sensing method based on K-SVD for sparse transform in Brillouin optical time domain analysis (BOTDA), which can recover original signal of 4MHz step with 15% sampling points.
+ER  - 
+
+TY  - JOUR
+TI  - Low-Complexity ADMM-Based Algorithm for Robust Multi-Group Multicast Beamforming in Large-Scale Systems
+T2  - IEEE Transactions on Signal Processing
+SP  - 2046
+EP  - 2061
+AU  - N. Mohamadi
+AU  - M. Dong
+AU  - S. ShahbazPanahi
+PY  - 2022
+KW  - Array signal processing
+KW  - Quality of service
+KW  - Multicast algorithms
+KW  - Signal to noise ratio
+KW  - Signal processing algorithms
+KW  - Interference
+KW  - Convergence
+KW  - Robust multicast beamforming
+KW  - large-scale systems
+KW  - alternating direction method of multipliers (ADMM)
+KW  - low-complexity
+KW  - convergence
+DO  - 10.1109/TSP.2022.3160004
+JO  - IEEE Transactions on Signal Processing
+IS  - 
+SN  - 1941-0476
+VO  - 70
+VL  - 70
+JA  - IEEE Transactions on Signal Processing
+Y1  - 2022
+AB  - We design an efficient robust multi-group multicast beamforming scheme for massive multiple-input multiple-output (MIMO) systems. Assuming only estimates of the channel covariance matrices are available at the base station with a bounded error, we formulate the robust quality-of-service (QoS) problem, which is to minimize the transmit power subject to the worst-case minimum signal-to-interference-plus-noise-ratio (SINR) guarantee. We directly solve the worst-case SINR problem and convert the robust QoS constraint into a number of non-convex constraints. Based on the recent convergence result of the alternating direction method of multipliers (ADMM) for non-convex problems, we develop an ADMM-based fast algorithm to directly tackle the reformulated non-convex problem with a convergence guarantee. The algorithm contains two layers of ADMM procedures. We design the outer-layer ADMM to decompose the problem into three convex subproblems and solve them alternatingly. We further develop an inner-layer consensus-ADMM-based algorithm to efficiently solve one subproblem. By exploring each subproblem structure and developing the special optimization techniques, we obtain closed-form or semi-closed-form solutions to each subproblem. These results lead to a fast iterative algorithm, which is guaranteed to converge to a stationary point of the original robust QoS problem. Simulation shows that our proposed algorithm provides a favorable performance compared with existing alternative methods with magnitudes of computational complexity reduction.
+ER  - 
+
+TY  - CONF
+TI  - Application Research of Fiber Bragg Grating Sensing System in Condition Monitoring of Voltage Transformer
+T2  - 2019 IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)
+SP  - 1092
+EP  - 1095
+AU  - F. Yang
+AU  - Y. Gong
+AU  - Y. Fan
+AU  - Q. Zhang
+AU  - X. Wang
+AU  - D. Wu
+AU  - H. Wei
+PY  - 2019
+KW  - Fiber gratings
+KW  - Reflection
+KW  - Wavelength measurement
+KW  - Noise reduction
+KW  - Signal to noise ratio
+KW  - Sensors
+KW  - Transformer Condition Monitoring
+KW  - SNR
+KW  - Wavelength Offset
+KW  - De-noising
+DO  - 10.1109/ISGT-Asia.2019.8881762
+JO  - 2019 IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)
+IS  - 
+SN  - 2378-8542
+VO  - 
+VL  - 
+JA  - 2019 IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)
+Y1  - 21-24 May 2019
+AB  - This paper presented a cross-correlation-based FBG wavelength offset detection algorithm, applied it to transformer condition monitoring, significantly improved the accuracy of measurement. The test results show that the measurement error of central wavelength can be limited between 2pm and 3pm in the SNR range of 7dB to 14db. Under high SNR conditions, the absolute error can be reduced to approximately 0.5 pm. Therefore, the demodulation algorithm can effectively reduce the influence of noise, and help to further study the characteristics of the FBG sensor demodulation system, thereby improving the transformer condition monitoring accuracy.
+ER  - 
+
+TY  - CONF
+TI  - Heart Rate Variability Extraction using Commodity Wi-Fi Devices via Time Domain Signal Processing
+T2  - 2021 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)
+SP  - 1
+EP  - 4
+AU  - I. Shirakami
+AU  - T. Sato
+PY  - 2021
+KW  - Noise reduction
+KW  - Signal processing algorithms
+KW  - Receiving antennas
+KW  - Signal processing
+KW  - Time measurement
+KW  - Sensors
+KW  - Heart rate variability
+KW  - Heart rate variability
+KW  - wireless sensing
+KW  - commodity Wi-Fi
+DO  - 10.1109/BHI50953.2021.9508523
+JO  - 2021 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)
+IS  - 
+SN  - 2641-3604
+VO  - 
+VL  - 
+JA  - 2021 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)
+Y1  - 27-30 July 2021
+AB  - Heart rate is one of the most important indicators of health status. In place of conventional contact-based devices, contactless vital sensing methods that utilize radio waves have been attracting attention. Among them, channel state information (CSI) available with commodity Wi-Fi devices can be used for measuring heart rate. However, existing methods fail to capture individual heartbeat intervals, though it is the most useful information for health and emotion recognition. The fast Fourier transform with a long time window has been necessary to overcome the inherently low signal-amplitude of the heartbeat in CSI. In this study, we propose a time domain method to estimate heart rate variability (HRV) using commodity Wi-Fi devices. The proposed method combines two techniques: (1) denoising by CSI quotient model, and (2) signal selection based on a standard deviation of NN intervals (SDNN) and averaging. Experiments show that the proposed method for the first time achieves accurate estimation of HRV of a 130ms average RMS error, demonstrating that commodity Wi-Fi devices can be used to extract HRV.
+ER  - 
+
+TY  - JOUR
+TI  - A Novel Condition-Monitoring Method for Axle-Box Bearings of High-Speed Trains Using Temperature Sensor Signals
+T2  - IEEE Sensors Journal
+SP  - 205
+EP  - 213
+AU  - Y. Cheng
+AU  - Z. Wang
+AU  - W. Zhang
+PY  - 2019
+KW  - Buoyancy
+KW  - Underwater vehicles
+KW  - Actuators
+KW  - Bellows
+KW  - Robot sensing systems
+KW  - Mathematical model
+KW  - High-speed train
+KW  - axle-box bearing
+KW  - condition monitoring
+KW  - temperature
+KW  - local outer factor
+DO  - 10.1109/JSEN.2018.2875072
+JO  - IEEE Sensors Journal
+IS  - 1
+SN  - 1558-1748
+VO  - 19
+VL  - 19
+JA  - IEEE Sensors Journal
+Y1  - 1 Jan.1, 2019
+AB  - Axle-box bearing condition monitoring is important for the prognostics and health management (PHM) of high-speed trains. Temperature is an important indicator of the health of rotating machinery. It increases significantly when the machinery reaches a certain stage of failure. However, technologies based on temperature sensor signals for monitoring the status of high-speed train's axle-box bearings have rarely been reported to date. This paper proposes a novel condition-monitoring method called the “abnormality index model,” which is based on the local outlier factor (LOF) algorithm, for detecting the potential failures in the axle-box bearings of high-speed trains using temperature sensor signals obtained from a wireless transmission device system (WTDS). The proposed method is capable of quantifying the bearing condition as well as reducing any random noise from the external environment that may interfere with the measurement of the temperature signals of the train. WTDS temperature sensor signals for different failure modes were utilized to evaluate the effectiveness of the LOF-based condition-monitoring approach. The results demonstrate that the proposed method can effectively detect temperature signs associated with the health state of the axle-box bearings and uncover the potential failures, even beforehand.
+ER  - 
+
+TY  - CONF
+TI  - SUPPOSe Deconvolution + AI Denoising: Super-resolving Sparse Signals Blurred and Buried in Noise
+T2  - 2021 Conference on Lasers and Electro-Optics (CLEO)
+SP  - 1
+EP  - 2
+AU  - A. M. Lacapmesure
+AU  - M. Toscani
+AU  - G. B. Vazquez
+AU  - S. R. Martínez
+AU  - O. E. Martínez
+PY  - 2021
+KW  - Image resolution
+KW  - Deconvolution
+KW  - Laser noise
+KW  - Noise reduction
+KW  - Lasers and electrooptics
+KW  - Artificial intelligence
+KW  - Electrooptical waveguides
+DO  - 
+JO  - 2021 Conference on Lasers and Electro-Optics (CLEO)
+IS  - 
+SN  - 2160-8989
+VO  - 
+VL  - 
+JA  - 2021 Conference on Lasers and Electro-Optics (CLEO)
+Y1  - 9-14 May 2021
+AB  - The deconvolution of sparse objects images is analyzed after using the SUPPOSe algorithm and its combination with artificial intelligence denoising, showing resolutions under 100nm under high noise levels.
+ER  - 
+
+

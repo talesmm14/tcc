@@ -1,0 +1,3104 @@
+TY  - CONF
+TI  - Multi-sensory speech processing: incorporating automatically extracted hidden dynamic information
+T2  - 2005 IEEE International Conference on Multimedia and Expo
+SP  - 4 pp.
+EP  - 
+AU  - A. Subramanya
+AU  - L. Deng
+AU  - Z. Liu
+AU  - Z. Zhang
+PY  - 2005
+KW  - Speech processing
+KW  - Data mining
+KW  - Speech recognition
+KW  - Speech synthesis
+KW  - Speech analysis
+KW  - Speech enhancement
+KW  - Noise robustness
+KW  - Microphones
+KW  - Bones
+KW  - Distortion
+DO  - 10.1109/ICME.2005.1521611
+JO  - 2005 IEEE International Conference on Multimedia and Expo
+IS  - 
+SN  - 1945-788X
+VO  - 
+VL  - 
+JA  - 2005 IEEE International Conference on Multimedia and Expo
+Y1  - 6-6 July 2005
+AB  - We describe a novel technique for multi-sensory speech processing for enhancing noisy speech and for improved noise-robust speech recognition. Both air- and bone-conductive microphones are used to capture speech data where the bone sensor contains virtually noise-free hidden dynamic information of clean speech in the form of formant trajectories. The distortion in the bone-sensor signal such as teeth-clacking and noise leakage can be effectively removed by making use of the automatically extracted formant information from the bone-sensor signal. This paper reports an improved technique for synthesizing speech waveforms based on the LPC cepstra computed analytically from the formant trajectories. When this new signal stream is fused with the other available speech data streams, we achieved improved performance for noisy speech recognition.
+ER  - 
+
+TY  - CONF
+TI  - Stochastic integration and long-term predictor estimation under noisy conditions for speech enhancement
+T2  - Proceedings. (ICASSP '05). IEEE International Conference on Acoustics, Speech, and Signal Processing, 2005.
+SP  - I/801
+EP  - I/804 Vol. 1
+AU  - M. Kuropatwinski
+AU  - W. B. Kleijn
+PY  - 2005
+KW  - Stochastic processes
+KW  - Speech enhancement
+KW  - Speech coding
+KW  - Databases
+KW  - Training data
+KW  - Noise measurement
+KW  - Software measurement
+KW  - Kalman filters
+KW  - Covariance matrix
+KW  - Sensor systems
+DO  - 10.1109/ICASSP.2005.1415235
+JO  - Proceedings. (ICASSP '05). IEEE International Conference on Acoustics, Speech, and Signal Processing, 2005.
+IS  - 
+SN  - 2379-190X
+VO  - 1
+VL  - 1
+JA  - Proceedings. (ICASSP '05). IEEE International Conference on Acoustics, Speech, and Signal Processing, 2005.
+Y1  - 23-23 March 2005
+AB  - We propose a method to estimate the short term predictor (STP) and the long-term predictor (LTP) under noisy conditions. We assume the speech signal to be a single, dual or triple frame asymptotic mean stationary process. The a priori STP parameter distribution is represented as databases sampled from the speech training data. Stochastic integration is used to obtain the minimum mean square error estimates of the STP parameters. After computing the STP parameters, the LTP parameters from a database of pairs of taps and excitation variances are matched, together with the lag, using a likelihood criterion, to the noisy speech. The estimated STP and LTP parameters are also applied to obtain clean speech estimates by means of a Wiener or a Kalman filter. For car noise with an SNR of -5dB, the proposed enhancement method gives a mean opinion score of 3.3 as measured using the perceptual speech quality measure software.
+ER  - 
+
+TY  - CONF
+TI  - A Dry Electrode-Based ECG Sensor with Motion Artifacts Cancellation and Signal Analysis for Heart Irregularity Detection
+T2  - 2020 IEEE SENSORS
+SP  - 1
+EP  - 4
+AU  - N. Tasneem
+AU  - D. Kota
+AU  - I. Mahbub
+AU  - G. Mehta
+AU  - K. Namuduri
+AU  - A. Cedars
+PY  - 2020
+KW  - Electrocardiography
+KW  - Feature extraction
+KW  - Electrodes
+KW  - Motion artifacts
+KW  - Signal to noise ratio
+KW  - Heart rate
+KW  - Heart beat
+KW  - Electrocardiogram
+KW  - Cardiac Events
+KW  - Motion Artifacts
+KW  - Adaptive filtering
+KW  - Biomarkers
+DO  - 10.1109/SENSORS47125.2020.9278739
+JO  - 2020 IEEE SENSORS
+IS  - 
+SN  - 2168-9229
+VO  - 
+VL  - 
+JA  - 2020 IEEE SENSORS
+Y1  - 25-28 Oct. 2020
+AB  - Abnormalities in the heart's electrical signal can lead to irregularities in the heart normal rhythm or can entirely collapse the functioning of the heart. An electrocardiogram (ECG) measures the heart's electrical activity and contains many features that are indicative of such irregularities. This paper presents a novel strategy for detecting the irregularities in the heart rhythm from the recorded ECG signal using a combination of software and hardware tools. MWCNT/PDMS composite based dry electrodes are used to record the ECG signal for both static and with some physical activities. The least mean square (LMS) algorithm based adaptive filtering is implemented to acquire motion-free, clean, and reliable ECG data. The adaptive filtering exhibits the signal-to-noise ratio (SNR) as 42 dB, which demonstrates the efficiency of the filtering by ~8% compared to the raw ECG data. Once a clean ECG signal is acquired, it is sent for further processing and features of interest are extracted in LabVIEW that could be used to detect any abnormalities in the ECG signal. Overall, the proposed strategy helps in identifying heart rhythm irregularities quickly, accurately, and efficiently.
+ER  - 
+
+TY  - JOUR
+TI  - Robust Classification Scheme for Airplane Targets With Low Resolution Radar Based on EMD-CLEAN Feature Extraction Method
+T2  - IEEE Sensors Journal
+SP  - 4648
+EP  - 4662
+AU  - L. Du
+AU  - B. Wang
+AU  - Y. Li
+AU  - H. Liu
+PY  - 2013
+KW  - Micro-Doppler
+KW  - jet engine modulation (JEM)
+KW  - empirical mode decomposition (EMD)
+KW  - low resolution radar
+KW  - radar target classification
+KW  - feature extraction
+DO  - 10.1109/JSEN.2013.2272119
+JO  - IEEE Sensors Journal
+IS  - 12
+SN  - 1558-1748
+VO  - 13
+VL  - 13
+JA  - IEEE Sensors Journal
+Y1  - Dec. 2013
+AB  - A novel classification scheme is proposed to categorize airplane targets into three kinds, i.e., turbojet aircraft, prop aircraft, and helicopter based on the jet engine modulation (JEM) characteristics of their low resolution radar echoes. From the pattern classification viewpoint, the low-dimensional feature vector is extracted via a two-step feature extraction algorithm based on empirical mode decomposition method and CLEAN technique. The feature extraction method can separate the fuselage component and JEM component in the target echo, and sufficiently utilize the information within or between the two components to extract the discriminative features for the three kinds of aircrafts. In addition, because the noise level of a test sample is usually different from those of the training samples in the real application, a simple and efficient preprocessing method is proposed for the classification stage to denoise the received test sample. Experimental results based on the simulated and measured data are presented, including the performance analysis for different dwell time, pulse repeat frequency (PRF) or signal-noise-ratio (SNR) cases and comparison with some related methods.
+ER  - 
+
+TY  - CONF
+TI  - Iimprovment of accuracy in measuring non-thermal intensity microwave radiations
+T2  - 2012 22nd International Crimean Conference "Microwave & Telecommunication Technology"
+SP  - 817
+EP  - 818
+AU  - Y. Skripnik
+AU  - K. Shevchenko
+AU  - V. Gorkun
+AU  - A. Aleksashin
+PY  - 2012
+KW  - Thermal sensors
+KW  - Noise
+KW  - Electronic mail
+KW  - Microwave circuits
+KW  - Estimation
+KW  - Electromagnetic radiation
+DO  - 
+JO  - 2012 22nd International Crimean Conference "Microwave & Telecommunication Technology"
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2012 22nd International Crimean Conference "Microwave & Telecommunication Technology"
+Y1  - 10-14 Sept. 2012
+AB  - The function circuit of a device for measuring microwave radiations of non-thermal intensity is proposed. Its principle operation is based on the dependence of water resistance following the deep cleaning on intensity of electromagnetic radiations.
+ER  - 
+
+TY  - CONF
+TI  - Thermal and acoustic management of DVD video recorder
+T2  - ITherm 2002. Eighth Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems (Cat. No.02CH37258)
+SP  - 685
+EP  - 689
+AU  - R. A. van Es
+PY  - 2002
+KW  - Thermal management
+KW  - DVD
+KW  - Cooling
+KW  - Engines
+KW  - Voltage
+KW  - Temperature sensors
+KW  - Power supplies
+KW  - Air cleaners
+KW  - Assembly
+KW  - Power measurement
+DO  - 10.1109/ITHERM.2002.1012521
+JO  - ITherm 2002. Eighth Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems (Cat. No.02CH37258)
+IS  - 
+SN  - 1089-9870
+VO  - 
+VL  - 
+JA  - ITherm 2002. Eighth Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems (Cat. No.02CH37258)
+Y1  - 30 May-1 June 2002
+AB  - This paper describes the cooling concept of a DVD Video Recorder from both thermal and acoustic point of view. The DVD recorder consists of a cabinet with DVD engine, power supply and analogue and digital boards. In order to guarantee long life it is best to cool the DVD engine by clean air. But free convection cooling is not an option due to temperature problems of the DVD laser and other critical components in the set. A solution to this problem is to supply cool, filtered air to the DVD engine by means of a fan-filter assembly and to cool the rest of the cabinet with appropriate cooling slots in the bottom plate and a fan on the back-plate of the cabinet. While it is not difficult to meet the temperature specification of the DVD laser by appropriate fan choice usually the sound level will be too high. To bring this level down sound power measurements were done in a reverberant room for different combinations of fan voltages. These results are combined with temperature measurements of the delta T of the DVD laser. From the resulting noise-temperature curves an appropriate choice of fan voltages could be made. A temperature sensor in the cabinet senses the outside ambient. At high ambient temperatures the fans ran at higher speed. At lower ambient the fan speed is reduced to keep the noise level of the set as low as possible. A reduction of 10 dBA is obtained up to 28/spl deg/C ambient.
+ER  - 
+
+TY  - JOUR
+TI  - Speech Intelligibility Prediction Based on Mutual Information
+T2  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+SP  - 430
+EP  - 440
+AU  - J. Jensen
+AU  - C. H. Taal
+PY  - 2014
+KW  - Speech
+KW  - Noise measurement
+KW  - Speech processing
+KW  - Mutual information
+KW  - Entropy
+KW  - Indexes
+KW  - Noise
+KW  - Instrumental measures
+KW  - noise reduction
+KW  - objective distortion measures
+KW  - speech enhancement
+KW  - speech intelligibility prediction
+DO  - 10.1109/TASLP.2013.2295914
+JO  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+IS  - 2
+SN  - 2329-9304
+VO  - 22
+VL  - 22
+JA  - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+Y1  - Feb. 2014
+AB  - This paper deals with the problem of predicting the average intelligibility of noisy and potentially processed speech signals, as observed by a group of normal hearing listeners. We propose a model which performs this prediction based on the hypothesis that intelligibility is monotonically related to the mutual information between critical-band amplitude envelopes of the clean signal and the corresponding noisy/processed signal. The resulting intelligibility predictor turns out to be a simple function of the mean-square error (mse) that arises when estimating a clean critical-band amplitude using a minimum mean-square error (mmse) estimator based on the noisy/processed amplitude. The proposed model predicts that speech intelligibility cannot be improved by any processing of noisy critical-band amplitudes. Furthermore, the proposed intelligibility predictor performs well ( ρ > 0.95) in predicting the intelligibility of speech signals contaminated by additive noise and potentially non-linearly processed using time-frequency weighting.
+ER  - 
+
+TY  - CONF
+TI  - Mixture of Pre-processing Experts Model for Noise Robust Deep Learning on Resource Constrained Platforms
+T2  - 2019 International Joint Conference on Neural Networks (IJCNN)
+SP  - 1
+EP  - 7
+AU  - T. Na
+AU  - M. Lee
+AU  - B. A. Mudassar
+AU  - P. Saha
+AU  - J. H. Ko
+AU  - S. Mukhopadhyay
+PY  - 2019
+KW  - Object detection
+KW  - Noise measurement
+KW  - Training
+KW  - Task analysis
+KW  - Image resolution
+KW  - Image edge detection
+KW  - Convolution
+KW  - Noise robust
+KW  - Object detection
+DO  - 10.1109/IJCNN.2019.8851932
+JO  - 2019 International Joint Conference on Neural Networks (IJCNN)
+IS  - 
+SN  - 2161-4407
+VO  - 
+VL  - 
+JA  - 2019 International Joint Conference on Neural Networks (IJCNN)
+Y1  - 14-19 July 2019
+AB  - Deep learning on an edge device requires energy efficient operation due to ever diminishing power budget. Intentional low quality data during the data acquisition for longer battery life, and natural noise from the low cost sensor degrade the quality of target output which hinders adoption of deep learning on an edge device. To overcome these problems, we propose simple yet efficient mixture of pre-processing experts (MoPE) model to handle various image distortions including low resolution and noisy images. We also propose to use adversarially trained auto encoder as a pre-processing expert for the noisy images. We evaluate our proposed method for various machine learning tasks including object detection on MS-COCO 2014 dataset, multiple object tracking problem on MOT-Challenge dataset, and human activity classification on UCF 101 dataset. Experimental results show that the proposed method achieves better detection, tracking and activity classification accuracies under noise without sacrificing accuracies for the clean images. The overheads of our proposed MoPE are 0.67% and 0.17% in terms of memory and computation compared to the baseline object detection network.
+ER  - 
+
+TY  - CONF
+TI  - Active noise cancellation of motion artifacts in pulse oximetry using isobestic wavelength light source
+T2  - 2011 IEEE International Symposium of Circuits and Systems (ISCAS)
+SP  - 1029
+EP  - 1032
+AU  - C. -Y. Wang
+AU  - K. -T. Tang
+PY  - 2011
+KW  - Adaptive filters
+KW  - Noise cancellation
+KW  - Signal processing algorithms
+KW  - Blood
+KW  - Band pass filters
+KW  - Low pass filters
+DO  - 10.1109/ISCAS.2011.5937744
+JO  - 2011 IEEE International Symposium of Circuits and Systems (ISCAS)
+IS  - 
+SN  - 2158-1525
+VO  - 
+VL  - 
+JA  - 2011 IEEE International Symposium of Circuits and Systems (ISCAS)
+Y1  - 15-18 May 2011
+AB  - The measurement of oxygen saturation using pulse oximeters requires clean photoplethysmograph (PPG) signals, as motion artifacts often lead to a significant degree of error in the computation. This paper proposes a method for reducing motion artifacts from corrupted PPG signals by applying a normalized least mean squares (NLMS) algorithm, using an isobestic point wavelength (800nm) as a noise reference signal for the adaptive filter. A finger ring type sensor was demonstrated to be more comfortable than a clip type sensor. Experimental results indicate that the proposed method is suitable for reconstructing PPG signals and improving the accuracy of measuring oxygen saturation in the blood.
+ER  - 
+
+TY  - CONF
+TI  - Detecting food intake acoustic events in noisy recordings using template matching
+T2  - 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)
+SP  - 388
+EP  - 391
+AU  - T. Olubanjo
+AU  - E. Moore
+AU  - M. Ghovanloo
+PY  - 2016
+KW  - Noise measurement
+KW  - Acoustics
+KW  - Monitoring
+KW  - Correlation
+KW  - Signal to noise ratio
+KW  - Biomedical monitoring
+KW  - Sensors
+DO  - 10.1109/BHI.2016.7455916
+JO  - 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)
+IS  - 
+SN  - 2168-2208
+VO  - 
+VL  - 
+JA  - 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)
+Y1  - 24-27 Feb. 2016
+AB  - Automatic food intake monitoring using wearable systems is a promising research direction in the fight against obesity and eating disorders. Previous work has indicated progress towards automatic food intake monitoring using acoustic sensors for detecting periods of food intake, swallowing and chewing detection, and discriminating between solid and liquid food intake. However, little effort has been put towards acoustic detection in noisy recordings. In this paper, we explore detecting food intake events (particularly chew events) in the presence of restaurant background noise. Three templates were extracted from a clean signal to represent the beginning, middle and end phase of a chewing sequence. Then, each template was used with sliding window correlation to detect chew events in a noisy recording. The noisy signal was formed by instantaneous addition of a clean throat microphone recording during eating and restaurant noise recorded with the same throat microphone. Results show that the template created from the end phase of a chewing sequence outperformed templates from the beginning and middle phases for detecting chew events in a continuous clean and noisy test signal. An F1 score of 71.4% was achieved for detecting chews in very low signal-to-noise ratio of -10 dB.
+ER  - 
+
+TY  - CONF
+TI  - Robust preprocessing for health care monitoring framework
+T2  - 2009 11th International Conference on e-Health Networking, Applications and Services (Healthcom)
+SP  - 169
+EP  - 174
+AU  - N. F. Ahmad
+AU  - D. B. Hoang
+AU  - M. H. Phung
+PY  - 2009
+KW  - Robustness
+KW  - Medical services
+KW  - Biomedical monitoring
+KW  - Remote monitoring
+KW  - Costs
+KW  - Working environment noise
+KW  - Sensor systems
+KW  - Scalability
+KW  - Cleaning
+KW  - Blood pressure
+KW  - preprocessing
+KW  - data cleaning
+KW  - data reduction
+KW  - data transformation
+DO  - 10.1109/HEALTH.2009.5406196
+JO  - 2009 11th International Conference on e-Health Networking, Applications and Services (Healthcom)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2009 11th International Conference on e-Health Networking, Applications and Services (Healthcom)
+Y1  - 16-18 Dec. 2009
+AB  - Remote health care monitoring is an emerging application that helps to reduce the cost of health care and at the same time improve its quality. However, by its nature, medical sensor data is often unreliable and massive as the data is collected from numerous sensors operating in noisy environments. Therefore, ensuring the reliability of the sensor data and the scalability of the health care monitoring services are among major challenge and is a determining factor in the success of the system. In this paper, we propose a robust and flexible preprocessing module as part of an active health care monitoring framework. It is responsible for preparing the sensor data and performing some initial assessment of the data for input to later modules. The proposed preprocessing architecture contains five stages: validation, transformation, cleaning, reduction and cross-verification. The module is evaluated using synthetic blood pressure data.
+ER  - 
+
+TY  - JOUR
+TI  - Spatial–Spectral Total Variation Regularized Low-Rank Tensor Decomposition for Hyperspectral Image Denoising
+T2  - IEEE Transactions on Geoscience and Remote Sensing
+SP  - 6196
+EP  - 6213
+AU  - H. Fan
+AU  - C. Li
+AU  - Y. Guo
+AU  - G. Kuang
+AU  - J. Ma
+PY  - 2018
+KW  - Tensile stress
+KW  - TV
+KW  - Hyperspectral imaging
+KW  - Noise reduction
+KW  - Manganese
+KW  - Gaussian noise
+KW  - Hyperspectral image (HSI) denoising
+KW  - low-rank tensor factorization (LRTF)
+KW  - spatial–spectral total variation (SSTV)
+DO  - 10.1109/TGRS.2018.2833473
+JO  - IEEE Transactions on Geoscience and Remote Sensing
+IS  - 10
+SN  - 1558-0644
+VO  - 56
+VL  - 56
+JA  - IEEE Transactions on Geoscience and Remote Sensing
+Y1  - Oct. 2018
+AB  - Several bandwise total variation (TV) regularized low-rank (LR)-based models have been proposed to remove mixed noise in hyperspectral images (HSIs). These methods convert high-dimensional HSI data into 2-D data based on LR matrix factorization. This strategy introduces the loss of useful multiway structure information. Moreover, these bandwise TV-based methods exploit the spatial information in a separate manner. To cope with these problems, we propose a spatial–spectral TV regularized LR tensor factorization (SSTV-LRTF) method to remove mixed noise in HSIs. From one aspect, the hyperspectral data are assumed to lie in an LR tensor, which can exploit the inherent tensorial structure of hyperspectral data. The LRTF-based method can effectively separate the LR clean image from sparse noise. From another aspect, HSIs are assumed to be piecewisely smooth in the spatial domain. The TV regularization is effective in preserving the spatial piecewise smoothness and removing Gaussian noise. These facts inspire the integration of the LRTF with TV regularization. To address the limitations of bandwise TV, we use the SSTV regularization to simultaneously consider local spatial structure and spectral correlation of neighboring bands. Both simulated and real data experiments demonstrate that the proposed SSTV-LRTF method achieves superior performance for HSI mixed-noise removal, as compared to the state-of-the-art TV regularized and LR-based methods.
+ER  - 
+
+TY  - CONF
+TI  - A wavelet based de-noising scheme for induction motor drives
+T2  - 2007 IET-UK International Conference on Information and Communication Technology in Electrical Sciences (ICTES 2007)
+SP  - 374
+EP  - 378
+AU  - M. R. Khan
+AU  - A. Iqbal
+AU  - M. Ahmad
+PY  - 2007
+KW  - Wavelet
+KW  - De-noising
+KW  - Induction motor
+KW  - Electric drives
+DO  - 
+JO  - 2007 IET-UK International Conference on Information and Communication Technology in Electrical Sciences (ICTES 2007)
+IS  - 
+SN  - 0537-9989
+VO  - 
+VL  - 
+JA  - 2007 IET-UK International Conference on Information and Communication Technology in Electrical Sciences (ICTES 2007)
+Y1  - 20-22 Dec. 2007
+AB  - This paper presents a wavelet based signal de-noising for induction motor drives. The scheme considers the way in which a signal from receivers or sensors (induction machine) is processed and used to de-noise the signal. The scheme are illustrated through an application that processes raw signals (speed, torque, phase-current and rotor flux) of an induction motor drive. The results shows that the wavelet based denoising scheme results in more noise reduction. The scheme generates a clean and useful induction machine signals (speed, torque, phase-current and rotor flux). The simulation results are presented for three-phase and five-phase induction motor drives.
+ER  - 
+
+TY  - CONF
+TI  - Fast recursive subspace updating for detection and angle estimation of multiple sources
+T2  - [1992] IEEE Sixth SP Workshop on Statistical Signal and Array Processing
+SP  - 374
+EP  - 377
+AU  - K. . -B. Yu
+PY  - 1992
+KW  - Recursive estimation
+KW  - Eigenvalues and eigenfunctions
+KW  - Covariance matrix
+KW  - Sensor arrays
+KW  - Subspace constraints
+KW  - Matrix decomposition
+KW  - Noise level
+KW  - Cleaning
+KW  - Monitoring
+KW  - Multiple signal classification
+DO  - 10.1109/SSAP.1992.246772
+JO  - [1992] IEEE Sixth SP Workshop on Statistical Signal and Array Processing
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - [1992] IEEE Sixth SP Workshop on Statistical Signal and Array Processing
+Y1  - 7-9 Oct. 1992
+AB  - This paper is concerned with detection of a number of sources and estimation of their corresponding direction-of-arrival using eigenvalue decomposition updating with subspace structure constraint. The covariance matrix is a low rank matrix plus a noise diagonal matrix. In addition to cleaning up the data, the subspace constraint enables the author to develop an efficient algorithm for updating the principal subspace and the noise eigenvalue.<>
+ER  - 
+
+TY  - CONF
+TI  - Ultrasonic Doppler sensor for speaker recognition
+T2  - 2008 IEEE International Conference on Acoustics, Speech and Signal Processing
+SP  - 4865
+EP  - 4868
+AU  - K. Kalgaonkar
+AU  - B. Raj
+PY  - 2008
+KW  - Speaker recognition
+KW  - Loudspeakers
+KW  - Frequency
+KW  - Signal processing
+KW  - Acoustic sensors
+KW  - Acoustic emission
+KW  - Sonar
+KW  - Acoustic reflection
+KW  - Signal analysis
+KW  - Speech analysis
+KW  - Speaker Recognition
+KW  - Speaker Verification
+KW  - Ultrasonic Doppler Sensor
+DO  - 10.1109/ICASSP.2008.4518747
+JO  - 2008 IEEE International Conference on Acoustics, Speech and Signal Processing
+IS  - 
+SN  - 2379-190X
+VO  - 
+VL  - 
+JA  - 2008 IEEE International Conference on Acoustics, Speech and Signal Processing
+Y1  - 31 March-4 April 2008
+AB  - In this paper we present a novel use of an acoustic Doppler sonar for multi-modal speaker identification. An ultrasonic emitter directs a 40 kHz tone toward the speaker. Reflections from the speaker's face are recorded as the speaker talks. The frequency of the tone is modified by the velocity of the facial structures it is reflected by. The received ultrasonic signal thus contains an entire spectrum of frequencies representing the set of all velocities of facial components. The pattern of frequencies in the reflected signal is observed to be typical of the speaker. The captured ultrasonic signal is synchronously analyzed with the corresponding voice signal to extract specific characteristics that can be used to identify the speaker. Experiments show that the information this can result in significant improvements in speaker identification accuracy both under clean conditions and in noise.
+ER  - 
+
+TY  - JOUR
+TI  - Reliable Sensing Data Fusion Through Robust Multiview Prototype Learning
+T2  - IEEE Transactions on Industrial Informatics
+SP  - 2665
+EP  - 2673
+AU  - Q. Tian
+AU  - S. Xia
+AU  - M. Cao
+AU  - K. Cheng
+PY  - 2022
+KW  - Prototypes
+KW  - Correlation
+KW  - Anomaly detection
+KW  - Sensors
+KW  - Reliability
+KW  - Informatics
+KW  - Adaptation models
+KW  - Internet of Things
+KW  - multiview learning
+KW  - outlier detection
+KW  - prototype learning
+KW  - reliable sensing data fusion
+DO  - 10.1109/TII.2021.3064358
+JO  - IEEE Transactions on Industrial Informatics
+IS  - 4
+SN  - 1941-0050
+VO  - 18
+VL  - 18
+JA  - IEEE Transactions on Industrial Informatics
+Y1  - April 2022
+AB  - Due to emerging development of intelligent sensing technologies in Internet of Things, multisensor cooperation has been widely deployed in applications. Although multisensor information fusion can be addressed by multiview learning, its performance tends to degrade if any one sensor is disturbed with annoying noises by the environment or other factors. Therefore, fusing these cross-sensor data in a reliable and secure manner while removing those noises is crucial. Although there have been outlier-against multiview works proposed, most of them suffer from redundant parameters or performance degradation. Even worse, few of them have considered the complementary information across the sensors. In this article, we argue that in multiview information fusion, not only the clean data, but also those outliers share the same prototypes in a common space, except that the outliers are disturbed with noises. To this end, we propose a type of robust multiview prototype (RMVP) learning to fuse the sensing data while removing the noises automatically in the learning process. Specifically, in RMVP, projection matrices are designed for each sensing view to sketch the data prototypes. In addition, one auxiliary margin matrix is modeled for each sensing view to capture its data noises through penalizing a sparsity regularization on it. Afterwards, an alternating algorithm is presented to solve the proposed model. Finally, extensive experiments on intelligent sensing data sets are conducted to testify the effectiveness of the proposed method.
+ER  - 
+
+TY  - CONF
+TI  - Design of a monitoring and protection system for a vibrating coal sizing screen
+T2  - 2019 IEEE PES/IAS PowerAfrica
+SP  - 334
+EP  - 340
+AU  - Z. Makua
+AU  - M. J. Lencwe
+AU  - R. O. Kene
+AU  - S. P. Daniel Chowdhury
+PY  - 2019
+KW  - Vibrations
+KW  - Coal
+KW  - Monitoring
+KW  - Noise level
+KW  - Springs
+KW  - Delays
+KW  - Circuit faults
+KW  - Crusher
+KW  - Mine
+KW  - Noise
+KW  - Screen
+KW  - Vibration
+DO  - 10.1109/PowerAfrica.2019.8928825
+JO  - 2019 IEEE PES/IAS PowerAfrica
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 IEEE PES/IAS PowerAfrica
+Y1  - 20-23 Aug. 2019
+AB  - Coal washing plants in coal mines use vibrating screens to size coal according to customer specifications and plant design. Screens are mostly used in coal washing plants, which are further used to size Run-Off-Mine coal (ROM) material after crushing them to a reduced size using roller crushers to classify bulk material and de-watering. However, the lack of/or limited safety measures on sizing screens leads to increased unmonitored noise levels caused by high vibrations, and constant damage to screen equipment, which leads to unplanned maintenance and production loss. This creates a health issue to plant employees and compromises machine safety while shortening the screens lifespan. Therefore, the paper seeks to design a monitoring and protection system for a vibrating coal sizing screen. This is done by using a vibration motion and noise sensor in order to monitor and protect the screens. By monitoring the vibration motion, messages are sent to the process and control room for further decision making. Thus, these will assist in the sequence of screen and machine stops before failure. Moreover, this enables proper maintenance scheduling and prevents extensive damage to vibrating screens.
+ER  - 
+
+TY  - CONF
+TI  - Assessment of observer based fault estimators for TS fuzzy models
+T2  - 2017 5th Iranian Joint Congress on Fuzzy and Intelligent Systems (CFIS)
+SP  - 196
+EP  - 201
+AU  - Z. Shams
+AU  - S. Seyedtabaii
+PY  - 2017
+KW  - Observers
+KW  - Actuators
+KW  - Fault detection
+KW  - Nonlinear systems
+KW  - Robustness
+KW  - Noise measurement
+KW  - observers
+KW  - TS fuzzy models
+KW  - actuator
+KW  - sensor faults
+KW  - noise
+DO  - 10.1109/CFIS.2017.8003682
+JO  - 2017 5th Iranian Joint Congress on Fuzzy and Intelligent Systems (CFIS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 5th Iranian Joint Congress on Fuzzy and Intelligent Systems (CFIS)
+Y1  - 7-9 March 2017
+AB  - Fault detection of nonlinear systems become more feasible when it is conducted over Takagi-Sugeno (TS) approximated fuzzy models. Proportional plus integral observer (PIO) and robust observer (RO) have already been developed for the estimation of the system states and actuator/sensor faults. In this paper, the algorithms are implemented for the detection of valve and level sensor faults of a two-tank system. Our simulation results indicate that both algorithms run well in estimating states and sensor fault, however, there is obvious differences in how they detect actuator fault in the presence of noise. From viewpoint of estimation variance, RO renders cleaner estimate of the fault than PIO, whiles PIO has faster fault tracking speed than RO. According to the achieving result, RO algorithm is recognized to be a more attractive in estimating actuator faults in noisy environments. The results are validated through simulations.
+ER  - 
+
+TY  - CONF
+TI  - Adaptive photodetection using wavemixing and real-time holography with application to laser-based ultrasound, remote sensing, and laser communication
+T2  - Technical Digest. Summaries of papers presented at the Conference on Lasers and Electro-Optics. Postconference Technical Digest (IEEE Cat. No.01CH37170)
+SP  - 540
+EP  - 
+AU  - D. M. Pepper
+PY  - 2001
+KW  - Holography
+KW  - Holographic optical components
+KW  - Optical receivers
+KW  - Nonlinear optics
+KW  - Optical sensors
+KW  - Local oscillators
+KW  - Laser theory
+KW  - Nonlinear optical devices
+KW  - Mirrors
+KW  - Laser applications
+DO  - 10.1109/CLEO.2001.948144
+JO  - Technical Digest. Summaries of papers presented at the Conference on Lasers and Electro-Optics. Postconference Technical Digest (IEEE Cat. No.01CH37170)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - Technical Digest. Summaries of papers presented at the Conference on Lasers and Electro-Optics. Postconference Technical Digest (IEEE Cat. No.01CH37170)
+Y1  - 11-11 May 2001
+AB  - Summary form only given. A fundamental requirement of coherent detection systems for optimal performance is the necessity for wavefront-matching of a received signal to that of a local oscillator. In light of the potential applications of lasers to remote sensing for manufacturing process control using laser-based ultrasound and the renewed interest in free-space optical communication networks, the optics community has been motivated to examine how one can improve the performance of coherent receivers in the face of highly aberrated signal beams. In general, the antenna theorem states that a huge penalty in signal-to-noise is experienced (upwards of 30 dB) when dealing with signals that contain many spatial modes. It is therefore incumbent that one consider real-time methods to provide for beam clean-up or wavefront-matching of dynamically varying phase-fronts to a local oscillator. In this tutorial, we discuss and compare a variety of nonlinear optical techniques to achieve these goals. Examples include phase-conjugate mirrors, double-pumped phase-conjugate mirrors, two-wave mixers, and nonsteady-state photo-induced EMF sensors. The latter has the novel property of combining real-time holographic wavefront-matching with photoconductive detection, all in a single nonlinear optical element. The elegance of all these devices is that they proceed via "all-optical" techniques and do not require computationally intensive processing.
+ER  - 
+
+TY  - CONF
+TI  - Image Cleaning and Enhancement Technique for Underwater Mining
+T2  - OCEANS 2019 - Marseille
+SP  - 1
+EP  - 6
+AU  - S. D. Rajesh
+AU  - J. M. Almeida
+AU  - A. Martins
+PY  - 2019
+KW  - Image color analysis
+KW  - Lighting
+KW  - Robots
+KW  - Image enhancement
+KW  - Cleaning
+KW  - Colored noise
+KW  - Histograms
+KW  - Image cleaning
+KW  - Image processing
+KW  - Image enhancement
+KW  - Color correction
+KW  - Computer vision
+KW  - Underwater robots
+KW  - Underwater mining
+DO  - 10.1109/OCEANSE.2019.8866882
+JO  - OCEANS 2019 - Marseille
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - OCEANS 2019 - Marseille
+Y1  - 17-20 June 2019
+AB  - The exploration of water bodies from the sea to land filled water spaces has seen a continuous increase with new technologies such as robotics. Underwater images is one of the main sensor resources used but suffer from added problems due to the environment. Multiple methods and techniques have provided a way to correct the color, clear the poor quality and enhance the features. In this paper, we present the work of an Image Cleaning and Enhancement Technique which is based on performing color correction on images incorporated with Dark Channel Prior(DCP) and then taking the converted images and modifying them into the Long, Medium and Short(LMS) color space, as this space is the region in which the human eye perceives colour. This work is being developed at INESC TEC robotics and autonomous systems laboratory. Our objective is to improve the quality of images for and taken by robots with the particular emphasis on underwater flooded mines. The paper describes the architecture and the developed solution. A comparative analysis with state of the art methods and of our proposed solution is presented. Results from missions taken by the robot in operational mine scenarios are presented and discussed and allowing for the solution characterization and validation.
+ER  - 
+
+TY  - CONF
+TI  - Development of Portable irradiation embrittlement Detection system for Barkhausen noise RPV Steel
+T2  - 2018 IEEE Far East NDT New Technology & Application Forum (FENDT)
+SP  - 80
+EP  - 84
+AU  - X. Zhong
+AU  - W. Hai-tao
+AU  - Z. Kai
+AU  - Q. Wang-jie
+AU  - L. Xiang-bing
+AU  - W. Xing
+AU  - Z. Jun
+AU  - Y. Li
+PY  - 2018
+KW  - Radiation effects
+KW  - Power supplies
+KW  - Aging
+KW  - Protons
+KW  - Testing
+KW  - Liquid crystal displays
+KW  - Steel
+KW  - Irradiation embrittlement
+KW  - Magetic Barkhausen noise (MBN)
+KW  - Portable
+DO  - 10.1109/FENDT.2018.8681971
+JO  - 2018 IEEE Far East NDT New Technology & Application Forum (FENDT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 IEEE Far East NDT New Technology & Application Forum (FENDT)
+Y1  - 6-8 July 2018
+AB  - The development of clean energy nuclear power can make environmental protection and economic growth in a win-win situation. The Reactor Pressure Vessel (RPV) is an important factor restricting the service life of the nuclear power plant. In order to estimate the service life of RPV to guarantee the nuclear safety, this paper introduces the design of portable RPV irradiation embrittlement detection system based on Magetic Barkhausen Noise (MBN). TMS320F28335 is taken as the core part of system hardware. The system includes the excitation power supply, the sensor, the conditioning circuit, the collection and the display circuit, the power supply module. The test of thermal aging and proton irradiation is carried out to verify the reliability of the testing system.
+ER  - 
+
+TY  - CHAP
+TI  - Development of Clean Snowmobile Technology for the 2005 SAE Clean Snowmobile Challenge
+T2  - Clean Snowmobile Challenge: 1 the Early Years, 4-Stroke Engines Make Their Debut
+SP  - 105
+EP  - 116
+AU  - Jay Meldrum
+PY  - 2017
+DO  - 
+PB  - SAE
+SN  - 9780768083941
+UR  - http://ieeexplore.ieee.org/document/8504794
+AB  - Kettering University’s Clean Snowmobile Challenge student design team has developed a new robust and innovative snowmobile for the 2005 competition. This snowmobile dramatically reduces exhaust and noise emissions and improves fuel economy compared with a conventional snowmobile. Kettering University has utilized a modified snowmobile in-line four cylinder, fourstroke, engine. The team added an electronically controlled fuel-injection system with oxygen sensor feedback to this engine. This engine has been installed into a 2003 Yamaha RX-1 snowmobile chassis. Exhaust emissions have been further minimized through the use of a customized catalytic converter and an electronically controlled closed-loop fuel injection system. A newly designed and tuned exhaust as well as several chassis treatments have aided in minimizing noise emissions.
+ER  - 
+
+TY  - JOUR
+TI  - A Theoretical Investigation of the Detection of Vital Signs in Presence of Car Vibrations and RADAR-Based Passenger Classification
+T2  - IEEE Transactions on Vehicular Technology
+SP  - 3374
+EP  - 3385
+AU  - S. Dias Da Cruz
+AU  - H. -P. Beise
+AU  - U. Schröder
+AU  - U. Karahasanovic
+PY  - 2019
+KW  - Roads
+KW  - Automobiles
+KW  - Noise reduction
+KW  - Mathematical model
+KW  - Radar cross-sections
+KW  - Radar detection
+KW  - Accelerometers
+KW  - automotive applications
+KW  - Doppler measurement
+KW  - optimization
+KW  - RADAR
+KW  - signal denoising
+KW  - vehicle driving
+KW  - vehicle dynamics
+DO  - 10.1109/TVT.2019.2898512
+JO  - IEEE Transactions on Vehicular Technology
+IS  - 4
+SN  - 1939-9359
+VO  - 68
+VL  - 68
+JA  - IEEE Transactions on Vehicular Technology
+Y1  - April 2019
+AB  - The observation of the passenger compartment using an interior RADAR becomes challenging when a vehicle is in motion. The signal received by the RADAR sensor measures not only the target's motion that we would like to detect, e.g., vital signs, but also a second, unwanted motion induced by exterior effects, e.g., displacement caused by the road, strong wind gusts, or car engine vibrations. Consequently, traditional techniques used to remove white Gaussian noise cannot be applied in this scenario. We propose a theoretical framework to investigate the denoising of a signal received by an interior RADAR using accelerometer measurements and a mechanical model to generate the cancellation signal stemming from the (unwanted) vibrational motion. We explain the denoising technique and show that the fundamental idea behind the cleaning process works well. Our observations are corroborated by a robust mathematical model and verified by simulations. Furthermore, the aforementioned denoising techniques enable us to formulate and solve an optimization problem to find an estimation for the passenger's mass in certain cases.
+ER  - 
+
+TY  - CONF
+TI  - TsRss: A Practical Stream data Cleaning Method based on Local Shape Feature
+T2  - 2022 Asia Conference on Algorithms, Computing and Machine Learning (CACML)
+SP  - 796
+EP  - 803
+AU  - C. Yu
+AU  - P. Liu
+AU  - Y. Liu
+AU  - H. Ma
+AU  - Y. Zhao
+PY  - 2022
+KW  - Machine learning algorithms
+KW  - Smoothing methods
+KW  - Shape
+KW  - Heuristic algorithms
+KW  - Semantics
+KW  - Maintenance engineering
+KW  - Market research
+KW  - stream data
+KW  - time series
+KW  - anomaly detection
+KW  - data cleaning
+DO  - 10.1109/CACML55074.2022.00137
+JO  - 2022 Asia Conference on Algorithms, Computing and Machine Learning (CACML)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 Asia Conference on Algorithms, Computing and Machine Learning (CACML)
+Y1  - 25-27 March 2022
+AB  - Stream data which is common usually suffers from dirty data points due to noise interference, unreliable sensor reading, erroneous extraction of stock prices or other various reasons. Existing smoothing filter based data cleaning methods seriously alter the data without preserving the original information. And the others such as SCREEN need to be guided by some semantic constraints in specific application scenarios. To improve the usability, we propose a method called TsRss, which is a practical stream data cleaning method based on local shape feature (Shape-Sheet). TsRss is based on the basic idea that data points failing to match its local shape features are more likely to be dirty. To this end, we first study the methods of generating and representing unequal-length Shape-Sheets based on the local shape features. Then the method for finding dirty data via anomaly detection is proposed based on Shape-Sheet. Finally, experiments were conducted on several real datasets. The result showed that TsRss was more practical in use on various types of data, more accurate or more time-saving compared with state-of-the-art methods.
+ER  - 
+
+TY  - CONF
+TI  - Fundamental limitations of pixel based image deconvolution in radio astronomy
+T2  - 2010 IEEE Sensor Array and Multichannel Signal Processing Workshop
+SP  - 69
+EP  - 72
+AU  - S. Yatawatta
+PY  - 2010
+KW  - Pixel
+KW  - Deconvolution
+KW  - Image resolution
+KW  - Noise
+KW  - Dynamic range
+KW  - Imaging
+KW  - Radio astronomy
+DO  - 10.1109/SAM.2010.5606769
+JO  - 2010 IEEE Sensor Array and Multichannel Signal Processing Workshop
+IS  - 
+SN  - 2151-870X
+VO  - 
+VL  - 
+JA  - 2010 IEEE Sensor Array and Multichannel Signal Processing Workshop
+Y1  - 4-7 Oct. 2010
+AB  - Deconvolution is essential for radio interferometric imaging to produce scientific quality data because of finite sampling in the Fourier plane. Most deconvolution algorithms are based on CLEAN which uses a grid of image pixels, or clean components. A critical matter in this process is the selection of pixel size for optimal results in deconvolution. As a rule of thumb, the pixel size is chosen smaller than the resolution dictated by the interferometer. For images consisting of unresolved (or point like) sources, this approach yields optimal results. However, for sources that are not point like, in particular for partially resolved sources, the selection of right pixel size is still an open issue. In this paper, we investigate the limitations of pixelization in deconvolving extended sources. In particular, we pursue the usage of orthonormal basis functions to model extended sources yielding better results than by using clean components.
+ER  - 
+
+TY  - CONF
+TI  - Multi-Sensor Observer Designs for a Class of Nonlinear Systems
+T2  - 2019 IEEE 15th International Conference on Control and Automation (ICCA)
+SP  - 1296
+EP  - 1301
+AU  - Y. Tang
+AU  - H. Ji
+AU  - X. Wang
+PY  - 2019
+KW  - Observers
+KW  - Trajectory
+KW  - Noise measurement
+KW  - Jacobian matrices
+KW  - Nonlinear systems
+KW  - Sensor systems
+DO  - 10.1109/ICCA.2019.8899953
+JO  - 2019 IEEE 15th International Conference on Control and Automation (ICCA)
+IS  - 
+SN  - 1948-3457
+VO  - 
+VL  - 
+JA  - 2019 IEEE 15th International Conference on Control and Automation (ICCA)
+Y1  - 16-19 July 2019
+AB  - This paper addresses the observer design for a class of nonlinear systems with multiple sensors giving redundant output measurements. When the output measurements are noisy, it is shown that the (noise-free) clean state of the system can be recovered asymptotically as the number of the coupled observers grows by synchronizing a group of complete-order observers. Contraction analysis enables to establish exponential convergence of the state estimate to the system state. Application to a perspective vision system is considered.
+ER  - 
+
+TY  - CONF
+TI  - The Magnetically Clean Reaction Wheel: Results and Performance
+T2  - 2022 ESA Workshop on Aerospace EMC (Aerospace EMC)
+SP  - 01
+EP  - 07
+AU  - A. Nicolai
+AU  - S. Stoltz
+AU  - L. Hafemeister
+AU  - S. Scheiding
+AU  - O. Hillenmaier
+AU  - C. Strauch
+PY  - 2022
+KW  - Satellites
+KW  - Wheels
+KW  - Magnetic noise
+KW  - Electromagnetic compatibility
+KW  - Magnetic fields
+KW  - Electromagnetics
+KW  - Magnetic shielding
+DO  - 10.23919/AerospaceEMC54301.2022.9828554
+JO  - 2022 ESA Workshop on Aerospace EMC (Aerospace EMC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 ESA Workshop on Aerospace EMC (Aerospace EMC)
+Y1  - 23-25 May 2022
+AB  - Magnetic cleanliness has become an important and design driving requirement for satellites and components on most scientific missions. Main contributors to the disturbing magnetic fields of a satellite are the reaction wheels. Their internal design (electric motors, ferromagnetic parts) and high-speed operation, result in significant electromagnetic stray fields in various frequency ranges. To meet magnetic cleanliness requirements, reaction wheels are often housed in additional shielding on-board the satellite. This results in a significant mass increase and requires more magnetic (shielding) material on-board the satellite. Previous works have described the on-going efforts in the magnetically clean reaction wheel design [1] [2] [3] [4]. This paper summarizes these efforts and describes the results of the magnetically clean reaction wheel project. Magnetic field mitigation techniques have been implemented in the new wheel EQM (Engineering Qualification Model) and the final impact on the magnetic footprint is discussed.
+ER  - 
+
+TY  - JOUR
+TI  - Automatic Detection and Classification of Systolic and Diastolic Profiles of PCG Corrupted Due to Limitations of Electronic Stethoscope Recording
+T2  - IEEE Sensors Journal
+SP  - 5292
+EP  - 5302
+AU  - A. B. Kambhampati
+AU  - B. Ramkumar
+PY  - 2021
+KW  - Phonocardiography
+KW  - Heart
+KW  - Lung
+KW  - Databases
+KW  - Spectrogram
+KW  - Sensors
+KW  - Stethoscope
+KW  - Lung sound
+KW  - machine learning
+KW  - systolic and diastolic profiles
+KW  - segmentation
+KW  - speech
+KW  - sparse signal representation
+DO  - 10.1109/JSEN.2020.3028373
+JO  - IEEE Sensors Journal
+IS  - 4
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 15 Feb.15, 2021
+AB  - Effective detection and classification of systolic and diastolic profiles in Phonocardiogram (PCG) are challenging not only due to the presence of other cardiac events but also due to the presence of non-cardiac events such as lung sounds, and speech. Due to the proximity of lungs and epiglottis with heart, the interference of lung sounds, and speech are unavoidable while recording PCG (from the subjects who suffer from respiratory dysfunction, cough, mental illness, etc.) using electronic stethoscope. This work presents a method for automatic classification of systolic and diastolic profiles of PCG corrupted with several noise components. The method involves constructing a unique dictionary matrix that captures the morphology of PCG signal and the noises which affects the fundamental heart sounds. The PCG signal is then decomposed over the dictionary matrix using sparse signal decomposition (SSD). The low frequency clean PCG signal with enhanced S1 and S2 sounds is then reconstructed by eliminating frequency components corresponding to various noises. Finally, by computing the Shannon entropy envelope followed by simple thresholding, S1 and S2 sounds are segmented. Time duration features obtained from segmentation are used for the classification of systolic and diastolic profiles. For the automated classification, hidden semi Markov model (HSMM), multilayer perceptron (MLP), support vector machine (SVM), and k nearest neighbor (KNN) classifiers are utilized and compared the performance metrics of the classifiers. To validate the proposed method, both real-time recorded PCG signals and signals taken from standard databases are considered. The proposed SSD based heart sound segmentation achieves an average accuracy of 99.55% for clean PCG, 99.23% for PCG corrupted with baseline wander (BW) and additive white Gaussian noise (AWGN), 99.44% for standard database, 99.18% for PCG corrupted with lung sounds, and 98.47% for PCG corrupted with speech. HSMM classifier results better classification F-measure over MLP, SVM, and KNN. The average F-measure of HSMM classifier for systolic and diastolic profiles classification of PCG is 96.74%.
+ER  - 
+
+TY  - CONF
+TI  - A dual-stage nanopositioning approach to high-speed scanning probe microscopy
+T2  - 2012 IEEE 51st IEEE Conference on Decision and Control (CDC)
+SP  - 5079
+EP  - 5084
+AU  - T. Tuma
+AU  - W. Haeberle
+AU  - H. Rothuizen
+AU  - J. Lygeros
+AU  - A. Pantazi
+AU  - A. Sebastian
+PY  - 2012
+KW  - Noise
+KW  - Nanopositioning
+KW  - Noise measurement
+KW  - Magnetic sensors
+KW  - Bandwidth
+KW  - Frequency measurement
+DO  - 10.1109/CDC.2012.6426452
+JO  - 2012 IEEE 51st IEEE Conference on Decision and Control (CDC)
+IS  - 
+SN  - 0743-1546
+VO  - 
+VL  - 
+JA  - 2012 IEEE 51st IEEE Conference on Decision and Control (CDC)
+Y1  - 10-13 Dec. 2012
+AB  - A novel positioning concept for high-speed scanning probe microscopy is presented in which a dual-stage nanopositioner is used for precise positioning over large areas at high speeds. The nanopositioner combines a low-bandwidth, large-range commercial scanner with a custom-designed high-speed scanner for short-range positioning. We present the mechanical design, finite element simulations and experimental characterization of the high-speed scanner, showing exceptionally clean dynamics, high linearity and large actuation bandwidth. The scanner is equipped with a magneto-resistive position sensing scheme that provides subnanometer resolution over a large bandwidth. Advanced model-based feedback controllers are designed according to a newly developed control design architecture with direct shaping of the closed-loop noise sensitivity and experimental results are presented in which the dual-stage system is used for high-speed imaging in a custom-built atomic force microscope.
+ER  - 
+
+TY  - CONF
+TI  - Effcient Shift Network in Denoising-Friendly Space for Real Noise Removal
+T2  - 2022 IEEE International Conference on Multimedia and Expo (ICME)
+SP  - 1
+EP  - 6
+AU  - L. Zhang
+AU  - Z. Zhao
+AU  - Y. Zhang
+AU  - S. Zhang
+AU  - D. Xie
+AU  - S. Pu
+AU  - H. Mao
+PY  - 2022
+KW  - Wavelet transforms
+KW  - GSM
+KW  - Wireless sensor networks
+KW  - Wavelet domain
+KW  - Computational modeling
+KW  - Noise reduction
+KW  - Noise measurement
+DO  - 10.1109/ICME52920.2022.9859730
+JO  - 2022 IEEE International Conference on Multimedia and Expo (ICME)
+IS  - 
+SN  - 1945-788X
+VO  - 
+VL  - 
+JA  - 2022 IEEE International Conference on Multimedia and Expo (ICME)
+Y1  - 18-22 July 2022
+AB  - Recently, following the success of neural networks, image denoising has achieved great improvements. However, it is challenging to construct an efficient denoising model with excellent performance and less computation. In this paper, we propose an extremely lightweight framework to remove real image noise in denoising-friendly space. Specif-ically, we apply the wavelet transform to project the noisy image and feature maps into low and high frequency domain, which decouples the noise information from the clean ones to a certain extent, thereby reducing the difficulty of denoising task. In addition, we further introduce a lightweight op-erator called Grouped Shift Module (GSM) into our denoising network, hence much heavy computation can be saved. Experimental results on the current benchmark demonstrate that our Wavelet Shift Denoising Network (WSNet) even achieves PSNR 39.28 dB with only 3G FLOPs on the SIDD benchmark. Our source code and models are available at https://github.com/HIK-DLSlimIWSNet.
+ER  - 
+
+TY  - CONF
+TI  - Constrained imaging for radio astronomy
+T2  - 2013 5th IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)
+SP  - 344
+EP  - 347
+AU  - A. M. Sardarabadi
+AU  - A. -J. van der Veen
+PY  - 2013
+KW  - Imaging
+KW  - Upper bound
+KW  - Cost function
+KW  - Vectors
+KW  - Arrays
+KW  - Noise
+KW  - radio astronomy
+KW  - imaging
+KW  - deconvolution
+KW  - active-set
+KW  - constrained optimization
+KW  - non-negativity
+DO  - 10.1109/CAMSAP.2013.6714078
+JO  - 2013 5th IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2013 5th IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)
+Y1  - 15-18 Dec. 2013
+AB  - We show that the imaging problem for radio astronomy is not only bounded below (the image is non-negative), but there is also an upper bound. We show that the tightest upper bound is the MVDR dirty image. We propose using active-set methods to solve the imaging problem and show that this algorithm is strongly related to sequential source removal techniques like the CLEAN. Also recent studies show the relation between non-negativity and sparsity which means that the proposed optimization also benefits from sparsity in an automatic way.
+ER  - 
+
+TY  - JOUR
+TI  - Variable Step Normalized LMS Adaptive Filter for Leak Localization in Water-Filled Plastic Pipes
+T2  - IEEE Transactions on Instrumentation and Measurement
+SP  - 1
+EP  - 11
+AU  - X. Cui
+AU  - Y. Gao
+AU  - Y. Ma
+AU  - Y. Liu
+AU  - B. Jin
+PY  - 2022
+KW  - Acoustics
+KW  - Location awareness
+KW  - Adaptive filters
+KW  - Leak detection
+KW  - Sensors
+KW  - Plastics
+KW  - Convergence
+KW  - Leak detection
+KW  - leak localization
+KW  - least mean square (LMS) adaptive filter
+KW  - plastic pipe
+KW  - time delay estimation (TDE)
+DO  - 10.1109/TIM.2022.3169526
+JO  - IEEE Transactions on Instrumentation and Measurement
+IS  - 
+SN  - 1557-9662
+VO  - 71
+VL  - 71
+JA  - IEEE Transactions on Instrumentation and Measurement
+Y1  - 2022
+AB  - Acoustic waves induced by leakage attenuate as they propagate in the piping system. Difficulties are generally encountered in leak localization in plastic pipes since these waves are heavily attenuated than in metallic pipes. This study presents a leak localization method based on the variable step normalized least mean square (VS-LMS) adaptive filter. In the method, the optimal weight vector of the filter is determined for time delay estimation (TDE) without requirement of the prior knowledge of statistical characteristics of leak and noise signals. It has a desirable feature of sharpening the main peak of TDE curve through adaptive iterative learning process, thus improving the accuracy of TDE for leak localization. By adjusting the update mode of iteration step, the convergence speed of the VS-LMS algorithm can be greatly improved. A simulation model of leak wave propagation is established and is subsequently analyzed for leak localization with respects to the TDE accuracy. Experimental work is further carried out on a plastic pipe to verify the effectiveness of the proposed method. The simulation sand experimental results demonstrate that the proposed method outperforms the original LMS and basic cross-correlation methods for the leak localization in a water-filled plastic pipe.
+ER  - 
+
+TY  - CONF
+TI  - Source separation for target enhancement of food intake acoustics from noisy recordings
+T2  - 2015 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
+SP  - 1
+EP  - 5
+AU  - A. Liutkus
+AU  - T. Olubanjo
+AU  - E. Moore
+AU  - M. Ghovanloo
+PY  - 2015
+KW  - Acoustics
+KW  - Mathematical model
+KW  - Monitoring
+KW  - Biomedical monitoring
+KW  - Source separation
+KW  - Noise measurement
+KW  - Sensors
+KW  - food intake monitoring
+KW  - audio source separation
+KW  - nonnegative matrix factorization
+KW  - harmonizable processes
+DO  - 10.1109/WASPAA.2015.7336906
+JO  - 2015 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
+Y1  - 18-21 Oct. 2015
+AB  - Automatic food intake monitoring can be significantly beneficial in the fight against obesity and weight management in our society today. Different sensing modalities have been used in several research efforts to accomplish automatic food intake monitoring with acoustic sensors being the most common. In this study, we explore the ability to learn spectral patterns of food intake acoustics from a clean signal and use this learned patterns for extracting the signal of interest from a noisy recording. Using standard metrics for evaluation of blind source separation, namely signal to distortion ratio and signal to interference ratio, we observed up to 20dB improvement of separation quality in very low signal to noise ratio conditions. For more practical performance evaluation of food intake monitoring, we compared the detection accuracy for chew events on the mixed/noisy signal versus on the estimated/separated target signal. We observed up to 60% improvement in chew event detection accuracy for low signal to noise ratio conditions when using the estimated target signal compared to when using the mixed/noisy signal.
+ER  - 
+
+TY  - CONF
+TI  - Study of fusion strategies and exploiting the combination of MFCC and PNCC features for robust biometric speaker identification
+T2  - 2016 4th International Conference on Biometrics and Forensics (IWBF)
+SP  - 1
+EP  - 6
+AU  - M. T. S. Al-Kaltakchi
+AU  - W. L. Woo
+AU  - S. S. Dlay
+AU  - J. A. Chambers
+PY  - 2016
+KW  - Mel frequency cepstral coefficient
+KW  - Feature extraction
+KW  - Training
+KW  - Adaptation models
+KW  - Data models
+KW  - Robustness
+KW  - Speech
+KW  - Robust biometric speaker identification and robust recognition
+KW  - Gaussian mixture model
+KW  - universal background model
+KW  - maximum a posterior probability adaptation
+KW  - score fusion
+DO  - 10.1109/IWBF.2016.7449685
+JO  - 2016 4th International Conference on Biometrics and Forensics (IWBF)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 4th International Conference on Biometrics and Forensics (IWBF)
+Y1  - 3-4 March 2016
+AB  - In this paper, a new combination of features and normalization methods is investigated for robust biometric speaker identification. Mel Frequency Cepstral Coefficients (MFCC) are efficient for speaker identification in clean speech while Power Normalized Cepstral Coefficients (PNCC) features are robust for noisy environments. Therefore, combining both features together is better than taking each one individually. In addition, Cepstral Mean and Variance Normalization (CMVN) and Feature Warping (FW) are used to mitigate possible channel effects and the handset mismatch in voice measurements. Speaker modelling is based on a Gaussian Mixture Model (GMM) with a universal background model (UBM). Coupled parameter learning between the speaker models and UBM is utilized to improve performance. Finally, maximum, mean and weighted sum fusions of model scores are used to enhance the Speaker Identification Accuracy (SIA). Verifications conducted on the TIMIT database with and without noise confirm performance improvement.
+ER  - 
+
+TY  - CONF
+TI  - Comparative study of Empirical Mode Decomposition applied in experimental biosignals
+T2  - 2008 8th IEEE International Conference on BioInformatics and BioEngineering
+SP  - 1
+EP  - 6
+AU  - A. Karagiannis
+AU  - P. Constantinou
+PY  - 2008
+KW  - Electrocardiography
+KW  - Acoustic noise
+KW  - Signal analysis
+KW  - Frequency
+KW  - Heart
+KW  - Wireless sensor networks
+KW  - Circuit noise
+KW  - Signal processing
+KW  - Pathology
+KW  - Electrodes
+DO  - 10.1109/BIBE.2008.4696768
+JO  - 2008 8th IEEE International Conference on BioInformatics and BioEngineering
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2008 8th IEEE International Conference on BioInformatics and BioEngineering
+Y1  - 8-10 Oct. 2008
+AB  - Electrocardiogram is a widely used biosignal for diagnosis of pathological situation concerning heart function. Interpretation and analysis of this signal is critical for the selection of the appropriate treatment and this highlights the necessity for clean signals without any kind of artifacts. Several methods have been developed in order to remove artifacts and delineate the characteristics of the ECG that physicians need to evaluate. In this paper, Empirical Mode Decomposition (EMD) is considered and the application of the decomposition method in experimental signals acquired by means of a wireless sensor network is evaluated. The proposed technique is based on the EMD and is studied comparatively to classic techniques of signal processing. Certain metrics are implemented to evaluate the performance of the technique and the results show good results of the EMD based method.
+ER  - 
+
+TY  - CONF
+TI  - Identification of system dynamics in presence of measurement noise
+T2  - 2013 Annual IEEE India Conference (INDICON)
+SP  - 1
+EP  - 6
+AU  - S. Pandey
+AU  - S. Majhi
+PY  - 2013
+KW  - Noise
+KW  - Relays
+KW  - Noise measurement
+KW  - Limit-cycles
+KW  - Mathematical model
+KW  - Transfer functions
+KW  - Pollution measurement
+KW  - Identification
+KW  - Asymmetrical Relay
+KW  - FOPDT
+KW  - FFT
+KW  - AWGN
+DO  - 10.1109/INDCON.2013.6726001
+JO  - 2013 Annual IEEE India Conference (INDICON)
+IS  - 
+SN  - 2325-9418
+VO  - 
+VL  - 
+JA  - 2013 Annual IEEE India Conference (INDICON)
+Y1  - 13-15 Dec. 2013
+AB  - A technique for identification of system dynamics under the influence of measurement noise is presented. When output signal from sensor is corrupted by noise, identification of system parameters become an arduous task. Therefore, denoising methods can be employed in order to achieve a clean limit cycle under noisy environment. A Fast Fourier Transform (FFT) method has been reported as an effective technique for the mitigation of noise by an appropriate thresholding. Generalized explicit expressions are examined to obtain unknown plant model parameters for stable and unstable First Order Plus Dead Time (FOPDT) processes. Examples are illustrated to show the effectiveness of method during parametric identification of process models. Subsequently, a comparison is drawn between estimated and actual system through simulation by step test and Nyquist plot.
+ER  - 
+
+TY  - JOUR
+TI  - High-Resolution  $X$ -Band Frequency Synthesizer Using SILPLL Optoelectronic Oscillators
+T2  - IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control
+SP  - 217
+EP  - 223
+AU  - T. Sun
+AU  - L. Zhang
+AU  - A. S. Daryoush
+PY  - 2020
+KW  - Tuning
+KW  - Phase noise
+KW  - Frequency synthesizers
+KW  - Delays
+KW  - Fiber gratings
+KW  - Optical sensors
+KW  - Chirped fiber Bragg grating (CFBG)
+KW  - optical transversal filter
+KW  - optoelectronic oscillator (OEO)
+KW  - self-injection locked phase-locked loop (SILDPLL)
+KW  - YIG filter
+DO  - 10.1109/TUFFC.2019.2944425
+JO  - IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control
+IS  - 1
+SN  - 1525-8955
+VO  - 67
+VL  - 67
+JA  - IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control
+Y1  - Jan. 2020
+AB  - Optoelectronic oscillators (OEOs) with their demonstrated low phase noise are popular due to the increasing demand of very clean local oscillator and clock signal sources. A forced technique of self-injection locked and phase-locked loop (SILPLL) reduces phase noise and suppresses side mode observed in long fiber delay of the standard OEO. A frequency synthesizer working at X-band is developed using an electrically coarse-tuned YIG filter cascaded with an optical wavelength fine-tuned dispersive optical transversal filter by tuning the oscillation frequency of the synthesized OEO frequency, as a replacement for fixed-frequency narrowband filter using high-Q aluminum cavities. A close-to-carrier phase noise of -115 dBc/Hz at 1 kHz is reported by the Vπ/2 operation of a Mach-Zehnder modulator (MZM) over 8-12 GHz with a frequency tuning step as small as 2.6 kHz. Phase noise introduced by a photodetector is also explored at a very close-to-carrier frequency. It shows 10-dB phase noise degradation at PD reverse bias voltage of 3 V compared with 6 V at close to the Vπ operation of an MZM. A 19-in rack mount frequency synthesizer system is also realized at X-band with a demonstrated long-term (up to 60 min) frequency drift stability of 3 kHz over whole X-band working frequencies.
+ER  - 
+
+TY  - CONF
+TI  - Multi-source Data Analysis Method of Exhibition Site Based on Mobile Internet
+T2  - 2021 International Wireless Communications and Mobile Computing (IWCMC)
+SP  - 41
+EP  - 44
+AU  - X. Yin
+AU  - J. He
+AU  - Y. Gao
+AU  - J. Li
+PY  - 2021
+KW  - Wireless communication
+KW  - Phase noise
+KW  - Analytical models
+KW  - Data analysis
+KW  - Databases
+KW  - Redundancy
+KW  - Data models
+KW  - Mobile Internet
+KW  - Exhibition Site
+KW  - Multi-Source Data Analysis
+KW  - Passenger Flow Evacuation
+DO  - 10.1109/IWCMC51323.2021.9498774
+JO  - 2021 International Wireless Communications and Mobile Computing (IWCMC)
+IS  - 
+SN  - 2376-6506
+VO  - 
+VL  - 
+JA  - 2021 International Wireless Communications and Mobile Computing (IWCMC)
+Y1  - 28 June-2 July 2021
+AB  - With the continuous improvement of information and communication technology, the popularity of mobile terminals and endless new technologies, the application of mobile Internet is increasingly extensive. This paper mainly studies the multi-source data analysis method based on mobile Internet. Through the connection of multi-source database, the data is associated and the foundation of data fusion is constructed. It is stored in the specified storage database or data medium according to certain rules. On this basis, first of all, preprocess the data, sort out and correct those disordered storage formats, disordered data records and redundant fields to form standard data. Secondly, these data are cleaned to remove data redundancy and noise. Through the combination of multi-source data, new data records are obtained, and these data are sorted and improved. According to the actual situation and problems of the project, the multi-source data is fused to build an effective data set. Data show that the accuracy of the model can reach more than 85%. The results show that mobile Internet technology can provide security and risk information for the participants of the exhibition.
+ER  - 
+
+TY  - CONF
+TI  - MEG Signal Denoising Based on Time-Shift PCA
+T2  - 2007 IEEE International Conference on Acoustics, Speech and Signal Processing - ICASSP '07
+SP  - I-317
+EP  - I-320
+AU  - A. de Cheveigne
+AU  - J. Le Roux
+AU  - J. Z. Simon
+PY  - 2007
+KW  - Signal denoising
+KW  - Principal component analysis
+KW  - Magnetic sensors
+KW  - Working environment noise
+KW  - Magnetoencephalography
+KW  - Convolution
+KW  - Signal synthesis
+KW  - Magnetic separation
+KW  - Filters
+KW  - Testing
+KW  - Magnetoencephalography
+KW  - Bioelectric potentials
+KW  - Biomedical imaging
+KW  - Interference suppression
+DO  - 10.1109/ICASSP.2007.366680
+JO  - 2007 IEEE International Conference on Acoustics, Speech and Signal Processing - ICASSP '07
+IS  - 
+SN  - 2379-190X
+VO  - 1
+VL  - 1
+JA  - 2007 IEEE International Conference on Acoustics, Speech and Signal Processing - ICASSP '07
+Y1  - 15-20 April 2007
+AB  - We present a method for removing environmental noise from physiological recordings such as magnetoencephalography (MEG) for which noise-sensitive reference channels are available. Sensor signals are projected on a subspace spanned by the reference channels augmented by time-shifted and/or nonlinearly transformed versions of the same, and the projections are removed to obtain "clean" sensor signals. The method compensates for scalar, convolutional or non-linear mismatches between sensor and reference channels by synthesizing, for each reference/sensor pair, a filter that is optimal in a least-squares sense for removal of the artifact. The method was tested with synthetic and real MEG data, typically removing up to 98% of noise variance. It offers an alternative to bulky and costly magnetic shielding (multiple layers of aluminium and mu-metal) for present scientific and medical applications and future developments such as brain-machine interfaces (BMI).
+ER  - 
+
+TY  - CONF
+TI  - Noise Removal Based on Artificial Intelligence Synergy Methods for Surveillance Scenarios
+T2  - 2018 International Conference on Communications (COMM)
+SP  - 501
+EP  - 504
+AU  - R. Mihaescu
+AU  - S. -V. Carata
+AU  - V. Ghenescu
+AU  - M. Chindea
+AU  - C. Mitrea
+PY  - 2018
+KW  - Genetic algorithms
+KW  - Neural networks
+KW  - Image color analysis
+KW  - Neurons
+KW  - Law enforcement
+KW  - Databases
+KW  - Colored noise
+KW  - Pulse Coupled Neural Network (PCNN)
+KW  - Genetic Algorithm (GA)
+KW  - Gaussian Blur
+KW  - Surveillance
+KW  - Noise
+DO  - 10.1109/ICComm.2018.8484815
+JO  - 2018 International Conference on Communications (COMM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 International Conference on Communications (COMM)
+Y1  - 14-16 June 2018
+AB  - Surveillance footage pose particular difficulties in terms of low-quality either in resolution due to high compression or sensor inconsistency. Latter ones could generate several types of noises such as salt and pepper noises. In this article we apply and evaluate an innovative method for salt and pepper noise removal on surveillance images. The method combines synergy of neural networks, evolutive and statistical methods. The Pulse Coupled Neural Network (PCNN) is used to detect the pixels affected by noise whose parameters have been optimized using a Genetic Algorithm. The pixels that are affected by noise are corrected using a Gaussian Kernel. The proposed method proves to be high efficient o n detecting a nd removing s alt a nd pepper noise from images without affecting surrounding clean pixels. The method has been tested on images from real-world CCTV cameras. The examples from Scotland Yard database show how the filtered images with o ur proposed method retain fine details of the scene even if the noise level was high.
+ER  - 
+
+TY  - JOUR
+TI  - Unsupervised Denoising for Satellite Imagery Using Wavelet Directional CycleGAN
+T2  - IEEE Transactions on Geoscience and Remote Sensing
+SP  - 6823
+EP  - 6839
+AU  - J. Song
+AU  - J. -H. Jeong
+AU  - D. -S. Park
+AU  - H. -H. Kim
+AU  - D. -C. Seo
+AU  - J. C. Ye
+PY  - 2021
+KW  - Noise reduction
+KW  - Satellites
+KW  - Satellite broadcasting
+KW  - Noise measurement
+KW  - Sensors
+KW  - Machine learning
+KW  - Gallium nitride
+KW  - Cycle-consistent adversarial network (cycleGAN)
+KW  - image denoising
+KW  - multispectral satellite imagery
+KW  - unsupervised learning
+DO  - 10.1109/TGRS.2020.3025601
+JO  - IEEE Transactions on Geoscience and Remote Sensing
+IS  - 8
+SN  - 1558-0644
+VO  - 59
+VL  - 59
+JA  - IEEE Transactions on Geoscience and Remote Sensing
+Y1  - Aug. 2021
+AB  - Multispectral satellite imaging sensors acquire various spectral band images and have a unique spectroscopic property in each band. Unfortunately, image artifacts from imaging sensor noise often affect the quality of scenes and have a negative impact on applications for satellite imagery. Recently, deep learning approaches have been extensively explored to remove noise in satellite imagery. Most deep learning denoising methods, however, follow a supervised learning scheme, which requires matched noisy image and clean image pairs that are difficult to collect in real situations. In this article, we propose a novel unsupervised multispectral denoising method for satellite imagery using a wavelet directional cycle-consistent adversarial network (WavCycleGAN). The proposed method is based on an unsupervised learning scheme using adversarial loss and cycle-consistency loss to overcome the lack of paired data. Moreover, in contrast to the standard image-domain cycleGAN, we introduce a wavelet directional learning scheme for effective denoising without sacrificing high-frequency components such as edges and detailed information. Experimental results for the removal of vertical stripes and wave noise in satellite imaging sensors demonstrate that the proposed method effectively removes noise and preserves important high-frequency features of satellite images.
+ER  - 
+
+TY  - CONF
+TI  - A wavelet based de-noising approach for real-time signal processing in switched reluctance motor drives
+T2  - 31st Annual Conference of IEEE Industrial Electronics Society, 2005. IECON 2005.
+SP  - 6 pp.
+EP  - 
+AU  - S. Khorbotly
+AU  - A. Khalil
+AU  - J. Carletta
+AU  - I. Husain
+PY  - 2005
+KW  - Noise reduction
+KW  - Signal processing
+KW  - Reluctance motors
+KW  - Discrete wavelet transforms
+KW  - Signal denoising
+KW  - Reluctance machines
+KW  - Intelligent sensors
+KW  - Drives
+KW  - Feedback
+KW  - Rotors
+DO  - 10.1109/IECON.2005.1569116
+JO  - 31st Annual Conference of IEEE Industrial Electronics Society, 2005. IECON 2005.
+IS  - 
+SN  - 1553-572X
+VO  - 
+VL  - 
+JA  - 31st Annual Conference of IEEE Industrial Electronics Society, 2005. IECON 2005.
+Y1  - 6-10 Nov. 2005
+AB  - This work develops an application-aware approach to signal de-noising. The approach considers the way in which a signal from a sensor or receiver is processed and used in deciding how best to de-noise the signal. The benefits of the system-wide approach are illustrated through an application that processes raw indirect position feedback signals in a switched reluctance motor (SRM) drive. The results show that the application-aware de-noising scheme results in more noise reduction than can be obtained using a more conventional approach. The approach delivered a clean and useful estimated rotor position for the SRM that improved its output performance.
+ER  - 
+
+TY  - CONF
+TI  - Distributed data cleansing via a low-rank decomposition
+T2  - 2013 IEEE Global Conference on Signal and Information Processing
+SP  - 827
+EP  - 830
+AU  - I. D. Schizas
+PY  - 2013
+KW  - Sensors
+KW  - Covariance matrices
+KW  - Distributed databases
+KW  - Minimization
+KW  - Vectors
+KW  - Noise
+KW  - Interference
+KW  - Data cleansing
+KW  - low-rank decomposition
+KW  - distributed processing
+DO  - 10.1109/GlobalSIP.2013.6737019
+JO  - 2013 IEEE Global Conference on Signal and Information Processing
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2013 IEEE Global Conference on Signal and Information Processing
+Y1  - 3-5 Dec. 2013
+AB  - Data acquired across sensors may contain irrelevant components such as interference and noise. A distributed framework is put forth that enables sensors to extract the `clean' portion of a data sequence and isolate the corrupted data. Different from outliers, the corrupted data may affect an arbitrary in size portion of the data sequence. The clean informative data usually consist of low-dimensional components giving rise to a low-rank data covariance matrix, while the presence of irrelevant data increases the rank. This property leads to a novel constrained minimization formulation that combines low-rank matrix decomposition and data selection. A separable formulation is further derived which is tackled via coordinate descent techniques and the alternating direction method of multipliers. Numerical tests demonstrate the potential of the novel distributed scheme.
+ER  - 
+
+TY  - CONF
+TI  - GPS Data Enrichment for Detecting Driver’s Real-time Behaviour in Myanmar
+T2  - 2020 17th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON)
+SP  - 368
+EP  - 371
+AU  - T. L. Mon
+AU  - S. L. Aung
+PY  - 2020
+KW  - Roads
+KW  - Vehicles
+KW  - Meteorology
+KW  - Global Positioning System
+KW  - Acceleration
+KW  - Sensors
+KW  - Trajectory
+KW  - cleaned trajectory
+KW  - driving behaviour
+KW  - data enrichment
+DO  - 10.1109/ECTI-CON49241.2020.9158259
+JO  - 2020 17th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2020 17th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON)
+Y1  - 24-27 June 2020
+AB  - Driver behavior detection is one of the most important approaches for reducing road traffic accidents because most of the road traffic accidents are caused by the fault of drivers. Nevertheless, current weather conditions and important places where driver reach also play major role for detecting driver's behavior. In this research work, driver's current latitude and longitude positions and time are collected using smart phones. And then, noise and stop GPS points are removed. After that, some GPS missing points are found and they are estimated by interpolation method. After all, a cleaned trajectory is achieved. Driver's current driving speed, acceleration and deceleration are calculated from the collected GPS trajectory and time, and the current speed is compared with the road speed limit. Driver's current driving direction is detected based on the cleaned trajectory. In this research work, in order to detect driver's real-time driving behavior more precisely, road speed limit data is enriched by the current weather condition, light condition and the current important places that the driver is passing through.
+ER  - 
+
+TY  - CONF
+TI  - SVAD: End-to-End Sensory Data Analysis for IoBT-Driven Platforms
+T2  - 2021 IEEE 7th World Forum on Internet of Things (WF-IoT)
+SP  - 903
+EP  - 908
+AU  - R. Gupta
+AU  - K. Nahrstedt
+AU  - N. Suri
+AU  - J. Smith
+PY  - 2021
+KW  - Data analysis
+KW  - Machine learning algorithms
+KW  - Smoothing methods
+KW  - Pipelines
+KW  - Data visualization
+KW  - Sensor phenomena and characterization
+KW  - Real-time systems
+KW  - IoBT
+KW  - anomaly
+KW  - unsupervised machine learning
+DO  - 10.1109/WF-IoT51360.2021.9594944
+JO  - 2021 IEEE 7th World Forum on Internet of Things (WF-IoT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 IEEE 7th World Forum on Internet of Things (WF-IoT)
+Y1  - 14 June-31 July 2021
+AB  - The rapid advancement of IoT technologies has led to its flexible adoption in battle field networks, known as Internet of Battlefield Things (IoBT) networks. One important application of IoBT networks is the weather sensory network characterized with a variety of weather, land and environmental sensors. This data contains hidden trends and correlations, needed to provide situational awareness to soldiers and commanders. To interpret the incoming data in real-time, machine learning algorithms are required to automate strategic decision-making. Existing solutions are not well-equipped to provide the fine-grained feedback to military personnel and cannot facilitate a scalable, end-to-end platform for fast unlabeled data collection, cleaning, querying, analysis and threats identification. In this work, we present a scalable end-to-end IoBT data driven platform for SVAD (Storage, Visualization, Anomaly Detection) analysis of heterogeneous weather sensor data. Our SVAD platform includes extensive data cleaning techniques to denoise efficiently data to differentiate data from anomalies and noise data instances. We perform comparative analysis of unsupervised machine learning algorithms for multi-variant data analysis and experimental evaluation of different data ingestion pipelines to show the ability of the SVAD platform for (near) real-time processing. Our results indicate impending turbulent weather conditions that can be detected by early anomaly identification and detection techniques.
+ER  - 
+
+TY  - CONF
+TI  - Real-time audio-visual localization of user using microphone array and vision camera
+T2  - 2005 IEEE/RSJ International Conference on Intelligent Robots and Systems
+SP  - 1935
+EP  - 1940
+AU  - Changkyu Choi
+AU  - Donggeon Kong
+AU  - Sujin Lee
+AU  - Kiyoung Park
+AU  - Sun-Gi Hong
+AU  - Hyoung-Ki Lee
+AU  - Seokwon Bang
+AU  - Yongbeom Lee
+AU  - Sangryong Kim
+PY  - 2005
+KW  - Microphone arrays
+KW  - Cameras
+KW  - Sensor arrays
+KW  - Robot vision systems
+KW  - Direction of arrival estimation
+KW  - Acoustic noise
+KW  - Face detection
+KW  - Humans
+KW  - Robot sensing systems
+KW  - Working environment noise
+DO  - 10.1109/IROS.2005.1545030
+JO  - 2005 IEEE/RSJ International Conference on Intelligent Robots and Systems
+IS  - 
+SN  - 2153-0866
+VO  - 
+VL  - 
+JA  - 2005 IEEE/RSJ International Conference on Intelligent Robots and Systems
+Y1  - 2-6 Aug. 2005
+AB  - In home environments, demands for a robot to serve a user are on the increase, such as cleaning rooms, bringing something to the user, and so on. To achieve these tasks, it is essential for developing a natural way of human-robot interaction (HRI). One of the most natural ways is that the robot approaches the user to do some tasks after recognizing the user's call and localizing its position. In this case, user localization becomes a key technology. In this paper, we propose a novel audio visual user localization system. It consists of a microphone array with eight sensors and a video camera. Estimating calling direction is achieved by the spectral subtraction of the spatial spectra. In particular, a novel beam forming method is proposed to suppress the nonstationary audio noises where they always occur in a real world. Furthermore, a robust method for face detection is proposed to double check the user based on an Adaboost classifier. It is improved to reduce the false alarms remarkably through a new postprocessing on face candidates. Successful results in a real home environment show its efficacy and feasibility. The implementation issues, limitations, and their possible solutions are also discussed.
+ER  - 
+
+TY  - CONF
+TI  - Motion and noise artifact-resilient atrial fibrillation detection algorithm for a smartphone
+T2  - 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)
+SP  - 591
+EP  - 594
+AU  - J. W. Chong
+AU  - C. H. Cho
+AU  - N. Esa
+AU  - D. D. McManus
+AU  - K. H. Chon
+PY  - 2016
+KW  - Detection algorithms
+KW  - Smart phones
+KW  - Atrial fibrillation
+KW  - Cameras
+KW  - Support vector machines
+KW  - Lenses
+KW  - Turning
+DO  - 10.1109/BHI.2016.7455967
+JO  - 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)
+IS  - 
+SN  - 2168-2208
+VO  - 
+VL  - 
+JA  - 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)
+Y1  - 24-27 Feb. 2016
+AB  - We have developed a motion and noise artifact (MNA)-resilient atrial fibrillation (AF) detection algorithm for smartphones that eliminates MNAs, and then detects AFs in smartphone camera recordings. MNA-corrupted episodes are observed to have larger values of turning point ratio (TPR), pulse slope, or Kurtosis compared to clean AF and normal sinus rhythm (NSR) episodes. On the other hand, AFs are shown to have larger root mean square of successive RR differences (RMSSD) and Shannon Entropy (ShE) [1]. Our developed AF algorithm is capable of separating MNAs, NSRs, AFs, which enhances the specificity of AF detection. We have recruited 88 subjects having AF at baseline and NSR after electrical cardioversion, and 11 subjects having MNA-corrupted NSRs to evaluate the performance of our AF algorithm. The clinical tests show that the proposed AF algorithm gives higher accuracy, sensitivity and specificity of 0.9667, 0.9765, 0.9714 compared to the previous AF algorithm [1].
+ER  - 
+
+TY  - CONF
+TI  - Cardiac condition monitoring through photoplethysmogram signal denoising using wearables: Can we detect coronary artery disease with higher performance efficacy?
+T2  - 2016 Computing in Cardiology Conference (CinC)
+SP  - 281
+EP  - 284
+AU  - A. Ukil
+AU  - S. Bandyoapdhyay
+AU  - C. Puri
+AU  - A. Pal
+AU  - K. Mandana
+PY  - 2016
+KW  - Noise measurement
+KW  - Noise reduction
+KW  - Heart rate variability
+KW  - Diseases
+DO  - 
+JO  - 2016 Computing in Cardiology Conference (CinC)
+IS  - 
+SN  - 2325-887X
+VO  - 
+VL  - 
+JA  - 2016 Computing in Cardiology Conference (CinC)
+Y1  - 11-14 Sept. 2016
+AB  - For affordable cardiac health monitoring, it is required to ensure accurate cardiac condition detection from smartphone or wearable-extracted photoplethysmogram (PPG) signals through precise identification, and removal of signal corruption. Presence of noise particularly due to motion artifacts strongly impacts the outcome of analysis. We establish that denoising of PPG signal would pave ways for better clinical prediction than analyzing the signal in presence of noise. In this paper, we prove that analyzing on cleaned (denoised) PPG signal yields significant performance efficacy improvement while performing Coronary Artery Disease (CAD) identification. The proposed method is independent on the clinical analytics and CAD detection is considered to be a use case to justify our claim that physiological signal pre-processing, specifically denoising can substantially improve the overall performance effectiveness and clinical utility.
+ER  - 
+
+TY  - JOUR
+TI  - A 2.55 NEF 76 dB CMRR DC-Coupled Fully Differential Difference Amplifier Based Analog Front End for Wearable Biomedical Sensors
+T2  - IEEE Transactions on Biomedical Circuits and Systems
+SP  - 918
+EP  - 926
+AU  - Y. Zhao
+AU  - Z. Shang
+AU  - Y. Lian
+PY  - 2019
+KW  - Impedance
+KW  - Capacitors
+KW  - Transistors
+KW  - Biosensors
+KW  - Gain
+KW  - Topology
+KW  - MIM capacitors
+KW  - Common mode rejection ratio (CMRR)
+KW  - DC-coupled analog front-end (AFE)
+KW  - fully differential difference amplifier (FDDA)
+KW  - on-body DC bias
+KW  - parasitic capacitance reuse
+KW  - ultralow power
+KW  - wearable biomedical sensor
+DO  - 10.1109/TBCAS.2019.2924416
+JO  - IEEE Transactions on Biomedical Circuits and Systems
+IS  - 5
+SN  - 1940-9990
+VO  - 13
+VL  - 13
+JA  - IEEE Transactions on Biomedical Circuits and Systems
+Y1  - Oct. 2019
+AB  - High input impedance, low noise, high common mode rejection ratio (CMRR), and ultralow power are the most important performance indicators in the design of analog front end (AFE) for wearable biomedical sensors. This paper presents a fully differential difference amplifier based AFE that employs dc-coupled input stage to increase the input impedance and improve CMRR. A parasitic capacitor reuse technique is proposed to improve the noise/area efficiency and CMRR. An on-body dc bias scheme is introduced to deal with the input dc offset. Implemented in 0.35 μm CMOS process with an area of 0.405 mm2, the proposed AFE consumes 0.9 μW at 1.8 V and shows excellent noise effective factor of 2.55, and CMRR of 76 dB. Experiment shows the proposed AFE not only picks up clean ECG signal with electrodes placed as close as 2 cm under both resting and walking conditions, but also obtain the distinct α-wave after eye blink from EEG recording.
+ER  - 
+
+TY  - JOUR
+TI  - Anisotropic Diffusion in the Hypercube
+T2  - IEEE Transactions on Geoscience and Remote Sensing
+SP  - 1386
+EP  - 1398
+AU  - J. Martin-Herrero
+PY  - 2007
+KW  - Anisotropic magnetoresistance
+KW  - Hypercubes
+KW  - Hyperspectral sensors
+KW  - Hyperspectral imaging
+KW  - Noise reduction
+KW  - Image processing
+KW  - Remote sensing
+KW  - Image sensors
+KW  - Working environment noise
+KW  - Spectroscopy
+KW  - Anisotropic diffusion
+KW  - hyperspectral images
+KW  - image processing
+KW  - noise filtering
+DO  - 10.1109/TGRS.2007.894569
+JO  - IEEE Transactions on Geoscience and Remote Sensing
+IS  - 5
+SN  - 1558-0644
+VO  - 45
+VL  - 45
+JA  - IEEE Transactions on Geoscience and Remote Sensing
+Y1  - May 2007
+AB  - Denoising of hyperspectral images in the domain of imaging spectroscopy by vectorial anisotropic diffusion is addressed. Anisotropic diffusion has shown to be a powerful denoising technique with many applications in several fields of image processing, and in the recent years, some significant advances have been published. However, these had not yet been specifically adapted to hyperspectral imagery. This paper reviews recent advances in anisotropic diffusion for multivalued images, analyzes their application to hyperspectral images, and proposes a new diffusion method which takes advantage of the recent improvements and conforms to the specificities of hyperspectral remote sensing. Some examples are provided using both a noisy image and a clean image with added noise
+ER  - 
+
+TY  - CONF
+TI  - Improved spacecraft attitude filter using a sequentially correlated magnetometer noise model
+T2  - 16th DASC. AIAA/IEEE Digital Avionics Systems Conference. Reflections to the Future. Proceedings
+SP  - 8.4
+EP  - 9
+AU  - J. E. Sedlak
+PY  - 1997
+KW  - Space vehicles
+KW  - Filters
+KW  - Magnetometers
+KW  - Magnetic separation
+KW  - Gyroscopes
+KW  - Magnetic sensors
+KW  - Position measurement
+KW  - Autocorrelation
+KW  - Extraterrestrial measurements
+KW  - Magnetic field measurement
+DO  - 10.1109/DASC.1997.637280
+JO  - 16th DASC. AIAA/IEEE Digital Avionics Systems Conference. Reflections to the Future. Proceedings
+IS  - 
+SN  - 
+VO  - 2
+VL  - 2
+JA  - 16th DASC. AIAA/IEEE Digital Avionics Systems Conference. Reflections to the Future. Proceedings
+Y1  - 30-30 Oct. 1997
+AB  - Measurement of the geomagnetic field provides a reliable and economical basis for determining the attitude of low-Earth orbiting three-axis stabilized spacecraft. Magnetometers are often part of the momentum management system, working in parallel with the onboard attitude control system (ACS). They may also be used as primary ACS sensors for missions with relatively coarse pointing requirements or for acquisition or contingency control modes on fine-pointing star tracker-based missions. When used in combination with strap-down gyroscopes for rate determination, magnetometer data can be filtered to obtain surprisingly accurate attitude estimates. The attainable accuracy depends on the specifics of the gyroscope quality, prior magnetometer calibration, the length of the data set, and to a lesser extent, the orbital details. It has been found, though, that even with very clean sensor data the magnetometer residuals still show systematic variations arising from small errors in the reference Earth magnetic field model. Two filters have been developed to estimate and compensate for the reference field errors along with the attitude and gyroscope biases. The field errors are modeled as sequentially correlated random variables. In the first filter, the autocorrelation of the error is assumed to decay exponentially in time. In the second, the autocorrelation is a decaying sinusoid. The resulting attitude estimates are improved by 40 percent (to 126 arcsec) and the bias estimates by a factor of two. With these improvements, autonomous onboard attitude control using magnetometers and gyroscopes becomes practical for a much broader class of missions.
+ER  - 
+
+TY  - JOUR
+TI  - Joint Analysis and Weighted Synthesis Sparsity Priors for Simultaneous Denoising and Destriping Optical Remote Sensing Images
+T2  - IEEE Transactions on Geoscience and Remote Sensing
+SP  - 6958
+EP  - 6982
+AU  - Z. Huang
+AU  - Y. Zhang
+AU  - Q. Li
+AU  - X. Li
+AU  - T. Zhang
+AU  - N. Sang
+AU  - H. Hong
+PY  - 2020
+KW  - Noise reduction
+KW  - Optical imaging
+KW  - Optical sensors
+KW  - Remote sensing
+KW  - Dictionaries
+KW  - Optical noise
+KW  - MODIS
+KW  - Analysis sparse representation (ASR)
+KW  - denoising
+KW  - destriping
+KW  - optical remote sensing images
+KW  - weighted synthesis sparse representation (SSR) (WSSR)
+DO  - 10.1109/TGRS.2020.2978276
+JO  - IEEE Transactions on Geoscience and Remote Sensing
+IS  - 10
+SN  - 1558-0644
+VO  - 58
+VL  - 58
+JA  - IEEE Transactions on Geoscience and Remote Sensing
+Y1  - Oct. 2020
+AB  - Stripe and random noise are two different degradation phenomena that commonly coexist in optical remote sensing images, and they are often modeled as inverse problems. In model-based inverse problems, analysis and synthesis sparse representations (SSRs) are used as regularization terms to obtain approximate solutions due to their respective merits, i.e., the nonzero coefficients in SSR are usually used to describe an image, while the indexes of zeros in analysis sparse representation (ASR) are used to characterize the stripe. Inspired by these merits, we propose a unified variational framework, called a joint analysis and weighted synthesis (JAWS) sparsity model, to simultaneously separate the clean image and the stripe from a single optical remote sensing image. To solve the JAWS sparsity model efficiently, an alternating minimization optimization strategy is first employed to separate it into two subproblems that are used for different tasks. One called as weighted SSR (WSSR) is the main for optical remote sensing image denoising, which can be effectively solved by employing the weighted singular value thresholding operator, while the other called as ASR is the main approach for optical remote sensing image destriping, which is optimized by adopting the split Bregman iteration. By minimizing the two subproblems alternatively, the proposed JAWS sparsity model is efficiently solved. Finally, both quantitative and qualitative results of experiments on synthetic and real-world optical remote sensing images validate that the proposed approach is effective and even better than the state of the arts.
+ER  - 
+
+TY  - CONF
+TI  - Estimation of Acoustic Microphone Vocal Tract Parameters from Throat Microphone Recordings
+T2  - 2007 IEEE 15th Signal Processing and Communications Applications
+SP  - 1
+EP  - 4
+AU  - U. C. Akargun
+AU  - E. Erzin
+PY  - 2007
+KW  - Microphones
+KW  - Hidden Markov models
+KW  - Robustness
+KW  - Speech processing
+KW  - Skin
+KW  - Acoustic sensors
+KW  - Acoustic noise
+DO  - 10.1109/SIU.2007.4298661
+JO  - 2007 IEEE 15th Signal Processing and Communications Applications
+IS  - 
+SN  - 2165-0608
+VO  - 
+VL  - 
+JA  - 2007 IEEE 15th Signal Processing and Communications Applications
+Y1  - 11-13 June 2007
+AB  - Joint processing of throat and acoustic microphone recordings has been an attractive tool for robust speech processing. As the throat microphones record the acoustic sounds in the form of vibrations from skin attached sensors, they are more robust and highly correlated with the acoustic speech signal. We investigate the correlation of throat and acoustic microphone recordings. We propose a hidden Markov model (HMM) based structure to estimate acoustic speech features from throat speech features. The HMM based estimator will be used to estimate clean acoustic speech features from noisy throat and acoustic microphone recordings. Experimental results on acoustic speech feature estimation are provided.
+ER  - 
+
+TY  - JOUR
+TI  - NLM Parameter Optimization for $\varphi$-OTDR Signal
+T2  - Journal of Lightwave Technology
+SP  - 6045
+EP  - 6051
+AU  - M. Wu
+AU  - Y. Chen
+AU  - P. Zhu
+AU  - W. Chen
+PY  - 2022
+KW  - Estimation
+KW  - Vibrations
+KW  - Optical sensors
+KW  - Autocorrelation
+KW  - Optical scattering
+KW  - Optical imaging
+KW  - Optical pulses
+KW  - Correlation
+KW  - image processing
+KW  - optical time domain reflectometry
+KW  - optimization methods
+KW  - Rayleigh scattering
+DO  - 10.1109/JLT.2022.3186830
+JO  - Journal of Lightwave Technology
+IS  - 17
+SN  - 1558-2213
+VO  - 40
+VL  - 40
+JA  - Journal of Lightwave Technology
+Y1  - 1 Sept.1, 2022
+AB  - The filtering parameters of non-local means (NLM) that seriously affect the denoising results are usually optimized based on the noise level estimation. But the noise level is unknown in many cases. In this paper, a simple method for optimizing NLM parameters based on autocorrelation function (ACF) is proposed from the perspective of signal estimation, which uses the periodic lag of the autocorrelation function to estimate the vibration signal. This method is verified with a hypothetical clean image corrupted by additive noise, and the NLM parameter optimization results are compared with those obtained by two traditional methods based on peak signal-to-noise ratio (PSNR) and structural similarity (SSIM) respectively. Then it is tested with the practical vibration signal of a phase-sensitive optical time-domain reflectometer ($\varphi$-OTDR). The fidelity and spatial resolution of the denoised practical signal are analyzed. This work helps to improve the performance of $\varphi$-OTDR and signal recognition.
+ER  - 
+
+TY  - CONF
+TI  - Broadband matched field processing using robust prewhitening and multiple window techniques
+T2  - 1996 IEEE International Conference on Acoustics, Speech, and Signal Processing Conference Proceedings
+SP  - 3081
+EP  - 3084 vol. 6
+AU  - C. F. Mecklenbrauker
+AU  - M. Geravanchizadeh
+AU  - J. F. Bohme
+PY  - 1996
+KW  - Oceans
+KW  - Sea surface
+KW  - Surface waves
+KW  - Noise robustness
+KW  - Acoustic noise
+KW  - Sensor arrays
+KW  - Gaussian noise
+KW  - Surface contamination
+KW  - Least squares approximation
+KW  - Equations
+DO  - 10.1109/ICASSP.1996.550527
+JO  - 1996 IEEE International Conference on Acoustics, Speech, and Signal Processing Conference Proceedings
+IS  - 
+SN  - 1520-6149
+VO  - 6
+VL  - 6
+JA  - 1996 IEEE International Conference on Acoustics, Speech, and Signal Processing Conference Proceedings
+Y1  - 9-9 May 1996
+AB  - The estimation of source and environmental parameters for stationary broadband wave propagation in an unknown shallow ocean is considered. We apply an approximate maximum-likelihood technique (AMLE) in the frequency domain after cleaning the observations from outliers using robust prewhitening. This method is compared with the previously used multitaper techniques. Environmental noise in data obtained by horizontally towed arrays just beneath the ocean surface has been observed to be more spiky than Gaussian due to the sound originating from individual breaking waves. Therefore, we apply the robust-resistant spectral methods introduced by Martin and Thomson (1982). The advantage of this approach is the physically and statistically justified full broadband estimator. Simulations show the feasibility of the presented approach. Finally, the algorithm is applied to real sonar data recorded by a horizontally towed receiver array in the Baltic Sea in order to estimate the ocean depth and source bearings and to interpret the impinging signals.
+ER  - 
+
+TY  - CONF
+TI  - The Prediction Of Blood Glucose Level By Using The ECG Sensor of Smartwatches
+T2  - 2022 2nd International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC)
+SP  - 406
+EP  - 411
+AU  - Y. Maged
+AU  - A. Atia
+PY  - 2022
+KW  - Heart rate
+KW  - Electrocardiography
+KW  - Watches
+KW  - Predictive models
+KW  - Feature extraction
+KW  - Boosting
+KW  - Ubiquitous computing
+KW  - Continuous Glucose Monitoring (CGM)
+KW  - Re-sampling
+KW  - Blood Glucose (BG)
+KW  - Electrocardiogram (ECG)
+KW  - Mean squared error (MSE)
+KW  - Mean absolute error (MAE)
+KW  - Root mean squared error (RMSE)
+DO  - 10.1109/MIUCC55081.2022.9781730
+JO  - 2022 2nd International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 2nd International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC)
+Y1  - 8-9 May 2022
+AB  - The objective of this research paper is to try out different machine learning models on the patients from the D1NAMO data-set in order to predict blood glucose level based on the heart rate values along with extra features coming from the smart watch, The glucose readings will be measured by the CGM along the 2 weeks duration of the calibration between smartwatch and CGM device. Our proposed System will be applied per patient, the patient will use the CGM device along with the smart watch and calibrate the 2 readings together, after the CGM expires the data will be taken and processed together, any noise that interfered with the ECG signal will be removed in order to have a clean noise that can be combined with the Glucose readings to be in the exact timestamp, as an output the user will have the ability to depend only on the smart watch in knowing the blood sugar level for a duration of time.
+ER  - 
+
+TY  - CONF
+TI  - Forced SILPLL oscillation of X- and K-band frequency synthesized opto-electronic oscillators
+T2  - 2016 IEEE International Topical Meeting on Microwave Photonics (MWP)
+SP  - 91
+EP  - 94
+AU  - T. Sun
+AU  - L. Zhang
+AU  - A. K. Poddar
+AU  - U. L. Rohde
+AU  - A. S. Daryoush
+PY  - 2016
+KW  - Transversal filters
+KW  - Optical fiber filters
+KW  - Optical fibers
+KW  - Phase noise
+KW  - Frequency synthesizers
+KW  - Opto-electronic Oscillator
+KW  - Phase Noise
+KW  - Transversal Filter
+KW  - Tunable YIG filter
+KW  - Self ILPLL
+KW  - DD-MZM
+DO  - 10.1109/MWP.2016.7791312
+JO  - 2016 IEEE International Topical Meeting on Microwave Photonics (MWP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 IEEE International Topical Meeting on Microwave Photonics (MWP)
+Y1  - 31 Oct.-3 Nov. 2016
+AB  - A very clean and low phase noise microwave oscillator is required for communication and high resolution imaging. A frequency stabilized and tunable opto-electronic oscillator (OEO) is realized as synthesizer using a long fiber optic delay line combined with a tunable narrowband microwave filter. Forced oscillation using both self-injection locking and self-phase lock loop, as SILPLL provides an ultra-low close-in and far away from carrier phase noise to achieve a record low phase noise. A YIG microwave filter combined with an optically tuned transversal filter is employed to implement frequency tuned OEO to realize highly stable synthesizer in X-band. Phase noise - 136dBc/Hz at offset frequency 10kHz is achieved for 9GHZ to 11GHz. Moreover, a synthesizer for K-band is demonstrated by adjusting the operation point of a dual drive MZM (DD-MZM) from quadrature point of Vpi/2 to Vpi, where the second harmonic in addition to fundamental is efficiently generated with -127dBc/Hz phase noise at offset frequency 10kHz for 18-22GHz.
+ER  - 
+
+TY  - CONF
+TI  - Design of insusceptibility detection and processing system of the ballistocardiogram signal based on CPLD
+T2  - 2010 3rd International Congress on Image and Signal Processing
+SP  - 2909
+EP  - 2912
+AU  - Y. Yu
+AU  - W. Liu
+AU  - X. Wang
+PY  - 2010
+KW  - Sensors
+KW  - Heart beat
+KW  - Low pass filters
+KW  - Diseases
+KW  - Electrocardiography
+KW  - Ballistocardiogram
+KW  - insusceptibility
+KW  - CPLD
+KW  - cardiac cycles
+DO  - 10.1109/CISP.2010.5646707
+JO  - 2010 3rd International Congress on Image and Signal Processing
+IS  - 
+SN  - 
+VO  - 6
+VL  - 6
+JA  - 2010 3rd International Congress on Image and Signal Processing
+Y1  - 16-18 Oct. 2010
+AB  - Balistocardiogram(BCG) is a method to record body vibrations caused by heart activity, which can be detected at the spine axis of body by sensitive force sensor. The raw BCG signal is so weak and often involves a lot of noise that some device should be designed to extract a clean BCG signal. According to the characteristics of BCG signal, a new insusceptibility detection and processing system of the BCG signal based on CPLD (Complex Programmable Logic Device) is presented in this paper, which can acquire BCG signal from resistance strain weighing sensors mounted on the chair designed to look like a normal home chair without attaching any electrodes to the subject. The system is composed of two modules, signal processing module and signal acquisition module, which can obtain clean BCG signal synchronously with cardiac cycles for long time in practice, shows that the design is reasonable.
+ER  - 
+
+TY  - CONF
+TI  - 2D visual place recognition for domestic service robots at night
+T2  - 2016 IEEE International Conference on Robotics and Automation (ICRA)
+SP  - 4822
+EP  - 4829
+AU  - J. Mount
+AU  - M. Milford
+PY  - 2016
+KW  - Cameras
+KW  - Heating
+KW  - Service robots
+KW  - Lighting
+KW  - Robot sensing systems
+DO  - 10.1109/ICRA.2016.7487686
+JO  - 2016 IEEE International Conference on Robotics and Automation (ICRA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 IEEE International Conference on Robotics and Automation (ICRA)
+Y1  - 16-21 May 2016
+AB  - Domestic service robots such as lawn mowing and vacuum cleaning robots are the most numerous consumer robots in existence today. While early versions employed random exploration, recent systems fielded by most of the major manufacturers have utilized range-based and visual sensors and user-placed beacons to enable robots to map and localize. However, active range and visual sensing solutions have the disadvantages of being intrusive, expensive, or only providing a 1D scan of the environment, while the requirement for beacon placement imposes other practical limitations. In this paper we present a passive and potentially cheap vision-based solution to 2D localization at night that combines easily obtainable day-time maps with low resolution contrast-normalized image matching algorithms, image sequence-based matching in two-dimensions, place match interpolation and recent advances in conventional low light camera technology. In a range of experiments over a domestic lawn and in a lounge room, we demonstrate that the proposed approach enables 2D localization at night, and analyse the effect on performance of varying odometry noise levels, place match interpolation and sequence matching length. Finally we benchmark the new low light camera technology and show how it can enable robust place recognition even in an environment lit only by a moonless sky, raising the tantalizing possibility of being able to apply all conventional vision algorithms, even in the darkest of nights.
+ER  - 
+
+TY  - CONF
+TI  - Lan: Learning to Augment Noise Tolerance for Self-report Survey Labels
+T2  - 2021 IEEE International Conference on Pervasive Computing and Communications (PerCom)
+SP  - 1
+EP  - 10
+AU  - S. Lin
+AU  - L. Faust
+AU  - N. V. Chawla
+PY  - 2021
+KW  - Training
+KW  - Pervasive computing
+KW  - Computational modeling
+KW  - Training data
+KW  - Psychology
+KW  - Tools
+KW  - Data models
+KW  - noise tolerance
+KW  - self-report surveys
+KW  - multi-modal sensory data
+DO  - 10.1109/PERCOM50583.2021.9439109
+JO  - 2021 IEEE International Conference on Pervasive Computing and Communications (PerCom)
+IS  - 
+SN  - 2474-249X
+VO  - 
+VL  - 
+JA  - 2021 IEEE International Conference on Pervasive Computing and Communications (PerCom)
+Y1  - 22-26 March 2021
+AB  - The prevalence of mobile sensors makes it possible for researchers to collect and analyze the pervasive sensed human activity data with machine learning tools. These analyses and applications heavily rely on the self-report survey data that reflect human physical and psychological behaviors. However, many factors can affect the reliability of such self-report surveys, such as participants' trusty and ambiguous descriptions in questionnaires. These inaccurate survey labels challenge the development of the models, especially when it comes to the case where deep learning approaches tend to memorize the noisy information from training data. In this paper, we set out to deal with the noisy self-report survey labels. We aim to address the following challenges: 1)the limited access to clean labeled data in real-world scenarios; 2)different noise ratio of the data from different participants; 3)various types of noise that appear in the data; 4)how to evaluate the reliability of participants. As such, we propose a generalizable model, Lan, for learning from multi-modal sensory data and noisy labels. The proposed model incorporates the temporal information from sensory data to guide the model training and thus to augment noise tolerance. Extensive experiments on a real-world dataset were conducted to show our model outperforms state-of-the-art benchmarks.
+ER  - 
+
+TY  - JOUR
+TI  - Hyperspectral Mixed Noise Removal via Spatial-Spectral Constrained Unsupervised Deep Image Prior
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+SP  - 9435
+EP  - 9449
+AU  - Y. -S. Luo
+AU  - X. -L. Zhao
+AU  - T. -X. Jiang
+AU  - Y. -B. Zheng
+AU  - Y. Chang
+PY  - 2021
+KW  - Noise reduction
+KW  - Electronics packaging
+KW  - Three-dimensional displays
+KW  - Gaussian noise
+KW  - Training data
+KW  - Noise measurement
+KW  - Learning systems
+KW  - Convolutional neural networks (CNNs)
+KW  - denoising
+KW  - hyperspectral image
+KW  - spatial-spectral
+KW  - unsupervised
+DO  - 10.1109/JSTARS.2021.3111404
+JO  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+IS  - 
+SN  - 2151-1535
+VO  - 14
+VL  - 14
+JA  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+Y1  - 2021
+AB  - Recently, deep learning-based methods are proposed for hyperspectral images (HSIs) denoising. Among them, unsupervised methods such as deep image prior (DIP)-based methods have received much attention because these methods do not require any training data. However, DIP-based methods suffer from the semiconvergence behavior, i.e., the iteration of DIP-based methods needs to terminate by referring to the ground-truth image at the optimal iteration point. In this article, we propose the spatial-spectral constrained deep image prior (S2DIP) for the HSI mixed noise removal. Specifically, we integrate the DIP, the spatial-spectral total variation regularization term, and the $\ell _1$-norm sparse term to respectively capture the deep prior of the clean HSI, the spatial-spectral local smooth prior of the clean HSI, and the sparse prior of noise. The proposed S2DIP jointly leverages the expressive power brought from the deep convolutional neural network without any training data and exploits the HSI and noise structures via hand-crafted priors. Thus, our method avoids the semiconvergence behavior of DIP-based methods. Meanwhile, our method largely enhances the HSI denoising ability of DIP-based methods. To tackle the corresponding model, we utilize the alternating direction multiplier method algorithm. Extensive experiments demonstrate that our method outperforms model-based and deep learning-based state-of-the-art HSI denoising methods.
+ER  - 
+
+TY  - JOUR
+TI  - Low-Complexity MDL Method for Accurate Source Enumeration
+T2  - IEEE Signal Processing Letters
+SP  - 581
+EP  - 584
+AU  - L. Huang
+AU  - S. Wu
+PY  - 2007
+KW  - Sensor arrays
+KW  - Radar signal processing
+KW  - Training data
+KW  - Array signal processing
+KW  - Multidimensional signal processing
+KW  - Eigenvalues and eigenfunctions
+KW  - Wiener filter
+KW  - Signal to noise ratio
+KW  - Additive noise
+KW  - Covariance matrix
+KW  - Array signal processing
+KW  - direction of arrival (DOA)
+KW  - eigenvalue decomposition (EVD)
+KW  - minimum description length (MDL)
+KW  - multistage Wiener filter (MSWF)
+KW  - Wiener filter
+DO  - 10.1109/LSP.2006.885286
+JO  - IEEE Signal Processing Letters
+IS  - 9
+SN  - 1558-2361
+VO  - 14
+VL  - 14
+JA  - IEEE Signal Processing Letters
+Y1  - Sept. 2007
+AB  - A low-complexity method for source enumeration is proposed in this letter. Given the training data of a desired signal, an array data matrix is partitioned into orthogonal signal and noise components. The noise components are then used to calculate the total description length required to encode the array data. The model with the minimum description length (MDL) is chosen as the best model. Unlike the traditional MDL methods, the proposed method linearly partitions the array data into the cleaner signal and noise components and thereby is more accurate and computationally efficient. Its performance is demonstrated via numerical results.
+ER  - 
+
+TY  - JOUR
+TI  - SAR Imagery for Detecting Sea Surface Slicks: Performance Assessment of Polarization-Dependent Parameters
+T2  - IEEE Transactions on Geoscience and Remote Sensing
+SP  - 4237
+EP  - 4257
+AU  - S. Angelliaume
+AU  - P. C. Dubois-Fernandez
+AU  - C. E. Jones
+AU  - B. Holt
+AU  - B. Minchew
+AU  - E. Amri
+AU  - V. Miegebielle
+PY  - 2018
+KW  - Sea surface
+KW  - Synthetic aperture radar
+KW  - Surface waves
+KW  - Rough surfaces
+KW  - Surface roughness
+KW  - Bragg
+KW  - detection
+KW  - instrument noise
+KW  - marine pollution
+KW  - noise
+KW  - noise equivalent sigma zero (NESZ)
+KW  - noise floor
+KW  - ocean
+KW  - oil
+KW  - polarimetric discrimination
+KW  - polarization
+KW  - probability of detection (Pd)
+KW  - probability of false alarm (Pfa)
+KW  - radar
+KW  - ranking
+KW  - receiver operating characteristic (ROC) curves
+KW  - synthetic aperture radar (SAR)
+KW  - sea
+KW  - slick
+KW  - spill
+DO  - 10.1109/TGRS.2018.2803216
+JO  - IEEE Transactions on Geoscience and Remote Sensing
+IS  - 8
+SN  - 1558-0644
+VO  - 56
+VL  - 56
+JA  - IEEE Transactions on Geoscience and Remote Sensing
+Y1  - Aug. 2018
+AB  - Remote sensing technology is an essential link in the global monitoring of the ocean surface, and radars are efficient sensors for detecting marine pollution. When used operationally by authorities, a tradeoff must usually be made between the covered area and the quantity of information collected by the radar. To identify the most appropriate imaging mode, a methodology based on receiver operating characteristic curve analysis has been applied to an original data set collected by two airborne systems operating at L-band, both characterized by a very low instrument noise floor. The data set was acquired during controlled releases of mineral and vegetable oil at sea. Various polarization-dependent quantities are investigated, and their ability to detect slick-covered areas is assessed. A relative ordering of the main polarimetric parameters is reported in this paper. When the sensor has a sufficiently low noise floor, HV is recommended because it provides the strongest slick-sea contrast. Otherwise, VV is found to be the most relevant parameter for detecting slicks on the ocean surface. Among all the investigated quad-polarimetric settings, no significant added value compared to single-polarized data was found. More specifically, it is demonstrated, by increasing the instrument noise level, that the studied polarimetric quantities which combine the four polarimetric channels have performances of detection mainly driven by the instrument noise floor, namely, the noise equivalent sigma zero. This result, obtained by progressively adding noise to the raw synthetic aperture radar (SAR) data, indicates that the polarimetric discrimination between clean sea and polluted area results mainly from the differentiated behavior between single-bounce scattering and noise. It is thus demonstrated, using SAR data collected with a low instrument noise floor, that there is no deviation from Bragg scattering for radar scattering from ocean surface covered by mineral and vegetable oil.
+ER  - 
+
+TY  - CONF
+TI  - Multisensory speech enhancement in noisy environments using bone-conducted and air-conducted microphones
+T2  - 2014 IEEE China Summit & International Conference on Signal and Information Processing (ChinaSIP)
+SP  - 1
+EP  - 5
+AU  - M. Li
+AU  - I. Cohen
+AU  - S. Mousazadeh
+PY  - 2014
+KW  - Speech
+KW  - Speech enhancement
+KW  - Harmonic analysis
+KW  - Laplace equations
+KW  - Kernel
+KW  - Noise measurement
+KW  - Microphones
+KW  - Multisensory
+KW  - bone-conducted microphone
+KW  - geometric harmonics
+KW  - Laplacian pyramid
+DO  - 10.1109/ChinaSIP.2014.6889190
+JO  - 2014 IEEE China Summit & International Conference on Signal and Information Processing (ChinaSIP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 IEEE China Summit & International Conference on Signal and Information Processing (ChinaSIP)
+Y1  - 9-13 July 2014
+AB  - In this paper, we propose a speech enhancement algorithm for estimating the clean speech using samples of air-conducted and bone-conducted speech signals. We introduce a model in a supervised learning framework by approximating a mapping from concatenation of noisy air-conducted and bone-conducted speech to clean speech in the short time Fourier transform domain. Two function extension schemes are utilized: geometric harmonics and Laplacian pyramid. Performances obtained from the two schemes are evaluated and compared in terms of spectrograms and log spectral distance measures.
+ER  - 
+
+TY  - JOUR
+TI  - CERL: A Unified Optimization Framework for Light Enhancement With Realistic Noise
+T2  - IEEE Transactions on Image Processing
+SP  - 4162
+EP  - 4172
+AU  - Z. Chen
+AU  - Y. Jiang
+AU  - D. Liu
+AU  - Z. Wang
+PY  - 2022
+KW  - Noise reduction
+KW  - Optimization
+KW  - Task analysis
+KW  - Noise measurement
+KW  - Adaptation models
+KW  - Training
+KW  - Lighting
+KW  - Image denoising
+KW  - low-light enhancement
+KW  - generative adversarial networks
+KW  - unsupervised learning
+DO  - 10.1109/TIP.2022.3180213
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 31
+VL  - 31
+JA  - IEEE Transactions on Image Processing
+Y1  - 2022
+AB  - Low-light images captured in the real world are inevitably corrupted by sensor noise. Such noise is spatially variant and highly dependent on the underlying pixel intensity, deviating from the oversimplified assumptions in conventional denoising. Existing light enhancement methods either overlook the important impact of real-world noise during enhancement, or treat noise removal as a separate pre- or post-processing step. We present Coordinated Enhancement for Real-world Low-light Noisy Images (CERL), that seamlessly integrates light enhancement and noise suppression parts into a unified and physics-grounded optimization framework. For the real low-light noise removal part, we customize a self-supervised denoising model that can easily be adapted without referring to clean ground-truth images. For the light enhancement part, we also improve the design of a state-of-the-art backbone. The two parts are then joint formulated into one principled plug-and-play optimization. Our approach is compared against state-of-the-art low-light enhancement methods both qualitatively and quantitatively. Besides standard benchmarks, we further collect and test on a new realistic low-light mobile photography dataset (RLMP), whose mobile-captured photos display heavier realistic noise than those taken by high-quality cameras. CERL consistently produces the most visually pleasing and artifact-free results across all experiments. Our RLMP dataset and codes are available at: https://github.com/VITA-Group/CERL.
+ER  - 
+
+TY  - CONF
+TI  - Rethinking Noise Modeling in Extreme Low-Light Environments
+T2  - 2021 IEEE International Conference on Multimedia and Expo (ICME)
+SP  - 1
+EP  - 6
+AU  - J. Wang
+AU  - Y. Yu
+AU  - S. Wu
+AU  - C. Lei
+AU  - K. Xu
+PY  - 2021
+KW  - Training
+KW  - Image color analysis
+KW  - Signal processing algorithms
+KW  - Streaming media
+KW  - Calibration
+KW  - Sensors
+KW  - Noise measurement
+KW  - Low-light denoising
+KW  - noise model
+KW  - neural network
+DO  - 10.1109/ICME51207.2021.9428259
+JO  - 2021 IEEE International Conference on Multimedia and Expo (ICME)
+IS  - 
+SN  - 1945-788X
+VO  - 
+VL  - 
+JA  - 2021 IEEE International Conference on Multimedia and Expo (ICME)
+Y1  - 5-9 July 2021
+AB  - Recent research has shown Convolutional Neural Networks (CNNs) trained in a fully-supervised fashion achieve promising performance on extreme low-light image denoising task. However, a large amount of "noisy-clean" image pairs are required to train a network, which are difficult to obtain. In this paper, we propose a compact yet effective noise model to generate synthetic noisy images for training. Especially, we address the severe color distortion problem in low-light images by identifying a novel noise component, black calibration error, as its physical origin. We prove that a small error at the sensing stage will strongly affect the following in-camera signal processing (ISP) pipeline and eventually lead to color bias. Experiment results demonstrate that the proposed model is superior in preserving perceptual quality and achieves state-of-the-art performance among existing noise synthesis methods.
+ER  - 
+
+TY  - CONF
+TI  - Reinforcement Learning Based Point-Cloud Acquisition and Recognition Using Exploration-Classification Reward Combination
+T2  - 2022 IEEE International Conference on Multimedia and Expo (ICME)
+SP  - 1
+EP  - 6
+AU  - K. Riou
+AU  - K. Subrin
+AU  - P. Le Callet
+PY  - 2022
+KW  - Training
+KW  - Solid modeling
+KW  - Three-dimensional displays
+KW  - Target recognition
+KW  - Lasers
+KW  - Reinforcement learning
+KW  - Robot sensing systems
+KW  - Active point-clouds acquisition
+KW  - 3D objects recognition
+KW  - Reinforcement Learning
+DO  - 10.1109/ICME52920.2022.9859968
+JO  - 2022 IEEE International Conference on Multimedia and Expo (ICME)
+IS  - 
+SN  - 1945-788X
+VO  - 
+VL  - 
+JA  - 2022 IEEE International Conference on Multimedia and Expo (ICME)
+Y1  - 18-22 July 2022
+AB  - 3D points acquisitions based on robust sensors such as tactile or laser sensors are true alternatives to computer vision for 3D object recognition. In real life scenarios where robots are equipped with such sensors to acquire 3D data, only few points can be iteratively collected in a reasonable amount of time. However, existing Point-cloud classifiers are extremely sensitive to sparse points, missing parts and noise. To compensate for the sparsity of the data, some Reinforcement Learning (RL) based approaches have been proposed to learn a sparse yet efficient exploration of the target object regarding the 3D recognition objective. However, existing RL approaches only focus on classification performances to guide the training of the active acquisition-and-classification frameworks, and thus fail to dissociate poor exploration strategy (missing parts, noisy points) from actual classifier mistakes on proper data. In this study, we proposed a new RL framework that was rewarded regarding both the classification performances and the exploration quality. Our trained framework outperforms existing State-Of-The-Art models on 3D geometric objects classification. We further showed that our trained framework learnt to alternate between (1) a clean and broad exploration strategy, suitable for easily distinguishable categories, and (2) a specific local exploration strategy, facilitating the discrimination of similar categories.
+ER  - 
+
+TY  - JOUR
+TI  - Measuring Dielectric Properties for Sensing Foreign Material in Peanuts
+T2  - IEEE Sensors Journal
+SP  - 1756
+EP  - 1766
+AU  - S. Julrat
+AU  - S. Trabelsi
+PY  - 2019
+KW  - Antenna measurements
+KW  - Microwave measurement
+KW  - Microwave antennas
+KW  - Dielectric measurement
+KW  - Dielectrics
+KW  - Yagi-Uda antennas
+KW  - Complex permittivity
+KW  - microwave sensing
+KW  - free-space measurement
+KW  - foreign material
+KW  - unshelled peanuts
+KW  - moisture content
+DO  - 10.1109/JSEN.2018.2882367
+JO  - IEEE Sensors Journal
+IS  - 5
+SN  - 1558-1748
+VO  - 19
+VL  - 19
+JA  - IEEE Sensors Journal
+Y1  - 1 March1, 2019
+AB  - Free-space dielectric properties measurements at 10 GHz with four pairs of low-cost printed Yagi-Uda antennas are proposed for detecting foreign material in unshelled peanuts, including sticks, peanut shells, peanut raisins, and stones. The four-element array design of the Yagi-Uda antenna allowed better averaging over the entire sample volume and improved the measurement resolution. The antenna gain is about 9.7 dBi. The beam width of each antenna is about 18° and 38° for the E-plane and H-plane at 3 dB, respectively. The attenuation and phase shift were measured for each pair of antennas by controlling automatically the microwave switches. Measurement repeatability of the system was confirmed by using different thicknesses of polyethylene dielectric slab samples. The standard deviation was less than 0.5 dB for the attenuation and less than 5.0° for phase measurements. Sensitivity of each antenna pair for unshelled peanuts and different foreign materials, each loaded in a small volume (4.4 cm × 4.4 cm × 12.1 cm), was tested by using a partitioned sample container. It was shown that a difference in attenuation was more than 1.5 dB for different types of foreign materials and also for unshelled peanut samples with a 1% moisture content difference. Prediction of moisture content in cleaned unshelled peanut samples agreed well with the standard oven-drying method (standard error of calibration = 0.51%). The dielectric properties of foreign materials mixed with cleaned unshelled peanut samples were measured through the attenuation and phase shift. The measurement repeatability of each antenna and all four pairs of antennas is presented.
+ER  - 
+
+TY  - CONF
+TI  - CNN-Based InSAR Denoising and Coherence Metric
+T2  - 2018 IEEE SENSORS
+SP  - 1
+EP  - 4
+AU  - S. Mukherjee
+AU  - A. Zimmer
+AU  - N. K. Kottayil
+AU  - X. Sun
+AU  - P. Ghuman
+AU  - I. Cheng
+PY  - 2018
+KW  - Coherence
+KW  - Noise reduction
+KW  - Filtering
+KW  - Remote sensing
+KW  - Noise measurement
+KW  - Training
+KW  - Microwave filters
+KW  - InSAR
+KW  - denoising
+KW  - coherence
+KW  - autoencoder
+KW  - convolutional neural networks
+DO  - 10.1109/ICSENS.2018.8589920
+JO  - 2018 IEEE SENSORS
+IS  - 
+SN  - 2168-9229
+VO  - 
+VL  - 
+JA  - 2018 IEEE SENSORS
+Y1  - 28-31 Oct. 2018
+AB  - Interferometric Synthetic Aperture Radar (InSAR) imagery for estimating ground movement, based on microwaves reflected off ground targets is gaining increasing importance in remote sensing. However, noise corrupts microwave reflections received at satellite and contaminates the signal's wrapped phase. We introduce Convolutional Neural Networks (CNNs) to this problem domain and show the effectiveness of autoencoder CNN architectures to learn InSAR image denoising filters in the absence of clean ground truth images, and for artefact reduction in estimated coherence through intelligent preprocessing of training data. We compare our results with four established methods to illustrate superiority of proposed method.
+ER  - 
+
+TY  - JOUR
+TI  - Study of the Ability of an Electromagnetic Flowmeter Based on Step Excitation to Overcome Slurry Noise
+T2  - IEEE Access
+SP  - 126540
+EP  - 126558
+AU  - B. Li
+AU  - Y. Yan
+AU  - J. Chen
+AU  - X. Fan
+PY  - 2020
+KW  - Slurries
+KW  - Electrodes
+KW  - Interference
+KW  - Switches
+KW  - Force
+KW  - Frequency measurement
+KW  - Solids
+KW  - Electromagnetic flowmeter
+KW  - slurry noise
+KW  - Maxwell’s equations
+KW  - step excitation
+KW  - slurry noise overcoming method
+DO  - 10.1109/ACCESS.2020.3008419
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - An electromagnetic flowmeter (EMF) can be used to measure the speed of slurry fluid. In this paper, according to Maxwell's equations and the dB/dt vortex electric field, a step excitation scheme is proposed. The original excitation process of the primary excitation current rise time is divided into a two-step excitation process. Without increasing the excitation current rise time, the equivalent excitation frequency is increased by increasing the primary dB/dt. This method can enhance the EMF's ability to overcome slurry noise. The paper analyzes the design parameters of the step excitation scheme and designs the software and hardware. After that, the paper compares the step excitation scheme with the three-value rectangular wave excitation scheme based on wavelet transform signal processing. Experiments show that the step excitation EMF has a lower steady-state fluctuation rate when measuring mortar and has a stronger ability to overcome slurry noise. Additionally, the step excitation EMF and Yokogawa AXF 040G EMF are compared experimentally. Through flow calibration, clean water measurement, mortar measurement and dynamic response experiment, it is verified that the step excitation EMF has the ability to enhance the resistance to slurry noise at the same excitation frequency.
+ER  - 
+
+TY  - JOUR
+TI  - Body Conducted Speech Enhancement by Equalization and Signal Fusion
+T2  - IEEE Transactions on Audio, Speech, and Language Processing
+SP  - 2481
+EP  - 2492
+AU  - T. Dekens
+AU  - W. Verhelst
+PY  - 2013
+KW  - Signal fusion
+KW  - Microphones
+KW  - Noise measurement
+KW  - Noise robustness
+KW  - Speech enhancement
+KW  - Non-conventional microphones
+KW  - speech enhancement
+DO  - 10.1109/TASL.2013.2274696
+JO  - IEEE Transactions on Audio, Speech, and Language Processing
+IS  - 12
+SN  - 1558-7924
+VO  - 21
+VL  - 21
+JA  - IEEE Transactions on Audio, Speech, and Language Processing
+Y1  - Dec. 2013
+AB  - This paper studies body-conducted speech for noise robust speech processing purposes. As body-conducted speech is typically limited in bandwidth, signal processing is required to obtain a signal that is both high in quality and low in noise. We propose an algorithm that first equalizes the body-conducted speech using filters obtained from a pre-defined filter set and subsequently fuses this equalized signal with a noisy conventional microphone signal using an optimal clean speech amplitude and phase estimator. We evaluated the proposed equalization and fusion technique using a combination of a conventional close-talk and a throat microphone. Subjective listening tests show that the proposed method successfully fuses the speech quality of the conventional signal and the noise robustness of the throat microphone signal. The listening tests also indicate that the inclusion of the body-conducted signal can improve single-channel speech enhancement methods, while a calculated set of objective signal quality measures confirm these observations.
+ER  - 
+
+TY  - JOUR
+TI  - Dry Electroencephalography Textrode for Brain Activity Monitoring
+T2  - IEEE Sensors Journal
+SP  - 22077
+EP  - 22085
+AU  - G. B. Tseghai
+AU  - B. Malengier
+AU  - K. A. Fante
+AU  - L. Van Langenhove
+PY  - 2021
+KW  - Electrodes
+KW  - Electroencephalography
+KW  - Fabrics
+KW  - Printing
+KW  - Cotton
+KW  - Monitoring
+KW  - Skin
+KW  - Brain activity
+KW  - dry EEG electrode
+KW  - e-textile
+KW  - PEDOT:PSS/PDMS
+KW  - textrode
+DO  - 10.1109/JSEN.2021.3103411
+JO  - IEEE Sensors Journal
+IS  - 19
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 1 Oct.1, 2021
+AB  - The advancement in smart materials allows researchers to seek smart textiles for wearable health monitoring. Here, a washable and flexible textile-based dry electroencephalography (EEG) electrode that can detect brain activities has been developed. The EEG electrodes were constructed from an electrically conductive cotton fabric with  $67.23~\Omega $ /sq produced through printing PEDOT:PSS/PDMS conductive polymer composite on cotton fabric via screen printing. The mechanical properties like flexural rigidity and tensile strength of the conductive fabric were compared against the bare base material and a PEDOT:PSS-printed fabric. The result from an SEM revealed a uniform printing of the PEDOT:PSS/PDMS on the fabric. The signal-to-noise ratio of the textrode was higher than the Ag/AgCl dry electrode i.e. 17.32 (+3.1%) which open the door for long-term EEG monitoring. Moreover, the electrode can give clear and reliable EEG signals up to 15 washing cycles, 60 bending cycles, 5 multiple uses, and 8 hours of continued use.
+ER  - 
+
+TY  - CONF
+TI  - Limit cycle based identification of second order processes with time delay
+T2  - 2016 Indian Control Conference (ICC)
+SP  - 438
+EP  - 443
+AU  - S. Pandey
+AU  - S. Majhi
+PY  - 2016
+KW  - Relays
+KW  - Limit-cycles
+KW  - Mathematical model
+KW  - Noise measurement
+KW  - Estimation
+KW  - Sensors
+KW  - Process control
+KW  - Describing Function
+KW  - Process Identification
+KW  - Relay Feedback
+KW  - SOPDT and Measurement Noise
+DO  - 10.1109/INDIANCC.2016.7441171
+JO  - 2016 Indian Control Conference (ICC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 Indian Control Conference (ICC)
+Y1  - 4-6 Jan. 2016
+AB  - General equations for the identification of stable and unstable second order plus dead time (SOPDT) processes are proposed in this paper. During feedback test, a nonlinear device (relay) is connected to process with a phase lag of n radians yielding sustained oscillations known as limit cycle. With the help of describing function (DF) approximation, equivalent gain of an asymmetrical relay is derived and thereafter used in the derivation of mathematical equations for the identification of process dynamics. When a process output is subjected to measurement noise, relay output shows spurious switching which brings chattering in the limit cycle output. In order to retrieve a clean limit cycle output, Fourier series based curve fitting method is implemented. Using frequency response plots, the efficacy of the proposed methodology is drawn through comparisons between actual and estimated process models.
+ER  - 
+
+TY  - JOUR
+TI  - Jointly Learning the Hybrid CRF and MLR Model for Simultaneous Denoising and Classification of Hyperspectral Imagery
+T2  - IEEE Transactions on Neural Networks and Learning Systems
+SP  - 1319
+EP  - 1334
+AU  - P. Zhong
+AU  - R. Wang
+PY  - 2014
+KW  - Hyperspectral imaging
+KW  - Noise reduction
+KW  - Learning systems
+KW  - Joints
+KW  - Noise measurement
+KW  - Training
+KW  - Classification
+KW  - conditional random field (CRF)
+KW  - denoising
+KW  - hyperspectral imagery
+KW  - model learning
+KW  - multinomial logistic regression (MLR).
+KW  - Classification
+KW  - conditional random field (CRF)
+KW  - denoising
+KW  - hyperspectral imagery
+KW  - model learning
+KW  - multinomial logistic regression (MLR)
+DO  - 10.1109/TNNLS.2013.2293061
+JO  - IEEE Transactions on Neural Networks and Learning Systems
+IS  - 7
+SN  - 2162-2388
+VO  - 25
+VL  - 25
+JA  - IEEE Transactions on Neural Networks and Learning Systems
+Y1  - July 2014
+AB  - Despite much advance obtained in hyperspectral image sensors, they are still very sensitive to the noise, and thus cause the captured data to carry enough noise to degrade the classification results. The traditional approach first resorts to image denoising and then feeds the denoised image into a classifier. However, such a straightforward approach, treating denoising and classification separately, suffers greatly from neglecting their impacts on each other. This paper presents a new simultaneous denoising and classification method in the pursuit of cleanest image for optimal classification in the sense of given task evaluation measures. To obtain this objective, we develop a hybrid conditional random field (CRF) (for denoising) and multinomial logistic regression (MLR) (for classification) model at first, and then to train the proposed hybrid model, we propose a new joint learning method, which can effectively capture the impacts of denoising on classification, or vice versa, the effects of classification on denoising. Through the proposed joint learning method, the CRF and MLR, and thus the denoising and classification procedure, can be tightly combined. Moreover, the proposed joint learning method can directly optimize a large class of application specific performance measures including both the linear measures, such as the overall accuracy, and the nonlinear measures, such as kappa statistics. Meanwhile, the consistency between the criteria of model learning and model application has the potential to obtain the denoised image, which is at its best for optimal classification in the sense of the given measure. The extensive experiments of simultaneous denoising and classification tasks are conducted in both simulated and real noisy conditions to test our jointly learned model, which are shown to outperform the conventional methods of treating the two tasks independently.
+ER  - 
+
+TY  - JOUR
+TI  - Electrical Characterization and Preliminary Beam Test Results of 3D Silicon CMS Pixel Detectors
+T2  - IEEE Transactions on Nuclear Science
+SP  - 1315
+EP  - 1323
+AU  - O. Koybasi
+AU  - E. Alagoz
+AU  - A. Krzywda
+AU  - K. Arndt
+AU  - G. Bolla
+AU  - D. Bortoletto
+AU  - T. -E. Hansen
+AU  - T. A. Hansen
+AU  - G. U. Jensen
+AU  - A. Kok
+AU  - S. Kwan
+AU  - N. Lietaer
+AU  - R. Rivera
+AU  - I. Shipsey
+AU  - L. Uplegger
+AU  - C. Da Via
+PY  - 2011
+KW  - Pixel
+KW  - Three dimensional displays
+KW  - Noise
+KW  - Detectors
+KW  - Sensor phenomena and characterization
+KW  - Electrodes
+KW  - 3D silicon pixel detectors
+KW  - beam test
+KW  - CMS
+KW  - radiation hardness
+KW  - super-large Hadron Collider (LHC)
+DO  - 10.1109/TNS.2011.2117439
+JO  - IEEE Transactions on Nuclear Science
+IS  - 3
+SN  - 1558-1578
+VO  - 58
+VL  - 58
+JA  - IEEE Transactions on Nuclear Science
+Y1  - June 2011
+AB  - The fabrication of 3D detectors which requires bulk micromachining of columnar electrodes has been realized with advancements in MEMS technology. Since the fabrication of the first 3D prototype in Stanford Nanofabrication Facility in 1997, a significant effort has been put forth to transfer the 3D detector technology to large scale manufacturing for future high luminosity collider experiments, in which the radiation hardness will be the primary concern, and other applications such as medical imaging and X-ray imaging for molecular biology. First, alternative 3D structures, single type column (STC) and double-side double type column (DDTC) 3D detectors, were produced at FBK-irst (Trento, Italy) and CNM-Barcelona (Spain), and assessed thoroughly to improve the production technology towards the standard full-3D detectors. The 3D collaboration has been extended to include SINTEF (Norway), which is committed to small to medium scale production of active edge full-3D silicon sensors. This paper focuses on p-type 3D detectors compatible with the CMS pixel front end electronics from the second run of fabrication at SINTEF clean room facilities. The sensors that passed the wafer level electrical characterization have been bump-bonded at IZM (Germany), assembled into modules and wire-bonded for functional characterization at Purdue University. We report the leakage current characteristics, bump-bond quality, threshold, noise, and gain measurement results of these 3D modules as well as the preliminary beam test data taken at Fermi National Accelerator Laboratory.
+ER  - 
+
+TY  - CONF
+TI  - Hands-free speech recognition and communication on PDAs using microphone array technology
+T2  - IEEE Workshop on Automatic Speech Recognition and Understanding, 2005.
+SP  - 302
+EP  - 307
+AU  - W. Herbordt
+AU  - T. Horiuchi
+AU  - M. Fujimoto
+AU  - T. Jitsuhiro
+AU  - S. Nakamura
+PY  - 2005
+KW  - Microphone arrays
+KW  - Speech recognition
+KW  - Personal digital assistants
+KW  - Acoustic noise
+KW  - Universal Serial Bus
+KW  - Noise cancellation
+KW  - Noise robustness
+KW  - Automatic speech recognition
+KW  - Noise reduction
+KW  - Sensor arrays
+DO  - 10.1109/ASRU.2005.1566509
+JO  - IEEE Workshop on Automatic Speech Recognition and Understanding, 2005.
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - IEEE Workshop on Automatic Speech Recognition and Understanding, 2005.
+Y1  - 27 Nov.-1 Dec. 2005
+AB  - In this paper, a personal digital assistant (PDA) for hands-free speech recognition and communication with a microphone array mounted on the PDA is presented. An outlier-robust generalized sidelobe canceller (RGSC) and a minimum mean-squared error (MMSE) estimator for log Mel-spectral energy coefficients using a Gaussian mixture model (GMM) for clean speech are implemented in real-time and evaluated for speech recognition based on a small experimental multichannel database. It is shown that the joint system of beamformer and single-channel noise suppression highly improves the noise-robustness of a large-vocabulary speech recognizer so that down to SNR = 5 dB more than 91% word accuracy is obtained
+ER  - 
+
+TY  - CONF
+TI  - Microphone array speech enhancement system combining ICA preprocessing in highly noisy environments
+T2  - 2008 International Conference on Audio, Language and Image Processing
+SP  - 649
+EP  - 652
+AU  - Wanlong Li
+AU  - Ju Liu
+AU  - Jun Du
+AU  - Shuzhong Bai
+PY  - 2008
+KW  - Microphones
+KW  - Arrays
+KW  - Speech enhancement
+KW  - Speech
+KW  - Noise
+KW  - Signal to noise ratio
+KW  - Data preprocessing
+DO  - 10.1109/ICALIP.2008.4590105
+JO  - 2008 International Conference on Audio, Language and Image Processing
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2008 International Conference on Audio, Language and Image Processing
+Y1  - 7-9 July 2008
+AB  - In environments of strong background noise and reverberations, enhancement performance of classic microphone array enhancement systems is still not enough. Since ICA (independent component analysis) can separate independent sources only from observations, in this paper ICA is applied to highly noisy sensor signals to obtain cleaner speech signals, which are taken as inputs to the following microphone array enhancement systems. Experiments on real data show that the procedure of ICA preprocessing is effective in suppressing ambient noise, and dramatically improving the quality of input signals. Performance of microphone array speech enhancement system combining ICA preprocessing is greatly promoted.
+ER  - 
+
+TY  - CONF
+TI  - Supervised and semi-supervised speech enhancement using weighted nonnegative matrix factorization
+T2  - 2017 9th International Conference on Wireless Communications and Signal Processing (WCSP)
+SP  - 1
+EP  - 5
+AU  - X. Zou
+AU  - Y. Hu
+AU  - X. Zhang
+PY  - 2017
+KW  - Speech
+KW  - Speech enhancement
+KW  - Radio frequency
+KW  - Noise measurement
+KW  - Signal to noise ratio
+KW  - Spectrogram
+KW  - Wireless sensor networks
+KW  - Non-negative matrix factorization
+KW  - supervised NMF
+KW  - semi-supervised NMF
+KW  - speech presence probability
+DO  - 10.1109/WCSP.2017.8170960
+JO  - 2017 9th International Conference on Wireless Communications and Signal Processing (WCSP)
+IS  - 
+SN  - 2472-7628
+VO  - 
+VL  - 
+JA  - 2017 9th International Conference on Wireless Communications and Signal Processing (WCSP)
+Y1  - 11-13 Oct. 2017
+AB  - According to the prior knowledge used in the algorithms, NMF-based speech enhancement can be categorized into supervised (NMF) one and semi-supervised (SNMF) one. In the supervised version, speech is estimated with the prior knowledge of both speech and noise. For the semi-supervised version, speech bases are learned on clean speech data in advance and adapted to different noise conditions. With the probabilistic estimation of whether the speech is present or not in a certain frame, this paper presents an extension to both NMF- and SNMF-based speech enhancement techniques by incorporating the speech presence probability (SPP) into their multiplicative update process. The performance of the algorithms is evaluated on three metrics (PESQ, LSD and SDR) by making experiments on TIMIT with 20 noise types at various signal-to-noise ratio (SNR) levels. All the proposed algorithms show the superiority over the conventional NMF, SNMF-based speech enhancement techniques, and also obtain better performance than some unsupervised state-of-the-art algorithms.
+ER  - 
+
+TY  - CONF
+TI  - Wavelet based SAR data denoising and analysis
+T2  - 2014 IEEE International Advance Computing Conference (IACC)
+SP  - 1087
+EP  - 1092
+AU  - A. Misra
+AU  - B. Kartikeyan
+AU  - S. Garg
+PY  - 2014
+KW  - Noise reduction
+KW  - Noise
+KW  - Filtering
+KW  - Spatial resolution
+KW  - Wavelet transforms
+KW  - Synthetic aperture radar
+KW  - Speckle
+KW  - SAR
+KW  - speckle
+KW  - denoise
+KW  - wavelets
+KW  - ENL
+KW  - S/MSE etc
+DO  - 10.1109/IAdCC.2014.6779477
+JO  - 2014 IEEE International Advance Computing Conference (IACC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 IEEE International Advance Computing Conference (IACC)
+Y1  - 21-22 Feb. 2014
+AB  - Real world signals are afflicted by noise, be it the communication signals or the remote sensor signals including the medical imaging sensors or surveillance sensors. In the case of signals from SAR(Synthetic Aperture Radar) sensor from remote sensing platforms, or USG or MRI from medical images, the noise is multiplicative. The coherent nature of the signal processing involved in the data generation for the latter, gives rise to a g rainy kind of signal dependent noise called speckle. Speckle noise affects the radiometric quality of the image and makes data interpretation and analysis difficult. Since the utility of any data depends on the accuracy of the data both in terms of geometry and radiometry, denoising becomes mandatory for image analysis applications. The common problem with most of these denoising filters is that they blur the images while reducing the noise. The challenge thus, lies in cleaning the image without sacrificing the geometric resolution. Wavelet based filtering techniques show promising results in this regard. In this paper the results and analysis of performing filtering on high resolution SAR data, using different mother wavelets of Daubechie's using soft thresholding technique, are presented.
+ER  - 
+
+TY  - CONF
+TI  - An improved SVD based algorithm for bearing estimate
+T2  - Proceedings of the IEEE 1992 National Aerospace and Electronics Conference@m_NAECON 1992
+SP  - 149
+EP  - 154 vol.1
+AU  - T. S. Kong
+AU  - D. N. Liang
+PY  - 1992
+KW  - Direction of arrival estimation
+KW  - Covariance matrix
+KW  - Sensor arrays
+KW  - Signal processing algorithms
+KW  - Signal resolution
+KW  - Array signal processing
+KW  - Signal to noise ratio
+KW  - Narrowband
+KW  - Aperture antennas
+KW  - Signal generators
+DO  - 10.1109/NAECON.1992.220653
+JO  - Proceedings of the IEEE 1992 National Aerospace and Electronics Conference@m_NAECON 1992
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - Proceedings of the IEEE 1992 National Aerospace and Electronics Conference@m_NAECON 1992
+Y1  - 18-22 May 1992
+AB  - A study of the direction of arrival (DOA) matrix is presented. For the case of low signal-to-noise ratio (SNR) the standard DOA matrix usually yields poor performance. By means of the singular value decomposition (SVD) technique, with a cleaned or SNR enhanced data record, the author propose construction of the DOA matrix by the lower-rank Froebinius approximation. Two types of improved DOA matrices are given, and two improved algorithms for 2D angles of arrival are derived. Simulation results are provided.<>
+ER  - 
+
+TY  - JOUR
+TI  - NbN hot electron bolometer mixers: sensitivity, LO power, direct detection and stability
+T2  - IEEE Transactions on Applied Superconductivity
+SP  - 484
+EP  - 489
+AU  - J. J. A. Baselmans
+AU  - M. Hajenius
+AU  - J. R. Gao
+AU  - A. Baryshev
+AU  - J. Kooi
+AU  - T. M. Klapwijk
+AU  - B. Voronov
+AU  - P. de Korte
+AU  - G. Gol'tsman
+PY  - 2005
+KW  - Electrons
+KW  - Bolometers
+KW  - Stability
+KW  - Superconducting device noise
+KW  - Bandwidth
+KW  - Receiving antennas
+KW  - Slot antennas
+KW  - Lattices
+KW  - Temperature sensors
+KW  - Cleaning
+KW  - Heterodyne receivers
+KW  - terahertz radiation detection
+DO  - 10.1109/TASC.2005.849884
+JO  - IEEE Transactions on Applied Superconductivity
+IS  - 2
+SN  - 1558-2515
+VO  - 15
+VL  - 15
+JA  - IEEE Transactions on Applied Superconductivity
+Y1  - June 2005
+AB  - We demonstrate that the performance of NbN lattice cooled hot electron bolometer mixers depends strongly on the interface quality between the bolometer and the contact structure. Both the receiver noise temperature and the gain bandwidth can be improved by a factor of 2 by cleaning the interface and adding an additional superconducting interlayer to the contact pad. Using this we obtain a double sideband receiver noise temperature of 950 K at 2.5 THz and 4.3 K, using a 0.4/spl times/4 /spl mu/m HEB mixer with a spiral antenna. At the same bias point, we obtain an IF gain bandwidth of 6 GHz. To comply with current demands on THz mixers for use in space based receivers we reduce the device size to 0.15/spl times/1 /spl mu/m and use a twin slot antenna. We report measurements of the noise temperature, LO power requirement, stability and the direct detection effect, using a mixer with a 1.6 THz twin slot antenna and a 1.462 THz solid state LO source with calibrated output power.
+ER  - 
+
+TY  - JOUR
+TI  - Reduced polynomial order linear prediction
+T2  - IEEE Signal Processing Letters
+SP  - 92
+EP  - 94
+AU  - E. M. Dowling
+AU  - R. D. DeGroat
+AU  - D. A. Linebarger
+AU  - L. I. Scharf
+AU  - M. Vis
+PY  - 1996
+KW  - Polynomials
+KW  - Frequency estimation
+KW  - Direction of arrival estimation
+KW  - Vectors
+KW  - Data models
+KW  - Sensor arrays
+KW  - Signal processing algorithms
+KW  - Prediction methods
+KW  - Least squares approximation
+KW  - Singular value decomposition
+DO  - 10.1109/97.481165
+JO  - IEEE Signal Processing Letters
+IS  - 3
+SN  - 1558-2361
+VO  - 3
+VL  - 3
+JA  - IEEE Signal Processing Letters
+Y1  - March 1996
+AB  - Reduced rank linear predictive frequency and direction-of-arrival (DOA) estimation algorithms use the singular value decomposition (SVD) to produce a noise-cleaned linear prediction vector. These algorithms then root this vector to obtain a subset of roots, whose angles contain the desired frequency or DOA information. The roots closest to the unit circle are deemed to be the "signal roots". The rest of the roots are "extraneous". The extraneous roots are expensive to calculate. Further, a search must be done to discern the signal roots from the extraneous roots. Here, we present a reduced polynomial order linear prediction method that simplifies the rooting computation for applications where high-speed processing is critical.
+ER  - 
+
+TY  - CONF
+TI  - On the elimination of extraneous roots
+T2  - Conference Record of The Twenty-Ninth Asilomar Conference on Signals, Systems and Computers
+SP  - 631
+EP  - 635 vol.1
+AU  - E. M. Dowling
+AU  - D. A. Linebarger
+AU  - R. D. DeGroat
+AU  - Hong Guan
+PY  - 1995
+KW  - Polynomials
+KW  - Direction of arrival estimation
+KW  - Frequency estimation
+KW  - Vectors
+KW  - Sensor arrays
+KW  - Computer science
+KW  - Mathematical model
+KW  - Data models
+KW  - Least squares approximation
+KW  - Maximum likelihood estimation
+DO  - 10.1109/ACSSC.1995.540625
+JO  - Conference Record of The Twenty-Ninth Asilomar Conference on Signals, Systems and Computers
+IS  - 
+SN  - 1058-6393
+VO  - 1
+VL  - 1
+JA  - Conference Record of The Twenty-Ninth Asilomar Conference on Signals, Systems and Computers
+Y1  - 30 Oct.-1 Nov. 1995
+AB  - In this paper we develop a technique to eliminate extraneous roots from reduced rank, linear predictive frequency and direction of arrival (DOA) estimation algorithms. These singular value decomposition (SVD) based algorithms produce a noise cleaned linear prediction vector and then root this vector to obtain a subset of roots, whose angles contain the desired frequency or DOA information. The roots closest to the unit circle are deemed to be the "signal roots". All the rest of the roots are "extraneous". The extraneous roots are expensive to calculate and complicate the extraction of the signal roots.
+ER  - 
+
+TY  - CONF
+TI  - I4TSPS: a Visual-Interactive Web System for Industrial Time-Series Pre-processing
+T2  - 2018 IEEE International Conference on Big Data (Big Data)
+SP  - 2012
+EP  - 2018
+AU  - K. Villalobos
+AU  - J. Vadillo
+AU  - B. Diez
+AU  - B. Calvo
+AU  - A. Illarramendi
+PY  - 2018
+KW  - Time series analysis
+KW  - Cleaning
+KW  - Sensors
+KW  - Smart manufacturing
+KW  - Task analysis
+KW  - Big Data
+KW  - Smart Manufacturing
+KW  - Industry 4.0
+KW  - Industrial sensors
+KW  - Time-Series Data Preprocessing
+KW  - Data reduction
+DO  - 10.1109/BigData.2018.8621887
+JO  - 2018 IEEE International Conference on Big Data (Big Data)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 IEEE International Conference on Big Data (Big Data)
+Y1  - 10-13 Dec. 2018
+AB  - Data pre-processing in smart manufacturing scenarios implies that data engineers must have knowledge of many different techniques necessary for example to clean, segment, normalize and to efficiently store time-series data. However, for many data engineers often results difficult to be aware of the most adequate pre-processing techniques due to the heterogeneous time-series data they must deal with and the variety of existing techniques.In this paper, a visual-interactive web system that facilitates the pre-processing task to data engineers is presented. On the one hand, data engineers can use it to select an adequate technology for detecting and handling outliers, to remove noise and to impute missing values in time series. Moreover, the system provides some recommendations to select the appropriate techniques and parameter values required by them. On the other hand, the system includes a machine learning module that suggests the most appropriate reduced representations in order to efficiently store those time series. The system has been tested with real time series of two different manufacturing companies.
+ER  - 
+
+TY  - CONF
+TI  - Coordinate rotation based low complexity architecture for 3D Single Channel Independent Component Analysis
+T2  - 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+SP  - 7322
+EP  - 7325
+AU  - J. B. Yerrapragada
+AU  - A. Olemann
+AU  - A. Acharyya
+AU  - S. R. Ahamed
+PY  - 2013
+KW  - Computer architecture
+KW  - Algorithm design and analysis
+KW  - Complexity theory
+KW  - Signal processing algorithms
+KW  - Vectors
+KW  - Three-dimensional displays
+KW  - Independent component analysis
+DO  - 10.1109/EMBC.2013.6611249
+JO  - 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+IS  - 
+SN  - 1558-4615
+VO  - 
+VL  - 
+JA  - 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+Y1  - 3-7 July 2013
+AB  - In this paper, we have proposed a low complexity architecture of the Single Channel Independent Component Analysis Algorithm (SCICA) targeted for remote cardiac health monitoring by introducing the concept of coordinate rotation. The ECG is widely used for the diagnosis of cardiovascular diseases, and in remote healthcare applications, it is necessary to obtain clean ECG data by separating noise from the obtained signal. Independent Component Analysis is popularly used to solve the signal separation problem, however it requires as many signal sensors as the number of independent signals involved, and also requires the number of signals involved to be known a priori. This is not always possible in remote healthcare environments and thus, this motivates us to explore the use of the SCICA algorithm which requires only one input sensor for signal separation. SCICA is computationally intensive and thus there is a need for a low-complexity implementation of the algorithm for the development of healthcare devices. The proposed architecture is validated in terms of functionality and computational complexity and it has been observed that its performance compares favorably with the conventional algorithm.
+ER  - 
+
+TY  - CONF
+TI  - Improved heart rate variability measurement based on modulation spectral processing of noisy electrocardiogram signals
+T2  - 2017 IEEE 14th International Conference on Wearable and Implantable Body Sensor Networks (BSN)
+SP  - 51
+EP  - 54
+AU  - D. P. Tobón
+AU  - S. Jayaraman
+AU  - T. H. Falk
+PY  - 2017
+KW  - Heart rate variability
+KW  - Electrocardiography
+KW  - Noise measurement
+KW  - Frequency modulation
+KW  - Signal to noise ratio
+DO  - 10.1109/BSN.2017.7936005
+JO  - 2017 IEEE 14th International Conference on Wearable and Implantable Body Sensor Networks (BSN)
+IS  - 
+SN  - 2376-8894
+VO  - 
+VL  - 
+JA  - 2017 IEEE 14th International Conference on Wearable and Implantable Body Sensor Networks (BSN)
+Y1  - 9-12 May 2017
+AB  - Wearable device usage is burgeoning, with representative applications ranging from patient/athelete monitoring to stress/fatigue identification to the so-called quantified self movement. Typically, cardiac information is monitored via electrocardiograms (ECG) and information such as heart rate (HR) and heart rate variability (HRV) are used as key health-related metrics. With many wearable devices, however, lower quality sensors are used, thus resulting in devices that are highly sensible to artifacts due to e.g., user's movement. The introduced artifacts hamper HR/HRV analyses, thus ECG enhancement has been the focus of recent research. Existing enhancement algorithms, however, do not perform well in very noisy conditions, as well as add additional computational processing to already battery-hungry wearable applications. Here, we propose to overcome these limitations by describing a new ECG signal representation called the modulation spectrum. By quantifying the rate-of-change of ECG spectral components, signal and artifactual components become separable, thus allowing for accurate HR and HRV measurement from the noisy signal, even in very extreme conditions typically seen in athletic performance training. The proposed MD-HRV (modulation-domain HRV) metric is tested with noise-corrupted synthetic ECG signals and is compared to `true' HRV values obtained from the clean signals. Experimental results show the proposed metric significantly outperforming conventional HRV indices computed on both the noisy, as well as enhanced ECG signals processed by a state-of-the-art wavelet-based algorithm. The obtained findings suggest that the proposed metric is well suited for wearable applications, particularly those involved with intense movement (e.g., in elite athletic training).
+ER  - 
+
+TY  - CONF
+TI  - Denoising radio interferometric images by subspace clustering
+T2  - 2017 IEEE International Conference on Image Processing (ICIP)
+SP  - 2134
+EP  - 2138
+AU  - N. M. Gürel
+AU  - P. Hurley
+AU  - M. Simeoni
+PY  - 2017
+KW  - Antennas
+KW  - Signal to noise ratio
+KW  - Antenna measurements
+KW  - Trajectory
+KW  - Matrix decomposition
+KW  - Noise reduction
+KW  - Extraterrestrial measurements
+KW  - radio interferometry
+KW  - singular spectrum analysis
+KW  - graph signal processing
+KW  - Laplacian matrix
+KW  - LOFAR
+DO  - 10.1109/ICIP.2017.8296659
+JO  - 2017 IEEE International Conference on Image Processing (ICIP)
+IS  - 
+SN  - 2381-8549
+VO  - 
+VL  - 
+JA  - 2017 IEEE International Conference on Image Processing (ICIP)
+Y1  - 17-20 Sept. 2017
+AB  - Radio interferometry usually compensates for high levels of noise in sensor/antenna electronics by throwing data and energy at the problem: observe longer, then store and process it all. Furthermore, only the end image is cleaned, reducing flexibility substantially. We propose instead a method to remove the noise explicitly before imaging. To this end, we developed an algorithm that first decomposes the sensor signals into components using Singular Spectrum Analysis and then cluster these components using graph Laplacian matrix. We show through simulation the potential for radio astronomy, in particular, illustrating the benefit for LOFAR, the low frequency array in Netherlands. From telescopic data to least-squares image estimates, far higher accuracy with low computation cost results without the need for long observation time.
+ER  - 
+
+TY  - CONF
+TI  - Oil Slick Detection in the Offshore Domain: Evaluation of Polarization-Dependent Sar Parameters
+T2  - IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium
+SP  - 8096
+EP  - 8099
+AU  - S. Angelliaume
+AU  - P. Dubois-Femandez
+AU  - C. E. Jones
+AU  - B. Holt
+AU  - B. Minchew
+AU  - E. Amri
+AU  - V. Miegebielle
+PY  - 2018
+KW  - Oils
+KW  - Synthetic aperture radar
+KW  - Sea surface
+KW  - Remote sensing
+KW  - Radar imaging
+KW  - Floors
+KW  - SAR
+KW  - radar
+KW  - polarization
+KW  - detection
+KW  - NESZ
+KW  - noise floor
+KW  - noise
+KW  - ocean
+KW  - sea
+KW  - oil
+KW  - spill
+KW  - slick
+KW  - marine pollution
+KW  - ROC curves
+KW  - probability of detection
+KW  - probability of false alarm
+DO  - 10.1109/IGARSS.2018.8518409
+JO  - IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium
+IS  - 
+SN  - 2153-7003
+VO  - 
+VL  - 
+JA  - IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium
+Y1  - 22-27 July 2018
+AB  - Remote sensing technology is an essential link in the global monitoring of the ocean surface and radars are efficient sensors for detecting marine pollution. When used operationally, a tradeoff must usually be made between the covered area and the quantity of information collected by the radar. To identify the most appropriate imaging mode, a methodology based on Receiver Operating Characteristic (ROC) curve analysis has been applied to an original dataset collected by an airborne system, SETHI, characterized by a very low instrument noise floor. The dataset was acquired during an oil spill clean-up exercise carried out in 2015 in the North Sea. Various polarization-dependent quantities are investigated and a relative ordering of the main polarimetric parameters is reported. VV offers the best tradeoff between the benefit of detection performance and the instrument and data requirements. When the sensor has a sufficiently low noise floor, HV is also recommended because it provides strong slick-sea contrast. Among all the investigated quad-polarimetric settings, no significant added value compared to single-polarized data was found.
+ER  - 
+
+TY  - CONF
+TI  - Robust detection of acoustic partial discharge signals in noisy environments
+T2  - 2017 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)
+SP  - 1
+EP  - 6
+AU  - R. Hussein
+AU  - K. Bashir Shaban
+AU  - A. H. El-Hag
+PY  - 2017
+KW  - Partial discharges
+KW  - Noise measurement
+KW  - Feature extraction
+KW  - Acoustics
+KW  - Frequency measurement
+KW  - Robustness
+KW  - White noise
+KW  - Partial Discharge
+KW  - Detection
+KW  - Noise
+KW  - Feature Extraction
+KW  - Random Forest
+DO  - 10.1109/I2MTC.2017.7969684
+JO  - 2017 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)
+Y1  - 22-25 May 2017
+AB  - Partial discharge (PD) can be used to predict insulation failures in power transformers. Accurate detection of particular PD types has a significant role in anticipating forthcoming outages. However, the noise encountered with PD measurements negatively affects the detection accuracy. In this paper, we propose a robust PD detection technique that is immune to noise through efficient frequency domain-based feature extraction from acoustic emission signals. The PD spectrum is first obtained using Fourier transform and then, the low frequency band of 0.05–0.15MHz is used as a representative feature vector. Finally, four different classifiers are used to examine the PD detection accuracy. Experimental results on a benchmark dataset verify the robustness of the proposed method for PD detection, as it achieves 100% classification accuracy for clean PD signals and up to 99.62% for noisy PD signals.
+ER  - 
+
+TY  - CONF
+TI  - An evolutionary method to refine imperfect sensor data for construction simulation
+T2  - 2017 Winter Simulation Conference (WSC)
+SP  - 2460
+EP  - 2471
+AU  - P. Shrestha
+AU  - A. H. Behzadan
+PY  - 2017
+KW  - Conferences
+KW  - Erbium
+DO  - 10.1109/WSC.2017.8247975
+JO  - 2017 Winter Simulation Conference (WSC)
+IS  - 
+SN  - 1558-4305
+VO  - 
+VL  - 
+JA  - 2017 Winter Simulation Conference (WSC)
+Y1  - 3-6 Dec. 2017
+AB  - Construction simulation is used to analyze uncertainties inherent to project activities and variations in work packages. However, existing simulation systems often fail to meaningfully contribute to the decision-making process due to their inability to evolve with changing project conditions. Equipping simulation models with sensing and reality capture technologies has been investigated as possible remedies to this problem. This, however, requires meticulous effort to procure, set up, operate, synchronize, and calibrate peripheral devices for data collection, transmission, and mining. Furthermore, sensor readings are often noisy and imperfect. The chaos theory explains how small variations in sensor readings used as simulation model input can lead to relatively large volatility in the output even in simple linear systems. This paper investigates a scientific methodology for generating more stable simulation models using an evolutionary algorithm that produces clean datasets by processing and significantly reducing noise in imperfect data obtained from consumer-grade sensors.
+ER  - 
+
+TY  - JOUR
+TI  - Deep Selective Fusion of Visible and Near-Infrared Images Using Unsupervised U-Net
+T2  - IEEE Transactions on Neural Networks and Learning Systems
+SP  - 1
+EP  - 12
+AU  - Q. Han
+AU  - C. Jung
+PY  - 2022
+KW  - Feature extraction
+KW  - Image color analysis
+KW  - Decoding
+KW  - Colored noise
+KW  - Task analysis
+KW  - Image fusion
+KW  - Optimization
+KW  - Image fusion
+KW  - multiscale
+KW  - multispectral
+KW  - near-infrared (NIR)
+KW  - nighttime
+KW  - selective fusion
+KW  - sensor fusion
+KW  - U-Net
+KW  - unsupervised learning.
+DO  - 10.1109/TNNLS.2022.3142780
+JO  - IEEE Transactions on Neural Networks and Learning Systems
+IS  - 
+SN  - 2162-2388
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Neural Networks and Learning Systems
+Y1  - 
+AB  - In low light conditions, visible (VIS) images are of a low dynamic range (low contrast) with severe noise and color, while near-infrared (NIR) images contain clear textures without noise and color. Multispectral fusion of VIS and NIR images produces color images of high quality, rich textures, and little noise by taking both advantages of VIS and NIR images. In this article, we propose the deep selective fusion of VIS and NIR images using unsupervised U-Net. Existing image fusion methods are afflicted with the low contrast in VIS images and flash-like effect in NIR images. Thus, we adopt unsupervised U-Net to achieve deep selective fusion of multiple scale features. Due to the absence of the ground truth, we use unsupervised learning by formulating an energy function as a loss function. To deal with insufficient training data, we perform data augmentation by rotating images and adjusting their intensity. We synthesize training data by degrading clean VIS images and masking clean NIR images using a circle. First, we utilize pretrained visual geometry group (VGG) to extract features from VIS images. Second, we build an encoding network to obtain edge information from NIR images. Finally, we combine all features and feed them into a decoding network for fusion. Experimental results demonstrate that the proposed fusion network produces visually pleasing results with fine details, little noise, and natural color and it is superior to state-of-the-art methods in terms of visual quality and quantitative measurements.
+ER  - 
+
+TY  - CONF
+TI  - Weighting schemes for audio-visual fusion in speech recognition
+T2  - 2001 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No.01CH37221)
+SP  - 173
+EP  - 176 vol.1
+AU  - H. Glotin
+AU  - D. Vergyr
+AU  - C. Neti
+AU  - G. Potamianos
+AU  - J. Luettin
+PY  - 2001
+KW  - Speech recognition
+KW  - Hidden Markov models
+KW  - Streaming media
+KW  - Speech enhancement
+KW  - Acoustic noise
+KW  - Vocabulary
+KW  - Automatic speech recognition
+KW  - Signal to noise ratio
+KW  - Audio databases
+KW  - Art
+DO  - 10.1109/ICASSP.2001.940795
+JO  - 2001 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No.01CH37221)
+IS  - 
+SN  - 1520-6149
+VO  - 1
+VL  - 1
+JA  - 2001 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings (Cat. No.01CH37221)
+Y1  - 7-11 May 2001
+AB  - We demonstrate an improvement in the state-of-the-art large vocabulary continuous speech recognition (LVCSR) performance, under clean and noisy conditions, by the use of visual information, in addition to the traditional audio one. We take a decision fusion approach for the audio-visual information, where the single-modality (audio- and visual- only) HMM classifiers are combined to recognize audio-visual speech. More specifically, we tackle the problem of estimating the appropriate combination weights for each of the modalities. Two different techniques are described: the first uses an automatically extracted estimate of the audio stream reliability in order to modify the weights for each modality (both clean and noisy audio results are reported), while the second is a discriminative model combination approach where weights on pre-defined model classes are optimized to minimize WER (clean audio only results).
+ER  - 
+
+TY  - CONF
+TI  - Utilization of median filters in power electronics: Traction drive applications
+T2  - 2013 Twenty-Eighth Annual IEEE Applied Power Electronics Conference and Exposition (APEC)
+SP  - 3055
+EP  - 3060
+AU  - A. M. Bazzi
+AU  - P. T. Krein
+PY  - 2013
+KW  - Sensors
+KW  - Noise
+KW  - Delays
+KW  - Digital filters
+KW  - Power electronics
+KW  - Estimation
+KW  - Filtering theory
+KW  - Median filter
+KW  - speed estimation
+KW  - noise cancellation
+KW  - power electronics control and sensing
+DO  - 10.1109/APEC.2013.6520735
+JO  - 2013 Twenty-Eighth Annual IEEE Applied Power Electronics Conference and Exposition (APEC)
+IS  - 
+SN  - 1048-2334
+VO  - 
+VL  - 
+JA  - 2013 Twenty-Eighth Annual IEEE Applied Power Electronics Conference and Exposition (APEC)
+Y1  - 17-21 March 2013
+AB  - This paper presents three different applications of median filters in power electronic systems, specifically, in traction motor drives. While median filters are commonly used in signal processing, literature regarding their utilization in power electronics is very limited. The theory behind median filters is first introduced and then three example applications are discussed: speed estimation for an induction motor drive, current sensing in a three-phase inverter, and dc bus voltage sensing in a half-bridge inverter. Simulation and experimental results verify the simplicity and applicability of median filters for control and sensing in power electronics applications. Results show significant improvement in the filter output quality for all three applications compared to the filter input where numerical errors, data acquisition glitches, and noise are significantly reduced or eliminated in the output.
+ER  - 
+
+TY  - CONF
+TI  - A framework for aerial inspection of siltation in waterways
+T2  - 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+SP  - 6273
+EP  - 6278
+AU  - H. Anwar
+AU  - A. Muhammad
+AU  - K. Berns
+PY  - 2015
+KW  - Irrigation
+KW  - Robot sensing systems
+KW  - Inspection
+KW  - Cleaning
+KW  - Surface treatment
+KW  - Rough surfaces
+DO  - 10.1109/IROS.2015.7354272
+JO  - 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+Y1  - 28 Sept.-2 Oct. 2015
+AB  - Silt accumulation and sedimentation in canal beds leads to deterioration of watercourses over time. Every year a forced closure of the canals in the Indus basin is inevitable for canal cleaning, entailing a very large scale and costly operation. Silt removal precision is prone to inefficiencies due to subjective decision making in the cleaning process. In this paper, we lay out a theoretical framework to map the semi-structured (emptied) canal bed terrains with an Unmanned Aerial Vehicle (UAV) system for quantitative inspection of deposited silt. The study employs Gaussian process regression on sampled points to determine a continuous distribution of silt surface, thereby, predicting the volume of silt on canal bed. Our theoretical analysis builds upon certain mathematical bounds on the variance of estimated volume, while explicitly considering localization error and sensor noise. Essentially, we setup a framework for studying how tolerable are the process and measurement uncertainties, while achieving a desired accuracy in silt profile and corresponding volume. We demonstrate the regression results in simulations as well as lab-scaled-model (LMS151 laser scanner) with different sets of parameters. Volume estimation is verified practically and mathematical performance limits are proposed in established aerial canal inspection system.
+ER  - 
+
+TY  - CONF
+TI  - Anomaly Detection in Magnetic Motion Capture using a 2-Layer SOM network
+T2  - 2006 IEEE Symposium on Computational Intelligence and Games
+SP  - 236
+EP  - 242
+AU  - l. Miller
+AU  - S. McGlinchey
+AU  - B. Chaperot
+PY  - 2006
+KW  - Motion detection
+KW  - Animation
+KW  - Computer networks
+KW  - Magnetic noise
+KW  - Magnetic sensors
+KW  - Costs
+KW  - Computer displays
+KW  - Background noise
+KW  - Neural networks
+KW  - Equations
+DO  - 10.1109/CIG.2006.311707
+JO  - 2006 IEEE Symposium on Computational Intelligence and Games
+IS  - 
+SN  - 2325-4289
+VO  - 
+VL  - 
+JA  - 2006 IEEE Symposium on Computational Intelligence and Games
+Y1  - 22-24 May 2006
+AB  - Over recent years, the fall in cost, and increased availability of motion capture equipment has led to an increase in non-specialist companies being able to use motion capture data to guide animation sequences for computer games and other applications by Margaret S. Geroch (2004). A bottleneck in the animation production process is in the clean-up of capture sessions to remove and/or correct anomalous (unusable) frames and noise. In this paper, an investigation is carried out on the use of a system comprising of two layers of self-organising maps in identifying anomalous frames in a magnetic motion capture session
+ER  - 
+
+TY  - CONF
+TI  - The use of carbon fiber composites in sliding contacts
+T2  - Proceedings of the Forty-Eighth IEEE Holm Conference on Electrical Contacts
+SP  - 175
+EP  - 183
+AU  - R. F. Stinson
+AU  - J. A. Sarro
+PY  - 2002
+KW  - Wire
+KW  - Wounds
+KW  - Chemical elements
+KW  - Ink
+KW  - Contacts
+KW  - Optical fiber testing
+KW  - Optical fiber sensors
+KW  - Potentiometers
+KW  - Carbon
+KW  - Environmental economics
+DO  - 10.1109/HOLM.2002.1040839
+JO  - Proceedings of the Forty-Eighth IEEE Holm Conference on Electrical Contacts
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - Proceedings of the Forty-Eighth IEEE Holm Conference on Electrical Contacts
+Y1  - 23-23 Oct. 2002
+AB  - Historically, the sliding contact within a potentiometer position sensor has been made from metal and was compatible with the metal wire wound elements originally in use. As the technology developed, the wire wound element was replaced with a carbon based resistive ink track. This change provided major technical and economic advantages but introduced incompatibility between the contact and track. Initially, when life requirements were in the range of one million or less cycles and the currents through the contact were higher, this incompatibility was tolerated. As life requirements increased to the present levels, in hundreds of millions of cycles; and currents reduced to the dry circuit range, it became more difficult to penetrate various barriers and transmit a clean noise free signal. The interface between the two dissimilar materials has produced a delicate balance upon which the wear and increases in contact resistance have an adverse effect on the performance of the unit. A natural progression was to find a contact material more compatible with the carbon based resistive ink tracks. Previous work has indicated the feasibility of the use of carbon fiber as a replacement for the metal in the contact, but has not provided the structure that will satisfy the mechanical, electrical, and environmental requirements of the product. Further development has produced a carbon fiber composite material to satisfy these requirements. This paper presents the test program used for the evaluation of this new material, showing the results, conclusions, and design considerations in the utilization of this product.
+ER  - 
+
+TY  - CONF
+TI  - Usability of apple iPhones for inertial navigation systems
+T2  - 2011 IEEE 22nd International Symposium on Personal, Indoor and Mobile Radio Communications
+SP  - 1254
+EP  - 1258
+AU  - C. K. Schindhelm
+AU  - F. Gschwandtner
+AU  - M. Banholzer
+PY  - 2011
+KW  - Sensors
+KW  - Kalman filters
+KW  - Acceleration
+KW  - Inertial navigation
+KW  - Accelerometers
+KW  - Noise
+KW  - Compass
+KW  - Inertial Navigation System
+KW  - INS
+KW  - Apple iPhone
+DO  - 10.1109/PIMRC.2011.6139701
+JO  - 2011 IEEE 22nd International Symposium on Personal, Indoor and Mobile Radio Communications
+IS  - 
+SN  - 2166-9589
+VO  - 
+VL  - 
+JA  - 2011 IEEE 22nd International Symposium on Personal, Indoor and Mobile Radio Communications
+Y1  - 11-14 Sept. 2011
+AB  - In recent decades, many indoor positioning techniques have been researched and some approaches have even been developed into consumer products. Most of them have been deployed into companies which benefit from indoor asset tracking. However, for public buildings like libraries or transportation systems, no direct benefit exists by installing expensive systems. Inertial navigation systems offer a form of positioning which is almost completely independent from external infrastructures, inexpensive and privacy friendly. As prices for sensors continuously drop, mobile terminals, such as cell phones or tablet PCs, are being equipped with various additional components, like GPS, cameras and light sensors, and moreover gyroscopes, compasses and accelerometers integration is also becoming commonplace. These last three components enable inertial navigation systems to calculate the position of the device. In this paper, we selected two devices, the iPhone 3GS and the iPhone 4, to analyze their sensors for usability of an inertial navigation system. For each device a common strapdown algorithm was implemented and varying standard filters applied to clean the output data stream of the sensors. Finally, we present the results, which are diverse according to the devices.
+ER  - 
+
+TY  - CONF
+TI  - Seeing Mt. Rainier: Lucky imaging for multi-image denoising, sharpening, and haze removal
+T2  - 2010 IEEE International Conference on Computational Photography (ICCP)
+SP  - 1
+EP  - 8
+AU  - N. Joshi
+AU  - M. F. Cohen
+PY  - 2010
+KW  - Pixel
+KW  - Noise
+KW  - Cameras
+KW  - Noise reduction
+KW  - Image color analysis
+KW  - Extraterrestrial measurements
+DO  - 10.1109/ICCPHOT.2010.5585096
+JO  - 2010 IEEE International Conference on Computational Photography (ICCP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2010 IEEE International Conference on Computational Photography (ICCP)
+Y1  - 29-30 March 2010
+AB  - Photographing distant objects is challenging for a number of reasons. Even on a clear day, atmospheric haze often represents the majority of light received by a camera. Unfortunately, dehazing alone cannot create a clean image. The combination of shot noise and quantization noise is exacerbated when the contrast is expanded after haze removal. Dust on the sensor that may be unnoticeable in the original images creates serious artifacts. Multiple images can be averaged to overcome the noise, but the combination of long lenses and small camera motion as well as time varying atmospheric refraction results in large global and local shifts of the images on the sensor. An iconic example of a distant object is Mount Rainier, when viewed from Seattle, which is 90 kilometers away. This paper demonstrates a methodology to pull out a clean image of Mount Rainier from a series of images. Rigid and non-rigid alignment steps brings individual pixels into alignment. A novel local weighted averaging method based on ideas from “lucky imaging” minimizes blur, resampling and alignment errors, as well as effects of sensor dust, to maintain the sharpness of the original pixel grid. Finally, dehazing and contrast expansion results in a sharp clean image.
+ER  - 
+
+TY  - CONF
+TI  - Motion Artifact Removal for Bio Signals using Regularized Autoencoder
+T2  - 2019 Third International conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)
+SP  - 496
+EP  - 500
+AU  - D. Evangelin
+AU  - P. Ithayarani
+AU  - J. N. S. Jebastin
+PY  - 2019
+KW  - Signal to noise ratio
+KW  - Electrocardiography
+KW  - Wireless communication
+KW  - Noise reduction
+KW  - Noise measurement
+KW  - Cost function
+KW  - Wireless sensor networks
+KW  - MEMS
+KW  - body area communication
+KW  - DAE
+KW  - bio signals
+KW  - artifact
+DO  - 10.1109/I-SMAC47947.2019.9032625
+JO  - 2019 Third International conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 Third International conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)
+Y1  - 12-14 Dec. 2019
+AB  - The advancements in wireless communication technology and micro electro mechanical system (MEMS) based sensor technology led to the rise of body area communication in healthcare field. The bio signals acquired through this on-body communication mainly suffers from motion artifacts caused by shadowing due to the body shape and body movement. These noises may lead to wrong prediction on data. Therefore, it is important to consider denoising the bio signals in order to perform accurate diagnosis and analysis. This paper proposes regularized denoising autoencoder (DAE) to reconstruct the clean signal from its noisy form. Here two regularization terms L1 and L2 which updates the cost function to avoid over fitting problem. This paper proves that L1 is better than L2 in terms of recovering the signal quality and it is measured by Signal to Noise Ratio (SNR). The dataset used here are taken from a neurokit a python tool box for statistics and neurophysiological signal processing.
+ER  - 
+
+TY  - CONF
+TI  - Joint Radar Waveform and Bank of Filter Design Forwind Farm Clutter Mitigation
+T2  - 2017 Sensor Signal Processing for Defence Conference (SSPD)
+SP  - 1
+EP  - 5
+AU  - D. Gaglione
+AU  - A. Aubry
+AU  - C. Clemente
+AU  - A. De Maio
+AU  - J. Soraghan
+AU  - A. Farina
+PY  - 2017
+KW  - Radar
+KW  - Wind turbines
+KW  - Wind farms
+KW  - Optimization
+KW  - Clutter
+KW  - Signal to noise ratio
+DO  - 10.1109/SSPD.2017.8233240
+JO  - 2017 Sensor Signal Processing for Defence Conference (SSPD)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 Sensor Signal Processing for Defence Conference (SSPD)
+Y1  - 6-7 Dec. 2017
+AB  - In-shore and off-shore wind farms are nowadays representing strategic assets for the generation of clean energy. However their presence interferes with existing surveillance systems, such as primary radar systems. In order to achieve painless coexistence of radar and wind farms systems, solutions can be explored from both the renewable energy and radar communities. In particular, this paper deals with the latter aspect, proposing signal processing solutions able to allow a radar system to mitigate the deleterious effects of a wind farm within its surveillance area. This paper proposes a joint radar waveform and filter design aimed to optimize the Signal plus Interference to Noise Power Ratio (SINR) in a multi-static radar scenario. The analysis is performed on simulated data and shows that the proposed method is able to reduce the effect of wind farms.
+ER  - 
+
+

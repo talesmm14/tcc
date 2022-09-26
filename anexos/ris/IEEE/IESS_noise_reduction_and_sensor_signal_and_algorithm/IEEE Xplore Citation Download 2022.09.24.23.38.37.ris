@@ -1,0 +1,2096 @@
+TY  - JOUR
+TI  - Performance Analysis and Dimension-Reduction Taylor Series Algorithms for Locating Multiple Disjoint Sources Based on TDOA Under Synchronization Clock Bias
+T2  - IEEE Access
+SP  - 48489
+EP  - 48509
+AU  - X. Chen
+AU  - D. Wang
+AU  - J. Yin
+AU  - Y. Wu
+PY  - 2018
+KW  - Receivers
+KW  - Clocks
+KW  - Synchronization
+KW  - Position measurement
+KW  - Closed-form solutions
+KW  - Taylor series
+KW  - Error analysis
+KW  - CRLB
+KW  - disjoint sources
+KW  - passive localization
+KW  - synchronization clock bias
+KW  - Taylor series
+KW  - TDOA
+DO  - 10.1109/ACCESS.2018.2860958
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 6
+VL  - 6
+JA  - IEEE Access
+Y1  - 2018
+AB  - Time difference of arrival (TDOA) localization technology, which does not require the time stamp of the source signals, is playing an increasingly important role in passive localization. Besides TDOA measurement noise and receiver position errors, another factor affecting TDOA positioning accuracy is the synchronization clock bias between different receivers. In this paper, the problem of TDOA source localization is considered under the condition that the TDOA measurements from multiple disjoint sources are subject to the same receiver position displacements and synchronization clock bias. First, based on the orthogonal projection matrix, the Cramér-Rao lower bounds of unknown parameters are derived in the presence of synchronization clock bias. Subsequently, according to the maximum likelihood (ML) criterion and Taylor series (TS) positioning method, the estimates obtained by ignoring the clock bias are shown to be biased, and the mean square error is found to increase quadratically with the 2-norm of the clock bias vector. To suppress the effect of synchronization clock bias, two dimension-reduction TS algorithms are proposed, and their asymptotically optimal performance is demonstrated under first-order error analysis. In addition, an ML-based closed-form solution for the clock bias vector is provided. Finally, simulation results verify the validity of the theoretical derivation and show the superiority of the proposed algorithms compared to the existing closed-form method.
+ER  - 
+
+TY  - CONF
+TI  - UAV-Assisted Over-the-Air Computation
+T2  - ICC 2021 - IEEE International Conference on Communications
+SP  - 1
+EP  - 6
+AU  - M. Fu
+AU  - Y. Zhou
+AU  - Y. Shi
+AU  - T. Wang
+AU  - W. Chen
+PY  - 2021
+KW  - Simulation
+KW  - Noise reduction
+KW  - Distributed databases
+KW  - Performance gain
+KW  - Unmanned aerial vehicles
+KW  - Robustness
+KW  - Sensors
+DO  - 10.1109/ICC42927.2021.9500918
+JO  - ICC 2021 - IEEE International Conference on Communications
+IS  - 
+SN  - 1938-1883
+VO  - 
+VL  - 
+JA  - ICC 2021 - IEEE International Conference on Communications
+Y1  - 14-23 June 2021
+AB  - Over-the-air computation (AirComp) provides a promising way to support ultrafast aggregation of distributed data. However, its performance cannot be guaranteed in long-distance transmission due to the distortion induced by the channel fading and noise. To unleash the full potential of AirComp, this paper proposes to use a low-cost unmanned aerial vehicle (UAV) acting as a mobile base station to assist AirComp systems. Specifically, due to its controllable high-mobility and high-altitude, the UAV can move sufficiently close to the sensors to enable line-of-sight transmission and adaptively adjust all the links' distances, thereby enhancing the signal magnitude alignment and noise suppression. Our goal is to minimize the time-averaging mean-square error for AirComp by jointly optimizing the UAV trajectory, the scaling factor at the UAV, and the transmit power at the sensors, under constraints on the UAV’s predetermined locations and flying speed, sensors’ average and peak power limits. However, due to the highly coupled optimization variables and time-dependent constraints, the resulting problem is non-convex and challenging. We thus propose an efficient iterative algorithm by applying the block coordinate descent and successive convex optimization techniques. Simulation results verify the convergence of the proposed algorithm and demonstrate the performance gains and robustness of the proposed design compared with benchmarks.
+ER  - 
+
+TY  - CONF
+TI  - Clustering Noisy Trajectories via Robust Deep Attention Auto-Encoders
+T2  - 2019 20th IEEE International Conference on Mobile Data Management (MDM)
+SP  - 63
+EP  - 71
+AU  - R. Zhang
+AU  - P. Xie
+AU  - H. Jiang
+AU  - Z. Xiao
+AU  - C. Wang
+AU  - L. Liu
+PY  - 2019
+KW  - Trajectory
+KW  - Feature extraction
+KW  - Noise measurement
+KW  - Noise reduction
+KW  - Clustering algorithms
+KW  - Data mining
+KW  - Convex functions
+KW  - Trajectory Clustering, Robust, Deep Attention Auto-encoders
+DO  - 10.1109/MDM.2019.00-73
+JO  - 2019 20th IEEE International Conference on Mobile Data Management (MDM)
+IS  - 
+SN  - 2375-0324
+VO  - 
+VL  - 
+JA  - 2019 20th IEEE International Conference on Mobile Data Management (MDM)
+Y1  - 10-13 June 2019
+AB  - Trajectory clustering aims at grouping similar trajectories into one cluster. It is an efficient way of finding the representative path or common trend shared by different moving objects, and also provides a foundation for movement pattern mining, anomaly detection and other applications. Existing trajectory clustering studies mainly rely on feature selection and similarity measurement based on their geographical and spatial properties. However, one obstacle hindering their wide usage is the problem of clustering accuracy in the presence of noisy or incomplete sensing data, due to limited sensory device quantity, communication errors, sensor failures, and sensor vacancy. This paper proposes an error-tolerant trajectory clustering approach by incorporating denoising methods.We propose the Robust Deep Attention Auto-encoders model (called Robust DAA) to learn the representations of low-dimensional denoising trajectories with three novel features. First, we present the deep attention auto-encoders by integrating the attention mechanism into the classical deep auto-encoder, which is capable of enhancing feature propagation and feature selection. Second, we train the deep attention auto-encoder by applying proximal method, back propagation and the Alternating Direction of Method of Multipliers (ADMM). As a result, our Robust DAA can reduce the negative influence of the noise on trajectory data. Finally, we perform clustering over the low-dimensional denoising representations using traditional clustering algorithms and demonstrates the quality of the clustering results by comparing our approach with existing representative methods. Extensive experiments are conducted on both synthetic datasets and real datasets. The results show that our approach outperforms the existing models in terms of accuracy, precision, recall and f1-score.
+ER  - 
+
+TY  - CONF
+TI  - An Accurate and Efficient Device-Free Localization Approach Based on Gaussian Bernoulli Restricted Boltzmann Machine
+T2  - 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+SP  - 2323
+EP  - 2328
+AU  - L. Zhao
+AU  - H. Huang
+AU  - S. Ding
+AU  - X. Li
+PY  - 2018
+KW  - Feature extraction
+KW  - Wireless communication
+KW  - Wireless sensor networks
+KW  - Data models
+KW  - Deep learning
+KW  - Training
+KW  - Neural networks
+KW  - Device-free Localization
+KW  - Gaussian Bernoulli Restricted Boltzmann Machine
+KW  - Autoencoder
+KW  - Dimensionality Reduction
+DO  - 10.1109/SMC.2018.00399
+JO  - 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+IS  - 
+SN  - 2577-1655
+VO  - 
+VL  - 
+JA  - 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+Y1  - 7-10 Oct. 2018
+AB  - As an emerging technology, device-free localization (DFL), using radio frequency (RF) sensor networks to detect targets who do not carry any attached devices, has spawned extensive applications. Many existing works formulate DFL as a classification problem, and a key problem is how to extract discriminative features to characterize the raw wireless signal. In this paper, we present an autoencoder-based deep neural network for feature extraction, moreover, multiple Gaussian Bernoulli restricted Boltzmann machines (GBRBMs) are utilized for pre-training and dimension reduction. Experiment results show that this method of GBRBM-based autoencoder (GBRBM-AE) can achieve a high accuracy and efficient performance, which outperforms the conventional autoencoder. When the dimensions of input data are reduced from 784 to 20 dims, our algorithm can maintain a high accuracy of 97.1% and is robust to noise with SNR = 5dB.
+ER  - 
+
+TY  - CONF
+TI  - Subspace-Aided Low-Complexity Blind Compressive Spectrum Sensing over TV Whitespace
+T2  - 2018 IEEE Global Communications Conference (GLOBECOM)
+SP  - 1
+EP  - 6
+AU  - H. Qi
+AU  - X. Zhang
+AU  - Y. Gao
+PY  - 2018
+KW  - Estimation
+KW  - Sensors
+KW  - OFDM
+KW  - Eigenvalues and eigenfunctions
+KW  - Matching pursuit algorithms
+KW  - Radio transmitters
+KW  - Wideband
+DO  - 10.1109/GLOCOM.2018.8647956
+JO  - 2018 IEEE Global Communications Conference (GLOBECOM)
+IS  - 
+SN  - 2576-6813
+VO  - 
+VL  - 
+JA  - 2018 IEEE Global Communications Conference (GLOBECOM)
+Y1  - 9-13 Dec. 2018
+AB  - Compressive sensing (CS) techniques have been proposed for wideband spectrum sensing applications to achieve sub-Nyquist-rate sampling. The complexity of CS recovery algorithm and the detection performance against noise are two of the main challenges of the implementation of compressive spectrum sensing (CSS). We hereby propose CSS scheme based on orthogonal matching pursuit (OMP) with the aid of spectrum sparsity order estimation enabled by detecting the signal subspace dimensionality directly from sub- Nyquist measurements. The computational effort of spectrum recovery can be saved superlinearly with the reduction of iterations. With the estimated spectrum sparsity order, the OMP algorithm is proposed to run only an explicit and a fraction of iterations compared to the cases where such estimation is absent. Besides, the estimation of active channel number also enables blind and hard decision of channel occupancy where threshold adaption for energy detection is avoided. Moreover, the detection performance of the proposed CSS scheme by simulation shows superior robustness against noise compared to the energy detection scheme.
+ER  - 
+
+TY  - CONF
+TI  - Typingwristband: A Human Slight Motion Sensing System Based on Vibration Detection
+T2  - ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+SP  - 8313
+EP  - 8317
+AU  - S. Cheng
+AU  - J. Yan
+AU  - J. Li
+AU  - J. Liu
+PY  - 2021
+KW  - Vibrations
+KW  - Wrist
+KW  - Performance evaluation
+KW  - Piezoelectric transducers
+KW  - Noise reduction
+KW  - Speech recognition
+KW  - Signal processing
+KW  - Human-Cyber-Physical Systems
+KW  - Slight Motion
+KW  - Wireless Sensing
+KW  - Vibration
+KW  - Tap Recognition
+DO  - 10.1109/ICASSP39728.2021.9414751
+JO  - ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+IS  - 
+SN  - 2379-190X
+VO  - 
+VL  - 
+JA  - ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+Y1  - 6-11 June 2021
+AB  - With the widespread of Human-Cyber-Physical Systems (HCPS), the fine-grained human movement detection becomes more and more important. Especially for the slightly motions of human’s hands, they are not only bring abundant information, but also provide a new way for the interaction between users and systems. In this paper, we focus on the problem of how to detect the human’s typing motion, and designed a new system, named as Typing Wristband, to obtain the vibration of wrist using piezoelectric transducer (PZT). Then, a robust denoising, event detection and classification algorithms are proposed to deal with the signal collected by Typing Wristband and detect the typing motions. Typing Wristband can recognized the movements of 3 fingers and 9 keys with high accuracy. Furthermore, it is very cheap and can be embedded into existing smart devices, e.g. a smart watch, so that it supports the wireless sensing very well in practice. Both of the analysis and experimental results verify that our Typing Wristband has the better performance in terms of accuracy and convenience.
+ER  - 
+
+TY  - CONF
+TI  - CycleISP: Real Image Restoration via Improved Data Synthesis
+T2  - 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+SP  - 2693
+EP  - 2702
+AU  - S. W. Zamir
+AU  - A. Arora
+AU  - S. Khan
+AU  - M. Hayat
+AU  - F. S. Khan
+AU  - M. -H. Yang
+AU  - L. Shao
+PY  - 2020
+KW  - Cameras
+KW  - Image color analysis
+KW  - Noise reduction
+KW  - AWGN
+KW  - Image denoising
+KW  - Sensors
+KW  - Pipelines
+DO  - 10.1109/CVPR42600.2020.00277
+JO  - 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+IS  - 
+SN  - 2575-7075
+VO  - 
+VL  - 
+JA  - 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+Y1  - 13-19 June 2020
+AB  - The availability of large-scale datasets has helped unleash the true potential of deep convolutional neural networks (CNNs). However, for the single-image denoising problem, capturing a real dataset is an unacceptably expensive and cumbersome procedure. Consequently, image denoising algorithms are mostly developed and evaluated on synthetic data that is usually generated with a widespread assumption of additive white Gaussian noise (AWGN). While the CNNs achieve impressive results on these synthetic datasets, they do not perform well when applied on real camera images, as reported in recent benchmark datasets. This is mainly because the AWGN is not adequate for modeling the real camera noise which is signal-dependent and heavily transformed by the camera imaging pipeline. In this paper, we present a framework that models camera imaging pipeline in forward and reverse directions. It allows us to produce any number of realistic image pairs for denoising both in RAW and sRGB spaces. By training a new image denoising network on realistic synthetic data, we achieve the state-of-the-art performance on real camera benchmark datasets. The parameters in our models are ~5 times lesser than the previous best method for RAW denoising. Furthermore, we demonstrate that the proposed framework generalizes beyond image denoising problem e.g., for color matching in stereoscopic cinema. The source code and pre-trained models are available at https://github.com/swz30/CycleISP.
+ER  - 
+
+TY  - CONF
+TI  - An Intelligent Adaptive Pedestrian Navigation Algorithm based on Support Vector Machine
+T2  - 2019 Chinese Control And Decision Conference (CCDC)
+SP  - 3706
+EP  - 3711
+AU  - H. Liu
+AU  - Q. Li
+AU  - C. Li
+AU  - H. Zhao
+PY  - 2019
+KW  - Navigation
+KW  - Support vector machines
+KW  - Accelerometers
+KW  - Micromechanical devices
+KW  - Mathematical model
+KW  - Curve fitting
+KW  - Noise reduction
+KW  - Pedestrian Navigation
+KW  - SVM
+KW  - Error fitting
+KW  - Intelligent estimator
+DO  - 10.1109/CCDC.2019.8832441
+JO  - 2019 Chinese Control And Decision Conference (CCDC)
+IS  - 
+SN  - 1948-9447
+VO  - 
+VL  - 
+JA  - 2019 Chinese Control And Decision Conference (CCDC)
+Y1  - 3-5 June 2019
+AB  - Aiming at the problem that the pedestrian navigation algorithm based on quadratic curve fitting zero-speed correction technology has low utilization rate of data samples and poor correction performance and instantaneous accuracy which cannot be optimized, an intelligent adaptive pedestrian navigation algorithm based on support vector machine is proposed, which the data of the sensors is obtained by using the optimized wavelet threshold denoising algorithm; the model trained by the SVR(support vector machine regression) is used to fit the three-dimensional velocity and the error fitting result is used as the system observations; then the intelligent estimator is formed by the SVM and the Kalman filter to estimate the system errors, thereby improving the system accuracy and reliability. The experimental verification by self-developed IMU proves that the method can accurately fit the three-dimensional velocity errors, estimate the systematic error optimally, and effectively correct the navigation data. The positioning accuracy is improved by 10.9% in complex environment. The algorithm has theoretical and engineering significance.
+ER  - 
+
+TY  - CONF
+TI  - Human Gait Recognition Based on Multi-Feature Fusion and Kinect Sensor
+T2  - 2019 12th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)
+SP  - 1
+EP  - 6
+AU  - M. Ding
+AU  - W. Li
+AU  - H. Wang
+AU  - Z. Zhao
+PY  - 2019
+KW  - Feature extraction
+KW  - Legged locomotion
+KW  - Databases
+KW  - Gait recognition
+KW  - Neural networks
+KW  - Noise reduction
+KW  - Hip
+KW  - Gait recognition
+KW  - Kinect
+KW  - Multi-feature fusion
+KW  - Dynamic time warping
+KW  - Nearest neighbor classifier
+DO  - 10.1109/CISP-BMEI48845.2019.8965833
+JO  - 2019 12th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 12th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)
+Y1  - 19-21 Oct. 2019
+AB  - Gait recognition has gained increasing attention from biometric scholars because of its applications in video surveillance. A novel approach to recognize human gait is presented based on multi-feature fusion and nearest neighbor classifier. The developed method firstly extracts 3 kinds of features from gait skeletal data by exploiting Kinect followed by calculating distances between any 2 gait sequences corresponding to these features. In what follows, weighted summation can be applied to acquire one fusion that is used in nearest neighbor classifier to recognize any gait sequence. The effectiveness of this gait recognition algorithm is verified on UPCV gait database and the experimental results show that the method has encouraging recognition rate.
+ER  - 
+
+TY  - JOUR
+TI  - Spectral Efficiency Improvement and Power Control Optimization of Massive MIMO Networks
+T2  - IEEE Access
+SP  - 11523
+EP  - 11532
+AU  - X. Zhang
+AU  - H. Qi
+AU  - X. Zhang
+AU  - L. Han
+PY  - 2021
+KW  - Wireless communication
+KW  - Wireless sensor networks
+KW  - Spectral efficiency
+KW  - Power control
+KW  - Massive MIMO
+KW  - Downlink
+KW  - Sensors
+KW  - Massive multiple-input multiple-output
+KW  - neighborhood field optimization
+KW  - optimization
+KW  - power control
+KW  - spectral efficiency
+DO  - 10.1109/ACCESS.2021.3051170
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 9
+VL  - 9
+JA  - IEEE Access
+Y1  - 2021
+AB  - Higher requirements must be put forward about wireless signal transmission in harsh environments. Energy loss mitigation, channel estimation, noise interference reduction demands high quality of service in wireless communication. In the fifth generation wireless communication, massive multiple-input multiple-output (MIMO) networks have been used and play a significant role to fulfill the requirements. Cell-Free massive MIMO networks are recognized as possible solution in the future wireless communication. Spectral efficiency (SE) is a very important index in assessing massive MIMO networks. This article tries to optimize both SE and power control of cell-free massive MIMO networks. Both uplink and downlink transmission are included in the study. The optimization model contains both SE and power control of massive MIMO networks. To tackle the model, a novel ensemble method is developed inspired by ensemble learning. The ensemble method is built up on the neighborhood field optimization method. The goodness of the developed ensemble method is verified by comparing with genetic algorithm, gradient descent method and Newton method. Extensive simulations are performed to study the optimization of SE and power control. Different wireless sensors are taken into consideration to simulate different requirements of massive MIMO networks. The results demonstrate the effectiveness of the proposed method for applying in massive MIMO networks.
+ER  - 
+
+TY  - CONF
+TI  - Efficient Cooperative Spectrum Detection in Cognitive Radio Systems Using Wavelet Fusion
+T2  - 2018 International Conference on Computing, Electronic and Electrical Engineering (ICE Cube)
+SP  - 1
+EP  - 6
+AU  - M. E. Youssef
+AU  - S. Nasim
+AU  - S. wasi
+AU  - U. Khisal
+AU  - A. Khan
+PY  - 2018
+KW  - Cognitive radio
+KW  - Discrete wavelet transforms
+KW  - Noise reduction
+KW  - Sensor fusion
+KW  - cognitive radio
+KW  - spectrum detection
+KW  - wavelet fusion
+KW  - denoising
+KW  - hard decision fusion
+DO  - 10.1109/ICECUBE.2018.8610981
+JO  - 2018 International Conference on Computing, Electronic and Electrical Engineering (ICE Cube)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 International Conference on Computing, Electronic and Electrical Engineering (ICE Cube)
+Y1  - 12-13 Nov. 2018
+AB  - To find spectrum opportunities for secondary (unlicensed) users, cognitive radio Spectrum detection is essential. This research paper proposed an advance spectrum sensing technique consist of wavelet fusion. Denoising and multi-resolution capabilities of wavelet processing are utilized to develop an effective cooperative sensing technique. The proposed algorithm is based on data fusion from different sensors using the wavelet transform, proceeded by wavelet de-noising and energy detection. The proposed algorithm is compared with a previously published algorithm that is based on hard decision fusion proceeded by wavelet processing in each individual sensor. In addition, the results are also compared with the classical cooperative energy detection technique. The results show that our proposed technique outperform previous techniques for a sample false alarm probability.
+ER  - 
+
+TY  - CONF
+TI  - Speech Enhancement Using Polynomial Eigenvalue Decomposition
+T2  - 2019 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
+SP  - 125
+EP  - 129
+AU  - V. W. Neo
+AU  - C. Evers
+AU  - P. A. Naylor
+PY  - 2019
+KW  - Polynomial eigenvalue decomposition
+KW  - broadband multi-channel processing
+KW  - strong decorrelation
+KW  - speech enhancement
+KW  - signal denoising
+DO  - 10.1109/WASPAA.2019.8937235
+JO  - 2019 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
+IS  - 
+SN  - 1947-1629
+VO  - 
+VL  - 
+JA  - 2019 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
+Y1  - 20-23 Oct. 2019
+AB  - Speech enhancement is important for applications such as telecommunications, hearing aids, automatic speech recognition and voice-controlled system. The enhancement algorithms aim to reduce interfering noise while minimizing any speech distortion. In this work for speech enhancement, we propose to use polynomial matrices in order to exploit the spatial, spectral as well as temporal correlations between the speech signals received by the microphone array. Polynomial matrices provide the necessary mathematical framework in order to exploit constructively the spatial correlations within and between sensor pairs, as well as the spectral-temporal correlations of broadband signals, such as speech. Specifically, the polynomial eigenvalue decomposition (PEVD) decorrelates simultaneously in space, time and frequency. We then propose a PEVD-based speech enhancement algorithm. Simulations and informal listening examples have shown that our method achieves noise reduction without introducing artefacts into the enhanced signal for white, babble and factory noise conditions between -10 dB to 30 dB SNR.
+ER  - 
+
+TY  - CONF
+TI  - The Effect of SAR Speckle Removal in SAR-Optical Image Fusion
+T2  - 2022 30th Signal Processing and Communications Applications Conference (SIU)
+SP  - 1
+EP  - 4
+AU  - S. Gençay
+AU  - C. Özcan
+PY  - 2022
+KW  - Measurement
+KW  - Visualization
+KW  - Speckle
+KW  - Optical imaging
+KW  - Adaptive optics
+KW  - Optical sensors
+KW  - Optical reflection
+KW  - optical image
+KW  - SAR image
+KW  - image fusion
+KW  - remote sensing
+DO  - 10.1109/SIU55565.2022.9864861
+JO  - 2022 30th Signal Processing and Communications Applications Conference (SIU)
+IS  - 
+SN  - 2165-0608
+VO  - 
+VL  - 
+JA  - 2022 30th Signal Processing and Communications Applications Conference (SIU)
+Y1  - 15-18 May 2022
+AB  - Due to the imaging mechanism of Synthetic Aperture Radar (SAR) and the noise in the images, visual identification of objects in the scene is not as easy as in optical images. SAR images have limited color information and cannot reflect the spectral information of objects. Optical images, on the other hand, have rich spectral information. SAR-Optical image fusion is an important area of study so that SAR data can be easily evaluated by anyone, but it is difficult to find a matching SAR and optical image of the same scene. In order to overcome this difficulty, Sentinel-1 and Sentinel-2 datasets have been published and image fusion studies have been carried out with various methods. However, it has been observed that the effect of SAR noise removal before merging on image fusion methods has not been investigated. In the studies conducted to investigate this effect, five different fusion algorithms used in the literature were tested with twenty different image groups using different noise reduction ratios. The success of the fusion results obtained was compared with five different metrics that are widely used in the literature. The images and metric results obtained as a result of the tests showed that the removal of speckle noise in the SAR data has a positive effect on the fusion results.
+ER  - 
+
+TY  - JOUR
+TI  - IS-WARS: Intelligent and Stealthy Adversarial Attack to Wi-Fi-based Human Activity Recognition Systems
+T2  - IEEE Transactions on Dependable and Secure Computing
+SP  - 1
+EP  - 1
+AU  - P. Huang
+AU  - X. Zhang
+AU  - S. Yu
+AU  - L. Guo
+PY  - 2021
+KW  - Wireless fidelity
+KW  - Wireless communication
+KW  - Activity recognition
+KW  - Zigbee
+KW  - Interference
+KW  - Wireless sensor networks
+KW  - Noise reduction
+KW  - Wireless Adversarial Example
+KW  - Cross Technology Interference
+KW  - Channel State Information
+KW  - Human Activity Recognition
+DO  - 10.1109/TDSC.2021.3110480
+JO  - IEEE Transactions on Dependable and Secure Computing
+IS  - 
+SN  - 1941-0018
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Dependable and Secure Computing
+Y1  - 
+AB  - The non-intrusive human activity recognition has been envisioned as a key enabler for many emerging applications requiring interactions between humans and computing systems. To accurately recognize different human behaviors, ubiquitous wireless signals are widely adopted, e.g., Wi-Fi signals, whose Channel State Information can precisely reflect human movements. Unfortunately, nearly all Wi-Fi-based recognition systems assume a clean wireless environment, i.e., no interference will compromise the developed algorithms, which, apparently, is not feasible in practice. Even worse, for systems using Wi-Fi 2.4GHz signals, the widely existing interference from coexisting protocols, such as ZigBee, Bluetooth, and LTE-Unlicensed, can easily compromise the recognition process, posing a hard limit on further enhancing the accuracy. Therefore, this work uncovers a new wireless adversarial attack against Wi-Fi-based human activity recognition systems, by intentionally injecting interference using coexisting protocol signals. The contaminated Wi-Fi signal will distort CSI estimation and finally output a false recognition result. Different from traditional jamming attacks, this new adversarial attack is intelligent and stealthy in terms of avoiding being detected from traffic analysis. Along with both theoretical analysis and extensive real-world experiments, we have shown this newly-identified attack can easily compromise many existing Wi-Fi-based human recognition systems while still bypassing malicious signal detection schemes.
+ER  - 
+
+TY  - JOUR
+TI  - Iterative Joint Image Demosaicking and Denoising Using a Residual Denoising Network
+T2  - IEEE Transactions on Image Processing
+SP  - 4177
+EP  - 4188
+AU  - F. Kokkinos
+AU  - S. Lefkimmiatis
+PY  - 2019
+KW  - Noise reduction
+KW  - Image reconstruction
+KW  - Noise measurement
+KW  - Pipelines
+KW  - Image color analysis
+KW  - Training
+KW  - Deep learning
+KW  - denoising
+KW  - demosaicking
+KW  - image restoration
+KW  - proximal methods
+KW  - majorization-minimization
+DO  - 10.1109/TIP.2019.2905991
+JO  - IEEE Transactions on Image Processing
+IS  - 8
+SN  - 1941-0042
+VO  - 28
+VL  - 28
+JA  - IEEE Transactions on Image Processing
+Y1  - Aug. 2019
+AB  - Modern digital cameras rely on the sequential execution of separate image processing steps to produce realistic images. The first two steps are usually related to denoising and demosaicking, where the former aims to reduce noise from the sensor and the latter converts a series of light intensity readings to color images. Modern approaches try to jointly solve these problems, i.e., joint denoising-demosaicking, which is an inherently ill-posed problem given that two-thirds of the intensity information is missing and the rest is perturbed by noise. While there are several machine learning systems that have been recently introduced to solve this problem, the majority of them rely on generic network architectures, which do not explicitly consider the physical image model. In this paper, we propose a novel algorithm that is inspired by powerful classical image regularization methods, large-scale optimization, and deep learning techniques. Consequently, our derived iterative optimization algorithm, which involves a trainable denoising network, has a transparent and clear interpretation compared with other black-box data driven approaches. Our extensive experimentation line demonstrates that our proposed method outperforms any previous approaches for both noisy and noise-free data across many different datasets. This improvement in reconstruction quality is attributed to the rigorous derivation of an iterative solution and the principled way we design our denoising network architecture, which as a result requires fewer trainable parameters than the current state-of-the-art solution, and furthermore can be efficiently trained by using a significantly smaller number of training data than existing deep demosaicking networks.
+ER  - 
+
+TY  - CONF
+TI  - Compressed Sensing Based Channel Estimation and Open-loop Training Design for Hybrid Analog-digital Massive MIMO Systems
+T2  - ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+SP  - 4597
+EP  - 4601
+AU  - K. Ardah
+AU  - B. Sokal
+AU  - A. L. F. de Almeida
+AU  - M. Haardt
+PY  - 2020
+KW  - Training
+KW  - Simulation
+KW  - Channel estimation
+KW  - Coherence
+KW  - Sensors
+KW  - Matrix decomposition
+KW  - Analog-digital conversion
+KW  - Hybrid analog-digital
+KW  - massive MIMO
+KW  - compressed sensing
+KW  - open-loop training design
+KW  - mutual coherence.
+DO  - 10.1109/ICASSP40776.2020.9054443
+JO  - ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+IS  - 
+SN  - 2379-190X
+VO  - 
+VL  - 
+JA  - ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+Y1  - 4-8 May 2020
+AB  - Channel estimation in hybrid analog-digital massive MIMO systems is a challenging problem due to the high channel dimension, low signal-to-noise ratio before beamforming, and reduced number of radio-frequency chains. Compressed sensing based algorithms have been adopted to address these challenges by leveraging the sparse nature of millimeter-wave MIMO channels. In compressed sensing-based methods, the training vectors should be designed carefully to guarantee recoverability. Although using random vectors has an overwhelming recoverability guarantee, it has been recently shown that an optimized update, which could be obtained so that the mutual coherence of the resulting sensing matrix is minimized, can improve the recoverability guarantee. In this paper, we propose an openloop hybrid analog-digital beam-training framework, where a given sensing matrix is decomposed into analog and digital beamformers. The given sensing matrix can be designed efficiently offline to reduce computational complexity. Simulation results show that the proposed training method achieves a lower mutual coherence and an improved channel estimation performance than the other benchmark methods.
+ER  - 
+
+TY  - CONF
+TI  - Particle Filtering for Nonlinear Systems with Round-Robin Protocol and Uniform Quantization
+T2  - 2021 33rd Chinese Control and Decision Conference (CCDC)
+SP  - 7144
+EP  - 7149
+AU  - M. Shi
+AU  - Y. Niu
+AU  - L. Sheng
+AU  - M. Gao
+PY  - 2021
+KW  - Quantization (signal)
+KW  - Protocols
+KW  - Filtering
+KW  - Stochastic processes
+KW  - Packet loss
+KW  - Filtering algorithms
+KW  - Particle filters
+KW  - Particle filter
+KW  - Quantization effect
+KW  - Round-Robin protocol
+KW  - Networked systems
+KW  - Non-Gaussian noise
+DO  - 10.1109/CCDC52312.2021.9602053
+JO  - 2021 33rd Chinese Control and Decision Conference (CCDC)
+IS  - 
+SN  - 1948-9447
+VO  - 
+VL  - 
+JA  - 2021 33rd Chinese Control and Decision Conference (CCDC)
+Y1  - 22-24 May 2021
+AB  - In this paper, the particle filter problem is investigated for a class of nonlinear systems with communication constraints. The communication between sensor and remote filter is subject to uniform quantization effects. Moreover, in order to solve the problem of limited network capacity, the Round-Robin protocol is introduced in this paper, which can effectively avoid communication conflicts and reduce packet loss. Through mathematical hypothesis and stochastic analysis, an explicit expression of likelihood function combined with the probability information of networked phenomenon is established under the recursive Bayesian estimation framework. A novel particle filter algorithm is proposed for nonlinear state estimation in the simultaneous presence of uniform quantization and Round-Robin protocol. Finally, a simulation example is given to illustrate the effectiveness of the proposed particle filtering method.
+ER  - 
+
+TY  - JOUR
+TI  - Simultaneous Spatial and Spectral Low-Rank Representation of Hyperspectral Images for Classification
+T2  - IEEE Transactions on Geoscience and Remote Sensing
+SP  - 2872
+EP  - 2886
+AU  - S. Mei
+AU  - J. Hou
+AU  - J. Chen
+AU  - L. -P. Chau
+AU  - Q. Du
+PY  - 2018
+KW  - Hyperspectral imaging
+KW  - Algorithm design and analysis
+KW  - Convex functions
+KW  - Atmospheric measurements
+KW  - Signal processing algorithms
+KW  - Noise reduction
+KW  - Classification
+KW  - convex optimization
+KW  - hyperspectral imagery
+KW  - low-rank prior
+KW  - spatial contextual
+KW  - spectral variations
+DO  - 10.1109/TGRS.2017.2785359
+JO  - IEEE Transactions on Geoscience and Remote Sensing
+IS  - 5
+SN  - 1558-0644
+VO  - 56
+VL  - 56
+JA  - IEEE Transactions on Geoscience and Remote Sensing
+Y1  - May 2018
+AB  - Arising from various environmental and atmos- pheric conditions and sensor interference, spectral variations are inevitable during hyperspectral remote sensing, which degrade the subsequent hyperspectral image analysis significantly. In this paper, we propose simultaneous spatial and spectral low-rank representation (S3LRR) that can effectively suppress the within-class spectral variations for classification purposes. The S3LRR recovers an intrinsic component with the same dimension as the original image, in which both spatial and spectral low-rank priors are adopted to regularize the intrinsic component simultaneously and compensate to each other, together with robust modeling of spectral variations. Compared with existing methods that explore only the spectral low-rank prior, the novel spatial low-rank prior (i.e., low-rank prior in band-wise) can take the spatial structure information of hyperspectral images into account, which has demonstrated to be very useful. Technically, we formulate S3LRR as a constrained convex optimization problem, and solve it using the efficient inexact augmented Lagrangian multiplier method. The resulting intrinsic component is less interfered by within-class spectral variations, and more discriminatory to offer higher classification accuracy. Comprehensive experiments on benchmark data sets demonstrate that the proposed S3LRR improves classification accuracy significantly, which outperforms state-of-the-art methods.
+ER  - 
+
+TY  - JOUR
+TI  - Joint Dimension Assignment and Compression for Deterministic Parameter Vector Estimation in Distributed Multisensor Networks
+T2  - IEEE Transactions on Signal Processing
+SP  - 2114
+EP  - 2128
+AU  - L. Zhang
+AU  - D. Niu
+AU  - T. Ma
+AU  - E. Song
+AU  - Z. Li
+AU  - Q. Shi
+PY  - 2021
+KW  - Estimation
+KW  - Optimization
+KW  - Dimensionality reduction
+KW  - Convergence
+KW  - Bandwidth
+KW  - Wireless sensor networks
+KW  - Matrix decomposition
+KW  - Distributed estimation
+KW  - compression dimension assignment
+KW  - compression matrix
+KW  - multisensor network
+KW  - deterministic parameter vector
+DO  - 10.1109/TSP.2021.3066786
+JO  - IEEE Transactions on Signal Processing
+IS  - 
+SN  - 1941-0476
+VO  - 69
+VL  - 69
+JA  - IEEE Transactions on Signal Processing
+Y1  - 2021
+AB  - This article considers distributed estimation of an unknown deterministic parameter vector in a bandwidth constrained multisensor network with a fusion center (FC). Due to the stringent bandwidth requirements, each sensor compresses its observation as a low-dimensional vector via a linear transformation. Then, the FC linearly combines all received compressed data to estimate the deterministic parameter vector based on the best linear unbiased estimator. The problem of interest is to jointly design the dimension assignment (i.e., the compression dimension of each sensor) and the corresponding compression matrix when the total number of compression dimensions is given. Such a joint design problem is formulated as an optimization problem with rank and linear matrix equality constraints, which is shown to be NP-hard for the first time. In addition, penalty decomposition (PD), successive quadratic upper-bound minimization method of multipliers (SQUM-M), and SQUM-M-block coordinate descent (SQUM-M-BCD) are proposed to solve it approximately. Furthermore, we show that any accumulation point of the sequence generated by the PD satisfies the Karush-Kuhn-Tucker conditions of the equivalent formulation of the joint design problem; the SQUM-M admits the same convergence property as the PD under some conditions. Numerical experiments corroborate the merits of PD and SQUM-M-BCD as compared with existing strategies for the heterogeneous scenario, and further illustrate the effectiveness of the proposed algorithms for the correlated noise case.
+ER  - 
+
+TY  - CONF
+TI  - An Approach to Detection Probability of Cluster-Based CRN
+T2  - 2018 8th International Conference on Communication Systems and Network Technologies (CSNT)
+SP  - 29
+EP  - 33
+AU  - S. Bansal
+AU  - A. Kumar
+PY  - 2018
+KW  - Sensors
+KW  - Throughput
+KW  - Cognitive radio
+KW  - Signal to noise ratio
+KW  - Clustering algorithms
+KW  - Probability
+KW  - Wireless sensor networks
+KW  - Sensing Time
+KW  - Probability of detection
+KW  - Threshold power
+DO  - 10.1109/CSNT.2018.8820211
+JO  - 2018 8th International Conference on Communication Systems and Network Technologies (CSNT)
+IS  - 
+SN  - 2329-7182
+VO  - 
+VL  - 
+JA  - 2018 8th International Conference on Communication Systems and Network Technologies (CSNT)
+Y1  - 24-26 Nov. 2018
+AB  - The performance of cognitive radio network (CRN) is directly linked with presence of primary user. The major challenges of cognitive radio networks (CRN) are sensing of primary user by secondary user and cooperation among secondary user. The sensing of primary user can be controlled through spectrum sensing capabilities of secondary user while cooperation between secondary user become more complex with increasing secondary user in CRN. In this paper we have study existing method for sensing primary user by secondary user. Combine cluster based network and energy detection sensing method proposed that improves cooperation among secondary user and inherently reduces overhead. The result shows reduction in access time and increase the probability detection for CRN.
+ER  - 
+
+TY  - CONF
+TI  - Narrow Band Digital Filtering Approach for CR-IoT Node with Carrier Aggregation Using Zero/Pole Placement
+T2  - 2021 IEEE International Conference on Internet of Things and Intelligence Systems (IoTaIS)
+SP  - 104
+EP  - 109
+AU  - M. Shbat
+PY  - 2021
+KW  - Band-pass filters
+KW  - Uncertainty
+KW  - OFDM
+KW  - IIR filters
+KW  - Frequency response
+KW  - Sensors
+KW  - Cognitive radio
+KW  - cognitive radio (CR)
+KW  - IoT node
+KW  - carrier aggregation (CA)
+KW  - sample complexity
+KW  - zero/pole design
+DO  - 10.1109/IoTaIS53735.2021.9628733
+JO  - 2021 IEEE International Conference on Internet of Things and Intelligence Systems (IoTaIS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 IEEE International Conference on Internet of Things and Intelligence Systems (IoTaIS)
+Y1  - 23-24 Nov. 2021
+AB  - Using zero/pole design method, the proposed narrow band (NB) infinite impulse response band-pass filter (IIR-BPF) can be designed for coarse narrow spectrum sensing (NSS) algorithms with carrier aggregation (CA) capability to be employed in cognitive radio internet-of-things (CR-IoT) nodes. This IIR-BPF can extract the targeted physical radio resource blocks (PRBs) in the wide orthogonal frequency division multiplexing (OFDM) aggregated bandwidth prior of performing the sensing process. The practical frequency response characteristics of the filter are addressed. The use of the suggested digital filter with energy detector (ED) shows sensing performance enhancement presented by probability or error reduction under noise power uncertainty and low signal-to-noise ratio (SNR). For instance, at SNR=-13 dB and for the same sample complexity (N=100), the probability of error is reduced from 0.67 to 0.48 using the proposed solution.
+ER  - 
+
+TY  - JOUR
+TI  - On the Adaptivity of Unscented Particle Filter for GNSS/INS Tightly-Integrated Navigation Unit in Urban Environment
+T2  - IEEE Access
+SP  - 144157
+EP  - 144170
+AU  - O. Vouch
+AU  - A. Minetto
+AU  - G. Falco
+AU  - F. Dovis
+PY  - 2021
+KW  - Global navigation satellite system
+KW  - Navigation
+KW  - Measurement uncertainty
+KW  - Noise measurement
+KW  - Adaptation models
+KW  - Satellites
+KW  - Position measurement
+KW  - Bayes methods
+KW  - sensor fusion
+KW  - inertial navigation
+KW  - satellite navigation systems
+KW  - particle filters
+KW  - adaptive estimation
+KW  - position accuracy
+DO  - 10.1109/ACCESS.2021.3122006
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 9
+VL  - 9
+JA  - IEEE Access
+Y1  - 2021
+AB  - Tight integration algorithms fusing Global Navigation Satellite System (GNSS) and Inertial Navigation System (INS) have become popular in many high-accuracy positioning and navigation applications. Despite their reliability, common integration architectures can still run into accuracy drops under challenging navigation settings. The growing computational power of low-cost, embedded systems has allowed for the exploitation of several advanced Bayesian state estimation algorithms, such as the Particle Filter (PF) and its hybrid variants, e.g. Unscented Particle Filter (UPF). Although sophisticated, these architectures are not immune from multipath scattering and Non-Line-of-Sight (NLOS) signal receptions, which frequently corrupt satellite measurements and jeopardise GNSS/INS solutions. Hence, a certain level of modelling adaptivity should be granted to avoid severe drifts in the estimated states. Given these premises, the paper presents a novel Adaptive Unscented Particle Filter (AUPF) architecture leveraging two cascading stages to cope with disruptive, biased GNSS input observables in harsh conditions. A INS-based signal processing block is implemented upstream of a Redundant Measurement Noise Covariance Estimation (RMNCE) stage to strengthen the adaptation of observables’ statistics and improve the state estimation. An experimental assessment is provided for the proposed robust AUPF that demonstrates a 10 % average reduction of the horizontal position error above the 75-th percentile. In addition, a comparative analysis both with previous adaptive architectures and a plain UPF is carried out to highlight the improved performance of the proposed methodology.
+ER  - 
+
+TY  - CONF
+TI  - Smart and Connected Physiological Monitoring Enabled by Stretchable Bioelectronics and Deep-Learning Algorithm
+T2  - 2020 IEEE 70th Electronic Components and Technology Conference (ECTC)
+SP  - 979
+EP  - 984
+AU  - M. Mahmood
+AU  - Y. -T. Kwon
+AU  - Y. -S. Kim
+AU  - J. Kim
+AU  - W. -H. Yeo
+PY  - 2020
+KW  - Electrocardiography
+KW  - Electrodes
+KW  - Monitoring
+KW  - Electromyography
+KW  - Electroencephalography
+KW  - Biomedical monitoring
+KW  - Skin
+KW  - Stretchable bioelectronics
+KW  - wearable electronics
+KW  - physiological monitoring
+KW  - deep learning
+KW  - human-machine interfaces
+DO  - 10.1109/ECTC32862.2020.00159
+JO  - 2020 IEEE 70th Electronic Components and Technology Conference (ECTC)
+IS  - 
+SN  - 2377-5726
+VO  - 
+VL  - 
+JA  - 2020 IEEE 70th Electronic Components and Technology Conference (ECTC)
+Y1  - 3-30 June 2020
+AB  - Commercially available, wearable physiological monitors rely on rigid, multiple electronic components, coupled with aggressive adhesives and conductive gels, often causing discomfort and skin breakdown. Here, we introduce an all-in-one, wireless, stretchable bioelectronics platform for portable, real-time physiological monitoring and accurate classification biopotentials, including electrocardiograms (ECG), electroencephalograms (EEG), and electromyograms (EMG). The nanomembrane sensor and multi-layered electronic system is manufactured by integration of microfabrication techniques, aerosol jet printing of nanoparticles, photonic sintering, and hard-soft materials assembly. Strategic integration with hyperelastic elastomers allows the device to adhere and deform naturally with human body while maintaining the functionalities of the on-board electronics. Stretchable electrodes with optimized structures for intimate skin contact acquire high-quality biopotentials. Comparison of those signals with commercial systems captures the improved performance and significant noise reduction of the stretchable bioelectronics. Implementation of convolutional neural networks for real-time classifications of ECG, EMG, EEG and inertial measurement data demonstrates the feasibility for precise control of external systems. In vivo demonstrations with human subjects in various scenarios reveal the versatility of the device as both a health monitor with real-time cardiac monitoring and a viable human-machine interface.
+ER  - 
+
+TY  - JOUR
+TI  - Learning Spatial and Spatio-Temporal Pixel Aggregations for Image and Video Denoising
+T2  - IEEE Transactions on Image Processing
+SP  - 7153
+EP  - 7165
+AU  - X. Xu
+AU  - M. Li
+AU  - W. Sun
+AU  - M. -H. Yang
+PY  - 2020
+KW  - Noise reduction
+KW  - Noise measurement
+KW  - Neural networks
+KW  - Kernel
+KW  - Heuristic algorithms
+KW  - Image denoising
+KW  - Aggregates
+KW  - Image denoising
+KW  - video denoising
+KW  - pixel aggregation
+KW  - neural network
+DO  - 10.1109/TIP.2020.2999209
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 29
+VL  - 29
+JA  - IEEE Transactions on Image Processing
+Y1  - 2020
+AB  - Existing denoising methods typically restore clear results by aggregating pixels from the noisy input. Instead of relying on hand-crafted aggregation schemes, we propose to explicitly learn this process with deep neural networks. We present a spatial pixel aggregation network and learn the pixel sampling and averaging strategies for image denoising. The proposed model naturally adapts to image structures and can effectively improve the denoised results. Furthermore, we develop a spatio-temporal pixel aggregation network for video denoising to efficiently sample pixels across the spatio-temporal space. Our method is able to solve the misalignment issues caused by large motion in dynamic scenes. In addition, we introduce a new regularization term for effectively training the proposed video denoising model. We present extensive analysis of the proposed method and demonstrate that our model performs favorably against the state-of-the-art image and video denoising approaches on both synthetic and real-world data.
+ER  - 
+
+TY  - JOUR
+TI  - Multiscale Tensor Dictionary Learning Approach for Multispectral Image Denoising
+T2  - IEEE Access
+SP  - 51898
+EP  - 51910
+AU  - L. Zhai
+AU  - Y. Zhang
+AU  - H. Lv
+AU  - S. Fu
+AU  - H. Yu
+PY  - 2018
+KW  - Tensile stress
+KW  - Dictionaries
+KW  - Signal processing algorithms
+KW  - Machine learning
+KW  - Noise reduction
+KW  - Matrix decomposition
+KW  - Sensors
+KW  - Multiscale tensor dictionary
+KW  - multispectral image
+KW  - Candecomp/Parafac decomposition
+KW  - sparse representation
+DO  - 10.1109/ACCESS.2018.2868765
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 6
+VL  - 6
+JA  - IEEE Access
+Y1  - 2018
+AB  - Taking advantage of different sensitivities of each component/material in an object to different bands, multispectral image (MSI) is obtained by shooting the object from multiple bands individually or simultaneously. Including these different complementary information with the space-time correlation, the MSI can describe the object more clearly and comprehensively. In practice, however, it is unavoidable that MSIs are corrupted by noise. In order to solve the denoising problem of MSIs, a framework is proposed to suppress noise by learning multiscale sparse representations of MSIs with an over-complete tensor dictionary. In our method, the tensor patches are extracted from an image tensor, and a tensor-based dictionary is trained using a special tensor decomposition, in which each atom is a rank-one tensor. The so-called multiscale learned representation is obtained based on an efficient quadtree decomposition of the trained tensor dictionary. Experimental results on numerical simulations and real MSIs demonstrate that multiscale tensor dictionary gets better indexes in terms of PSNR and SSIM compared with single-scale tensor dictionary and other related competing methods. At the same time, from the perspective of visual quality, our method restores more image details than other methods.
+ER  - 
+
+TY  - CONF
+TI  - Spatio-Spectral Image Fusion Using Local Embeddings
+T2  - 2020 IEEE International Students' Conference on Electrical,Electronics and Computer Science (SCEECS)
+SP  - 1
+EP  - 3
+AU  - P. Saxena
+AU  - A. Jain
+PY  - 2020
+KW  - Image quality
+KW  - Image color analysis
+KW  - Nonlinear distortion
+KW  - Spatial resolution
+KW  - Image fusion
+KW  - Remote sensing
+KW  - Signal to noise ratio
+KW  - fusion
+KW  - multisensor fusion
+KW  - spatio-spectral fusion
+KW  - pansharpening
+KW  - non-linear dimensionality reduction
+KW  - local embeddings.
+DO  - 10.1109/SCEECS48394.2020.215
+JO  - 2020 IEEE International Students' Conference on Electrical,Electronics and Computer Science (SCEECS)
+IS  - 
+SN  - 2688-0288
+VO  - 
+VL  - 
+JA  - 2020 IEEE International Students' Conference on Electrical,Electronics and Computer Science (SCEECS)
+Y1  - 22-23 Feb. 2020
+AB  - Image fusion is extensively used in remote sensing to combine multiple images into a more informative single image, which is more suitable for human and machine perception. The purpose of image fusion algorithms is to achieve a single image with high spatial resolution and high spectral resolution. The major challenges faced by existing algorithms are of output image quality in terms of colour distortion and blurring. This paper models the spatio-spectral image fusion as a problem of non-linear dimensionality reduction. The aim is to define each point of fused image as a linear combination of its neighbours in multi spectral image and the corresponding pixel values from down scaled panchromatic image. The assumption here is that the spectral behaviour of fused image is similar to that of multispectral image. The performance of the model is compared with existing state of the art methods for same-sensor dataset.
+ER  - 
+
+TY  - CONF
+TI  - Terrain Recognition Based on the Carrier-Free UWB Radar Using Stacked Denoising Autoencoder
+T2  - 2022 7th International Conference on Signal and Image Processing (ICSIP)
+SP  - 162
+EP  - 166
+AU  - X. Li
+AU  - S. Chen
+AU  - Y. Zhu
+AU  - S. Zhang
+PY  - 2022
+KW  - Image recognition
+KW  - Noise reduction
+KW  - Lighting
+KW  - Interference
+KW  - Feature extraction
+KW  - Classification algorithms
+KW  - Convolutional neural networks
+KW  - terrain recognition
+KW  - carrier-free UWB radar
+KW  - stacked denoising autoencoder
+DO  - 10.1109/ICSIP55141.2022.9886559
+JO  - 2022 7th International Conference on Signal and Image Processing (ICSIP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 7th International Conference on Signal and Image Processing (ICSIP)
+Y1  - 20-22 July 2022
+AB  - The carrier-free ultra-wideband (UWB) sensor characterizes high distance resolution and high interference immunity. It is not easily affected by weather and lighting conditions, and its received echoes contain detailed structural information of the target. In this paper, we propose a terrain recognition framework based on the carrier-free UWB sensor. For the purpose of extracting noise-robustness features, a deep network named stacked denoising autoencoder (SDAE) is developed. Given that the convolutional neural network (CNN) is insensitive to translation to some extent, we combine several CNNs as middle structures of the proposed model. Experimental results demonstrate that the proposed algorithm can effectively learn essential representation and improve classification accuracy in the presence of low signal-to-noise ratios (SNRs), making it very suitable for use in a classification scheme.
+ER  - 
+
+TY  - CONF
+TI  - Network Impedance Estimation For Microgrid Control Using Noisy Synchrophasor Measurements
+T2  - 2018 IEEE 19th Workshop on Control and Modeling for Power Electronics (COMPEL)
+SP  - 1
+EP  - 6
+AU  - K. Moffat
+AU  - M. Bariya
+AU  - A. von Meier
+PY  - 2018
+KW  - Impedance
+KW  - Current measurement
+KW  - Estimation
+KW  - Admittance
+KW  - Voltage measurement
+KW  - Microgrids
+KW  - Noise measurement
+DO  - 10.1109/COMPEL.2018.8458497
+JO  - 2018 IEEE 19th Workshop on Control and Modeling for Power Electronics (COMPEL)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 IEEE 19th Workshop on Control and Modeling for Power Electronics (COMPEL)
+Y1  - 25-28 June 2018
+AB  - This publication presents an unsupervised network impedance estimation method for AC microgrid electrical networks using only voltage and current synchrophasor measurements. The proposed method combines the use of two techniques: the Kron reduction and a novel common mode elimination technique to improve estimation robustness to measurement noise. We motivate Kron reduction as an instrument for addressing the rank-deficiency of electrical network voltage measurement data. The Kron reduced model can be used in optimal power flow and other centralized and decentralized control algorithms. The proposed common mode elimination technique improves the robustness of the impedance estimate to sensor noise by improving the eigenstructure of the voltage measurement data matrix, without discarding any useful information. We present results demonstrating improved admittance matrix estimation accuracy on realistic data over a range of signal to noise (SNR) ratios. The proposed method is data-driven and will update the network impedance estimate based on sensor measurements alone, without any external input, making it is well suited for time-varying microgrid applications.
+ER  - 
+
+TY  - JOUR
+TI  - High Order Mesh Denoising via  $\ell_{P}$ - $\ell_{1}$  Minimization
+T2  - IEEE Access
+SP  - 146989
+EP  - 147000
+AU  - Z. Liu
+AU  - M. Guo
+AU  - Z. Xie
+AU  - J. Liu
+AU  - B. Zeng
+PY  - 2019
+KW  - Noise reduction
+KW  - Face
+KW  - Minimization
+KW  - Noise measurement
+KW  - Optimization
+KW  - Numerical models
+KW  - Augmented lagrangian method
+KW  - iteratively reweighted ℓ₁ minimization
+KW  - mesh denoising
+KW  - 3D geometry processing
+DO  - 10.1109/ACCESS.2019.2939362
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 7
+VL  - 7
+JA  - IEEE Access
+Y1  - 2019
+AB  - Mesh denoising is crucial for improving the quality of meshes required by scanning devices. The main challenge is to maximally preserve geometric features while removing different kinds of noise. In this paper, we propose a novel normal filtering model that incorporates a high order  $\ell_{p}$  regularization term and an  $\ell_{1}$  fidelity term. Then, vertex positions of the mesh can be reconstructed according to the filtered face normals. Thanking to the proposed  $\ell_{p}$ - $\ell_{1}$  normal filtering model, our method has crucial advantage in preserving geometric features and simultaneously is robust against different kinds of noise. Numerically, we develop an efficient algorithm based on iteratively reweighted  $\ell_{1}$  minimization and augmented Lagrangian method to solve the problem. We testify effectiveness of our mesh denoising method on synthetic meshes and a broad variety of scanning data produced by the laser scanner and Kinect sensors. We compare our method to state-of-the-art methods and demonstrate the superiority of our method in various cases.
+ER  - 
+
+TY  - CONF
+TI  - Real Time Phasor Estimation Based on Recursive Prony with Several Channels of One PMU
+T2  - 2018 IEEE PES Innovative Smart Grid Technologies Conference Europe (ISGT-Europe)
+SP  - 1
+EP  - 6
+AU  - J. Khodaparast
+AU  - O. B. Fosso
+AU  - M. Molinas
+PY  - 2018
+KW  - Phasor measurement units
+KW  - Estimation
+KW  - Channel estimation
+KW  - Mathematical model
+KW  - Power systems
+KW  - Frequency estimation
+KW  - Heuristic algorithms
+KW  - Multi-channel Prony
+KW  - Phasor estimation
+KW  - Prony algorithm
+KW  - Recursive least square
+KW  - Weighted least square
+DO  - 10.1109/ISGTEurope.2018.8571432
+JO  - 2018 IEEE PES Innovative Smart Grid Technologies Conference Europe (ISGT-Europe)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 IEEE PES Innovative Smart Grid Technologies Conference Europe (ISGT-Europe)
+Y1  - 21-25 Oct. 2018
+AB  - Phasor estimation is crucial for monitoring and control of smart power systems. The classical signal processing method named Prony has been used for estimating the parameters of measured signals such as frequency, damping factor and phasor. To reduce the impact of noise on the parameters estimated by Prony, multi-channel Prony has been previously explored and presented in the literature. The basic approach for multi-channel Prony is a generalized solution, in which new rows are added to matrices for every channel. Since the generalized multi -channel Prony is time-consuming, a new method based on recursive solution is proposed in this paper to make it suitable for real-time application. Here, several channels of one Phasor Measurement Unit (PMU) are used to estimate the phasor of current/voltage in a recursive pattern, in which the phasor is computed recursively over time based on previously calculated estimates and new measurements. The proposed method is compared with three other solutions for multi-channel Prony: a) data fusion which is based on the Kalman filter concept, b) an alternating direction method of multipliers (ADMM), and c) a consensus update approach which is based on an iterative procedure. Simulation results demonstrate the ability of the proposed method for real-time phasor estimation, both in terms of maintaining the accuracy and reducing computation time.
+ER  - 
+
+TY  - JOUR
+TI  - R&P: An Low-Cost Device-Free Activity Recognition for E-Health
+T2  - IEEE Access
+SP  - 81
+EP  - 90
+AU  - L. Li
+AU  - R. Bai
+AU  - B. Xie
+AU  - Y. Peng
+AU  - A. Wang
+AU  - W. Wang
+AU  - B. Jiang
+AU  - J. Liang
+AU  - X. Chen
+PY  - 2018
+KW  - Noise reduction
+KW  - Activity recognition
+KW  - Heuristic algorithms
+KW  - Radio frequency
+KW  - Indexes
+KW  - RFID tags
+KW  - RFID
+KW  - device-free
+KW  - RSS
+KW  - Phase
+KW  - T-DTW
+DO  - 10.1109/ACCESS.2017.2749323
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 6
+VL  - 6
+JA  - IEEE Access
+Y1  - 2018
+AB  - Activity recognition is important for taking care of patients and old men especially in e-Health. The activity recognition system without carrying any wearable devices is widely used in our daily life. Current methods employing uneconomical equipment or even dedicated devices lead to cost-inefficiency for large-scale deployments. This paper introduces R&P, a device-free activity recognition system only using cheap radio frequency identification devices (RFID) tags. Based on the analysis of RFID signals, we extract received signal strength fingerprints and phase fingerprints for each activity and synthesize these two kinds of fingerprints to accurately recognize activities. Moreover, we also modify the dynamic time warping (DTW) algorithm and propose T-DTW method to improve the recognition efficiency. We use commercial passive RFID hardware and verify R&Pin three different environments with different targets and six activities. The results demonstrate that our solution can recognize activities with an average accuracy of 87.9%.
+ER  - 
+
+TY  - JOUR
+TI  - Adaptive Pulse Compression for Sidelobes Reduction in Stretch Processing Based MIMO Radars
+T2  - IEEE Access
+SP  - 93231
+EP  - 93244
+AU  - H. Malik
+AU  - J. Burki
+AU  - M. Z. Mumtaz
+PY  - 2022
+KW  - MIMO radar
+KW  - Receivers
+KW  - Matched filters
+KW  - Filtering algorithms
+KW  - Radar
+KW  - Transmitters
+KW  - Signal to noise ratio
+KW  - MIMO radar
+KW  - reiterative minimum mean squared error (RMMSE)
+KW  - adaptive pulse compression (APC)
+KW  - FMCW
+DO  - 10.1109/ACCESS.2022.3203587
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 10
+VL  - 10
+JA  - IEEE Access
+Y1  - 2022
+AB  - Multiple-Input Multiple-Output (MIMO) radars provide various advantages as compared to conventional radars. Among these advantages, improved angular diversity feature is being explored for future fully autonomous vehicles. Improved angular diversity requires use of orthogonal waveforms at transmit as well as receive sides. This orthogonality between waveforms is critical as the cross-correlation between signals can inhibit the detection of weaker targets due to sidelobes of stronger targets. This paper investigates the Reiterative Minimum Mean Squared Error (RMMSE) mismatch filter design for range sidelobes reduction for a Slow-Time Phase-Coded (ST-PC) Frequency Modulated Continuous Wave (FMCW) MIMO radar. Initially, the performance degradation of RMMSE filter is analyzed for improperly decoded received pulses. It is then shown mathematically that proper decoding of received pulses requires phase compensation related to any phase distortions caused due to doppler and spatial locations of targets. To cater for these phase distortions, it is proposed to re-adjust the traditional order of operations in radar signal processing to doppler, angle and range. Additionally, it is also proposed to incorporate sidelobes decoherence for further suppression of sidelobes. This is achieved by modification of the structured covariance matrix of baseline single-input RMMSE mismatch filter. The modified structured covariance matrix is proposed to include the range estimates corresponding to each transmitter. These proposed modifications provide additional sidelobes suppression while it also provides additional fidelity for target peaks. The proposed approach is demonstrated through simulations as well as field experiments. Superior performance in terms of range sidelobes suppression is observed when compared with baseline RMMSE and traditional Hanning windowed range response.
+ER  - 
+
+TY  - JOUR
+TI  - Low-Complexity Subspace-Aided Compressive Spectrum Sensing Over Wideband Whitespace
+T2  - IEEE Transactions on Vehicular Technology
+SP  - 11762
+EP  - 11777
+AU  - H. Qi
+AU  - X. Zhang
+AU  - Y. Gao
+PY  - 2019
+KW  - Estimation
+KW  - Sensors
+KW  - OFDM
+KW  - Complexity theory
+KW  - Wideband
+KW  - Radio transmitters
+KW  - Adaptation models
+KW  - Compressive spectrum sensing
+KW  - hard thresholding pursuit
+KW  - spectrum sparsity
+KW  - subspace decomposition
+KW  - hard detection
+DO  - 10.1109/TVT.2019.2937649
+JO  - IEEE Transactions on Vehicular Technology
+IS  - 12
+SN  - 1939-9359
+VO  - 68
+VL  - 68
+JA  - IEEE Transactions on Vehicular Technology
+Y1  - Dec. 2019
+AB  - Compressive sensing (CS) techniques have been proposed for wideband spectrum sensing applications to achieve sub-Nyquist-rate sampling. The complexity of CS recovery algorithm and the detection performance against noise are two of the main challenges of the implementation of compressive spectrum sensing (CSS). Greedy algorithms have been of particular interest in CSS due to low complexity. We firstly propose a novel spectrum sparsity estimation scheme directly from sub-Nyquist measurements, with which the computational effort of greedy pursuit algorithms can be saved and recovery performance improved. Besides, the spectrum sparsity estimates also enable hard detection of channel occupancy where threshold adaption for energy detection is avoided. Moreover, with the detected dimension of signal subspace, we propose to implement joint-block-sparse multiple-measurement-vector (MMV) model of CSS whose dimension can be reduced to minimum and meanwhile a large portion of noise is removed. The proposed MMV model with noise and dimension reduction further improves the detection performance and also keeps the complexity low. Finally, we generalize the hard thresholding pursuit (HTP) algorithm to recover joint-block-sparse signals. In simulations, the detection performance and complexity of the proposed CSS scheme show striking superiority against multiple benchmarking schemes.
+ER  - 
+
+TY  - JOUR
+TI  - Simulation and Experiment on a Novel Integrated Measurement System of Pitch Angle, Phase Angle, and Speed of Turboprop Engine
+T2  - IEEE Sensors Journal
+SP  - 8123
+EP  - 8133
+AU  - L. Luo
+AU  - X. Huang
+AU  - T. Zhang
+PY  - 2022
+KW  - Sensors
+KW  - Magnetoelectric effects
+KW  - Magnetic circuits
+KW  - Extraterrestrial measurements
+KW  - Displacement measurement
+KW  - Wheels
+KW  - Phase measurement
+KW  - Measurement
+KW  - phonic wheel
+KW  - pitch angle
+KW  - phase angle
+KW  - speed
+KW  - turboprop engine
+DO  - 10.1109/JSEN.2022.3155815
+JO  - IEEE Sensors Journal
+IS  - 8
+SN  - 1558-1748
+VO  - 22
+VL  - 22
+JA  - IEEE Sensors Journal
+Y1  - 15 April15, 2022
+AB  - This paper presents a novel integrated measurement system of pitch angle( $\beta $ ), phase angle( $\alpha $ )and speed( ${N}_{P}$ ) based on phonic wheel to solve the problem of limited installation space of multiple sensors for multiple propellers’ synchrophasing noise reduction control in a turboprop aircraft. Using a set of symmetrical helical marker teeth to reflect the change of the pitch angle and as a phase angle reference point  $\alpha _{0}$ , the phonic wheel with novel structure can realize the simultaneous measurement of three parameters. The axial movement of the phonic wheel reflects the pitch angle, and the spacing between the two marker teeth varies with the axial movement. After signal conditioning and rising edge capture, a series of rising edge instants(they are correspond to the arrival time of the teeth) are extracted by microprocessor, and the marker teeth have shorter time intervals than regular teeth. Hence, pitch angle, phase angle and speed can be automatically obtained through microprocessor’s measurement algorithm. Numerical simulation of COMSOL is employed for optimizing the phonic wheel structure. An experimental platform is designed to test the performance of the integrated measurement system. Results demonstrate that the pitch angle error varies linearly with axial displacement due to the influence of marker teeth, and after linear compensation of  $\beta $  using the interpolation table, the measurement precision of  $\beta $ ,  $\alpha $  and  ${N}_{P}$  can meet the control requirements of turboprop engine.
+ER  - 
+
+TY  - CONF
+TI  - Double-RIS Assisted Over-the-Air Computation
+T2  - 2021 IEEE Globecom Workshops (GC Wkshps)
+SP  - 1
+EP  - 6
+AU  - J. Li
+AU  - M. Fu
+AU  - Y. Zhou
+AU  - Y. Shi
+PY  - 2021
+KW  - Array signal processing
+KW  - Simulation
+KW  - Power control
+KW  - Noise reduction
+KW  - Programming
+KW  - Minimization
+KW  - Transceivers
+DO  - 10.1109/GCWkshps52748.2021.9682077
+JO  - 2021 IEEE Globecom Workshops (GC Wkshps)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 IEEE Globecom Workshops (GC Wkshps)
+Y1  - 7-11 Dec. 2021
+AB  - Over-the-air computation (AirComp) is a promising multiple-access scheme that seamlessly integrates the computation and communication by leveraging the waveform superposition properly of a multiple access channel. To unleash the full potential of AirComp, in this paper, we present a double-RIS assisted multiple-input multiple-output AirComp system, where two RISs are deployed to extend the effective coverage area and enhance the channel quality of randomly distributed sensors. We consider the cooperative passive beamforming design at RISs to further improve the performance. Our objective is to minimize the mean-squared error of AirComp by jointly optimizing the receive beamforming, denoising factor, transmit power control, cooperative passive beamforming design. The formulated problem is challenging to be optimally solved due to the coupled cooperative passive beamforming and transceiver variables. To this end, we propose an efficient algorithm based on the block coordinate descent method and semidefinite relaxation to obtain the receive beamforming at the AP and the cooperative passive beamforming at RISs after deriving the closed-form solutions for denoising factor and transmit power control. The numerical results validate that the double-RIS assisted AirComp system achieves a better performance compared to the single-RIS baseline in various system settings.
+ER  - 
+
+TY  - CONF
+TI  - Behavior Anomaly Detection Fused with Features of Mel Frequency Cepstrum Coefficients
+T2  - 2020 International Conference on Sensing, Measurement & Data Analytics in the era of Artificial Intelligence (ICSMD)
+SP  - 89
+EP  - 93
+AU  - F. Lyu
+AU  - Z. Yang
+AU  - L. Wang
+AU  - Q. Zhou
+AU  - S. Hou
+AU  - X. Li
+PY  - 2020
+KW  - Eigenvalues and eigenfunctions
+KW  - Support vector machines
+KW  - Mel frequency cepstral coefficient
+KW  - Partial discharges
+KW  - Pattern recognition
+KW  - Discharges (electric)
+KW  - Feature extraction
+KW  - MFCC
+KW  - optical fiber sensor
+KW  - partial discharge
+KW  - pattern recognition
+KW  - SVM
+DO  - 10.1109/ICSMD50554.2020.9261684
+JO  - 2020 International Conference on Sensing, Measurement & Data Analytics in the era of Artificial Intelligence (ICSMD)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2020 International Conference on Sensing, Measurement & Data Analytics in the era of Artificial Intelligence (ICSMD)
+Y1  - 15-17 Oct. 2020
+AB  - In recent years, with the rise of artificial intelligence, the research in the field of pattern recognition is developing rapidly. Its supporting algorithms mainly include neural network and support vector machine (SVM), which are widely used in various fields such as industrial detection, aviation, medical treatment, finance, internet and so on. On the one hand, the effect of pattern recognition is related to the selection and optimization of the algorithm, on the other hand, it is closely related to the noise reduction methods to improve the signal quality, the feature extraction and feature selection in feature engineering. Mel frequency cepstrum coefficient (MFCC) is widely used in the field of speech recognition, and has achieved good recognition effect for low-frequency speech signal pattern recognition, but its pattern recognition in ultrasonic field is rarely studied. In this paper, a method of extracting MFCC in ultrasonic frequency range and applying it to SVM pattern recognition and fault prediction is proposed. In the experimental verification stage, GIS-PD model is used to collect data of acoustic emission (AE) signal induced by partial discharge (PD) of gas insulated switchgear (GIS), and MFCC eigenvalues are extracted in the ultrasonic frequency range of 20-200 kHz. Finally, MFCC and optimized selected time-domain and frequency-domain eigenvalues are used for SVM pattern recognition to monitor and warn the running state of GIS equipment. Based on the comprehensive scheme proposed in this study, the overall accuracy rate is improved to ninety percent after fusion of MFCC eigenvalues, which is improved by 22.5 percent compared with only using time-frequency domain eigenvalues. At present, the research on MFCC extraction in the ultrasonic frequency range of 20-200 kHz and its application in SVM pattern recognition has not been reported. This study will promote the research of MFCC in the field of ultrasonic detection, and provide reference for the research in related fields.
+ER  - 
+
+TY  - JOUR
+TI  - Cooperative Interference Management for Over-the-Air Computation Networks
+T2  - IEEE Transactions on Wireless Communications
+SP  - 2634
+EP  - 2651
+AU  - X. Cao
+AU  - G. Zhu
+AU  - J. Xu
+AU  - K. Huang
+PY  - 2021
+KW  - Power control
+KW  - Interference
+KW  - Sensors
+KW  - Wireless communication
+KW  - Task analysis
+KW  - Performance evaluation
+KW  - Noise reduction
+KW  - Over-the-air computation
+KW  - multi-cell cooperation
+KW  - power control
+KW  - interference management
+KW  - interference temperature
+DO  - 10.1109/TWC.2020.3043787
+JO  - IEEE Transactions on Wireless Communications
+IS  - 4
+SN  - 1558-2248
+VO  - 20
+VL  - 20
+JA  - IEEE Transactions on Wireless Communications
+Y1  - April 2021
+AB  - Recently, over-the-air computation (AirComp) has emerged as an efficient solution for access points (APs) to aggregate distributed data from many edge devices (e.g., sensors) by exploiting the waveform superposition property of multiple access (uplink) channels. While prior work focuses on the single-cell setting where inter-cell interference is absent, this article considers a multi-cell AirComp network limited by such interference and investigates the optimal policies for controlling devices' transmit power to minimize the mean squared errors (MSEs) in aggregated signals received at different APs. First, we consider the scenario of centralized multi-cell power control. To quantify the fundamental AirComp performance tradeoff among different cells, we characterize the Pareto boundary of the multi-cell MSE region by minimizing the sum MSE subject to a set of constraints on individual MSEs. Though the sum-MSE minimization problem is non-convex and its direct solution intractable, we show that this problem can be optimally solved via equivalently solving a sequence of convex second-order cone program (SOCP) feasibility problems together with a bisection search. This results in an efficient algorithm for computing the optimal centralized multi-cell power control, which optimally balances the interference-and-noise-induced errors and the signal misalignment errors unique for AirComp. Next, we consider the other scenario of distributed power control, e.g., when there lacks a centralized controller. In this scenario, we introduce a set of interference temperature (IT) constraints, each of which constrains the maximum total inter-cell interference power between a specific pair of cells. Accordingly, each AP only needs to individually control the power of its associated devices for single-cell MSE minimization, but subject to a set of IT constraints on their interference to neighboring cells. By optimizing the IT levels, the distributed power control is shown to provide an alternative method for characterizing the same multi-cell MSE Pareto boundary as the centralized counterpart. Building on this result, we further propose an efficient algorithm for different APs to cooperate in iteratively updating the IT levels to achieve a Pareto-optimal MSE tuple, by pairwise information exchange. Last, simulation results demonstrate that cooperative power control using the proposed algorithms can substantially reduce the sum MSE of AirComp networks compared with the conventional single-cell approaches.
+ER  - 
+
+TY  - CONF
+TI  - Airborne FMCW SAR Sparse Imaging: Initial Results
+T2  - 2018 IEEE 23rd International Conference on Digital Signal Processing (DSP)
+SP  - 1
+EP  - 5
+AU  - H. Bi
+AU  - G. Bi
+AU  - L. Wang
+AU  - X. Li
+AU  - X. Wang
+PY  - 2018
+KW  - Imaging
+KW  - Synthetic aperture radar
+KW  - Radar polarimetry
+KW  - Data processing
+KW  - Motion compensation
+KW  - Image reconstruction
+KW  - Azimuth
+KW  - frequency-modulation continuous-wave (FM-CW)
+KW  - synthetic aperture radar (SAR)
+KW  - airborne data processing
+KW  - sparse imaging
+DO  - 10.1109/ICDSP.2018.8631544
+JO  - 2018 IEEE 23rd International Conference on Digital Signal Processing (DSP)
+IS  - 
+SN  - 2165-3577
+VO  - 
+VL  - 
+JA  - 2018 IEEE 23rd International Conference on Digital Signal Processing (DSP)
+Y1  - 19-21 Nov. 2018
+AB  - Using continuous-wave technology to replace conventional pulse mode, frequency-modulation continuous-wave (FMCW) synthetic aperture radar (SAR) reduces the sensor peak transmission power, and hence minimizes the weight and cost of system, which makes it is very suitably for the short-range airborne SAR imaging. In this paper, we introduce the sparse imaging method to the real airborne FMCW SAR data processing to obtain high-resolution image of surveillance region. In addition, considering the platform motion error in data collection, motion compensation is also integrated into the algorithm implementation to guarantee the exact focus of raw data. Compared with matched filtering (MF) based algorithms, sparse imaging method can improve the image performance efficiently, such as sidelobes reduction, noise suppression, and has down-sampled data based imaging ability for sparse scene. Experimental results via actual airborne data verify the effectiveness of the sparse imaging method in FMCW SAR data processing.
+ER  - 
+
+TY  - JOUR
+TI  - Low-Noise Resistive Bridge Sensor Analog Front-End Using Chopper-Stabilized Multipath Current Feedback Instrumentation Amplifier and Automatic Offset Cancellation Loop
+T2  - IEEE Access
+SP  - 12385
+EP  - 12394
+AU  - M. Yoo
+AU  - Y. Kwon
+AU  - H. Kim
+AU  - G. Choi
+AU  - K. Nam
+AU  - H. Ko
+PY  - 2022
+KW  - Bridge circuits
+KW  - Choppers (circuits)
+KW  - Voltage
+KW  - High frequency
+KW  - Impedance
+KW  - Topology
+KW  - Instruments
+KW  - Resistive analog front-end
+KW  - current feedback instrumentation amplifier (CFIA)
+KW  - multipath amplifier
+KW  - automatic offset calibration loop (AOCL)
+DO  - 10.1109/ACCESS.2022.3144688
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 10
+VL  - 10
+JA  - IEEE Access
+Y1  - 2022
+AB  - Resistive bridge sensors are used in many application areas to measure changes in physical parameters. To amplify the resistive changes from sensing elements with high precision, various offset contributors in the resistive bridge and amplifiers should be minimized. This study proposes a low-noise resistive bridge sensor analog front-end (AFE) using a chopper-stabilized multipath current feedback instrumentation amplifier (CFIA) and an automatic offset cancellation loop. The proposed circuit exploits a multipath chopper-stabilized architecture for obtaining low noise performance and wide bandwidth characteristics. This circuit can minimize the offsets in the bridge and the high frequency and low frequency amplifiers, while achieving high precision resistive signal acquisition. The high frequency path of the multipath amplifier uses the CFIA topology with class-AB output stage. The offset in the high frequency path is stabilized by the low frequency path amplifier with a high gain and low noise chopper amplifier. The up-modulated offset in the low frequency chopper amplifier path is reduced by the AC-coupled ripple reduction loop (RRL). An automatic offset calibration loop (AOCL) circuit was designed to calibrate the offset due to the bridge mismatch. The AOCL reduces the bridge offset using a successive approximation register (SAR)-based binary-search algorithm. The gain of the proposed circuit is adjustable from 15.56 dB to 44.14 dB. The AFE is implemented in a  $0.18~ \boldsymbol {\mu } \text{m}$  CMOS process and draws  $123~ \boldsymbol {\mu } \text{A}$  current from a 3.3 V supply. The input referred noise and noise efficiency factor (NEF) are 14.6 nV/  $\boldsymbol {\surd } $ Hz and 6.1, respectively.
+ER  - 
+
+TY  - CONF
+TI  - 3D Point Cloud Enhancement Using Graph-Modelled Multiview Depth Measurements
+T2  - 2020 IEEE International Conference on Image Processing (ICIP)
+SP  - 3314
+EP  - 3318
+AU  - X. Zhang
+AU  - G. Cheung
+AU  - J. Pang
+AU  - D. Tian
+PY  - 2020
+KW  - Three-dimensional displays
+KW  - Cameras
+KW  - Sensors
+KW  - Optimization
+KW  - Measurement
+KW  - Noise reduction
+KW  - Laplace equations
+KW  - 3D point cloud
+KW  - graph signal processing
+KW  - graph learning
+KW  - convex optimization
+DO  - 10.1109/ICIP40778.2020.9191347
+JO  - 2020 IEEE International Conference on Image Processing (ICIP)
+IS  - 
+SN  - 2381-8549
+VO  - 
+VL  - 
+JA  - 2020 IEEE International Conference on Image Processing (ICIP)
+Y1  - 25-28 Oct. 2020
+AB  - A 3D point cloud is often synthesized from depth measurements collected by sensors at different viewpoints. The acquired measurements are typically both coarse in precision and corrupted by noise. To improve quality, previous works denoise a synthesized 3D point cloud a posteriori, after projecting the imperfect depth data onto the 3D space. Instead, we enhance depth measurements on the sensed images a priori, exploiting inherent 3D geometric correlation across views, before synthesizing a 3D point cloud from the improved measurements. By enhancing closer to the actual sensing process, we benefit from optimization targeting specifically the depth image formation model, before subsequent processing steps that can further obscure measurement errors. Mathematically, for each pixel row in a pair of rectified viewpoint depth images, we first construct a graph reflecting inter-pixel similarities via metric learning using data in previous enhanced rows. To optimize left and right viewpoint images simultaneously, we write a non-linear mapping function from left pixel row to the right based on 3D geometry relations. We formulate a MAP optimization problem, which, after suitable linear approximations, results in an unconstrained convex and differentiable objective, solvable using fast gradient method (FGM). Experimental results show that our method noticeably outperforms recent denoising algorithms that enhance after 3D point clouds are synthesized.
+ER  - 
+
+TY  - JOUR
+TI  - Sensing Matrix Design for Compressive Spectral Imaging via Binary Principal Component Analysis
+T2  - IEEE Transactions on Image Processing
+SP  - 4003
+EP  - 4012
+AU  - J. Monsalve
+AU  - H. Rueda-Chacon
+AU  - H. Arguello
+PY  - 2020
+KW  - Principal component analysis
+KW  - Sensors
+KW  - Covariance matrices
+KW  - Image coding
+KW  - Optimization
+KW  - Image reconstruction
+KW  - Imaging
+KW  - Compressive spectral imaging
+KW  - binary principal component analysis
+KW  - sensing matrix design
+DO  - 10.1109/TIP.2019.2959737
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 29
+VL  - 29
+JA  - IEEE Transactions on Image Processing
+Y1  - 2020
+AB  - Compressive spectral imaging (CSI) is a framework that captures coded-and-multiplexed low-dimensional projections of spectral data-cubes. In general, the sensing process in many CSI architectures is described using binary matrices, so-called sensing/projection matrices, whose elements can be either random or designed. However, some characteristics of the spectral data, such as the ℓ2-norm or the second moment statistics, can be lost when this dimensionality reduction is performed. Similarly, principal component analysis (PCA) is a data dimensionality reduction technique that minimizes the least-squared error between the spectral data and its low-dimensional projection, but preserving its structure or variance. Thus, PCA can be used to guide the CSI acquisition process by designing the binary sensing matrix. Nonetheless, PCA requires to know the spectral image a-priori, and also, its associated projection matrix is not binary, as required by CSI optical architectures. Therefore, in this paper, an algorithm to design CSI sensing matrices by exploiting the structure-preserving property of the PCA projection is proposed. First, a set of compressive measurements obtained with random sensing matrices is used to rapidly estimate the covariance matrix associated with the spectral data. Then, a new sensing matrix is designed by solving a non-convex optimization problem that finds a set of binary vectors that approximate the principal components of the covariance matrix, thus maximizing the explanation of the data variance. Experimental results show an improvement of up to 3 dB in image reconstruction quality, in terms of the peak signal to noise ratio (PSNR), when the binary PCA-based sensing matrices are used and compared with conventional random sensing matrices and state-of-art designed matrices based on PCA.
+ER  - 
+
+TY  - JOUR
+TI  - Amplify-and-Forward Relaying for Hierarchical Over-the-Air Computation
+T2  - IEEE Transactions on Wireless Communications
+SP  - 1
+EP  - 1
+AU  - F. Wang
+AU  - J. Xu
+AU  - V. K. N. Lau
+AU  - S. Cui
+PY  - 2022
+KW  - Relays
+KW  - Interference
+KW  - Optimization
+KW  - Noise reduction
+KW  - Minimization
+KW  - Sensors
+KW  - Distributed databases
+KW  - Hierarchical over-the-air computation (AirComp)
+KW  - amplify-and-forward relaying
+KW  - mean squared error (MSE)
+KW  - optimization
+DO  - 10.1109/TWC.2022.3185074
+JO  - IEEE Transactions on Wireless Communications
+IS  - 
+SN  - 1558-2248
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Wireless Communications
+Y1  - 2022
+AB  - Over-the-air computation (AirComp) has emerged as a promising technique in future intelligent wireless networks, which enables swift functional computation among distributed wireless devices (WDs) by exploiting the superposition property of wireless channels. This paper studies a new <i>hierarchical</i> AirComp network over a large area, in which a set of intermediate relays are exploited to facilitate the massive data aggregation from a large number of WDs. Under this setup, we present a two-phase amplify-and-forward (AF) relaying protocol. In the first phase, the WDs simultaneously send their data to the relays, while in the second phase, the relays amplify the respectively received signals and concurrently forward them to the fusion center (FC) for aggregation. Our objective is to minimize the computational mean squared error (MSE) at the FC, by jointly optimizing the transmit coefficients of the WDs, the AF coefficients of the relays, and the de-noising factor of the FC, subject to their individual transmit power constraints. First, we consider the centralized design with global channel state information (CSI), in which the inter-relay signals can be exploited beneficially for data aggregation. In this case, we develop an alternating-optimization-based algorithm to obtain a high-quality solution to the computational MSE minimization problem. The obtained solution shows that the phase of the transmit coefficient at each WD is opposite to that of the WD-relay-FC channel to ensure the signal phase alignment at the FC, and the transmit power of each WD/relay follows a regularized composite-channel-inversion structure to strike a balance between minimizing the signal-magnitude-misalignment-induced error and the noise-induced error. Next, to reduce the signaling overhead caused by the centralized design, we consider an alternative decentralized design with partial CSI, in which the relays and the FC make their own decisions by only requiring the channel power gain information across different relays. In this case, the relays and FC need to treat the inter-relay signals as harmful interference or noise. Accordingly, we optimize the transmit coefficients of the WDs associated with each relay, and the relay AF coefficients (together with the FC de-noising factor) in an iterative manner, which can be implemented efficiently in a decentralized way. Finally, numerical results show the fast convergence of the proposed centralized and decentralized designs. It is also shown that both designs achieve significant MSE performance gains over benchmark schemes without the joint optimization.
+ER  - 
+
+TY  - JOUR
+TI  - Reliable Data Transmission Scheme for Perception Layer of Internet of Underwater Things (IoUT)
+T2  - IEEE Access
+SP  - 968
+EP  - 980
+AU  - N. Ishaque
+AU  - M. A. Azam
+PY  - 2022
+KW  - Sensors
+KW  - Reliability
+KW  - Underwater acoustics
+KW  - Communication systems
+KW  - Channel models
+KW  - Underwater communication
+KW  - Propagation delay
+KW  - Bit error rate
+KW  - Internet of Things
+KW  - Bit error rate (BER)
+KW  - Internet of Things (IoT)
+KW  - packet error rate (PER)
+KW  - signal to noise ratio (SNR)
+KW  - Internet of Underwater Things (IoUT)
+DO  - 10.1109/ACCESS.2021.3134264
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 10
+VL  - 10
+JA  - IEEE Access
+Y1  - 2022
+AB  - Internet of Underwater things (IoUT) is growing into one of the most important research interests since the last few decades. The primary objective of IoUT is to develop a worldwide network of smart underwater-interconnected objects. It has wide-ranging aquatic applications, including surveillance, pollution reduction, monitoring offshore oil and gas pipelines, disaster prevention, and navigation assistance, making it as important as a terrestrial communication system. The underwater communication channel poses unique acoustic communication challenges that suffer from long propagation delay, low bandwidth, multipath, and fading. IoUT significantly differs from the conventional Internet of Things (IoT) due to disparate environmental conditions under the ocean that require re-designing the underwater communication channel model. In addition to the challenges mentioned above, end-to-end delay and efficient energy utilization are also of great concern. Therefore, in this research paper, diverse attributes of underwater acoustic communication, including the speed of sound, transmission loss, absorption, and ambient noise, are analyzed to design a channel model for underwater communication. These environmental conditions also make underwater acoustic channels highly variable, so efficient resources, including bandwidth and power, are required. Adaptive modulation is proposed to make the communications system efficient by considering the distance between nodes and the signal-to-noise ratio as channel state information. The proposed channel model critically analyzed the CSI factors, results show efficient bandwidth utilization and appropriate power consumption for the well-suited route. The proposed research also aims to reduce end-to-end propagation delay by considering vertical angle-based shortest path (efficient route) in the Multilevel rotating priority MRP-routing algorithm.
+ER  - 
+
+TY  - JOUR
+TI  - Deep Spatial-Angular Regularization for Light Field Imaging, Denoising, and Super-Resolution
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+SP  - 6094
+EP  - 6110
+AU  - M. Guo
+AU  - J. Hou
+AU  - J. Jin
+AU  - J. Chen
+AU  - L. -P. Chau
+PY  - 2022
+KW  - Image reconstruction
+KW  - Apertures
+KW  - Noise reduction
+KW  - Cameras
+KW  - Sensors
+KW  - Reconstruction algorithms
+KW  - Imaging
+KW  - Light field
+KW  - coded aperture
+KW  - deep learning
+KW  - optimization
+KW  - observation model
+KW  - denoising
+KW  - spatial super-resolution
+KW  - depth
+DO  - 10.1109/TPAMI.2021.3087485
+JO  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+IS  - 10
+SN  - 1939-3539
+VO  - 44
+VL  - 44
+JA  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+Y1  - 1 Oct. 2022
+AB  - Coded aperture is a promising approach for capturing the 4-D light field (LF), in which the 4-D data are compressively modulated into 2-D coded measurements that are further decoded by reconstruction algorithms. The bottleneck lies in the reconstruction algorithms, resulting in rather limited reconstruction quality. To tackle this challenge, we propose a novel learning-based framework for the reconstruction of high-quality LFs from acquisitions via learned coded apertures. The proposed method incorporates the measurement observation into the deep learning framework elegantly to avoid relying entirely on data-driven priors for LF reconstruction. Specifically, we first formulate the compressive LF reconstruction as an inverse problem with an implicit regularization term. Then, we construct the regularization term with a deep efficient spatial-angular separable convolutional sub-network in the form of local and global residual learning to comprehensively explore the signal distribution free from the limited representation ability and inefficiency of deterministic mathematical modeling. Furthermore, we extend this pipeline to LF denoising and spatial super-resolution, which could be considered as variants of coded aperture imaging equipped with different degradation matrices. Extensive experimental results demonstrate that the proposed methods outperform state-of-the-art approaches to a significant extent both quantitatively and qualitatively, i.e., the reconstructed LFs not only achieve much higher PSNR/SSIM but also preserve the LF parallax structure better on both real and synthetic LF benchmarks. The code will be publicly available at https://github.com/MantangGuo/DRLF.
+ER  - 
+
+TY  - CONF
+TI  - Improving the Accuracy of Aircraft Positioning by Navigational Aids Using Kalman Filter
+T2  - 2019 Signal Processing Symposium (SPSympo)
+SP  - 109
+EP  - 114
+AU  - N. S. Kuzmenko
+AU  - I. V. Ostroumov
+AU  - V. P. Kharchenko
+PY  - 2019
+KW  - Aircraft navigation
+KW  - Measurement uncertainty
+KW  - Radio navigation
+KW  - Aircraft
+KW  - Atmospheric modeling
+KW  - Global navigation satellite system
+KW  - navigation
+KW  - navigational aids
+KW  - DME
+KW  - Kalman filter
+KW  - alpha-beta-gamma filter
+KW  - aircraft
+KW  - DME/DME
+KW  - error model
+DO  - 10.1109/SPS.2019.8882072
+JO  - 2019 Signal Processing Symposium (SPSympo)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 Signal Processing Symposium (SPSympo)
+Y1  - 17-19 Sept. 2019
+AB  - An algorithm of positioning by navigational aids is a common stand-by approach on-board of aircraft in case of Global Navigational Satellite System fault. In paper we analyze implementation of alpha-beta-gamma filter in Kalman model representation to reduce noise in trajectory data of aircraft. We consider sensor noise filtration of Distance Measuring Equipment and VHF omnidirectional Range as an initial data processing and noise reduction at trajectory data processing. Multiple changes of navigational aids in pairs lead to pure noise filtration of distances and angles measurements. Noise filtration at top level provides better performance of trajectory data processing in comparison with sensor data filtration.
+ER  - 
+
+TY  - JOUR
+TI  - Quantitative Detection of Wire Rope Based on Three-Dimensional Magnetic Flux Leakage Color Imaging Technology
+T2  - IEEE Access
+SP  - 104165
+EP  - 104174
+AU  - J. Zhang
+AU  - F. Peng
+AU  - J. Chen
+PY  - 2020
+KW  - Wires
+KW  - Magnetic resonance imaging
+KW  - Color
+KW  - Magnetic sensors
+KW  - Saturation magnetization
+KW  - Perpendicular magnetic recording
+KW  - Magnetic separation
+KW  - Color imaging
+KW  - magnetic flux leakage
+KW  - quantitative identification
+KW  - three-dimensional MFL signals
+KW  - tunnel magnetoresistive
+KW  - wire rope
+DO  - 10.1109/ACCESS.2020.2999584
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - In the field of nondestructive testing (NDT) of wire rope, magnetic flux leakage (MFL) detection is the most widely used method. The traditional single-dimensional MFL detection system has the disadvantages of large volume, heavy weight, low sensitivity and low recognition rate. In order to overcome these problems, this paper designed the three-dimensional MFL acquisition system based on unsaturated magnetic excitation using the tunnel magnetoresistive (TMR) elements and proposed the three-dimensional MFL detection method. We mapped the three-dimensional MFL signals after noise reduction to Red-Green-Blue (RGB) space for color imaging. Then, the localization and segmentation algorithms were used to crop color images of broken wire defects. Finally, the color moment eigenvalues of color images of six types broken wire defects were extracted as the input of the back propagation (BP) neural network to quantitatively identify the broken wires. From the experimental results of the quantitative identification of broken wire defects, it can be seen that it is feasible to use the color images of the three-dimensional MFL signals to quantitatively identify the broken wire defects. Moreover, the three-dimensional MFL color imaging can effectively improve the recognition rate of broken wires.
+ER  - 
+
+TY  - CONF
+TI  - Real- Time Video Denoising on Mobile Phones
+T2  - 2018 25th IEEE International Conference on Image Processing (ICIP)
+SP  - 505
+EP  - 509
+AU  - J. Ehmann
+AU  - L. -C. Chu
+AU  - S. -F. Tsai
+AU  - C. -K. Liang
+PY  - 2018
+KW  - Noise reduction
+KW  - Interpolation
+KW  - Streaming media
+KW  - Real-time systems
+KW  - Laplace equations
+KW  - Merging
+KW  - Sensors
+KW  - video denoising
+KW  - real-time processing
+KW  - mobile platforms
+KW  - pyramid decomposition
+DO  - 10.1109/ICIP.2018.8451416
+JO  - 2018 25th IEEE International Conference on Image Processing (ICIP)
+IS  - 
+SN  - 2381-8549
+VO  - 
+VL  - 
+JA  - 2018 25th IEEE International Conference on Image Processing (ICIP)
+Y1  - 7-10 Oct. 2018
+AB  - We present an algorithm for real-time video denoising on mobile platforms. Based on Gaussian-Laplacian pyramid decomposition, our solution's main contributions are fast alignment and a new interpolation function that fuses noisy frames into a denoised result. The interpolation function is adaptive to local and global properties of the input frame, robust to motion alignment errors, and can be computed efficiently. We show that the proposed algorithm has comparable quality to offline high-quality video denoising methods, but is orders of magnitude faster. On a modern mobile platform, our work takes less than 20ms to process one HD frame, and it achieves the highest score on a public benchmark.
+ER  - 
+
+TY  - JOUR
+TI  - Detecting Pork Adulteration in Beef for Halal Authentication Using an Optimized Electronic Nose System
+T2  - IEEE Access
+SP  - 221700
+EP  - 221711
+AU  - R. Sarno
+AU  - K. Triyana
+AU  - S. I. Sabilla
+AU  - D. R. Wijaya
+AU  - D. Sunaryono
+AU  - C. Fatichah
+PY  - 2020
+KW  - Authentication
+KW  - Principal component analysis
+KW  - Electronic noses
+KW  - Support vector machines
+KW  - Gas detectors
+KW  - Sensor arrays
+KW  - Instruments
+KW  - Electronic nose
+KW  - beef
+KW  - pork
+KW  - adulteration
+KW  - halal authentication
+KW  - optimized SVM
+DO  - 10.1109/ACCESS.2020.3043394
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Recently, the issue of food authentication has gained attention, especially halal authentication, because of cases of pork adulteration in beef. Many studies have developed rapid detection for adulterated meat. However, these studies are not yet practical and economical methods and instruments and a faster analysis process. In this context, this paper proposes the Optimized Electronic Nose System (OENS) for more accurately detecting pork adulteration in beef. OENS has advantages such as proper noise filtering, an optimized sensor array, and optimized support vector machine (SVM) parameters. Noise filtering is carried out by cross-validation with different mother wavelets, i.e., Haar, dmey, coiflet, symlet, and Daubechies. The sensor array was optimized by dimension reduction using principal component analysis (PCA). An algorithm is proposed for the optimization of the SVM parameters. An experiment was conducted by analyzing seven classes of meat, comprising seven different mixtures of beef and pork. The first and seventh classes were 100% beef and 100% pork, respectively, while the second, third, fourth, fifth, and sixth classes contained 10%, 25%, 50%, 75%, and 90% of beef in a sample of 100 grams, respectively. Sample testing was carried out for 15 minutes for each sample. The classification test results to detect beef and pork had an accuracy of 98.10% using the optimized support vector machine. Thus, OENS has a favorable performance to detect pork adulteration in beef for halal authentication.
+ER  - 
+
+TY  - JOUR
+TI  - Industrial Applications of Cable Diagnostics and Monitoring Cables via Time–Frequency Domain Reflectometry
+T2  - IEEE Sensors Journal
+SP  - 1082
+EP  - 1091
+AU  - H. M. Lee
+AU  - G. S. Lee
+AU  - G. -Y. Kwon
+AU  - S. S. Bang
+AU  - Y. -J. Shin
+PY  - 2021
+KW  - Reflectometry
+KW  - Cable insulation
+KW  - Sensors
+KW  - Monitoring
+KW  - Time-frequency analysis
+KW  - Power cables
+KW  - Condition monitoring technique
+KW  - fault diagnosis
+KW  - industrial applications
+KW  - review
+KW  - time–frequency domain reflectometry
+DO  - 10.1109/JSEN.2020.2997696
+JO  - IEEE Sensors Journal
+IS  - 2
+SN  - 1558-1748
+VO  - 21
+VL  - 21
+JA  - IEEE Sensors Journal
+Y1  - 15 Jan.15, 2021
+AB  - The demand for cable diagnostics and monitoring techniques has increased significantly in recent decades. Various diagnostic tests such as partial discharge, dielectric loss, and elongation-at-break tests are available in real-world applications. Among the cable diagnostic methods, reflectometry can be used to detect the location of a fault according to the reflected signal at the impedance-discontinuity point. Because it is a nondestructive method and can be applied regardless of the cable type, reflectometry is commonly used for monitoring real-world applications. Time-frequency domain reflectometry, an improved type of reflectometry, is more accurate than conventional reflectometry and employs time-frequency localized signals that are robust to noise. To compensate for the errors occurring in the time-frequency domain reflectometry, several algorithms have been reviewed. In the past, because the signal of time-frequency domain reflectometry contains both time and frequency information, a high-specification signal generator and measurement sensors were required, which made practical application of the method difficult. However, with recent developments in instrumentation and sensing technology, reduction in the instrumentation size and cost facilitates the use of time-frequency domain reflectometry in various industrial applications, e.g., control and instrumentation cables in nuclear power plants, superconducting cables, and submarine cables. This work reviews the use of time-frequency domain reflectometry for cable diagnostics and monitoring in real-world applications. The purpose and results of the experiments on industrial applications are introduced and analyzed. This study also suggests directions for further research to make time-frequency domain reflectometry a diagnostic standard.
+ER  - 
+
+TY  - JOUR
+TI  - Deep Learning for Optical Vehicular Communication
+T2  - IEEE Access
+SP  - 102691
+EP  - 102708
+AU  - T. L. Pham
+AU  - M. Shahjalal
+AU  - V. Bui
+AU  - Y. M. Jang
+PY  - 2020
+KW  - Cameras
+KW  - Optical imaging
+KW  - Artificial intelligence
+KW  - Adaptive optics
+KW  - Visible light communication
+KW  - High-speed optical techniques
+KW  - Optical receivers
+KW  - Visible light communication (VLC)
+KW  - light-emitting diode (LED)
+KW  - image sensor (IS)
+KW  - deep learning
+KW  - optical camera communication (OCC)
+DO  - 10.1109/ACCESS.2020.2998944
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - In this paper, we consider the current status and technical issues involved in the use of optical camera communication (OCC)/visible light communication (VLC) technologies in vehicular communication systems. Hybrid spatial phase-shift keying was introduced in IEEE 802.15.7-2018 as the standard hybrid modulation scheme for vehicular OCC/VLC systems. We herein propose a functional communication system architecture for vehicular systems based on this hybrid waveform, and we also present state-of-the-art research work on an artificial intelligence (AI)-based vehicular OCC system. Every AI module within the proposed system architecture is discussed in detail. Finally, our experimental procedures and results are analyzed to evaluate the performance of the proposed system over a complex channel model in a vehicular environment. We effectively employed the popular You Only Look Once version 2 object detection algorithm for real-time region-of-interest tracking in city driving (at a vehicular velocity of around 30 km/h and highway night driving (at a vehicular velocity of > 60 km/h) scenarios. Moreover, our novel neural-network-based decoder and AI-based error correction proved effective in improving the data decoding accuracy, resulting in a best-case reduction of 2.2 and 9.0 dB, respectively, in the signal-to-noise ratio needed to achieve the desired bit error rate of 10-4 in a vehicular OCC/VLC system.
+ER  - 
+
+TY  - JOUR
+TI  - Application of a New CO₂ Prediction Method Within Family House Occupancy Monitoring
+T2  - IEEE Access
+SP  - 158760
+EP  - 158772
+AU  - J. Vanus
+AU  - O. Majidzadeh Gorjani
+AU  - P. Dvoracek
+AU  - P. Bilik
+AU  - J. Koziorek
+PY  - 2021
+KW  - Temperature measurement
+KW  - Temperature sensors
+KW  - Sensors
+KW  - Monitoring
+KW  - Buildings
+KW  - Intelligent sensors
+KW  - Humidity
+KW  - Artificial neural network (ANN)
+KW  - intelligent buildings (IB)
+KW  - Loxone
+KW  - monitoring
+KW  - occupancy
+KW  - prediction
+KW  - smart home (SH)
+DO  - 10.1109/ACCESS.2021.3130216
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 9
+VL  - 9
+JA  - IEEE Access
+Y1  - 2021
+AB  - The article describes the application of Python for verification of a newly designed method of CO2 prediction from measurements of indoor parameters of temperature and relative humidity within occupancy monitoring in real conditions of a family home. The article describes the implementation of non-electric quantities (indoor CO2 concentration, indoor temperature, indoor relative humidity) measurement in five rooms of a family home (living room, kitchen, children’s room, bathroom, bedroom) using Loxone technology sensors. The IBM IoT (Internet Of Things) was used for storing and subsequent processing of the measured values within the time interval of December 22, 2018, to December 31, 2018. The devised method used radial basis function (artificial neural networks (ANN)) mathematical method (implementation in Python environment) to perform accurate predictions. For further increase of the accuracy and reduction of prediction noise from the obtained course of the predicted signal, multiple variations of the LMS adaptive filter algorithm (Sign, Sign-Sign, Sign-Regressor) were used (implemented in the MATLAB SW tool). The accuracy of the newly proposed CO2 concentration prediction method exceeds 95% in the selected experiments.
+ER  - 
+
+TY  - CONF
+TI  - Robust Image Compression Algorithm for Video Capsule Endoscopy: A Review
+T2  - 2019 International Conference on Intelligent Sustainable Systems (ICISS)
+SP  - 372
+EP  - 377
+AU  - B. D. Paul
+AU  - C. Babu
+PY  - 2019
+KW  - Image coding
+KW  - Endoscopes
+KW  - Wireless communication
+KW  - Wireless sensor networks
+KW  - Discrete cosine transforms
+KW  - Buffer storage
+KW  - Imaging
+KW  - DPCM
+KW  - DCT
+KW  - Golomb Rice Coding
+KW  - PSNR
+KW  - CR
+KW  - subsampling
+DO  - 10.1109/ISS1.2019.8908038
+JO  - 2019 International Conference on Intelligent Sustainable Systems (ICISS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 International Conference on Intelligent Sustainable Systems (ICISS)
+Y1  - 21-22 Feb. 2019
+AB  - The goal of this work is to provide a brief review on the image compression algorithms in the wireless capsule endoscopy, which is efficient and simple. This paper also covers the review on each stage of the image compression algorithms and its efficiency. At the latter part of this paper, an ideal algorithm for the image compression with high compression ratio and good image reconstruction quality. The main complication associated with the wireless endoscopy system is the reduction in area and consumed power while preserving the acceptable reconstruction of video with high quality. Most of the existing algorithms are based on DCT algorithms which require more buffer space; thereby it increases the large area and large power for the computation. In this paper, the different data compressor based on DCT is presented. The ideal scheme is based on the subsampling of data. Special features and characteristics of endoscopic images are considered in the stage of algorithm development. The algorithm includes the compression technique differential pulse coded modulation (DPCM) which is lossless followed by simple, efficient and variable length encoding called Golomb-Rice coding. The proposed ideal image compressor is compatible with any image sensors which are low power and commercially available that outputs the pixels of the images in a raster scan manner. It will evict the need of the memory buffer and temporary storage needed in the transform based coding methods. Additional compression acquired by the introduction of the corner clipping algorithm to remove the distorted corners present in the endoscopic images. Compared to other algorithms aims at wireless capsule endoscopy, the proposed ideal algorithm is highly efficient with a high compression ratio as well as very high reconstruction peak signal-to-noise ratio.
+ER  - 
+
+TY  - CONF
+TI  - Deep Residual Convolutional Network for Natural Image Denoising and Brightness Enhancement
+T2  - 2018 International Conference on Platform Technology and Service (PlatCon)
+SP  - 1
+EP  - 6
+AU  - W. Xu
+AU  - M. Lee
+AU  - Y. Zhang
+AU  - J. You
+AU  - S. Suk
+AU  - J. -Y. Choi
+PY  - 2018
+KW  - Convolutional codes
+KW  - Convolution
+KW  - Brightness
+KW  - Noise reduction
+KW  - Feature extraction
+KW  - Histograms
+KW  - Training
+KW  - denoising
+KW  - image enhancement
+KW  - CNN
+KW  - residual network
+DO  - 10.1109/PlatCon.2018.8472743
+JO  - 2018 International Conference on Platform Technology and Service (PlatCon)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 International Conference on Platform Technology and Service (PlatCon)
+Y1  - 29-31 Jan. 2018
+AB  - Because of the low-light shooting environment, the camera sensor will loss huge details and fuzzy edge. A deep low-light residual convolutional network (LRCNN) is proposed in this paper, which utilizes the sparse coding feature to get the true signal and adaptively adjusts the image exposure in the low-light state. The residual connections in LRCNN help us preserve more potential detail information in the original picture and accelerate the training speed of the network. Many existing image enhancement algorithms only are able to address one aspect of image problems. We designed a neural network system which could deal with many image processing problems at the same time. The experimental results show that our neural network system well optimizes the images that affected by darkness and noise. It also avoids an artificial appearance in generating the image patches.
+ER  - 
+
+TY  - JOUR
+TI  - A Modification to Time-Series Coregistration for Sentinel-1 TOPS Data
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+SP  - 1639
+EP  - 1648
+AU  - X. Tian
+AU  - Z. -F. Ma
+AU  - M. Jiang
+PY  - 2020
+KW  - Coherence
+KW  - Electrostatic discharges
+KW  - Azimuth
+KW  - Covariance matrices
+KW  - Principal component analysis
+KW  - Signal to noise ratio
+KW  - Synthetic aperture radar
+KW  - Coherence
+KW  - coregistration
+KW  - Sentinel-1
+KW  - synthetic aperture radar (SAR)
+KW  - terrain observation by progressive scan (TOPS)
+DO  - 10.1109/JSTARS.2020.2985503
+JO  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+IS  - 
+SN  - 2151-1535
+VO  - 13
+VL  - 13
+JA  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+Y1  - 2020
+AB  - Very high requirement of co-registration accuracy better than 0.001 pixels for Sentinel-1 TOPS (Terrain Observation by Progressive Scan) mode presents a great challenge for application of SAR (synthetic aperture radar) interferometry in Earth Observation. The state-of-the-art techniques have demonstrated that the low coherence scenarios and abrupt loss of coherence between two arbitrary acquisitions are main sources of error to degrade the performance of TOPS time-series co-registration. In this paper, we present a modification to overcome both limitations through the coherence enhancement. The motive behind this is to improve the quality of observations before co-registration and meanwhile avoiding the coherence loss caused by fast decorrelation. To this end, principal components analysis based spatio-temporal filtering is first used to remove the artifacts in burst interferograms over strong noise areas. Rather than heuristically choosing a sub-set of interferograms as a small baseline technique does, we use Dijkstra's shortest path algorithm under graph theory framework to maximize the coherence of a sub-set interferograms. The performance of presented method against the state-of-the-art techniques is fully evaluated by synthetic data and a Sentinel-1A stack over a low coherence scene in Indonesia. Comprehensive comparisons demonstrate 9%-17% uncertainty reduction of time-series co-registration when applying our method.
+ER  - 
+
+TY  - JOUR
+TI  - Coordinated Power Control for Network Integrated Sensing and Communication
+T2  - IEEE Transactions on Vehicular Technology
+SP  - 1
+EP  - 6
+AU  - Y. Huang
+AU  - Y. Fang
+AU  - X. Li
+AU  - J. Xu
+PY  - 2022
+KW  - Sensors
+KW  - Receivers
+KW  - Transmitters
+KW  - Radar
+KW  - Interference
+KW  - Signal to noise ratio
+KW  - Radar cross-sections
+KW  - Network integrated sensing and communication (ISAC)
+KW  - coordinated power control
+KW  - semi-definite relaxation (SDR)
+KW  - Cramér-Rao lower bound (CRLB)
+DO  - 10.1109/TVT.2022.3194139
+JO  - IEEE Transactions on Vehicular Technology
+IS  - 
+SN  - 1939-9359
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Vehicular Technology
+Y1  - 2022
+AB  - This correspondence paper studies a network integrated sensing and communication (ISAC) system that unifies the interference channel for communication and distributed radar sensing. In this system, a set of distributed ISAC transmitters send individual messages to their respective communication users (CUs), and at the same time cooperate with multiple sensing receivers to estimate the location of one target. We exploit the coordinated power control among ISAC transmitters to minimize their total transmit power while ensuring the minimum signal-to-interference-plus-noise ratio (SINR) constraints at individual CUs and the maximum Cram&#x00E9;r-Rao lower bound (CRLB) requirement for target location estimation. Although the formulated coordinated power control problem is non-convex and difficult to solve in general, we propose two efficient algorithms to obtain high-quality solutions based on the semi-definite relaxation (SDR) and CRLB approximation, respectively. Numerical results show that the proposed designs achieve substantial performance gains in terms of power reduction, as compared to the benchmark with a heuristic separate communication-sensing design.
+ER  - 
+
+TY  - JOUR
+TI  - Feature-Guided SAR-to-Optical Image Translation
+T2  - IEEE Access
+SP  - 70925
+EP  - 70937
+AU  - J. Zhang
+AU  - J. Zhou
+AU  - X. Lu
+PY  - 2020
+KW  - Feature extraction
+KW  - Synthetic aperture radar
+KW  - Optical imaging
+KW  - Adaptive optics
+KW  - Optical sensors
+KW  - Task analysis
+KW  - Optical filters
+KW  - SAR-to-optical image translation
+KW  - feature extraction
+KW  - high-frequency noise
+KW  - generative adversarial networks
+DO  - 10.1109/ACCESS.2020.2987105
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - The powerful performance of Generative Adversarial Networks (GANs) in image-to-image translation has been well demonstrated in recent years. However, most methods are focused on completing an isolated image translation task. With the complex scenes in optical images and high-frequency speckle noise in SAR images, the quality of generated images is often unsatisfactory. In this paper, a feature-guided method for SAR-to-optical image translation is proposed to better take the unique attributes of images into account. Specifically, in view of the diversity of structure features and texture features, VGG-19 network is used as the feature extractor in the task of cross-modal image translation. To ensure the acquisition of multilayer features in the process of image generation, feature matching is carried out on different layers. Loss function based on Discrete Cosine Transform is designed to filter out the high-frequency noise. The generated images show better performance in feature preservation and noise reduction, and achieve higher Image Quality Assessment scores compared with images generated by some famous methods. The superiority of our algorithm is also demonstrated by being applied to different networks.
+ER  - 
+
+TY  - CONF
+TI  - A Window-based Tensor Decomposition Approach to Data-Association for Multi Target Tracking
+T2  - 2019 American Control Conference (ACC)
+SP  - 5148
+EP  - 5153
+AU  - S. Krishnaswamy
+AU  - M. Kumar
+PY  - 2019
+DO  - 10.23919/ACC.2019.8815143
+JO  - 2019 American Control Conference (ACC)
+IS  - 
+SN  - 2378-5861
+VO  - 
+VL  - 
+JA  - 2019 American Control Conference (ACC)
+Y1  - 10-12 July 2019
+AB  - Traditional observation-to-track data association algorithms, such as Bayesian methods, suffer from exponential growth in computational complexity with increase in a number of targets, especially in dense environments with low signal-to-noise ratio. This paper utilizes tensor decomposition, a commonly used technique to tackle “curse of dimensionality” in high dimensional applications, to reduce the aforementioned complexity in data association problems. The Joint Probabilistic Data Association (JPDA) is a pseudo-Bayesian sub-optimal filter that lends itself to be modified within the framework of incremental tensor decomposition to reduce its computational burden resulting from computing the probabilities of noncompeting join association events or “feasible events”. The number of feasible events is reduced by a using a “core” tensor instead of the complete set of measurements received at a specified instance in time. Furthermore, to reduce computational overhead while performing decomposition, many such measurements are combined into “batches”. The “core” tensor is obtained from Dynamic Tensor Analysis (DTA). This reduction in computational burden from the new tensor based JPDA method when compared to the traditional JPDA method is demonstrated via a numerical example of a Space Situational Awareness Problem (SSA).
+ER  - 
+
+TY  - JOUR
+TI  - An Unobtrusive and Non-Contact Method for Respiratory Measurement With Respiratory Region Detecting Algorithm Based on Depth Images
+T2  - IEEE Access
+SP  - 8300
+EP  - 8315
+AU  - C. Sun
+AU  - W. Li
+AU  - C. Chen
+AU  - Z. Wang
+AU  - W. Chen
+PY  - 2019
+KW  - Cameras
+KW  - Streaming media
+KW  - Data mining
+KW  - Monitoring
+KW  - Pediatrics
+KW  - Sleep apnea
+KW  - Unobtrusive monitoring
+KW  - respiratory rate
+KW  - depth imaging
+KW  - Realsense SR300
+KW  - respiratory region detecting algorithm
+DO  - 10.1109/ACCESS.2018.2890082
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 7
+VL  - 7
+JA  - IEEE Access
+Y1  - 2019
+AB  - In order to obtain the respiratory condition unobtrusively and comfortably, a non-contact method based on the commercial depth camera Realsense SR300 was proposed to extract respiratory information from depth data. In this paper, a respiratory region detecting algorithm which is mainly based on the morphological method was proposed to obtain the region of interest (ROI) with the depth images. The proposed algorithm contains four steps: body edge extraction, noise reduction, “image skeleton” extraction, and respiratory region estimation. As a result, the respiratory waveform can be derived from the depth data in the ROI. For validation, experiments were carried out to verify the feasibility of obtaining the respiratory information with this approach. In consideration of different application scenarios, 20 kinds of conditions were designed and applied for the experiments. The respiratory rate extracted from the depth waveform can be calculated, and the accuracy achieved was 95.20% for all data while utilizing polysomnography thorax effort signal as gold standard. Through the Bland–Altman analysis, it represented that the proposed system had a good agreement ( $r^{2} = 0.88$ ) with the gold standard. In addition, the performances of the system in the 20 different conditions were analyzed by statistics, and the results showed that the system has good adaptability and robustness for different conditions. In conclusion, the proposed algorithm can fit different scenarios, and this paper provides a novel option for extracting the physiological information with depth data.
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic Compressive Wide-Band Spectrum Sensing Based on Channel Energy Reconstruction in Cognitive Internet of Things
+T2  - IEEE Transactions on Industrial Informatics
+SP  - 2598
+EP  - 2607
+AU  - Z. Li
+AU  - B. Chang
+AU  - S. Wang
+AU  - A. Liu
+AU  - F. Zeng
+AU  - G. Luo
+PY  - 2018
+KW  - Sensors
+KW  - Smart meters
+KW  - Robustness
+KW  - Smart grids
+KW  - White spaces
+KW  - Bandwidth
+KW  - Compressed sensing
+KW  - Cognitive radio (CR)
+KW  - compressive sensing
+KW  - dynamic spectrum sensing
+KW  - Internet of Things (IoT)
+KW  - wide-band spectrum sensing
+DO  - 10.1109/TII.2018.2797096
+JO  - IEEE Transactions on Industrial Informatics
+IS  - 6
+SN  - 1941-0050
+VO  - 14
+VL  - 14
+JA  - IEEE Transactions on Industrial Informatics
+Y1  - June 2018
+AB  - For wireless networks in the Internet of Things (IoT), cognitive radio (CR) is a promising way to obtain the available spectrum for objects. Wide-band spectrum sensing plays an important role in building such CR networks of IoT. In this paper, we propose a novel dynamic compressive wide-band spectrum sensing method based on channel energy reconstruction. After a bank of wide-band random filters is employed to measure the channel energy, rather than to recover all the channel energy in the whole spectrum, only the channel energy with a changing occupancy status in consecutive time slots is recovered. Furthermore, it is unnecessary to use reconstruction algorithm unless there are two or more channels changing their occupancy status. Compared to the existing methods, our proposed schemes bear significant improvements in the probability of detection and reduction of probability of false alarms. Simulation results also show its fast speed and robustness to noise.
+ER  - 
+
+TY  - CONF
+TI  - Magnetic Vector Calibration for Real-Time Indoor Positioning
+T2  - ICC 2020 - 2020 IEEE International Conference on Communications (ICC)
+SP  - 1
+EP  - 7
+AU  - W. Son
+AU  - L. Choi
+PY  - 2020
+KW  - Magnetic fields
+KW  - Fingerprint recognition
+KW  - Magnetic field measurement
+KW  - Calibration
+KW  - IP networks
+KW  - Meters
+KW  - Smart phones
+KW  - Indoor Localization
+KW  - Geomagnetic Field
+KW  - Vector Calibration
+KW  - Long Short-Term Memory
+DO  - 10.1109/ICC40277.2020.9148955
+JO  - ICC 2020 - 2020 IEEE International Conference on Communications (ICC)
+IS  - 
+SN  - 1938-1883
+VO  - 
+VL  - 
+JA  - ICC 2020 - 2020 IEEE International Conference on Communications (ICC)
+Y1  - 7-11 June 2020
+AB  - Geomagnetic signals are attractive media for indoor localization since they have less noise than RF and don't require additional equipment installation for signal generation. The fingerprinting technique used in geomagnetic field based indoor positioning systems (IPS) estimates the position by matching the magnetic vector sampled from the current location with the magnetic vectors recorded in the magnetic field map. However, since the magnetic field is represented by a 3-dimensional vector, the values of a magnetic vector may change depending on the user's orientation or the grip position. Thus, the sampled magnetic vector may have different values from the vector values stored in the magnetic field map depending on the sensor's orientation. This may substantially lower the positioning accuracy. To avoid this problem, the existing studies use only the magnitude of a magnetic vector, but this reduces the uniqueness of the fingerprint, which may also degrade the positioning accuracy. In this paper we propose a vector calibration algorithm which can adjust the sampled magnetic vector to the vector of the magnetic field map by using the parametric equation of a circle. This can minimize mismatching with the magnetic field map. To implement this, we need to compute the relative rotation angle from the moving direction of the current user to the moving direction during the field map collection. Since we can measure the moving direction by using the gyroscope and accelerometer, we can compute this relative rotation angle dynamically. To evaluate our vector calibration algorithm, we compare the value mismatches with and without vector calibration for 6 random-walk paths in our campus testbed of 2470 square meters. Our results show that with the calibration, we can decrease the difference between the sampled magnetic vector and the magnetic field map vectors from 17.61$\mu$T to 2.38 $\mu$T in x dimension, from 17.24$\mu$T to 2.59 $\mu$T in y dimension, and from 6.86 $\mu$T to 2.16 $\mu$T in z dimension on average. This translates to 83% reduction in the map mismatch compared to the numbers without calibration. In addition, we also demonstrate the effectiveness of the calibration by applying the algorithm to our long short-term memory (LSTM)-based IPS.
+ER  - 
+
+TY  - JOUR
+TI  - A Lightweight CNN Model for Refining Moving Vehicle Detection From Satellite Videos
+T2  - IEEE Access
+SP  - 221897
+EP  - 221917
+AU  - R. Chen
+AU  - X. Li
+AU  - S. Li
+PY  - 2020
+KW  - Videos
+KW  - Satellites
+KW  - Surveillance
+KW  - Optical imaging
+KW  - Optical sensors
+KW  - Computational modeling
+KW  - Vehicle detection
+KW  - Vehicle detection
+KW  - object detection
+KW  - convolutional neural network
+KW  - background subtraction model
+KW  - satellite video
+DO  - 10.1109/ACCESS.2020.3040977
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - With the recent development of earth observation technology, the satellites have obtained the ability to capture city-scale videos, which enable potential applications in intelligent traffic management. Because of the broad field-of-view, the moving vehicles in satellite videos are usually composed of only tens of pixels, making it difficult to differentiate true objects from noise and other distractors. In addition, the edges of tall building tops are often mistakenly detected as moving vehicles because of the effects of motion parallax. This article proposed a terse framework that can effectively suppress false targets, achieving high precision and recall. The study involves three parts: 1) An adaptive filtering method is proposed to reduce noise, thus making the detection algorithm more reliable; 2) Several background subtraction models are tested, and the best one is chosen to produce the preliminary detection results at high recall but low accuracy; 3) A lightweight convolutional neural network (LCNN) is designed and trained on a small collection of samples, and then used to eliminate false targets. The experiments and evaluations demonstrate that our method can largely improve the precision at the expense of a slight reduction of recall.
+ER  - 
+
+TY  - JOUR
+TI  - ESTHER: Joint Camera Self-Calibration and Automatic Radial Distortion Correction From Tracking of Walking Humans
+T2  - IEEE Access
+SP  - 10754
+EP  - 10766
+AU  - Z. Tang
+AU  - Y. -S. Lin
+AU  - K. -H. Lee
+AU  - J. -N. Hwang
+AU  - J. -H. Chuang
+PY  - 2019
+KW  - Cameras
+KW  - Distortion
+KW  - Estimation
+KW  - Three-dimensional displays
+KW  - Calibration
+KW  - Legged locomotion
+KW  - Object tracking
+KW  - Camera calibration
+KW  - estimation of distribution algorithm
+KW  - multiple object tracking
+KW  - radial distortion correction
+KW  - self-calibration
+KW  - video surveillance
+DO  - 10.1109/ACCESS.2019.2891224
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 7
+VL  - 7
+JA  - IEEE Access
+Y1  - 2019
+AB  - Camera calibration and radial distortion correction are the crucial prerequisites for many applications in image big data and computer vision. Many existing works rely on the Manhattan world assumption to estimate the camera parameters automatically; however, they may perform poorly when there was lack of man-made structure in the scene. As walking humans are the common objects in video surveillance, they have also been used for camera self-calibration, but the main challenges include the noise reduction for the estimation of vanishing points, the relaxation of assumptions on unknown camera parameters, and the radial distortion correction. In this paper, we present a novel framework for camera self-calibration and automatic radial distortion correction. Our approach starts with the reliable human body segmentation that is facilitated by robust object tracking. Mean shift clustering and Laplace linear regression are, respectively, introduced in the estimation of the vertical vanishing point and the horizon line. The estimation of distribution algorithm, an evolutionary optimization scheme, is then utilized to optimize the camera parameters and the distortion coefficients, in which all the unknowns in camera projection can be fine-tuned simultaneously. Experiments on the three public benchmarks and our own captured dataset demonstrate the robustness of the proposed method. The superiority of this algorithm is also verified by the capability of reliably converting 2D object tracking into 3D space.
+ER  - 
+
+TY  - JOUR
+TI  - Ensemble EMD-Based Spectral-Spatial Feature Extraction for Hyperspectral Image Classification
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+SP  - 5134
+EP  - 5148
+AU  - Q. Li
+AU  - B. Zheng
+AU  - B. Tu
+AU  - J. Wang
+AU  - C. Zhou
+PY  - 2020
+KW  - Feature extraction
+KW  - Hyperspectral imaging
+KW  - Empirical mode decomposition
+KW  - Signal processing algorithms
+KW  - Adaptation models
+KW  - Support vector machines
+KW  - Adaptive total variation (ATV)
+KW  - ensemble empirical mode decomposition (EEMD)
+KW  - feature extraction
+KW  - hyperspectral image classification (HIC)
+DO  - 10.1109/JSTARS.2020.3018710
+JO  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+IS  - 
+SN  - 2151-1535
+VO  - 13
+VL  - 13
+JA  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+Y1  - 2020
+AB  - Hyperspectral images (HSIs) have fine spectral information, and rich spatial information, of which the feature quality is one of the key factors that affect the classification performance. Therefore, how to extract essential features, and eliminate redundant features from hyperspectral data are the main research focus of this article. Here, we propose a spectral-spatial feature extraction method based on ensemble empirical mode decomposition for HSI classification, which contains several steps as follows: First, the dimension reduction for HSI is performed by using the principal component analysis method. Second, in order to decrease the sensitivity to noise, and extract rough outline features, the adaptive total variation filtering (ATVF) is conducted on the selected principal components. Furthermore, by using the ensemble empirical mode decomposition (EEMD) to resolve each spectral band into sequence components, the features of HSIs can be better coalesced into the transform domain. Finally, the first K principal components of the input image, and the outputs of the ATVF, and EEMD are integrated into a stacking system to obtain the final feature image, which is then classified by a pixel-wise classifier. The experimental results of three authentic hyperspectral datasets show that the proposed algorithm obtains a superior classification performance compared with other methods.
+ER  - 
+
+TY  - JOUR
+TI  - Identifying suitable time periods for infrasound measurement system response estimation using across-array coherence
+T2  - Geophysical Journal International
+SP  - 1159
+EP  - 1173
+AU  - D. N. Green
+AU  - A. Nippress
+AU  - D. Bowers
+AU  - N. D. Selby
+PY  - 2021
+KW  - Infrasound
+KW  - Time-series analysis
+KW  - Earthquake monitoring and test-ban treaty verification
+DO  - 10.1093/gji/ggab155
+JO  - Geophysical Journal International
+IS  - 2
+SN  - 1365-246X
+VO  - 226
+VL  - 226
+JA  - Geophysical Journal International
+Y1  - March 2021
+AB  - Microbarometers deployed to measure atmospheric infrasound are often connected to, or housed within, a wind noise reduction system (WNRS). At infrasound arrays of the International Monitoring System (IMS), being deployed as part of Comprehensive Nuclear-Test-Ban Treaty verification measures, the WNRS typically comprises an 18 m diameter pipe array. Over the past decade an in situ method has been developed to estimate the measurement system (sensor + WNRS) response characteristics, by comparing its recordings with those made on a colocated reference sensor with known response and no WNRS. The method relies upon the identification of time periods for which the reference sensor and measurement system are subject to the same input pressure field. It has proven difficult to reliably identify such time periods at frequencies $\lt 0.1\,$ Hz using recordings at a single location, resulting in a negative bias in estimated measurement system gain values (the ‘dip artefact’) in the 0.02–0.1 Hz passband. The IMS is deploying arrays of microbarometers, and we show that a measure of across-array coherence can be used to identify time periods associated with acoustic signal propagation. Amplitude response estimates, using 1 yr of data from four IMS arrays, indicate that the dip artefact can be removed by retaining for analysis only those time periods that exhibit high across-array coherence. Moreover, our analysis confirms the hypothesis that the dip artefact is associated with time periods during which wind-generated pressure fluctuations dominate, leading to partial suppression of noise with length scales less than the extent of the WNRS. At two arrays within continental forests accurate amplitude responses are estimated across the 0.02–4 Hz passband, as acoustic signals at all frequencies can be identified. At two oceanic island arrays, the low numbers of time windows with above-noise acoustic signal in the 0.02–0.1 Hz passband make reliable response estimation at these frequencies difficult or impossible. It is recommended that the methodology for estimating the response of an infrasound measurement system at an array should incorporate a multichannel coherence measure; data centres may already routinely compute such measures in their signal detection algorithms.
+ER  - 
+
+TY  - JOUR
+TI  - Online Measurement of the Size Distribution of Pneumatically Conveyed Particles Through Acoustic Emission Detection and Triboelectric Sensing
+T2  - IEEE Transactions on Instrumentation and Measurement
+SP  - 1
+EP  - 17
+AU  - G. Zheng
+AU  - Y. Yan
+AU  - Y. Hu
+AU  - W. Zhang
+PY  - 2021
+KW  - Particle measurements
+KW  - Size measurement
+KW  - Velocity measurement
+KW  - Pipelines
+KW  - Pneumatic systems
+KW  - Acoustic emission (AE)
+KW  - particle flow
+KW  - particle size distribution
+KW  - triboelectric sensor
+DO  - 10.1109/TIM.2021.3062407
+JO  - IEEE Transactions on Instrumentation and Measurement
+IS  - 
+SN  - 1557-9662
+VO  - 70
+VL  - 70
+JA  - IEEE Transactions on Instrumentation and Measurement
+Y1  - 2021
+AB  - In a thermal power plant, online measurement of the size distribution of pneumatically conveyed pulverized fuel is essential for the improvement of combustion efficiency and the reduction of pollutant emissions. In this article, an innovative instrumentation system based on acoustic emission (AE) detection and triboelectric sensing is proposed for the on-line continuous measurement of particle size distribution. With a waveguide protruding into the flow, the AE signal is generated from the impacts of particles with the waveguide. The peak voltage of the AE signal is related to the particle size and impact velocity. For the first time, two triboelectric sensor arrays each with three arc-shaped electrodes near to the waveguide are used to measure the impact velocity. Meanwhile, a novel particle sizing algorithm with Gaussian prediction is proposed to reduce the effect of overlapping impacts and environmental noise on the peak distribution. With the known impact velocity measured from the triboelectric sensor arrays and the modified peak distribution, the measurement of particle size distribution is achieved. Experimental tests were conducted on a gas–solids two-phase flow rig to assess the performance of the developed measurement system. Silica sands in three size ranges of 116–750, 61–395, and 10– $246~\mu \text{m}$ , respectively, were used as test particles. The experimental results demonstrate that Spearman’s rank correlation coefficients between the measured and reference size distributions for all test particles are all greater than 0.8, while the discrepancy for each particle size segment is within ±4.8%.
+ER  - 
+
+TY  - CONF
+TI  - Some new Results on L1 Minimizing Nullspace Kalman Filtering
+T2  - EUSAR 2018; 12th European Conference on Synthetic Aperture Radar
+SP  - 1
+EP  - 6
+AU  - O. Loffeld
+AU  - D. A. Hage
+AU  - M. H. Conde
+AU  - L. Wang
+PY  - 2018
+DO  - 
+JO  - EUSAR 2018; 12th European Conference on Synthetic Aperture Radar
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - EUSAR 2018; 12th European Conference on Synthetic Aperture Radar
+Y1  - 4-7 June 2018
+AB  - The SAR image generation from raw data can be seen as a decoding problem of raw data which has been encoded by the SAR sensor, where the coding scheme depends on the sensor and the sensing geometry. Compressed sensing (CS) decoding approaches, implicitly model the forward encoding or sensing process in matrix vector form with a sensing matrix, where the dimensions of this matrix grow proportionally with the product of raw data samples and finally wanted image pixels. Especially when applied to Synthetic Aperture Imaging Processing we then face the necessity of handling extremely large data vectors and even larger sensing matrices. Classical focussing/decoding approaches conceptually invert the system of equations, introducing matched filter concepts making use of pseudoinverses. CS concepts under the assumption of images which are sparse in some basis or in combinations of bases promise a reduction of raw data samples without sacrificing resolution or vice versa an improved resolution or signal to noise ratio if the number of raw data samples is not reduced. Consequently the Cramer Rao Bound assuming sparsity of the image to be reconstructed is governed by the number of non-zero coefficients in its sparse description which under an oracle given knowledge of the sparse support converts the forward sensor model into an even overdetermined system of equations which would allow a smaller Cramer Rao Bound than without sparsity assumption. Basis pursuit approaches to CS decoding employ a constrained l1-minimization for the wanted (sparse) image vector to be reconstructed where the constraining data fidelity term models the SAR sensor's encoding, which requires a burdensome matrix vector multiplication in each iteration step. Hence algorithmic issues in realizing the CS decoding play a crucial and decisive role. This paper presents some new results on recursive l1- minimization by Kalman filtering. We consider the l1-norm as an explicit constraint, formulated as a nonlinear l1- observation of the state to be estimated. Interpreting a sparse vector to be estimated as a state which is observed from erroneous (undersampled) measurements we can address time- and space-variant sparsity, any kind of a priori information and also easily address nonstationary error influences in the measurements available. Rather than estimating the full n-dimensional vector of unknowns, the presented approach works on a nullspace basis and only estimates the nullspace vector of dimension n-m, where m is the dimension of the observation vector. Due to this and depending on m, the computational burden of this nullspace vector estimation approach may be considerably smaller in comparison with Chambolle and Pock's Primal Dual Algorithm or many other algorithm estimating the full n-dimensional vector of unknowns. In fact for mildly undetermined systems of equations the computational complexity of the Nullspace Kalman Filter can beat Chambolle and Pock's primal dual algorithm and approaches the OMP complexity, which depends on the sparsity, whereas it does not for the Nullspace Kalman filter.
+ER  - 
+
+

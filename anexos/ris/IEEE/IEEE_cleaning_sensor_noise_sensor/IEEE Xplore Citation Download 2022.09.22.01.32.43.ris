@@ -1,0 +1,1101 @@
+TY  - JOUR
+TI  - DNN-Based PolSAR Image Classification on Noisy Labels
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+SP  - 3697
+EP  - 3713
+AU  - J. Ni
+AU  - D. Xiang
+AU  - Z. Lin
+AU  - C. López-Martínez
+AU  - W. Hu
+AU  - F. Zhang
+PY  - 2022
+KW  - Training
+KW  - Noise measurement
+KW  - Neural networks
+KW  - Radar polarimetry
+KW  - Deep learning
+KW  - Probability
+KW  - Labeling
+KW  - Deep neural network (DNN)
+KW  - image classification
+KW  - noisy label
+KW  - polarimetric synthetic aperture radar (SAR)
+DO  - 10.1109/JSTARS.2022.3168799
+JO  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+IS  - 
+SN  - 2151-1535
+VO  - 15
+VL  - 15
+JA  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+Y1  - 2022
+AB  - Deep neural networks (DNNs) appear to be a solution for the classification of polarimetric synthetic aperture radar (PolSAR) data in that they outperform classical supervised classifiers under the condition of sufficient training samples. The design of a classifier is challenging because DNNs can easily overfit due to limited remote sensing training samples and unavoidable noisy labels. In this article, a softmax loss strategy with antinoise capability, namely, the probability-aware sample grading strategy (PASGS), is developed to overcome this limitation. Combined with the proposed softmax loss strategy, two classical DNN-based classifiers are implemented to perform PolSAR image classification to demonstrate its effectiveness. In this framework, the difference distribution implicitly reflects the probability that a training sample is clean, and clean labels can be distinguished from noisy labels according to the method of probability statistics. Then, this probability is employed to reweight the corresponding loss of each training sample during the training process to locate the noisy data and to prevent participation in the loss calculation of the neural network. As the number of training iterations increases, the condition of the probability statistics of the noisy labels will be constantly adjusted without supervision, and the clean labels will eventually be identified to train the neural network. Experiments on three PolSAR datasets with two DNN-based methods also demonstrate that the proposed method is superior to state-of-the-art methods.
+ER  - 
+
+TY  - JOUR
+TI  - Non-linear state recovery in power system under bad data and cyber attacks
+T2  - Journal of Modern Power Systems and Clean Energy
+SP  - 1071
+EP  - 1080
+AU  - A. Tajer
+AU  - S. Sihag
+AU  - K. Alnajjar
+PY  - 2019
+KW  - Pollution measurement
+KW  - State estimation
+KW  - Power grids
+KW  - Detectors
+KW  - Data models
+KW  - Power system dynamics
+KW  - State estimation
+KW  - Power system security
+KW  - Bad data detection
+KW  - Data injection attack
+DO  - 10.1007/s40565-019-0561-2
+JO  - Journal of Modern Power Systems and Clean Energy
+IS  - 5
+SN  - 2196-5420
+VO  - 7
+VL  - 7
+JA  - Journal of Modern Power Systems and Clean Energy
+Y1  - September 2019
+AB  - The problems of recovering the state of power systems and detecting the instances of bad data have been widely studied in literature. Nevertheless, these two operations have been designed and optimized for the most part in isolation. Specifically, state estimators are optimized based on the minimum mean-square error criteria, which is only optimal when the source of distortions in the data is Gaussian random noise. Hence, the state estimators fail to perform optimality when the data is further contaminated by bad data, which cannot necessarily be modeled by additive Gaussian terms. The problem of power state estimation has been studied extensively. But the fundamental performance limits and the attendant decision rules are unknown when the data is potentially compromised by random bad data (due to sensor failures) or structured bad data (due to cyber attacks, which are also referred to false data injection attacks). This paper provides a general framework that formalizes the underlying connection between state estimation and bad data detection routines. We aim to carry out the combined tasks of detecting the presence of random and structured bad data, and form accurate estimations for the state of power grid. This paper characterizes the optimal detectors and estimators. Furthermore, the gains with respect to the existing state estimators and bad data detectors are established through numerical evaluations.
+ER  - 
+
+TY  - CONF
+TI  - Compressed sensing based speech enhancement
+T2  - 2014 8th International Conference on Signal Processing and Communication Systems (ICSPCS)
+SP  - 1
+EP  - 6
+AU  - F. F. Firouzeh
+AU  - S. Ghorshi
+AU  - S. Salsabili
+PY  - 2014
+KW  - Speech
+KW  - Matching pursuit algorithms
+KW  - Discrete cosine transforms
+KW  - Mathematical model
+KW  - Sensors
+KW  - Sparse matrices
+KW  - Vectors
+KW  - Compressive Sampling (CS)
+KW  - basis pursuit (BP)
+KW  - compressive sensing matching pursuit
+KW  - speech signal
+DO  - 10.1109/ICSPCS.2014.7021068
+JO  - 2014 8th International Conference on Signal Processing and Communication Systems (ICSPCS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 8th International Conference on Signal Processing and Communication Systems (ICSPCS)
+Y1  - 15-17 Dec. 2014
+AB  - Compressed Sensing or Compressive Sampling (CS) is a newly developed method for simultaneously compression and sampling of the given signal. In this way, development of CS applications in speech processing is not an exception and advancements in these applications are an ongoing process. In this paper, we propose compressive sampling method to reconstruct the clean speech signal. The problem of speech signal reconstruction is formulated based on CS utilizing Basis Pursuit (BP) and Compressive Sampling Matching Pursuit (CoSaMP) algorithms. Furthermore, direct sparsity estimation is adopted to efficiently find the sparsity level. Ultimately, it is demonstrated that roughly both of methods are effective in reconstructing the signal of interest with high probability. In addition, the average output frame-based SNRs and the perceptual evaluation of speech quality (PESQ) of subjective listening quality (LQ) and objective quality score for each method are compared.
+ER  - 
+
+TY  - CONF
+TI  - End-to-End Audiovisual Speech Recognition
+T2  - 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+SP  - 6548
+EP  - 6552
+AU  - S. Petridis
+AU  - T. Stafylakis
+AU  - P. Ma
+AU  - F. Cai
+AU  - G. Tzimiropoulos
+AU  - M. Pantic
+PY  - 2018
+KW  - Feature extraction
+KW  - Training
+KW  - Streaming media
+KW  - Visualization
+KW  - Mouth
+KW  - Databases
+KW  - Hidden Markov models
+KW  - Audiovisual Speech Recognition
+KW  - Residual Networks
+KW  - End-to-End Training
+KW  - BGRUs
+KW  - Audiovisual Fusion
+DO  - 10.1109/ICASSP.2018.8461326
+JO  - 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+IS  - 
+SN  - 2379-190X
+VO  - 
+VL  - 
+JA  - 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+Y1  - 15-20 April 2018
+AB  - Several end-to-end deep learning approaches have been recently presented which extract either audio or visual features from the input images or audio signals and perform speech recognition. However, research on end-to-end audiovisual models is very limited. In this work, we present an end-to-end audiovisual model based on residual networks and Bidirectional Gated Recurrent Units (BGRUs). To the best of our knowledge, this is the first audiovisual fusion model which simultaneously learns to extract features directly from the image pixels and audio waveforms and performs within-context word recognition on a large publicly available dataset (LRW). The model consists of two streams, one for each modality, which extract features directly from mouth regions and raw waveforms. The temporal dynamics in each stream/modality are modeled by a 2-layer BGRU and the fusion of multiple streams/modalities takes place via another 2-layer BGRU. A slight improvement in the classification rate over an end-to-end audio-only and MFCC-based model is reported in clean audio conditions and low levels of noise. In presence of high levels of noise, the end-to-end audiovisual model significantly outperforms both audio-only models.
+ER  - 
+
+TY  - JOUR
+TI  - A Review on Robust and Adaptive Control Schemes for Microgrid
+T2  - Journal of Modern Power Systems and Clean Energy
+SP  - 1
+EP  - 14
+AU  - S. K. Panda
+AU  - B. Subudhi
+PY  - 2022
+KW  - Delays
+KW  - Adaptive control
+KW  - Power system dynamics
+KW  - Power system stability
+KW  - Uncertainty
+KW  - Topology
+KW  - Robustness
+KW  - Microgrid
+KW  - distributed energy resources
+KW  - robust control
+KW  - adaptive control
+KW  - distributed control
+DO  - 10.35833/MPCE.2021.000817
+JO  - Journal of Modern Power Systems and Clean Energy
+IS  - 
+SN  - 2196-5420
+VO  - 
+VL  - 
+JA  - Journal of Modern Power Systems and Clean Energy
+Y1  - 
+AB  - Several challenges are encountered while integrating microgrids (MGs) with an existing utility grid. These are low inertia, intermittent nature of renewable energy resources (RESs), sensor/actuator faults, unbalanced and nonlinear loads, supply-demand mismatch, and uncertain switching functions of the power electronic converter. MG control is fully dependent on the communication network, which is also susceptible to different types of failures such as noise in communication links, communication delay, limited bandwidth, packet dropout, and various malicious cyber attacks. Very few papers are available in the literature that focus on the review of control schemes for MG. Consequently, this paper presents a comprehensive review of different robust and adaptive control schemes that address the challenges encountered due to communication constraints, uncertainties, and disturbances for different MG topologies such as AC, DC, and hybrid AC/DC MG, as well as the current research trends in the field of robust and adaptive control. It can be concluded that to achieve control objectives of MG and overcome the existing challenges, robust and adaptive controllers show significantly improved performance in terms of transient and steady-state behavior and robustness as compared to traditional controllers.
+ER  - 
+
+TY  - JOUR
+TI  - Modeling and sliding-mode control of friction-based object transport using two-mode ultrasonic excitation
+T2  - IEEE Transactions on Industrial Electronics
+SP  - 917
+EP  - 926
+AU  - W. Panusittikorn
+AU  - Min Cheol Lee
+AU  - P. I. Ro
+PY  - 2004
+KW  - Sliding mode control
+KW  - Friction
+KW  - Frequency
+KW  - Lubricants
+KW  - Control design
+KW  - Stators
+KW  - Electromagnetic forces
+KW  - Magnetic fields
+KW  - Springs
+KW  - Mathematical model
+DO  - 10.1109/TIE.2004.831761
+JO  - IEEE Transactions on Industrial Electronics
+IS  - 4
+SN  - 1557-9948
+VO  - 51
+VL  - 51
+JA  - IEEE Transactions on Industrial Electronics
+Y1  - Aug. 2004
+AB  - This paper introduces a magnetic-free object transport system driven by a friction force on an ultrasonic flexural vibrating beam. This driving mechanism offers unique advantages of silent operation and lubricant-free structure. The characteristics are ideal for a transport system in a clean-room environment. However, the friction drive described by Hertzian contact and Coulomb friction theories is highly nonlinear. The transport system needs a sophisticated control design to deliver a load to a precise location. A traditional feedback controller and sliding-mode control were implemented in the presence of sensor noise and hardware limitation. It is experimentally shown that the tracking performance of the proposed control scheme is superior to the traditional control design.
+ER  - 
+
+TY  - CONF
+TI  - On the effects of clock offset in OFDM-based Passive Bistatic Radar
+T2  - 2013 IEEE International Conference on Acoustics, Speech and Signal Processing
+SP  - 3846
+EP  - 3850
+AU  - S. Searle
+AU  - J. Palmer
+AU  - L. Davis
+PY  - 2013
+KW  - OFDM
+KW  - Clocks
+KW  - Digital video broadcasting
+KW  - Spaceborne radar
+KW  - Receivers
+KW  - Transmitters
+KW  - Passive radar
+KW  - OFDM
+KW  - Signal reconstruction
+DO  - 10.1109/ICASSP.2013.6638378
+JO  - 2013 IEEE International Conference on Acoustics, Speech and Signal Processing
+IS  - 
+SN  - 2379-190X
+VO  - 
+VL  - 
+JA  - 2013 IEEE International Conference on Acoustics, Speech and Signal Processing
+Y1  - 26-31 May 2013
+AB  - In Passive Bistatic Radar (PBR) a local communications transmitter is used as an illuminator. A Line Of Sight (LOS) signal is captured to use as a template for radar processing. This may be cleaned via demodulation and remodulation, removing short-delay copies and sensor noise. However differences between the transmitter clock and local clock cause the remodulated signal to be mismatched to the transmitted signal, causing degradation of delay-Doppler processing output. This study presents a model which captures the effect of clock disparity upon remodulated OFDM signals. The model is used in simulation to illustrate the specific effect of clock offsets on PBR by examination of delay-Doppler output. It is shown that modification of the template to account for time-varying clock offsets can restore the delay-Doppler output to be nearly ideal.
+ER  - 
+
+TY  - JOUR
+TI  - Unsupervised Training of Denoisers for Low-Dose CT Reconstruction Without Full-Dose Ground Truth
+T2  - IEEE Journal of Selected Topics in Signal Processing
+SP  - 1112
+EP  - 1125
+AU  - K. Kim
+AU  - S. Soltanayev
+AU  - S. Y. Chun
+PY  - 2020
+KW  - Computed tomography
+KW  - Training
+KW  - Image reconstruction
+KW  - Image denoising
+KW  - Deep learning
+KW  - Unsupervised training
+KW  - Stein's unbiased risk estimator
+KW  - poisson noise
+KW  - low-dose CT
+KW  - image reconstruction
+DO  - 10.1109/JSTSP.2020.3007326
+JO  - IEEE Journal of Selected Topics in Signal Processing
+IS  - 6
+SN  - 1941-0484
+VO  - 14
+VL  - 14
+JA  - IEEE Journal of Selected Topics in Signal Processing
+Y1  - Oct. 2020
+AB  - Recently, deep neural network (DNN) based methods for low-dose CT have been investigated to achieve excellent performance in both image quality and computational speed. However, almost all methods using DNNs for low-dose CT require clean ground truth data with full radiation dose to train the DNNs. In this work, we attempt to train DNNs for low-dose CT reconstructions with reduced tube current by investigating unsupervised training of DNNs for denoising sensor measurements or sinograms without full-dose ground truth images. In other words, our proposed methods allow training of DNNs with only noisy low-dose CT measurements. First, the Poisson Unbiased Risk Estimator (PURE) is investigated to train a DNN for denoising CT measurements, and a method is proposed for reconstructing the CT image using filtered back-projection (FBP) and the DNN trained with PURE. Then, the CT forward model-based Weighted Stein's Unbiased Risk Estimator (WSURE) is proposed to train a DNN for denoising CT sinograms and to subsequently reconstruct the CT image using FBP. Our proposed methods achieve excellent performance in both fast computation and reconstructed image quality, which is more comparable to the results of the DNNs trained with full-dose ground truth data than other state-of-the-art denoising methods such as the BM3D, Deep Image Prior, and Deep Decoder.
+ER  - 
+
+TY  - JOUR
+TI  - Unsupervised Hyperspectral Denoising Based on Deep Image Prior and Least Favorable Distribution
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+SP  - 5967
+EP  - 5983
+AU  - K. F. Niresi
+AU  - C. -Y. Chi
+PY  - 2022
+KW  - Noise reduction
+KW  - Electronics packaging
+KW  - Convolutional neural networks
+KW  - Image restoration
+KW  - Optimization
+KW  - Correlation
+KW  - Hyperspectral imaging
+KW  - Adam optimizer
+KW  - convolutional neural network
+KW  - deep image prior
+KW  - Huber loss function
+KW  - hyperspectral denoising
+KW  - least favorable distribution
+KW  - robust statistics
+DO  - 10.1109/JSTARS.2022.3187722
+JO  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+IS  - 
+SN  - 2151-1535
+VO  - 15
+VL  - 15
+JA  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+Y1  - 2022
+AB  - This article considers the inverse problem under hyperspectral images (HSIs) denoising framework. Recently, it has been shown that deep learning is a promising approach to image denoising. However, deep learning to be effective usually needs a massive amount of training data. Moreover, in a practical scenario, HSIs may get contaminated by different kinds of noises such as Gaussian and/or sparse noise. Lately, it has been reported that the convolutional neural network (CNN), the core element used by deep image prior (DIP), is able to capture image statistical characteristics without the need of training, i.e., restore the clean image blindly. Nonetheless, there exists some performance gap between DIP and state-of-the-art methods in HSIs (e.g., low-rank models). By applying the Huber loss function (HLF), which is derived through a least favorable distribution in robust statistics, to DIP, we propose a novel unsupervised denoising algorithm, referred as to the HLF-DIP, free from pretraining and without involving any regularizer. Extensive experimental results are provided to demonstrate that the proposed HLF-DIP algorithm significantly outperforms seven state-of-the-art algorithms in both complexity (thanks to no regularization) and robustness against complex noise (e.g., mixed types of noises).
+ER  - 
+
+TY  - CONF
+TI  - Topologically Consistent Multi-View Face Inference Using Volumetric Sampling
+T2  - 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
+SP  - 3804
+EP  - 3814
+AU  - T. Li
+AU  - S. Liu
+AU  - T. Bolkart
+AU  - J. Liu
+AU  - H. Li
+AU  - Y. Zhao
+PY  - 2021
+KW  - Surface reconstruction
+KW  - Three-dimensional displays
+KW  - Shape
+KW  - Manuals
+KW  - Computer architecture
+KW  - Rendering (computer graphics)
+KW  - Skin
+KW  - Faces
+KW  - Stereo
+KW  - 3D from multiview and other sensors
+DO  - 10.1109/ICCV48922.2021.00380
+JO  - 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
+IS  - 
+SN  - 2380-7504
+VO  - 
+VL  - 
+JA  - 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
+Y1  - 10-17 Oct. 2021
+AB  - High-fidelity face digitization solutions often combine multi-view stereo (MVS) techniques for 3D reconstruction and a non-rigid registration step to establish dense correspondence across identities and expressions. A common problem is the need for manual clean-up after the MVS step, as 3D scans are typically affected by noise and outliers and contain hairy surface regions that need to be cleaned up by artists. Furthermore, mesh registration tends to fail for extreme facial expressions. Most learning-based methods use an underlying 3D morphable model (3DMM) to ensure robustness, but this limits the output accuracy for extreme facial expressions. In addition, the global bottleneck of regression architectures cannot produce meshes that tightly fit the ground truth surfaces. We propose ToFu, Topological consistent Face from multi-view, a geometry inference framework that can produce topologically consistent meshes across facial identities and expressions using a volumetric representation instead of an explicit underlying 3DMM. Our novel progressive mesh generation network embeds the topological structure of the face in a feature volume, sampled from geometry-aware local features. A coarse-to-fine architecture facilitates dense and accurate facial mesh predictions in a consistent mesh topology. ToFu further captures displacement maps for pore-level geometric details and facilitates high-quality rendering in the form of albedo and specular reflectance maps. These high-quality assets are readily usable by production studios for avatar creation, animation and physically-based skin rendering. We demonstrate state-of-the-art geometric and correspondence accuracy, while only taking 0.385 seconds to compute a mesh with 10K vertices, which is three orders of magnitude faster than traditional techniques. The code and the model are available for research purposes at https://tianyeli.github.io/tofu.
+ER  - 
+
+TY  - CONF
+TI  - LADC: Learning-Based Anti-Disturbance Control for Washing Drone
+T2  - 2022 International Conference on Robotics and Automation (ICRA)
+SP  - 5886
+EP  - 5892
+AU  - J. Di
+AU  - S. Chen
+AU  - H. Yan
+AU  - X. Wang
+AU  - H. Zhang
+AU  - H. Ji
+AU  - T. Jin
+PY  - 2022
+KW  - Vibrations
+KW  - Training
+KW  - Substations
+KW  - Partial differential equations
+KW  - Force
+KW  - Rendering (computer graphics)
+KW  - Cleaning
+DO  - 10.1109/ICRA46639.2022.9812305
+JO  - 2022 International Conference on Robotics and Automation (ICRA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 International Conference on Robotics and Automation (ICRA)
+Y1  - 23-27 May 2022
+AB  - Disturbance mainly caused by recoil force in-evitably makes washing drone seriously deviate from the desired position, thereby reducing the cleaning efficiency. It is neces-sary to develop an effective anti-disturbance control method. Although some progresses have been made, the position error thereof is still large, rendering existing methods inapplicable in washing drone. In this paper, we propose a learning-based anti-disturbance control (LADC) method to significantly reduce the position error by combining robust nonlinear control and partial differential equation network (PDENet). Taking data noise into account, we use differential spectral normalization in the training of the PDENet. A distinguishing feature of our method is to directly learn PDENet parameters from flight logs without installing extra sensors. Experimental results indicate that the proposed method outperforms classical PD method and extended state observer (ESO) based control method with 70 % and 50 % reduced position error, respectively, and can be further applied in variable scenarios. Video: https: / / youtu.be/gNfLFAXalkI
+ER  - 
+
+TY  - CONF
+TI  - Time delay estimation in a multipath context
+T2  - 1996 8th European Signal Processing Conference (EUSIPCO 1996)
+SP  - 1
+EP  - 4
+AU  - P. Comon
+AU  - B. Emile
+AU  - G. Bienvenu
+PY  - 1996
+KW  - Covariance matrices
+KW  - Delay effects
+KW  - Estimation
+KW  - Noise
+KW  - Mathematical model
+KW  - Delays
+KW  - Polynomials
+DO  - 
+JO  - 1996 8th European Signal Processing Conference (EUSIPCO 1996)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 1996 8th European Signal Processing Conference (EUSIPCO 1996)
+Y1  - 10-13 Sept. 1996
+AB  - A second-order blind deconvolution algorithm is utilized to improve on interception and classification procedures. It consists of applying the subspace decompostion algorithm described in [10] to several portions of the observation received on a single sensor, and then of estimating the source signal cleaned from its interferences caused by the multipath propagation. Asymptotic performances are lastly analyzed in terms of mean and variance of the estimated filters.
+ER  - 
+
+TY  - CONF
+TI  - Attentive Fusion Enhanced Audio-Visual Encoding for Transformer Based Robust Speech Recognition
+T2  - 2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+SP  - 638
+EP  - 643
+AU  - L. Wei
+AU  - J. Zhang
+AU  - J. Hou
+AU  - L. Dai
+PY  - 2020
+KW  - Encoding
+KW  - Visualization
+KW  - Speech recognition
+KW  - Decoding
+KW  - Training
+KW  - Speech enhancement
+KW  - Feature extraction
+DO  - 
+JO  - 2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+IS  - 
+SN  - 2640-0103
+VO  - 
+VL  - 
+JA  - 2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+Y1  - 7-10 Dec. 2020
+AB  - Audio-visual information fusion enables a performance improvement in speech recognition performed in complex acoustic scenarios, e.g., noisy environments. It is required to explore an effective audio-visual fusion strategy for audiovisual alignment and modality reliability. Different from the previous end-to-end approaches where the audio-visual fusion is performed after encoding each modality, in this paper we propose to integrate an attentive fusion block into the encoding process. It is shown that the proposed audio-visual fusion method in the encoder module can enrich audio-visual representations, as the relevance between the two modalities is leveraged. In line with the transformer-based architecture, we implement the embedded fusion block using a multi-head attention based audiovisual fusion with one-way or two-way interactions. The proposed method can sufficiently combine the two streams and weaken the over-reliance on the audio modality. Experiments on the LRS3-TED dataset demonstrate that the proposed method can increase the recognition rate by 0.55%, 4.51% and 4.61% on average under the clean, seen and unseen noise conditions, respectively, compared to the state-of-the-art approach.
+ER  - 
+
+TY  - JOUR
+TI  - BikeWay: A Multi-Sensory Fuzzy-Based Quality Metric for Bike Paths and Tracks in Urban Areas
+T2  - IEEE Access
+SP  - 227313
+EP  - 227326
+AU  - F. Oliveira
+AU  - D. G. Costa
+AU  - C. Duran-Faundez
+AU  - A. Dias
+PY  - 2020
+KW  - Measurement
+KW  - Smart cities
+KW  - Roads
+KW  - Pollution
+KW  - Accidents
+KW  - Transportation
+KW  - Sensors
+KW  - Smart cycling
+KW  - smart cities
+KW  - Internet of Things
+KW  - environmental monitoring
+KW  - sustainability
+DO  - 10.1109/ACCESS.2020.3046017
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Large cities are increasingly investing in efficient mobility and sustainable transportation as an alternative to expensive and pollutant traditional vehicles. In parallel, people are also seeking cleaner and healthier options for short and last-mile distances. In order to cope with this trend, which has boosted the adoption of bikes in urban areas, a major concern of the governments has been to build bike paths and tracks that allow cyclists to move safely and through shorter distances. However, such initiatives may result in bicycles infrastructure built alongside traditional vehicular roads or on inadequate regions. Therefore, there should be a flexible way to assess the quality of bike paths and tracks, combining variables that indicate adverse conditions for the health and safety of cyclists, such as statistical risk of accidents, air and noise pollution, excessive sunlight exposure, dangerous UV radiation, among others. This article then proposes a new comprehensive quality metric that combines sensed environmental data and historical reported incidents related to bike paths and tracks, which may be employed for traditional physical signaling or to support computer-assisted solutions for cycling monitoring and alerting. Such new metric exploits fuzzy logic to model a group of variables to ultimately provide a unified safety and health quality level, referred as BikeWay. Doing so, we expect to allow dynamic and historical perceptions of how healthy and safe the bike paths and tracks are for cyclists in modern cities.
+ER  - 
+
+TY  - CONF
+TI  - Novel pilot-free adaptive modulation for wireless OFDM systems
+T2  - Symposium, 2005 Wireless Telecommunications
+SP  - 55
+EP  - 59
+AU  - Xiaozhou Huang
+AU  - Hsiao-Chun Wu
+AU  - Yiyan Wu
+PY  - 2005
+KW  - OFDM modulation
+KW  - Wireless sensor networks
+KW  - Bit error rate
+KW  - Multimedia communication
+KW  - Digital video broadcasting
+KW  - Digital audio broadcasting
+KW  - Broadcast technology
+KW  - Quality of service
+KW  - Robustness
+KW  - Modulation coding
+DO  - 10.1109/WTS.2005.1524764
+JO  - Symposium, 2005 Wireless Telecommunications
+IS  - 
+SN  - 1934-5070
+VO  - 
+VL  - 
+JA  - Symposium, 2005 Wireless Telecommunications
+Y1  - 30-30 April 2005
+AB  - Orthogonal frequency division multiplexing (OFDM) is the contemporary technology adopted for digital audio/video broadcasting as well as wireless local-area and metropolitan-area networks. Since the wireless multimedia services often have different quality-of-service requirements and their performance is sensitive to the channel conditions, the conventional fixed OFDM modulation scheme might not be a satisfactory solution nowadays. In this paper, we introduce a novel pilot-free adaptive modulation scheme, which is bandwidth-efficient and allows variable data rates, for the future robust OFDM systems. We design a number of modulation modes in a combination of different constellation sizes and different polynomial cancellation coding methods (PCC) to combat the crucial intercarrier interference problem. Instead of estimating the channel quality based on the overhead pilot symbols, we propose to directly estimate the signal-to-noise ratio (SNR) without using any pilot. Besides, our scheme offers more modulation modes than some other existing adaptive modulation methods which are simply based on different constellation sizes. According to the Monte Carlo simulations, the empirical results show that our adaptive modulation scheme, in most channel conditions (SNR/spl ges/15 dB), not only can satisfy the predetermined bit error rate (BER) requirement (BER/spl les/10/sup -4/) but also can dynamically enhance the throughputs in the rather clean environments with high SNR values.
+ER  - 
+
+TY  - JOUR
+TI  - DOA Estimation With Small Snapshots Using Weighted Mixed Norm Based on Spatial Filter
+T2  - IEEE Transactions on Vehicular Technology
+SP  - 16183
+EP  - 16187
+AU  - B. Liu
+AU  - S. -y. Matsushita
+AU  - L. Xu
+PY  - 2020
+KW  - Direction-of-arrival estimation
+KW  - Estimation
+KW  - Sensors
+KW  - Sparse matrices
+KW  - Covariance matrices
+KW  - Correlation
+KW  - Matrix decomposition
+KW  - Array signal processing
+KW  - compressive sensing
+KW  - direction-of-arrival estimation
+KW  - mixed-norm sparse penalty
+DO  - 10.1109/TVT.2020.3028426
+JO  - IEEE Transactions on Vehicular Technology
+IS  - 12
+SN  - 1939-9359
+VO  - 69
+VL  - 69
+JA  - IEEE Transactions on Vehicular Technology
+Y1  - Dec. 2020
+AB  - $\ell _{2,1}$-norm penalized compressive sensing (CS) is utilized to improve the performance of DOA estimation with small snapshots recently. However, the existing CS-based methods are not robust to the noise. In this article, we propose a CS-based DOA estimation using a novel weighted $\ell _{2,1}$-norm penalty. A spatial filter which can roughly “clean up” or eliminate the signals coming from the directions of the true sources is constructed. Thus, the space spectrum of the spatial filter can work as a weighting matrix to adjust the sparse penalty automatically. A new weighted $\ell _{2,1}$-norm penalty based on this spatial filter is then proposed for DOA estimation. Simulation results demonstrate the effectiveness and efficiency of the proposed algorithm.
+ER  - 
+
+TY  - JOUR
+TI  - Wi-Phrase: Deep Residual-Multihead Model for WiFi Sign Language Phrase Recognition
+T2  - IEEE Internet of Things Journal
+SP  - 18015
+EP  - 18027
+AU  - N. Zhang
+AU  - J. Zhang
+AU  - Y. Ying
+AU  - C. Luo
+AU  - J. Li
+PY  - 2022
+KW  - Wireless fidelity
+KW  - Assistive technologies
+KW  - Gesture recognition
+KW  - Sensors
+KW  - Feature extraction
+KW  - Deep learning
+KW  - Spectrogram
+KW  - Deep learning
+KW  - multihead
+KW  - sign language phrase (SLP)
+KW  - WiFi
+DO  - 10.1109/JIOT.2022.3164243
+JO  - IEEE Internet of Things Journal
+IS  - 18
+SN  - 2327-4662
+VO  - 9
+VL  - 9
+JA  - IEEE Internet of Things Journal
+Y1  - 15 Sept.15, 2022
+AB  - Sign language (SL) is used by hearing impaired and deaf people. The WiFi-based sign language recognition (SLR) technology has attracted much attention due to its contactless nature and wide applications. Most previous SLR works are designed to recognize a single isolated sign word in data samples. However, such assumption is not realistic in practical applications, such as, in daily communication, deaf people usually express their mind through a phrase (a.k.a. a group of words) rather than an isolated word. Compared with the previous works, the sign words in a phrase have variety of length, sequential patterns, and combinations in realistic communications between deaf people. Therefore, it is challenging in exploiting the WiFi signals to accurately capture the unique patterns of SL in the previous natural setting. In this article, we propose Wi-Phrase, a multigesture context-awareness SLR system. Wi-Phrase exploits WiFi signals to translate SL to the English phrase. To achieve this, Wi-Phrase employs principal component analysis (PCA) projection to filter out the noise and convert cleaned WiFi signals to spectrogram. Then, we propose a novel Residual-MultiHead model that exploit residual learn structure to obtain local patterns of phrases and adopt multihead block to capture the global context information of phrase. To prove the advanced nature of our model, we design a WiFi-based SL phrase data set of 40 categories for experiments. Our comprehensive evaluation shows that Wi-Phrase achieves an accurate phrase recognition accuracy of 95.03%. In future, we envision Wi-Phrase could be widely used as the phrase command control system for deaf people in IoT devices.
+ER  - 
+
+TY  - CONF
+TI  - Boosting Lying Posture Classification with Transfer Learning
+T2  - 2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+SP  - 109
+EP  - 114
+AU  - P. Alinia
+AU  - S. Parvaneh
+AU  - S. -I. Mirzadeh
+AU  - A. Arefeen
+AU  - H. Ghasemzadeh
+PY  - 2022
+KW  - Wrist
+KW  - Accelerometers
+KW  - Privacy
+KW  - Target tracking
+KW  - Transfer learning
+KW  - Boosting
+KW  - Data models
+DO  - 10.1109/EMBC48229.2022.9871946
+JO  - 2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+IS  - 
+SN  - 2694-0604
+VO  - 
+VL  - 
+JA  - 2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
+Y1  - 11-15 July 2022
+AB  - Automatic lying posture tracking is an important factor in human health monitoring. The increasing popularity of the wrist-based trackers provides the means for unobtrusive, affordable, and long-term monitoring with minimized privacy concerns for the end-users and promising results in detecting the type of physical activity, step counting, and sleep quality assessment. However, there is limited research on development of accurate and efficient lying posture tracking models using wrist-based sensor. Our experiments demonstrate a major drop in the accuracy of the lying posture tracking using wrist-based accelerometer sensor due to the unpredictable noise from arbitrary wrist movements and rotations while sleeping. In this paper, we develop a deep transfer learning method that improves performance of lying posture tracking using noisy data from wrist sensor by transferring the knowledge from an initial setting which contains both clean and noisy data. The proposed solution develops an optimal mapping model from the noisy data to the clean data in the initial setting using LSTM sequence regression, and reconstruct clean synthesized data in another setting where no noisy sensor data is available. This increases the lying posture tracking F1-Score by 24.9% for ‘left-wrist’ and by 18.1% for ‘right-wrist’ sensors comparing to the case without mapping.
+ER  - 
+
+TY  - CONF
+TI  - A Framework for Clustering Uncertain Data Streams
+T2  - 2008 IEEE 24th International Conference on Data Engineering
+SP  - 150
+EP  - 159
+AU  - C. C. Aggarwal
+AU  - P. S. Yu
+PY  - 2008
+KW  - Data mining
+KW  - Probability distribution
+KW  - Cleaning
+KW  - Hardware
+KW  - Information retrieval
+KW  - Measurement uncertainty
+KW  - Testing
+KW  - Data privacy
+KW  - Probability density function
+KW  - Statistical analysis
+DO  - 10.1109/ICDE.2008.4497423
+JO  - 2008 IEEE 24th International Conference on Data Engineering
+IS  - 
+SN  - 2375-026X
+VO  - 
+VL  - 
+JA  - 2008 IEEE 24th International Conference on Data Engineering
+Y1  - 7-12 April 2008
+AB  - In recent years, uncertain data management applications have grown in importance because of the large number of hardware applications which measure data approximately. For example, sensors are typically expected to have considerable noise in their readings because of inaccuracies in data retrieval, transmission, and power failures. In many cases, the estimated error of the underlying data stream is available. This information is very useful for the mining process, since it can be used in order to improve the quality of the underlying results. In this paper we will propose a method for clustering uncertain data streams. We use a very general model of the uncertainty in which we assume that only a few statistical measures of the uncertainty are available. We will show that the use of even modest uncertainty information during the mining process is sufficient to greatly improve the quality of the underlying results. We show that our approach is more effective than a purely deterministic method such as the CluStream approach. We will test the approach on a variety of real and synthetic data sets and illustrate the advantages of the method in terms of effectiveness and efficiency.
+ER  - 
+
+TY  - JOUR
+TI  - Learning Target Template for Acoustic Event Detection From Low-SNR Training Data
+T2  - IEEE Access
+SP  - 84490
+EP  - 84500
+AU  - X. Ren
+AU  - Z. Feng
+AU  - H. Lu
+AU  - Q. Zhou
+PY  - 2021
+KW  - Band-pass filters
+KW  - Training
+KW  - Event detection
+KW  - Training data
+KW  - Feature extraction
+KW  - Acoustics
+KW  - Wavelet packets
+KW  - Acoustic event detection (AED)
+KW  - low SNR
+KW  - noisy training data
+KW  - template learning
+DO  - 10.1109/ACCESS.2021.3087713
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 9
+VL  - 9
+JA  - IEEE Access
+Y1  - 2021
+AB  - Acoustic events of interest sometimes are inherently intermixed with strong background noise, like underwater sounds or mechanical fault signals. The noise usually creates a low-SNR scenario, making it more difficult to detect the events of interest. Suffering from lack of prior knowledge, it is a difficult job to extract “correct” features from noisy acoustic mixtures for the target events. This paper addresses the detection problem for acoustic events based on low-SNR training data. A novel learning algorithm is proposed to extract the target’s template from noisy training data. Based on a target-guided band-pass filter using wavelet packets, which has been proposed in our previous work for low-SNR event detection, the template of a specific event is represented in the context of the wavelet packet energy spectrum. Template learning is then formulated as an optimization problem maximizing the detection performance which is quantified as the output SNR of the filtered signal. It is further proved that the original complex optimization problem is equivalent to a linear program which is easy to solve. A relatively sufficient database was built to simulate the noise-polluted training signals and the low-SNR detection task. Results show that the learning method can work at −15 dB and above, and the trained templates exhibit excellent detection performance comparable to the templates extracted from clean samples.
+ER  - 
+
+TY  - CONF
+TI  - Adaptively detecting changes in Autonomic Grid Computing
+T2  - 2010 11th IEEE/ACM International Conference on Grid Computing
+SP  - 387
+EP  - 392
+AU  - X. Zhang
+AU  - C. Germain
+AU  - M. Sebag
+PY  - 2010
+KW  - Accuracy
+KW  - Data models
+KW  - Equations
+KW  - Adaptation model
+KW  - Real time systems
+KW  - Noise
+KW  - Clustering methods
+DO  - 10.1109/GRID.2010.5698017
+JO  - 2010 11th IEEE/ACM International Conference on Grid Computing
+IS  - 
+SN  - 2152-1093
+VO  - 
+VL  - 
+JA  - 2010 11th IEEE/ACM International Conference on Grid Computing
+Y1  - 25-28 Oct. 2010
+AB  - Detecting the changes is the common issue in many application fields due to the non-stationary distribution of the applicative data, e.g., sensor network signals, web logs and grid-running logs. Toward Autonomic Grid Computing, adaptively detecting the changes in a grid system can help to alarm the anomalies, clean the noises, and report the new patterns. In this paper, we proposed an approach of self-adaptive change detection based on the Page-Hinkley statistic test. It handles the non-stationary distribution without the assumption of data distribution and the empirical setting of parameters. We validate the approach on the EGEE streaming jobs, and report its better performance on achieving higher accuracy comparing to the other change detection methods. Meanwhile this change detection process could help to discover the device fault which was not claimed in the system logs.
+ER  - 
+
+TY  - CONF
+TI  - A novel subspace spatial-spectral low rank learning method for hyperspectral denoising
+T2  - 2017 IEEE Visual Communications and Image Processing (VCIP)
+SP  - 1
+EP  - 4
+AU  - L. Sun
+AU  - B. Jeon
+PY  - 2017
+KW  - Noise reduction
+KW  - Hyperspectral imaging
+KW  - Learning systems
+KW  - Image restoration
+KW  - Sun
+KW  - Minimization
+KW  - Hyperspectral denoising
+KW  - subspace low rank
+KW  - self-similarity
+KW  - spatial-spectral low rank
+DO  - 10.1109/VCIP.2017.8305076
+JO  - 2017 IEEE Visual Communications and Image Processing (VCIP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 IEEE Visual Communications and Image Processing (VCIP)
+Y1  - 10-13 Dec. 2017
+AB  - Due to the limitation of sensors and atmospheric conditions, hyperspectral images (HSI) are always contaminated by heavy noises, which significantly limits the subsequent applications. To mitigate the problem, this paper proposes a novel subspace spatial-spectral low rank learning method for hyper-spectral denoising. It is based on the assumption that spectra in HSI lie in a low-rank subspace and nonlocal spatial patches are self-similar. The spectral low-rank property is explored by decomposing the clean HSI into two sub-matrices of low rank and the spatial self similarity is exploited by weighed nuclear norm minimization in a nonlocal sense. The proposed restoration model is formulated into an iterative optimization model which can be effectively solved by a cyclic descent algorithm. Experimental results on both simulated and real HSI datasets show that the proposed method can significantly outperform the state-of-the-art methods in terms of quantitative assessment and visual quality.
+ER  - 
+
+TY  - CHAP
+TI  - Data Acquisition and Preprocessing
+T2  - Industry 4.1: Intelligent Manufacturing with Zero Defects
+SP  - 25
+EP  - 68
+AU  - Hao Tieng
+AU  - Haw‐Ching Yang
+AU  - Yu‐Yong Li
+PY  - 2022
+KW  - Force
+KW  - Strain measurement
+KW  - Machining
+KW  - Tools
+KW  - Data acquisition
+KW  - Manufacturing
+KW  - Dynamometers
+DO  - 10.1002/9781119739920.ch2
+PB  - IEEE
+SN  - 9781119739906
+UR  - http://ieeexplore.ieee.org/document/9598473
+AB  - This chapter presents the existing techniques for data acquisition and data preprocessing in general; while the adoption of selected artificial intelligence models for solving the problems in different industries, such as thin‐film‐transistor liquid‐crystal display, solar cell, semiconductor, automotive, aerospace, chemical, and bottle industries. The analog‐to‐digital converter connects to various sensors installed on the equipment side to convert analog sensing signals into digital signals via its analog input/output ports. The chapter presents various sensing techniques and the issues of sensor selection and installation. The goal of data preprocessing is to eliminate the noise imbedded in the signal and extract key‐feature related information. Data preprocessing consists of three steps: segmentation, cleaning, and feature extraction. The chapter demonstrates four practical examples using real‐world data to validate techniques of data acquisition and data preprocessing. These include: detrending of the thermal effect in strain gauge data, automated segmentation of signal data, tool state diagnosis, and tool diagnosis using loading data.
+ER  - 
+
+TY  - CONF
+TI  - Denoising vs. deblurring: HDR imaging techniques using moving cameras
+T2  - 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
+SP  - 522
+EP  - 529
+AU  - L. Zhang
+AU  - A. Deshpande
+AU  - X. Chen
+PY  - 2010
+KW  - Noise reduction
+KW  - Cameras
+KW  - Optical imaging
+KW  - High-resolution imaging
+KW  - Image analysis
+KW  - Image motion analysis
+KW  - Earth Observing System
+KW  - Quantization
+KW  - Reliability theory
+KW  - Image sequence analysis
+DO  - 10.1109/CVPR.2010.5540171
+JO  - 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
+IS  - 
+SN  - 1063-6919
+VO  - 
+VL  - 
+JA  - 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
+Y1  - 13-18 June 2010
+AB  - New cameras such as the Canon EOS 7D and Pointgrey Grasshopper have 14-bit sensors. We present a theoretical analysis and a practical approach that exploit these new cameras with high-resolution quantization for reliable HDR imaging from a moving camera. Specifically, we propose a unified probabilistic formulation that allows us to analytically compare two HDR imaging alternatives: (1) deblurring a single blurry but clean image and (2) denoising a sequence of sharp but noisy images. By analyzing the uncertainty in the estimation of the HDR image, we conclude that multi-image denoising offers a more reliable solution. Our theoretical analysis assumes translational motion and spatially-invariant blur. For practice, we propose an approach that combines optical flow and image denoising algorithms for HDR imaging, which enables capturing sharp HDR images using handheld cameras for complex scenes with large depth variation. Quantitative evaluation on both synthetic and real images is presented.
+ER  - 
+
+TY  - CONF
+TI  - Remodulation of DVB—T signals for use in Passive Bistatic Radar
+T2  - 2010 Conference Record of the Forty Fourth Asilomar Conference on Signals, Systems and Computers
+SP  - 1112
+EP  - 1116
+AU  - S. Searle
+AU  - S. Howard
+AU  - J. Palmer
+PY  - 2010
+KW  - OFDM
+KW  - Digital video broadcasting
+KW  - Clocks
+KW  - Receivers
+KW  - Transmitters
+KW  - Radar
+KW  - Demodulation
+DO  - 10.1109/ACSSC.2010.5757576
+JO  - 2010 Conference Record of the Forty Fourth Asilomar Conference on Signals, Systems and Computers
+IS  - 
+SN  - 1058-6393
+VO  - 
+VL  - 
+JA  - 2010 Conference Record of the Forty Fourth Asilomar Conference on Signals, Systems and Computers
+Y1  - 7-10 Nov. 2010
+AB  - Passive Bistatic Radar employs a local communications transmitter as an illuminator. A template for matched-filtering is obtained by steering a beam at the transmission source. However this signal is subject to sensor noise and may also contain delayed attenuated copies of the transmitted signal. Demodulation and remodulation of the signal provides a clean template, however this also removes transmitter effects, resulting in a less than ideal mismatched filter. Estimation of the carrier drift allows transmitter effects to be re-introduced to the template signal and results in ambiguity surfaces of improved quality.
+ER  - 
+
+TY  - CONF
+TI  - Robust control systems for modern power electronics: applications and challenges
+T2  - 2013 Conference on Control and Fault-Tolerant Systems (SysTol)
+SP  - 750
+EP  - 750
+AU  - S. Fekriasl
+PY  - 2013
+KW  - Power electronics
+KW  - Control systems
+KW  - Robust control
+KW  - Topology
+KW  - Fault tolerance
+KW  - Fault tolerant systems
+DO  - 10.1109/SysTol.2013.6693817
+JO  - 2013 Conference on Control and Fault-Tolerant Systems (SysTol)
+IS  - 
+SN  - 2162-1209
+VO  - 
+VL  - 
+JA  - 2013 Conference on Control and Fault-Tolerant Systems (SysTol)
+Y1  - 9-11 Oct. 2013
+AB  - Summary form only given. Power electronics has had rapid development in the last decade which has resulted in wider real-life applications at present. Along with the above, power converters lay the foundations of our future life by providing us with alternative and long-term solutions for environmentally clean renewable energy resources. A variety of power converter topologies have been developed in the past, and many new topologies are realised every day. While these converters are required to operate under a wide range of system conditions, the majority of the existing control system designs are based on tuning control gains at nominal conditions. As such gains can be tuned for particular operational condition(s), any out-of-nominal operation may cause converter control system to collapse. Secondly, most of existing designs disregard coupling effects in the plant dynamics results of which could be unsatisfactory performance at the operational envelope. In addition, there are inherent perturbations in power converters that cannot be compensated by such tuned controllers. Parametric uncertainties due to electrical elements, transportation/computational delays (as complex-valued uncertainties), sufficiently large load variations, voltage source distortions, unmeasured external disturbances (like faults), and sensor noises are examples of dominant perturbations that could affect the operation of power converters. Advanced robust control system designs can aid development for power converters with improved output performance. Besides, they offer clear optimisation and design guidelines to reduce the cost and size of converters. The goal of this talk is to highlight the benefits and capabilities of robust multivariable feedback control systems design in challenging power electronics applications. Along with a brief review on the pragmatic robust control design, results of such advanced designs in a number of power electronics and power systems control applications will be illustrated in this plenary paper.
+ER  - 
+
+TY  - CONF
+TI  - Electrical Ground Support Equipment for the Sampling Caching System of the Mars 2020 Rover
+T2  - 2022 IEEE Aerospace Conference (AERO)
+SP  - 1
+EP  - 12
+AU  - F. Mier-Hicks
+AU  - A. Buscicchio
+AU  - T. Pailevanian
+AU  - M. Elsdon
+AU  - A. Sirota
+AU  - E. Aguilar
+AU  - S. Brooks
+AU  - D. Levine
+PY  - 2022
+KW  - Space vehicles
+KW  - Actuators
+KW  - Schedules
+KW  - Motor drives
+KW  - Brushless motors
+KW  - Computer architecture
+KW  - Manipulators
+DO  - 10.1109/AERO53065.2022.9843420
+JO  - 2022 IEEE Aerospace Conference (AERO)
+IS  - 
+SN  - 1095-323X
+VO  - 
+VL  - 
+JA  - 2022 IEEE Aerospace Conference (AERO)
+Y1  - 5-12 March 2022
+AB  - In this work we describe in detail the architecture, design, testing and operation of the Electrical Ground Support Equipment (EGSE) “Blue Box” used to test and validate the Sampling Caching System (SCS) of the Mars 2020 Perseverance rover. The Blue Box architecture is centered around COTS motor controllers and COTS input-output modules communicating over an EtherCAT bus. A custom, low-level safety subsystem ensures no harm can be done to the flight articles. The modular architecture of the EGSE reduces cost and complexity while expediting assembly time. The Blue Box drives the 19 actuators of the SCS which span the main robotic arm, the corer system, the internal sample handling arm, the sample tube sealing system and the gas dust removal tool; mimicking the Rover Motor Control Assembly (RMCA). Due to the limited availability of RMCA's, the EGSE enabled and performed the bulk of testing activities for SCS. The majority of the SCS actuators are composed of a 3-phase DC brushless motors, hall sensors for commutation, dual resolvers for output angular measurement, brakes, heaters and platinum thermistors. Additionally, the EGSE read 12 strain gauges forming part of a force torque sensor, and switches used for external positioning references. Over the 3-year span of the V&V campaign for the SCS, over 32 EGSE systems were built, tested and deployed to test venues at JPL and externally. The EGSE tested several families of the SCS subsystem, ranging from engineering units, life test units and two flight units. Test venues that this EGSE supported included lab benches, ultra-clean cleanrooms, ATLO facilities, and thermal vacuum chambers. Together with the test software systems, SSDEV and SSDEV-ECAT, the Blue Box EGSE enabled the team to efficiently test flight hardware and flight software together. We go over the safety features and fault management techniques employed to protect flight hardware. The effects of the long, 50-feet, EGSE harnesses on motor performance, EMI, electrical noise, and motor control performance are explained. Mitigations to these unwanted effects, including shielding strategy and inductance compensation, are summarized. We go over an excerpt of notable anomalies that this EGSE suffered through its operation, along with investigations and resolutions. Lessons learned, areas of improvement as part of future work, and recommendations for future implementations for similar EGSE's, are shared.
+ER  - 
+
+TY  - CONF
+TI  - A hybrid approach to modeling input variables in non-singleton type-2 Fuzzy Logic Systems
+T2  - 2010 UK Workshop on Computational Intelligence (UKCI)
+SP  - 1
+EP  - 6
+AU  - N. Sahab
+AU  - H. Hagras
+PY  - 2010
+KW  - Fuzzy sets
+KW  - Uncertainty
+KW  - Input variables
+KW  - Heating
+KW  - Shape
+KW  - Plastics
+KW  - Sonar
+DO  - 10.1109/UKCI.2010.5625602
+JO  - 2010 UK Workshop on Computational Intelligence (UKCI)
+IS  - 
+SN  - 2162-7657
+VO  - 
+VL  - 
+JA  - 2010 UK Workshop on Computational Intelligence (UKCI)
+Y1  - 8-10 Sept. 2010
+AB  - The vast majority of fuzzy logic systems and applications employ singleton fuzzification because of its simplicity and speed of computation which allows for real time operation. However, using singleton fuzzification assumes that the input measurements are clean signals with no noise or uncertainty associated with them. The vast majority real world applications have high values of noise and uncertainty associated with the sensor and input values. Higher order Fuzzy Logic Systems (FLSs) such as interval type-2 FLSs have been shown to be very well suited to dealing with the high levels of uncertainties present in the majority of real world applications. However, it seems a paradox to use type-2 FLS to handle the encountered uncertainties while assuming that the input values to the type-2 FLS are perfect inputs when considering singleton fuzzification. Hence, we propose a hybrid approach, which employs non-singleton type-2 FLS where the inputs will be modeled by type-2 fuzzy sets to handle the numerical uncertainties, while the antecedent and consequent type-2 fuzzy sets in the type-2 FLS will be used to handle the linguistic uncertainties. One of the main problems in non-singleton fuzzification is to determine the shape and the parameters of the input variables and things get complicated when employing type-2 fuzzy based input variables. In this paper, we will present a novel method which is data driven to generate interval type-2 fuzzy sets to model the input variables in non-singleton type-2 FLS. The paper will report on various experimental results employing the proposed method to generate type-2 based fuzzy input variables.
+ER  - 
+
+TY  - JOUR
+TI  - Through-the-Wall Sensing of Personnel Using Passive Bistatic WiFi Radar at Standoff Distances
+T2  - IEEE Transactions on Geoscience and Remote Sensing
+SP  - 1218
+EP  - 1226
+AU  - K. Chetty
+AU  - G. E. Smith
+AU  - K. Woodbridge
+PY  - 2012
+KW  - IEEE 802.11 Standards
+KW  - Passive radar
+KW  - Clutter
+KW  - Buildings
+KW  - Surveillance
+KW  - Receivers
+KW  - Bistatic radar
+KW  - passive radar
+KW  - radar detection
+DO  - 10.1109/TGRS.2011.2164411
+JO  - IEEE Transactions on Geoscience and Remote Sensing
+IS  - 4
+SN  - 1558-0644
+VO  - 50
+VL  - 50
+JA  - IEEE Transactions on Geoscience and Remote Sensing
+Y1  - April 2012
+AB  - In this paper, we investigate the feasibility of uncooperatively and covertly detecting people moving behind walls using passive bistatic WiFi radar at standoff distances. A series of experiments was conducted which involved personnel targets moving inside a building within the coverage area of a WiFi access point. These targets were monitored from outside the building using a 2.4-GHz passive multistatic receiver, and the data were processed offline to yield range and Doppler information. The results presented show the first through-the-wall (TTW) detections of moving personnel using passive WiFi radar. The measured Doppler shifts agree with those predicted by bistatic theory. Further analysis of the data revealed that the system is limited by the signal-to-interference ratio (SIR), and not the signal-to-noise ratio. We have also shown that a new interference suppression technique based on the CLEAN algorithm can improve the SIR by approximately 19 dB. These encouraging initial findings demonstrate the potential for using passive WiFi radar as a low-cost TTW detection sensor with widespread applicability.
+ER  - 
+
+TY  - JOUR
+TI  - Audio–Visual Affective Expression Recognition Through Multistream Fused HMM
+T2  - IEEE Transactions on Multimedia
+SP  - 570
+EP  - 577
+AU  - Z. Zeng
+AU  - J. Tu
+AU  - B. M. Pianfetti
+AU  - T. S. Huang
+PY  - 2008
+KW  - Hidden Markov models
+KW  - Power engineering computing
+KW  - Speech analysis
+KW  - Streaming media
+KW  - Face recognition
+KW  - Image recognition
+KW  - Automatic speech recognition
+KW  - Psychology
+KW  - Power engineering and energy
+KW  - Humans
+KW  - Affective computing
+KW  - affect recognition
+KW  - emotion recognition
+KW  - human–computer interaction
+KW  - human computing
+KW  - multimodal fusion
+DO  - 10.1109/TMM.2008.921737
+JO  - IEEE Transactions on Multimedia
+IS  - 4
+SN  - 1941-0077
+VO  - 10
+VL  - 10
+JA  - IEEE Transactions on Multimedia
+Y1  - June 2008
+AB  - Advances in computer processing power and emerging algorithms are allowing new ways of envisioning human-computer interaction. Although the benefit of audio-visual fusion is expected for affect recognition from the psychological and engineering perspectives, most of existing approaches to automatic human affect analysis are unimodal: information processed by computer system is limited to either face images or the speech signals. This paper focuses on the development of a computing algorithm that uses both audio and visual sensors to detect and track a user's affective state to aid computer decision making. Using our multistream fused hidden Markov model (MFHMM), we analyzed coupled audio and visual streams to detect four cognitive states (interest, boredom, frustration and puzzlement) and seven prototypical emotions (neural, happiness, sadness, anger, disgust, fear and surprise). The MFHMM allows the building of an optimal connection among multiple streams according to the maximum entropy principle and the maximum mutual information criterion. Person-independent experimental results from 20 subjects in 660 sequences show that the MFHMM approach outperforms face-only HMM, pitch-only HMM, energy-only HMM, and independent HMM fusion, under clean and varying audio channel noise condition.
+ER  - 
+
+TY  - JOUR
+TI  - Assessment of Cellular Signals of Opportunity for High Altitude Aircraft Navigation
+T2  - IEEE Aerospace and Electronic Systems Magazine
+SP  - 1
+EP  - 11
+AU  - Z. M. Kassas
+AU  - J. Khalife
+AU  - A. Abdallah
+AU  - C. Lee
+AU  - J. Jurado
+AU  - S. Wachtel
+AU  - J. Duede
+AU  - Z. Hoeffner
+AU  - T. Hulsey
+AU  - R. Quirarte
+AU  - R. Tay
+PY  - 2022
+KW  - Aircraft navigation
+KW  - Aircraft
+KW  - Global navigation satellite system
+KW  - Global Positioning System
+KW  - Trajectory
+KW  - Military aircraft
+KW  - 3G mobile communication
+KW  - Aircraft navigation
+KW  - aviation
+KW  - signals of opportunity
+KW  - cellular signals
+KW  - channel characterization
+DO  - 10.1109/MAES.2022.3187142
+JO  - IEEE Aerospace and Electronic Systems Magazine
+IS  - 
+SN  - 1557-959X
+VO  - 
+VL  - 
+JA  - IEEE Aerospace and Electronic Systems Magazine
+Y1  - 2022
+AB  - Opportunistic navigation with cellular signals is studied and demonstrated on a high altitude aircraft. An extensive campaign was conducted by the Autonomous Systems Perception, Intelligence, and Navigation (ASPIN) Laboratory in collaboration with the US Air Force (USAF) to sample ambient cellular signals of opportunity (SOPs) at different altitudes in different regions in Southern California, USA. The carrier-to-noise ratio is characterized as a function of altitude and horizontal distance. It was found that signals from cellular transmitters can be reliably acquired and tracked for navigation purposes by receivers mounted on high dynamics aircraft flying at altitudes as high as 23,000 ft above ground-level (AGL) and horizontal distances as far as 100 km. The multipath channel is also characterized as a function of altitude, showing clean channels with a dominant line-of-sight component for altitudes up to 23,000 ft. To further assess the potential of cellular SOPs for aircraft navigation, a 51-km trajectory traversed over a period of 9 minutes was estimated exclusively using cellular SOPs (i.e., with no GPS or other sensors, except for barometric altimeter measurements), resulting in a three-dimensional (3&#x2013;D) position 10.5 m position root mean-squared error (RMSE).
+ER  - 
+
+TY  - CONF
+TI  - Preliminary Studies on Recovering Communities from Typhoon using Radiance Measurement from VIIRS
+T2  - 2021 7th International Conference on Space Science and Communication (IconSpace)
+SP  - 179
+EP  - 183
+AU  - M. L. B. P. Dasco
+AU  - R. Manuel Guido
+PY  - 2021
+KW  - Pollution
+KW  - Tropical cyclones
+KW  - Instruments
+KW  - Sociology
+KW  - Infrared imaging
+KW  - Radiometry
+KW  - Power system reliability
+KW  - Typhoon Rolly
+KW  - VIIRS
+KW  - Bicol Region
+KW  - Nighttime imagery
+KW  - Light Pollution
+DO  - 10.1109/IconSpace53224.2021.9768701
+JO  - 2021 7th International Conference on Space Science and Communication (IconSpace)
+IS  - 
+SN  - 2165-431X
+VO  - 
+VL  - 
+JA  - 2021 7th International Conference on Space Science and Communication (IconSpace)
+Y1  - 23-24 Nov. 2021
+AB  - Typhoons have been one of the most destructive natural disasters in the world. The Philippines has visited by about 20 tropical cyclones per year and the Bicol region is regarded to be the most disaster-prone area in the country. On November 1, 2020, a locally known Typhoon Rolly had struck the Bicol region causing widespread damage in the area. The Visible Infrared Imaging Radiometer Suite (VIIRS) significantly can use to quantify the damages or loss by detecting the changes in power outages before and after the typhoon using the well- calibrated day/night band (DNB). Comparison of the Nighttime light images help to determine the recovery phase of the Bicol region by extracting the red pixel value of the images using Python. The data were obtained from the EOSDIS worldview from September 2020 to March 2021. These images were affected by unnecessary noises thus, it has to be cropped and cleaned to have accurate pixel value. The primary objective of this research is to explore the use of the VIIRS instrument with DNB sensor as the first-hand method in monitoring and collecting data on recovering communities from typhoon among the affected population and human settlements. The analysis shows that Visible Infrared Imaging Radiometer Suite (VIIRS) is useful in detecting power outages and has potential use in the rapid assessment of typhoon disasters. Rapid and effective assessment of typhoon damages is useful supplementary data for Government disaster response and policymaking.
+ER  - 
+
+TY  - CONF
+TI  - Car Plate Recognition Using Machine Learning
+T2  - 2022 Advances in Science and Engineering Technology International Conferences (ASET)
+SP  - 1
+EP  - 6
+AU  - M. Al-Mheiri
+AU  - O. Kais
+AU  - T. Bonny
+PY  - 2022
+KW  - Performance evaluation
+KW  - Databases
+KW  - Machine learning
+KW  - Embedded systems
+KW  - Logic gates
+KW  - Cameras
+KW  - Security
+KW  - License plate recognition
+KW  - Embedded system
+KW  - Car plate recognition
+KW  - Machine Learning
+KW  - CCTV
+KW  - OCR
+DO  - 10.1109/ASET53988.2022.9734830
+JO  - 2022 Advances in Science and Engineering Technology International Conferences (ASET)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 Advances in Science and Engineering Technology International Conferences (ASET)
+Y1  - 21-24 Feb. 2022
+AB  - Security has consistently been a significant worry for mankind. Today we have video surveillance cameras in schools, hospitals and every other public place that help keep these spaces secure. This is also including places with vehicles such as parking spaces and garages, and it would be embedded with a security guard that would also help monitor and verify entrance of any incoming vehicle, as well as controlling the opening and closing of the gate. The project will aim to develop a smart car plate recognition device that can monitor and survey the area, as well as detect and analyze vehicle license plates. A sensor will detect the incoming vehicle, then a camera will take a screenshot of the front of the vehicle with the license plate. The license plate is scanned then checked whether it is registered to determine whether it is allowed or denied entry, and the device will troubleshoot by sending SMS to a fixed phone number regarding any issues. We will use a supervised Machine Learning Optical Character Recognition model known as Tesseract AI. This pre-trained, multi-language AI will detect and extract the numbers and letters on the license plate. Before this process starts, we will clean the image of any noise by performing changes to the original image, such as switching to grayscale and brightening, in-order to increase the accuracy of the OCR and minimize error. These extracted numbers and letters will then be checked within the database one entry after the other until it detects a match. This device will be a direct upgrade over the traditional system of simply including a CCTV camera and a guard as the device will operate independently to a point that no human input is required and will require no installation of on-site servers or setup of databases, thus saving manpower and reducing cost and complexity.
+ER  - 
+
+TY  - JOUR
+TI  - Spatio-Temporally Weighted Two-Step Method for Retrieving Seismic MBT Anomaly: May 2008 Wenchuan Earthquake Sequence Being a Case
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+SP  - 382
+EP  - 391
+AU  - Y. Qi
+AU  - L. Wu
+AU  - M. He
+AU  - W. Mao
+PY  - 2020
+KW  - Earthquakes
+KW  - Microwave theory and techniques
+KW  - Microwave radiometry
+KW  - Electric shock
+KW  - Earth
+KW  - Remote sensing
+KW  - Satellite broadcasting
+KW  - Advanced Microwave Scanning Radiometer for the Earth Observing System
+KW  - microwave brightness temperature (MBT)
+KW  - seismic anomaly
+KW  - spatio-temporally weighted
+KW  - two-step method (TSM)
+DO  - 10.1109/JSTARS.2019.2962719
+JO  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+IS  - 
+SN  - 2151-1535
+VO  - 13
+VL  - 13
+JA  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+Y1  - 2020
+AB  - Referring to the first law of geography and its extension in time domain, this research makes improvements on the two-step method (TSM) presented to retrieve seismic microwave brightness temperature (MBT) anomaly, and a new method named spatio-temporally weighted TSM (STW-TSM) is developed. Temporally weighted background is calculated using nonseismic data according to respective time intervals with the shocking year, and applied to remove long-term trend so as to retrieve basic MBT residuals. Spatially weighted background is calculated referring to Euclidean geospatial distance away from the epicenter, and applied to eliminate local meteorological noise so as to retrieve cleaned MBT residuals. With May 2008 Wenchuan earthquake sequence being a case study, significant seismic MBT anomalies at H and V polarizations, 10 days before and after the May 12 Mw7.9 main shock, were retrieved using STW-TSM at 6.9, 10.7, 18.7, and 36.5 GHz, respectively. This study shows that the newly developed STW-TSM is much more qualified. More significant seismic MBT anomalies at H polarization was retrieved as compared to V polarization. More detailed and localized MBT anomalies was uncovered from high frequency bands at 18.7 and 36.5 GHz, while much remarkable anomalies (but less details) were obtained from low frequency bands at 6.9 and 10.7 GHz. This research is valuable for satellite MBT observation, seismic anomaly analysis, and earthquake precursor study.
+ER  - 
+
+TY  - JOUR
+TI  - State-of-Health Prognosis for Lithium-Ion Batteries Considering the Limitations in Measurements via Maximal Information Entropy and Collective Sparse Variational Gaussian Process
+T2  - IEEE Access
+SP  - 188199
+EP  - 188217
+AU  - M. Xiang
+AU  - Y. He
+AU  - H. Zhang
+AU  - C. Zhang
+AU  - L. Wang
+AU  - C. Wang
+AU  - C. Sui
+PY  - 2020
+KW  - Feature extraction
+KW  - Prognostics and health management
+KW  - Integrated circuit modeling
+KW  - Degradation
+KW  - Lithium-ion batteries
+KW  - Mathematical model
+KW  - Lithium-ion batteries
+KW  - prognostics and health management (PHM)
+KW  - maximal information entropy (MIE)
+KW  - sparse variational Gaussian process
+KW  - k-nearest neighbors
+KW  - state-of-health
+DO  - 10.1109/ACCESS.2020.3029276
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Prognostics and health management (PHM) for electronic devices is intricate yet crucial in an era of electricity. The impending future of electric vehicles and clean energy requires more in-depth scrutiny and monitoring of their storage elements, lithium-ion batteries. State-of-health (SOH), as one of the most evident indicators for battery degradation quantifications, is a matter of vital importance that worths more attention. In this regard, this article proposes a novel SOH prognostics framework for lithium-ion batteries considering the limitations in the recorded measurements through the use of linear statistical k-nearest neighbors (LSKNN) data interpolation, maximal information entropy search (MIES), and collective sparse variational Gaussian process regression (CSVGPR). First, the incomplete charging measurements are processed by LSKNN to infer the missing data points and suppress the unanticipated noises in the extracted temporal features, which indicate the trend of degradation. Then, the MIES scheme is proposed to filter the features that are extraneous to the SOHs of the corresponding batteries and that greatly correlate to the other features in the feature set. Finally, the CSVGPR model, considering the uncertainties within each of the sparse variational Gaussian processes, is utilized to implement SOH prognosis. The proposed framework is verified by a subset of the repository from NASA. In the test, multiple prognostics comparisons of inner-battery tests, cross-battery tests, and tests with other statistical learning methods are presented. The experiment results lend support to the superiority and effectiveness of the work.
+ER  - 
+
+TY  - CONF
+TI  - Table of contents
+T2  - 2014 Global Summit on Computer & Information Technology (GSCIT)
+SP  - 1
+EP  - 1
+PY  - 2014
+KW  - Predictive models
+KW  - Feature extraction
+KW  - Mobile computing
+KW  - Wireless sensor networks
+KW  - Integrated circuit modeling
+KW  - Load modeling
+KW  - Image segmentation
+DO  - 10.1109/GSCIT.2014.6970094
+JO  - 2014 Global Summit on Computer & Information Technology (GSCIT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 Global Summit on Computer & Information Technology (GSCIT)
+Y1  - 14-16 June 2014
+AB  - The following topics are dealt with: cellular automata model; sputum color image segmentation; unsupervised Hopfield neural network classifier; wireless sensor networks; miniaturized tag antenna RFID; WDM all-optical networks; anticultism social education media system; frequency domain periodic noise detection and removal; cache consistency; adaptive page-server database systems; semiautomatic cleaning lexical ontology; video surveillance system; optical flow; stereo vision; software development model selection; medical image crypto-compression; circuit switched networks; DNS-based load balancing; geographically distributed Web server systems; routing protocols; MANETs; split ring resonators; pool based key predistribution scheme; fingerprint recognition; instruction-level parallelism; product feature extraction; electronic implantable devices; radio propagation; WSN; CMT-SCTP; elliptic curve digital signature algorithm; pedestrian detection; medical image watermarking; medical image encryption; mobile device user interface for visually impaired users; hybrid renewable energy; wind systems; pervasive computing; classroom environment; AODV protocol; hash-based message authentication algorithm; smart energy management; fractional integral equation; stereoscopic mobile natural feature tracking; human-machine voice interface based standard Arabic; Landsat images; urban change detection; virtual environment stereo image capture; Web-based decision support system; handwritten object recognition; regularized logistic regression; and feedforward neural networks.
+ER  - 
+
+
