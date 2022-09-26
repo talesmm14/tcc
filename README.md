@@ -57,30 +57,32 @@ O autor (ZHUANG et al., 2007) <!-- \cite{International_Conference__Zhuang} --> p
 
 ## 1.6. Revisão Bibliométrica
 
-Nesta seção são consideraras as informações referentes á produção acadêmica mundial, que abordam os termos em ingles Noise reduction ou noise abatement, Filtering algorithm e Sensor, significando em sequencia redução de ruido, algoritmos de filtragem e sensores, ambos os tópicos foram pesquisados na base IEEE Xplore, com a busca limitada aos termos noise reduction e noise abatement no titulo do documento e filtering algorithm, sensor e noise reduction apenas no texto completo, delimitando aos artigos de 2018 a 2022. Resultando em 675 resultados sendo eles 450 conferencias, 215 artigos, 8 artigos com acesso  antecipado e 2 revistas, foi realizado uma revisão bibliométrica sobre estes 215 artigos resultantes. 
+<!-- TODO: Inserir descrição de alguns artigos encontrados -->
 
-Dados provenientes de sensores são constantemente bombardeados com interferências aleatórias do ambiente onde se encontram, também devido a baixa qualidade provenientes dos sensores de baixo custo disponíveis, inserindo valores incorretos que são caracterizados como ruídos. Esse problema desperta um grande interesse de pesquisadores que buscam lidar com o tratamento e a filtragem de dados ruidosos provindos de sensores, o trabalho \cite{chiang_noise_reduction_in_ECG} se destaca por ser o trabalho mais citado nessa pesquisa bibliométrica, o mesmo aborda o problema da interferência de ruídos nos sinais provindos dos sensores de eletrocardiograma, esses dados podem ser contaminados por fatores como a estática da pele ou mesmo pela respiração do paciente. 
+Nesta seção são consideraras as informações referentes á produção acadêmica mundial, que abordam os termos em ingles Noise reduction, noise abatement, Filtering algorithm e Sensor, significando em sequencia redução de ruido, algoritmos de filtragem e sensores. Ambos os tópicos foram pesquisados na base IEEE Xplore, com a busca limitada aos termos noise reduction e noise abatement no titulo do documento e filtering algorithm, sensor e noise reduction apenas no texto completo, delimitando exclusivamente aos artigos de 2018 a 2022. Resultando em 675 resultados sendo eles 450 conferencias, 215 artigos, 8 artigos com acesso  antecipado e 2 revistas, foi realizado uma revisão bibliométrica sobre estes 215 artigos resultantes. 
+
+Dados provenientes de sensores são constantemente bombardeados com interferências aleatórias do ambiente onde se encontram, também devido a baixa qualidade provenientes dos sensores de baixo custo disponíveis, inserindo valores incorretos que são caracterizados como ruídos nas amostras. Esse problema desperta um grande interesse de pesquisadores, que buscam lidar com o tratamento e a filtragem de dados ruidosos provindos de sensores diversos, o artigo \cite{chiang_noise_reduction_in_ECG} se destaca por ser o trabalho mais citado nessa pesquisa bibliométrica, o mesmo aborda o problema da interferência de ruídos nos sinais provindos dos sensores de eletrocardiograma, esses dados podem ser contaminados por fatores como a estática da pele ou mesmo pela respiração do paciente. 
 
 ...
 
-A Figura ... representa um mapa de visualização de rede, onde podemos visualizar os termos mais predominantes, aqui são visualizados o termos que se repetiram mais de 5 vezes nos textos e resumos dos artigos. Nota-se a formação de grupos de acordo com suas areas de atuação em cima de limpeza de dados ruidosos, alguns grupos em destaque são em azul os termos relacionados a motores e vibrações, os verdes no quais tratam de termos relacionados a componentes eletrônicos, roxo a sensores ópticos, amarelo o tratamento de imagens e em vermelho sensores embarcados e processamento de sinais. 
+A Figura ... representa um mapa de visualização de rede, onde podemos visualizar os termos mais predominantes. Aqui são percebidos o termos que se repetiram mais de 5 vezes nos textos e resumos, nota-se a formação de grupos de acordo com suas areas de atuação, alguns termos em destaque são em azul relacionados a motores, vibrações e forças mecânicas, os em verdes referentes a componentes eletrônicos, roxo a sensores ópticos, amarelo o tratamento de imagem e em vermelho sensores embarcados e processamento de sinais. 
 
 ![alt text](anexos/ris/IEEE/Noise_reduction_and_noise_abatement_andsensor_filtering_algorithm/network_visualization_with_lines.png "Title")
 <!-- ![alt text](anexos/ris/IEEE/Noise_reduction_and_noise_abatement_andsensor_filtering_algorithm/network_visualization.png "Title") -->
 
-Todos esses termos aprofundam a problemática no qual tratamento de ruídos, algoritmos de filtragem e sensores estão relacionados, indo de problemas em programas de computador a problemas no desenvolvimento de circuitos eletrônicos e peças mecânicas de motores.
+Todos essas expressões aprofundam a problemática no qual tratamento de ruídos, algoritmos de filtragem e sensores estão correlacionados, indo de problemas em programas de computador a desenvolvimento de circuitos eletrônicos e peças mecânicas.
 
-Na Figura .. abaixo podemos visualizar um mapa de sobreposição, onde os termos mais amarelos representam que os mesmos se encontram em publicações em media mais recentes, onde também podemos ver a relação entre as palavras encontradas em todos os títulos e resumos. 
+Na Figura .. abaixo podemos visualizar um mapa de sobreposição, onde os vocabulários mais amarelos representam os que se encontram em publicações em media mais recentes, também podemos notar a relação entre as palavras encontradas em todos os títulos e resumos. 
 
 ![alt text](anexos/ris/IEEE/Noise_reduction_and_noise_abatement_andsensor_filtering_algorithm/overlay_visualization.png "Title")
 <!-- ![alt text](anexos/ris/IEEE/Noise_reduction_and_noise_abatement_andsensor_filtering_algorithm/overlay_visualization_zoom.png "Title") -->
 
-Há de se notar que os termos filtragem e algoritmos de filtragem se destacam pela sua quantidade acima da media de trabalhos mais recentes, não se distanciando dos termos de redução de ruido, sensores e algoritmos de processamento de sinais próximos do centro do mapa.
+Há de se notar que os termos filtragem e algoritmos de filtragem se destacam pela sua quantidade acima da media de trabalhos mais recentes, não se distanciando das definições de redução de ruido, sensores e algoritmos de processamento de sinais próximos do centro do mapa.
 
 
 ![alt text](anexos/ris/IEEE/Noise_reduction_and_noise_abatement_andsensor_filtering_algorithm/overlay_visualization_cites.png "Title")
 
-A figura ... apresenta um mapa semelhante a figura anterior, onde podemos notar os autores mais citados destacado pelo tamanho e sua presença media em artigos mais recentes destacado pela cor mais amarela, destaca a quantidade de nomes chineses nas publicações mais citadas quanto na periferia das publicações mais recentes, expressando a ideia que os trabalhos estão com uma tendencia maior de pesquisa na China.
+A figura ... apresenta um mapa semelhante a figura anterior, onde podemos notar os autores mais citados destacando-os pelo tamanho e sua presença media em artigos mais recentes marcado pela cor mais amarela, salienta a quantidade de nomes chineses nas publicações mais citadas tanto na periferia e nas publicações mais recentes, expressando a ideia que os trabalhos estão com uma tendencia maior de pesquisa na China.
 
 ## 1.7. Metodologia
 
