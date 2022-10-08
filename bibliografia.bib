@@ -1,179 +1,259 @@
 @online{Zephyr,
-  author = {{Zephyr Project™}},
-  title = {The Zephyr Project™ strives 
-           to deliver the best-in-class RTOS for connected resource-constrained devices, built to be secure and safe.},
-  url = {https://zephyrproject.org/},
-  year = {2021},
+  author        = {{Zephyr Project™}},
+  title         = {The Zephyr Project™ strives 
+                   to deliver the best-in-class RTOS for connected resource-constrained devices, built to be secure and safe.},
+  url           = {https://zephyrproject.org/},
+  year          = {2021},
   urlaccessdate = {02.09.2021}
 }
 
+@book{Statistical_approach__Elnahrawy,
+  title={Statistical Approaches to Cleaning Sensor Data},
+  author={Elnahrawy, Eiman and Nath, Badri},
+  year={2003},
+  publisher={book chapter in Distributed Sensor Networks, Edited by SS Iyengar and RR~…}
+}
+
+
+@inproceedings{particle_swarm__Narkhede,
+  author    = {Narkhede, Parag
+               and Deshpande, Shripad
+               and Walambe, Rahee},
+  editor    = {Abraham, Ajith
+               and Gandhi, Niketa
+               and Pant, Millie},
+  title     = {Sensor Data Cleaning Using Particle Swarm Optimization},
+  booktitle = {Innovations in Bio-Inspired Computing and Applications},
+  year      = {2019},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {182--191},
+  abstract  = {Sensors play an important role in the monitoring and decision making of autonomous systems. However, the sensor measurements suffer from the addition of random noise due to various reasons. These noisy observations affect the decisions taken by the sensory system. Removal of noise is a critical aspect of any such system. This paper presents an optimization based novel procedure for cleaning the noisy sensor measurements. The proposed algorithm is designed with the help of a well-known particle swarm optimization technique. The developed algorithm is tested with the simulated standard data having different noise intensities and validated with the help of real-time measurements taken using the gyroscope sensor. Results show the feasibility of using the optimization based algorithm for cleaning the sensory data.},
+  isbn      = {978-3-030-16681-6}
+}
+
+@inproceedings{International_Conference__Zhuang,
+  author    = {Zhuang, Yongzhen and Chen, Lei and Wang, X. Sean and Lian, Jie},
+  booktitle = {27th International Conference on Distributed Computing Systems (ICDCS '07)},
+  title     = {A Weighted Moving Average-based Approach for Cleaning Sensor Data},
+  year      = {2007},
+  volume    = {},
+  number    = {},
+  pages     = {38-38},
+  abstract  = {Nowadays, wireless sensor networks have been widely used in many monitoring applications. Due to the low quality of sensors and random effects of the environments, however, it is well known that the collected sensor data are noisy. Therefore, it is very critical to clean the sensor data before using them to answer queries or conduct data analysis. Popular data cleaning approaches, such as the moving average, cannot meet the requirements of both energy efficiency and quick response time in many sensor related applications. In this paper, we propose a hybrid sensor data cleaning approach with confidence. Specifically, we propose a smart weighted moving average (WMA) algorithm that collects confidence data from sensors and computes the weighted moving average. The rationale behind the WMA algorithm is to draw more samples for a particular value that is of great importance to the moving average, and provide higher confidence weight for this value, such that this important value can be quickly reflected in the moving average. Based on our extensive simulation results, we demonstrate that, compared to the simple moving average (SMA), our WMA approach can effectively clean data and offer quick response time.},
+  keywords  = {},
+  doi       = {10.1109/ICDCS.2007.83},
+  issn      = {1063-6927},
+  month     = {June}
+}
+
+@article{label_noise_cleaning__Feng,
+  author         = {Feng, Wei and Quan, Yinghui and Dauphin, Gabriel},
+  title          = {Label Noise Cleaning with an Adaptive Ensemble Method Based on Noise Detection Metric},
+  journal        = {Sensors},
+  volume         = {20},
+  year           = {2020},
+  number         = {23},
+  article-number = {6718},
+  url            = {https://www.mdpi.com/1424-8220/20/23/6718},
+  issn           = {1424-8220},
+  abstract       = {Real-world datasets are often contaminated with label noise; labeling is not a clear-cut process and reliable methods tend to be expensive or time-consuming. Depending on the learning technique used, such label noise is potentially harmful, requiring an increased size of the training set, making the trained model more complex and more prone to overfitting and yielding less accurate prediction. This work proposes a cleaning technique called the ensemble method based on the noise detection metric (ENDM). From the corrupted training set, an ensemble classifier is first learned and used to derive four metrics assessing the likelihood for a sample to be mislabeled. For each metric, three thresholds are set to maximize the classifying performance on a corrupted validation dataset when using three different ensemble classifiers, namely Bagging, AdaBoost and k-nearest neighbor (k-NN). These thresholds are used to identify and then either remove or correct the corrupted samples. The effectiveness of the ENDM is demonstrated in performing the classification of 15 public datasets. A comparative analysis is conducted concerning the homogeneous-ensembles-based majority vote method and consensus vote method, two popular ensemble-based label noise filters.},
+  doi            = {10.3390/s20236718}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Retirar trabalho antigo
+
+
 @generic{Poghosyan2017,
-  author = {Armen Poghosyan and Alessandro Golkar},
-  doi = {10.1016/j.paerosci.2016.11.002},
-  issn = {03760421},
+  author  = {Armen Poghosyan and Alessandro Golkar},
+  doi     = {10.1016/j.paerosci.2016.11.002},
+  issn    = {03760421},
   journal = {Progress in Aerospace Sciences},
-  title = {CubeSat evolution: Analyzing CubeSat capabilities for conducting science missions},
-  volume = {88},
-  year = {2017}
+  title   = {CubeSat evolution: Analyzing CubeSat capabilities for conducting science missions},
+  volume  = {88},
+  year    = {2017}
 }
 
 @generic{Selva2012,
-  author = {Daniel Selva and David Krejci},
-  doi = {10.1016/j.actaastro.2011.12.014},
-  issn = {00945765},
+  author  = {Daniel Selva and David Krejci},
+  doi     = {10.1016/j.actaastro.2011.12.014},
+  issn    = {00945765},
   journal = {Acta Astronautica},
-  title = {A survey and assessment of the capabilities of Cubesats for Earth observation},
-  volume = {74},
-  year = {2012}
+  title   = {A survey and assessment of the capabilities of Cubesats for Earth observation},
+  volume  = {74},
+  year    = {2012}
 }
 
 @article{nicolas2019avaliaccao,
-  title = {AVALIA{\c{C}}{\~A}O DA CONFIABILIDADE DO SISTEMA OPERACIONAL FREERTOS EM NANOSSAT{\'E}LITES},
+  title  = {AVALIA{\c{C}}{\~A}O DA CONFIABILIDADE DO SISTEMA OPERACIONAL FREERTOS EM NANOSSAT{\'E}LITES},
   author = {Nicol{\'a}s, Alexandre Seemud},
-  url = {https://repositorio.ufsc.br/handle/123456789/198056},
-  month = {07},
-  year = {2019}
+  url    = {https://repositorio.ufsc.br/handle/123456789/198056},
+  month  = {07},
+  year   = {2019}
 }
 
 @article{Woellert2011,
-  author = {Kirk Woellert and Pascale Ehrenfreund and Antonio J. Ricco and Henry Hertzfeld},
-  doi = {10.1016/j.asr.2010.10.009},
-  issn = {02731177},
-  issue = {4},
+  author  = {Kirk Woellert and Pascale Ehrenfreund and Antonio J. Ricco and Henry Hertzfeld},
+  doi     = {10.1016/j.asr.2010.10.009},
+  issn    = {02731177},
+  issue   = {4},
   journal = {Advances in Space Research},
-  title = {Cubesats: Cost-effective science and technology platforms for emerging and developing nations},
-  volume = {47},
-  year = {2011}
+  title   = {Cubesats: Cost-effective science and technology platforms for emerging and developing nations},
+  volume  = {47},
+  year    = {2011}
 }
 
 @inproceedings{Hambarde,
-  author = {Hambarde, Prasanna and Varma, Rachit and Jha, Shivani},
+  author    = {Hambarde, Prasanna and Varma, Rachit and Jha, Shivani},
   booktitle = {2014 International Conference on Electronic Systems, Signal Processing and Computing Technologies},
-  title = {The Survey of Real Time Operating System: RTOS},
-  year = {2014},
-  volume = {},
-  number = {},
-  pages = {34-39},
-  doi = {10.1109/ICESC.2014.15}
+  title     = {The Survey of Real Time Operating System: RTOS},
+  year      = {2014},
+  volume    = {},
+  number    = {},
+  pages     = {34-39},
+  doi       = {10.1109/ICESC.2014.15}
 }
 
 @inproceedings{Zhao,
-  author = {Zhao, Yongwang
-            and San{\'a}n, David},
-  editor = {Dillig, Isil
-            and Tasiran, Serdar},
-  title = {Rely-Guarantee Reasoning About Concurrent Memory Management in Zephyr RTOS},
+  author    = {Zhao, Yongwang
+               and San{\'a}n, David},
+  editor    = {Dillig, Isil
+               and Tasiran, Serdar},
+  title     = {Rely-Guarantee Reasoning About Concurrent Memory Management in Zephyr RTOS},
   booktitle = {Computer Aided Verification},
-  year = {2019},
+  year      = {2019},
   publisher = {Springer International Publishing},
-  address = {Cham},
-  pages = {515--533},
-  isbn = {978-3-030-25543-5}
+  address   = {Cham},
+  pages     = {515--533},
+  isbn      = {978-3-030-25543-5}
 }
 
 @book{huber_porting_2019,
-  title = {Porting Zephyr {RTOS} to the {LEON}/{GRLIB} {SoC} {SPARC} v8 architecture},
-  url = {http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-76055},
+  title    = {Porting Zephyr {RTOS} to the {LEON}/{GRLIB} {SoC} {SPARC} v8 architecture},
+  url      = {http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-76055},
   abstract = {{DiVA} portal is a finding tool for research publications and student theses written at the following 50 universities and research institutions.},
-  author = {Huber, Nikolaus},
-  urldate = {2021-10-10},
-  year = {2019}
+  author   = {Huber, Nikolaus},
+  urldate  = {2021-10-10},
+  year     = {2019}
 }
 
 @article{nyffenegger2020connecting,
-  title = {Connecting constrained devices to the cloud using Zephyr},
+  title  = {Connecting constrained devices to the cloud using Zephyr},
   author = {Nyffenegger, Alex},
-  year = {2020}
+  year   = {2020}
 }
 
 @online{FreeRTOS,
-  author = {{FreeRTOS™}},
-  title = {Real-time operating system for microcontrollers},
-  url = {https://www.freertos.org/},
-  year = {2021},
+  author        = {{FreeRTOS™}},
+  title         = {Real-time operating system for microcontrollers},
+  url           = {https://www.freertos.org/},
+  year          = {2021},
   urlaccessdate = {02.09.2021}
 }
 
 @online{Lynx,
-  author = {{Ian Ferguson | VP Marketing}},
-  title = {WHAT ARE THE MOST POPULAR REAL-TIME OPERATING SYSTEMS?},
-  url = {https://www.lynx.com/embedded-systems-learning-center/most-popular-real-time-operating-systems-rtos},
-  year = {2019},
-  month = {11},
-  day = {14},
+  author        = {{Ian Ferguson | VP Marketing}},
+  title         = {WHAT ARE THE MOST POPULAR REAL-TIME OPERATING SYSTEMS?},
+  url           = {https://www.lynx.com/embedded-systems-learning-center/most-popular-real-time-operating-systems-rtos},
+  year          = {2019},
+  month         = {11},
+  day           = {14},
   urlaccessdate = {22.09.2021}
 }
 
 @book{wazlawick2017metodologia,
-  title = {Metodologia de pesquisa para ci{\^e}ncia da computa{\c{c}}{\~a}o},
-  author = {Wazlawick, Raul},
-  volume = {2},
-  year = {2017},
+  title     = {Metodologia de pesquisa para ci{\^e}ncia da computa{\c{c}}{\~a}o},
+  author    = {Wazlawick, Raul},
+  volume    = {2},
+  year      = {2017},
   publisher = {Elsevier Brasil}
 }
 
 @inproceedings{Manyak2011FaultTA,
-  title = {Fault Tolerant and Flexible CubeSat Software Architecture},
-  author = {Greg D. Manyak},
+  title   = {Fault Tolerant and Flexible CubeSat Software Architecture},
+  author  = {Greg D. Manyak},
   journal = {Digital Commons @ Cal Poly},
-  doi = {https://doi.org/10.15368/theses.2011.107},
-  url = {https://digitalcommons.calpoly.edu/theses/550},
-  month = {6},
-  year = {2011}
+  doi     = {https://doi.org/10.15368/theses.2011.107},
+  url     = {https://digitalcommons.calpoly.edu/theses/550},
+  month   = {6},
+  year    = {2011}
 }
 
 @inproceedings{Slacka,
-  author = {Slačka, Juraj and Halás, Miroslav},
+  author    = {Slačka, Juraj and Halás, Miroslav},
   booktitle = {2015 20th International Conference on Process Control (PC)},
-  title = {Safety critical RTOS for space satellites},
-  year = {2015},
-  volume = {},
-  number = {},
-  pages = {250-254},
-  doi = {10.1109/PC.2015.7169971}
+  title     = {Safety critical RTOS for space satellites},
+  year      = {2015},
+  volume    = {},
+  number    = {},
+  pages     = {250-254},
+  doi       = {10.1109/PC.2015.7169971}
 }
 
 @article{Raymundo,
-  author = {Raymundo Belleza, Rafael and de Freitas Pignaton, Edison},
-  title = {Performance study of real-time operating systems for internet of things devices},
-  journal = {IET Software},
-  volume = {12},
-  number = {3},
-  pages = {176-182},
+  author   = {Raymundo Belleza, Rafael and de Freitas Pignaton, Edison},
+  title    = {Performance study of real-time operating systems for internet of things devices},
+  journal  = {IET Software},
+  volume   = {12},
+  number   = {3},
+  pages    = {176-182},
   keywords = {Internet of Things, operating systems (computers), real-time systems, software engineering, benchmark testing, public domain software, performance evaluation, performance evaluation, proprietary RTOS, open source RTOS, benchmark tests, constrained IoT devices, software development, real-time properties handling, productivity, timing properties, nonfunctional requirements, Internet of Things devices, real-time operating systems},
-  doi = {https://doi.org/10.1049/iet-sen.2017.0048},
-  url = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/iet-sen.2017.0048},
-  eprint = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-sen.2017.0048},
-  year = {2018}
+  doi      = {https://doi.org/10.1049/iet-sen.2017.0048},
+  url      = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/iet-sen.2017.0048},
+  eprint   = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-sen.2017.0048},
+  year     = {2018}
 }
 
 @inproceedings{Garcia,
-  author = {Garcia-Martinez, A. and Conde, J.F. and Vina, A.},
+  author    = {Garcia-Martinez, A. and Conde, J.F. and Vina, A.},
   booktitle = {Proceedings of EUROMICRO 96. 22nd Euromicro Conference. Beyond 2000: Hardware and Software Design Strategies},
-  title = {A comprehensive approach in performance evaluation for modern real-time operating systems},
-  year = {1996},
-  volume = {},
-  number = {},
-  pages = {61-68},
-  doi = {10.1109/EURMIC.1996.546366}
+  title     = {A comprehensive approach in performance evaluation for modern real-time operating systems},
+  year      = {1996},
+  volume    = {},
+  number    = {},
+  pages     = {61-68},
+  doi       = {10.1109/EURMIC.1996.546366}
 }
 
 @book{cocian2004manual,
-  title = {Manual da linguagem C},
-  author = {Cocian, Luis Fernando Espinosa},
-  year = {2004},
+  title     = {Manual da linguagem C},
+  author    = {Cocian, Luis Fernando Espinosa},
+  year      = {2004},
   publisher = {Editora da ULBRA}
 }
 
 @article{ritchie1996desenvolvimento,
-  title = {O desenvolvimento da linguagem C},
-  author = {Ritchie, Dennis M},
+  title   = {O desenvolvimento da linguagem C},
+  author  = {Ritchie, Dennis M},
   journal = {Nova Jersey: Lucent Technologies Inc},
-  year = {1996}
+  year    = {1996}
 }
 
 @article{pizzolato2013introduccao,
-  title = {Introdu{\c{c}}{\~a}o ao C++},
+  title  = {Introdu{\c{c}}{\~a}o ao C++},
   author = {Pizzolato, Ednaldo Brigante},
-  year = {2013}
+  year   = {2013}
 }

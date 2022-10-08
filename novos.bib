@@ -1,12 +1,56 @@
-@ARTICLE{
-    chiang_noise_reduction_in_ECG,  
-    author={Chiang, Hsin-Tien and Hsieh, Yi-Yen and Fu, Szu-Wei and Hung, Kuo-Hsuan and Tsao, Yu and Chien, Shao-Yi},  
-    journal={IEEE Access},   
-    title={Noise Reduction in ECG Signals Using Fully Convolutional Denoising Autoencoders},   
-    year={2019},  
-    volume={7},  
-    number={},  
-    pages={60806-60813},  
-    doi={10.1109/ACCESS.2019.2912036}
+
+@article{Arab_LSTM_ResNet,
+  author   = {Arab, Homa and Ghaffari, Iman and Evina, Romaric Mvone and Tatu, Serioja Ovidiu and Dufour, Steven},
+  journal  = {IEEE Access},
+  title    = {A Hybrid LSTM-ResNet Deep Neural Network for Noise Reduction and Classification of V-Band Receiver Signals},
+  year     = {2022},
+  volume   = {10},
+  number   = {},
+  pages    = {14797-14806},
+  abstract = {Noise reduction is one of the most important process used for signal processing in communication systems. The signal-to-noise ratio (SNR) is a key parameter to consider for minimizing the bit error rate (BER). The inherent noise found in millimeter-wave systems is mainly a combination of white noise and phase noise. Increasing the SNR in wireless data transfer systems can lead to reliability and performance improvements. To address this issue, we propose to use a recurrent neural network (RNN) with a long short-term memory (LSTM) autoencoder architecture to achieve signal noise reduction. This design is based on a composite LSTM autoencoder with a single encoder layer and two decoder layers. A V-band receiver test bench is designed and fabricated to provide a high-speed wireless communication system. Constellation diagrams display the output signals measured for various random sequences of PSK and QAM modulated signals. The LSTM autoencoder is trained in real time using various noisy signals. The trained system is then used to reduce noise levels in the tested signals. The SNR of the designed receiver is of the order of 11.8dB, and it increases to 13.66dB using the three-level LSTM autoencoder. Consequently, the proposed algorithm reduces the bit error rate from 10−8 to 10−11. The performance of the proposed algorithm is comparable to other noise reduction strategies. Augmented denoised signals are fed into a ResNet-152 deep convolutional network to perform the final classification. The demodulation types are classified with an accuracy of 99.93%. This is confirmed by experimental measurements.},
+  keywords = {},
+  doi      = {10.1109/ACCESS.2022.3147980},
+  issn     = {2169-3536},
+  month    = {}
 }
 
+@article{chiang_noise_reduction_in_ECG,
+  author  = {Chiang, Hsin-Tien and Hsieh, Yi-Yen and Fu, Szu-Wei and Hung, Kuo-Hsuan and Tsao, Yu and Chien, Shao-Yi},
+  journal = {IEEE Access},
+  title   = {Noise Reduction in ECG Signals Using Fully Convolutional Denoising Autoencoders},
+  year    = {2019},
+  volume  = {7},
+  number  = {},
+  pages   = {60806-60813},
+  doi     = {10.1109/ACCESS.2019.2912036}
+}
+
+@article{duarte_speckle_noise,
+  author   = {Duarte-Salazar, Carlos A. and Castro-Ospina, Andrés Eduardo and Becerra, Miguel A. and Delgado-Trejos, Edilson},
+  journal  = {IEEE Access},
+  title    = {Speckle Noise Reduction in Ultrasound Images for Improving the Metrological Evaluation of Biomedical Applications: An Overview},
+  year     = {2020},
+  volume   = {8},
+  number   = {},
+  pages    = {15983-15999},
+  abstract = {In recent years, many studies have examined filters for eliminating or reducing speckle noise, which is inherent to ultrasound images, in order to improve the metrological evaluation of their biomedical applications. In the case of medical ultrasound images, said noise can produce uncertainty in the diagnosis because details, such as limits and edges, should be preserved. Most algorithms can eliminate speckle noise, but they do not consider the conservation of these details. This paper describes, in detail, 27 techniques that mainly focus on the smoothing or elimination of speckle noise in medical ultrasound images. The aim of this study is to highlight the importance of improving said smoothing and elimination, which are directly related to several processes (such as the detection of regions of interest) described in other articles examined in this study. Furthermore, the description of this collection of techniques facilitates the implementation of evaluations and research with a more specific scope. This study initially covers several classical methods, such as spatial filtering, diffusion filtering, and wavelet filtering. Subsequently, it describes recent techniques in the field of machine learning focused on deep learning, which are not yet well known but greatly relevant, along with some modern and hybrid models in the field of speckle-noise filtering. Finally, five Full-Reference (FR) distortion metrics, common in filter evaluation processes, are detailed along with a compensation methodology between FR and Non-Reference (NR) metrics, which can generate greater certainty in the classification of the filters by considering the information of their behavior in terms of perceptual quality provided by NR metrics.},
+  keywords = {},
+  doi      = {10.1109/ACCESS.2020.2967178},
+  issn     = {2169-3536},
+  month    = {}
+}
+
+@article{liu_interference_stripe,
+  author   = {Liu, Haoting and Ge, Jianyue and Song, Wei and Lan, Jinhui},
+  journal  = {IEEE Photonics Journal},
+  title    = {Interference Stripe Noise Reduction of CMOS Sensor-Based Digital Holographic Measurement System},
+  year     = {2021},
+  volume   = {13},
+  number   = {3},
+  pages    = {1-18},
+  abstract = {Comparing with the application of charge coupled device (CCD) sensor, a kind of interference stripe noise (ISN) can be observed easily from the complementary metal-oxide-semiconductor (CMOS) sensor-based digital holographic measurement (DHM) system because a series of optic coatings and filters are used in front of that sensor in order to improve its imaging effect. The improper assembly or the micro manufacturing error of these optic components may create the unexpected interference phenomena in the imaging sensor. To reduce that noise, an effective image processing method is developed. On one hand the Laplacian pyramid method is used to highlight the ISN and a cartoon-texture decomposition technique is carried out to remove the additive ISN. On the other hand, an improved Lee filtering is performed to restrain the multiplicative ISN. Extensive experiment results have shown that the image quality can be improved after the ISN reduction and this method is fit for solving a deionized water temperature estimation application where the texture complexity of target image is relatively low.},
+  keywords = {},
+  doi      = {10.1109/JPHOT.2021.3081425},
+  issn     = {1943-0655},
+  month    = {June}
+}
