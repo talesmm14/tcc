@@ -8,7 +8,7 @@ ALUNO: Tales Monteiro Melquiades
 - [X] Objetivos e Escopo de Pesquisa
 - [X] Escopo de Pesquisa
 - [X] Justificativas
-- [ ] Revisão bibliométrica
+- [X] Revisão bibliométrica
 - [ ] Trabalhos Relacionados
 - [ ] Metodologia
 - [ ] Resultados
@@ -17,12 +17,17 @@ ALUNO: Tales Monteiro Melquiades
 
 ## 1.2. Resumo
 
-A leitura de dados vindos de sensores em tempo real sempre foi uma tarefa difícil e custosa. Há uma grande quantidade de ruído proveniente da baixa qualidade dos sensores e sequelas resultantes do ambiente, que produzem uma imensa quantidade de dados imprecisos e incorretos, estes os quais atrapalham na tomada de decisão de sistemas embarcados. 
-O problema e muito estudado pela comunidade científica, diversos trabalhos apontam diferentes formas de tratar e ignorar ruídos advindos de sensores. Notou-se a grande presença de artigos recentes que aprofundam o assunto em diversas áreas do conhecimento aonde a leitura de dados tem um papel critico e decisivo no resultado final, os quais são tratados e apresentados aqui com uma revisão bibliométrica que apresenta uma visão dos termos, artigos e autores dos último 5 anos deste a concepção deste trabalho. 
-Neste trabalho também foi implementado funções de filtro populares e uma função de filtragem probabilística, em um repositório de código aberto apelidado de zscilib, focado em um conjunto de funções úteis para computação científica, análise de dados e manipulação de dados no contexto de dispositivos de hardware embarcado, desenvolvido especialmente para o sistema operacional de tempo real Zephyr mantido pela fundação Linux. As contribuições aqui propostas serão integradas a comunidade de código aberto e servirão para que outros pesquisadores, estudantes e atuantes da área possam usufruir e contribuir com a implementação código proposto.
+A leitura de dados vindos de sensores em tempo real sempre foi uma tarefa difícil e custosa. Há uma grande quantidade de ruído proveniente da baixa qualidade dos sensores, que produzem uma imensa quantidade de dados imprecisos e incorretos, atrapalhando a tomada de decisão de sistemas embarcados. O problema é muito estudado pela comunidade científica, diversos trabalhos apontam diferentes formas de tratar e ignorar ruídos advindos de sensores. Notou-se a grande presença de artigos recentes que aprofundam o assunto em diversas áreas do conhecimento como a leitura de dados tem um papel critico e decisivo ao resultado final, os quais são tratados e apresentados aqui com uma revisão bibliométrica que apresenta uma visão dos termos, artigos e autores dos último 5 anos deste a concepção deste trabalho. Neste trabalho foram implementadas funções de filtro populares e uma função de filtragem probabilística, em um repositório de código aberto apelidado de zscilib, focado em um conjunto de funções úteis para computação científica no contexto de dispositivos de hardware embarcado, desenvolvido especialmente para o sistema operacional de tempo real Zephyr mantido pela fundação Linux. 
+
+As contribuições aqui propostas serão integradas a comunidade de código aberto e servirão para que outros pesquisadores, estudantes e atuantes da área possam usufruir e contribuir com a implementação código proposto.
+
+Mudar aonde, e tirar final
+
 
 
 ## 1.3. Introdução
+
+
 
 
 ### 1.3.1. Organização do Trabalho
@@ -109,8 +114,12 @@ Aqui serão apresentados os 5 artigos recentes do ano de 2022 relacionados a ess
 | Referência              | Vantagem                                                                           | Desvantagem                                                                                                                         | Descrição                                                                                                                                                                                                                                     |
 | ----------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | \cite{Arab_LSTM_ResNet} | Algoritmo pode ser treinado em tempo real e acompanhar diferentes tipos de ruídos. | Necessita de uma grande quantidade de dados já coletados para treinamento, exigência de grande capacidade de recurso de computação. | O trabalho propõe utilizar uma técnica de aprendizado profundo para classificar e eliminar ruídos de sistemas de comunicação via micro-ondas, aproveitando-se da aptidão do algorítimo em se adestrasse com os dados coletados em tempo real. |
-| \cite{}                 |                                                                                    |                                                                                                                                     |                                                                                                                                                                                                                                               |
-|                         |                                                                                    |                                                                                                                                     |                                                                                                                                                                                                                                               |
+| \cite{Kamata_mems}      | A técnica pode ser utilizada também para acelerômetros, e viabiliza o uso de componentes de custo baixo e alta precisão. | Limitasse a um ambiente de sensores específicos. | O seguinte estudo propõe uma filtragem para processamento de sinal de um componente eletrônico giroscópio embarcado e avaliando seu desempenho. |
+| \cite{Ning_magnetometer} | O método utilizado e adaptativo e abrangente, podendo resolver ruídos dinamicamente. | Os testes não foram realizados durante o processo de coleta de dados. | Aqui os autores implementa uma combinações de filtros para eliminar dados ruidosos em tempo real e compensar a interferência dos erros de um sensor magnético, utilizando de diversos métodos como Auto-Regressão e Média móvel, para modelar a medição de  ruído, afim de excluir dados errados  do resultado final. |
+|\cite{Kaan_emg} | Seu comportamento adaptativo exibe uma vantagem em manter os dados coletados o mais proximo possível dos dados reais, sem diminuir a potência do sinal. | Por estar no estado da arte, ainda não apresenta outros estudos comprovando sua utilização em tempo real. | Aqui e proposto um novo método de processamento de dados de sensores de eletromiografia sensível, utilizando um algorítimo adaptativo em tempo real para eliminar os ruídos provindos de fontes elétricas de corrente alternada, sem perturbar os dados reais do sensor, ao qual conseguiu superar cinco alternativas existentes de ultima geração para tratamento de sinal de eletromiografia, mantendo a qualidade do sinal. |
+| | | | |
+
+
 Para este trabalho, a metodologia proposta pode ser resumida da seguinte forma: 
 
 
