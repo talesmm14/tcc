@@ -62,15 +62,8 @@ O escopo desta pesquisa abrange um conjunto de funções escritas na linguagem C
 
 Dados provindos do mundo real são constantemente contaminados com ruídos ou podem não corresponder a realidade, esse tipo de situação pode afetar perigosamente um programa de computador qualquer que lida com dados de sensores. Muitos programas podem depender que essa resposta deva ser rápida o suficiente para não comprometer o desempenho e a segurança do programa, um veiculo automato ou um equipamento medico por exemplo não podem trabalhar com dados incorretos, mesmo que sejam em curtos períodos de tempo, os mesmos dependem que a resposta vinda dos sensores sejam rápidas e verdadeiras, com as respostas discrepantes sendo descartadas não comprometendo sua missão. Assim então este trabalho visa contribuir com a construção de uma biblioteca na linguagem C é de código aberto, onde será oferecido funções para tratamento de dados ruidosos advindos do mundo real, cuidando de se preocupar em trabalhar em conjunto com o RTOS Zephyr, economizando tempo de desenvolvimento e centralizando código aberto para todo e qualquer projetista de software interessado em consumir e contribuir ao projeto.
 
-## 1.6. Trabalhos Relacionados
-```` Revisar essa introdução!! ````
 
-Aqui será dedicado a descrever os trabalhos relacionados, descrevendo cada um dos estudos e abordando seus pontos fortes e fracos.
-
-O autor (ZHUANG et al., 2007) <!-- \cite{International_Conference__Zhuang} --> propõem uma abordagem de limpeza de dados de sensores, com um algoritmo de média móvel ponderada inteligente que coleta dados já validados e realiza com eles um calculo de média móvel ponderada, comparando a mesma com o calculo de média móvel. Em (NARKHEDE; DESHPANDE; WALAMBE, 2019)<!-- \cite{particle_swarm__Narkhede} --> o artigo apresenta um novo procedimento para a limpeza de dados ruidosos advinda de sensores, utilizando uma técnica de otimização de enxame de partículas demonstrando a viabilização do algoritmo. No livro (ELNAHRAWY; NATH, 2003) <!-- \cite{Statistical_approach__Elnahrawy} -->
-
-
-## 1.7. Revisão Bibliométrica
+## 1.6. Revisão Bibliométrica
 
 <!-- TODO: Inserir descrição de alguns artigos encontrados -->
 
@@ -93,9 +86,9 @@ Em \cite{duarte_speckle_noise} afim de melhorar aplicações biomédicas em imag
 
 ![alt text](anexos/ris/IEEE/Noise_reduction_and_noise_abatement_andsensor_filtering_algorithm/overlay_visualization_cites.png "Title")
 
-A figura ... apresenta um mapa semelhante a figura anterior, onde podemos notar os autores mais citados destacando-os pelo tamanho e sua presença media em artigos mais recentes marcado pela cor mais amarela.
+A figura ... apresenta um mapa semelhante a figura anterior, a imagem destaca os autores mais citados em média, destacando-os pelo tamanho do circulo atrás de seu nome, e pela sua presença em artigos mais recentes de acordo com a cor mais amarelada. 
 
-Na Figura .. abaixo podemos visualizar um mapa de sobreposição, onde os vocabulários mais amarelos representam os que se encontram em publicações em media mais recentes, também podemos notar a relação entre as palavras encontradas em todos os títulos e resumos. 
+Na Figura .. abaixo visualiza-se um mapa de sobreposição, onde os vocabulários mais amarelos representam os que se encontram em publicações em media mais recentes, também podemos notar a relação entre as palavras encontradas em todos os títulos e resumos. 
 
 ![alt text](anexos/ris/IEEE/Noise_reduction_and_noise_abatement_andsensor_filtering_algorithm/overlay_visualization.png "Title")
 <!-- ![alt text](anexos/ris/IEEE/Noise_reduction_and_noise_abatement_andsensor_filtering_algorithm/overlay_visualization_zoom.png "Title") -->
@@ -103,13 +96,23 @@ Na Figura .. abaixo podemos visualizar um mapa de sobreposição, onde os vocabu
 Há de se notar que os termos filtragem e algoritmos de filtragem se destacam pela sua quantidade acima da media de trabalhos mais recentes, não se distanciando das definições de redução de ruído, sensores e algoritmos de processamento de sinais próximos do centro do mapa.
 
 #### 1.7.0.1. Conclusões sobre a Revisão Bibliométrica realizada
-Percebesse que o estudo na área de tratamento de dados de sensores concentra-se em média uma grande quantidade de trabalhos recentes, com diferentes abordagens de como remover ou reduzir dados ruidosos, apresentando a ideia de que o tema e de interesse atual da comunidade acadêmica mundial. A diversos ramos nos quais tratamento e eliminação de ruídos de sensores podem peregrinar, podendo verificar a ocorrência dos termos em problemas que não necessariamente estão interessados na obtenção do sinal limpo, mas sim na caracterização e coleta dos ruídos na amostra ou que fogem do escopo deste trabalho com a eliminação de ruído, sendo feita através de equipamento físico.
+Percebesse que o estudo na área de tratamento de dados de sensores concentra-se em média uma grande quantidade de trabalhos recentes, com diferentes abordagens de como remover ou reduzir dados ruidosos, apresentando a ideia de que o tema e de interesse atual da comunidade acadêmica mundial. A diversos ramos nos quais tratamento e eliminação de ruídos de sensores podem peregrinar, podendo verificar a ocorrência dos termos em problemas que não necessariamente estão interessados na obtenção do sinal limpo, mas sim na caracterização e coleta dos ruídos na amostra ou que fogem do escopo deste trabalho com a eliminação de ruído, sendo feita através de equipamento físico. 
+
+
+## 1.7. Problemas de interferência em sensores
+```` Revisar essa introdução!! ````
+
+Uma das soluções populares para lidar com ruídos e usar o calculo de média móvel para aproximação dos valores, no entanto esse método não e tão eficaz em redes de sensores já que o mesmo tem baixa eficiência energética e tempo de resposta muito elevado, mesmo que possa-se melhorar um dos quesitos em detrimento do outro o resultado da média leva muito tempo para acompanhar a mudança nos dados reais, a média móvel ponderada é mais próxima aos dados verdadeiros já que a mesma adiciona pesos de confiança aos valores importantes, resultando em uma resposta mais rápida e proxima dos valores reais  \cite{International_Conference__Zhuang}. 
+
+Em (NARKHEDE; DESHPANDE; WALAMBE, 2019)<!-- \cite{particle_swarm__Narkhede} --> o artigo apresenta um novo procedimento para a limpeza de dados ruidosos advinda de sensores, utilizando uma técnica de otimização de enxame de partículas demonstrando a viabilização do algoritmo. No livro (ELNAHRAWY; NATH, 2003) <!-- \cite{Statistical_approach__Elnahrawy} -->
 
 ## 1.8. Metodologia
 
 ### 1.8.1. Tabela de referencias
 
-Aqui serão apresentados os 5 artigos recentes do ano de 2022 relacionados a esse trabalho, tendo suas vantagens e desvantagens levantadas com relação aos seus métodos propostos e uma breve descrição do trabalho.
+O presente estudo classifica-se como uma pesquisa experimental, a pesquisa experimental segundo \cite{wazlawick2017metodologia} condiciona o pesquisador a lidar com diversas variáveis experimentais e variáveis observacionais visando levar possivelmente, correlações e dependências entre as elas, utilizando de técnicas de amostragem e testes de hipóteses. O mesmo diz que trabalhos desenvolvidos em cima de abordagens padronizadas e aceitas internacionalmente, apresentando dados empíricos é relevantes, se encaixam no nível mais maduro de pesquisa, onde o autor deverá apresentar os resultados usando métricas aceitas pela comunidade, através de observações e medições, implicando que o pesquisador provocará alterações sistemáticas no ambiente do experimento para se observar os resultados após cada intervenção produzida.
+
+Aqui serão apresentados os 5 artigos recentes relacionados a esse trabalho, tendo suas vantagens e desvantagens levantadas com relação aos seus métodos propostos e uma breve descrição do trabalho.
 
 | Referência              | Vantagem                                                                           | Desvantagem                                                                                                                         | Descrição                                                                                                                                                                                                                                     |
 | ----------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -117,16 +120,26 @@ Aqui serão apresentados os 5 artigos recentes do ano de 2022 relacionados a ess
 | \cite{Kamata_mems}      | A técnica pode ser utilizada também para acelerômetros, e viabiliza o uso de componentes de custo baixo e alta precisão. | Limitasse a um ambiente de sensores específicos. | O seguinte estudo propõe uma filtragem para processamento de sinal de um componente eletrônico giroscópio embarcado e avaliando seu desempenho. |
 | \cite{Ning_magnetometer} | O método utilizado e adaptativo e abrangente, podendo resolver ruídos dinamicamente. | Os testes não foram realizados durante o processo de coleta de dados. | Aqui os autores implementa uma combinações de filtros para eliminar dados ruidosos em tempo real e compensar a interferência dos erros de um sensor magnético, utilizando de diversos métodos como Auto-Regressão e Média móvel, para modelar a medição de  ruído, afim de excluir dados errados  do resultado final. |
 |\cite{Kaan_emg} | Seu comportamento adaptativo exibe uma vantagem em manter os dados coletados o mais proximo possível dos dados reais, sem diminuir a potência do sinal. | Por estar no estado da arte, ainda não apresenta outros estudos comprovando sua utilização em tempo real. | Aqui e proposto um novo método de processamento de dados de sensores de eletromiografia sensível, utilizando um algorítimo adaptativo em tempo real para eliminar os ruídos provindos de fontes elétricas de corrente alternada, sem perturbar os dados reais do sensor, ao qual conseguiu superar cinco alternativas existentes de ultima geração para tratamento de sinal de eletromiografia, mantendo a qualidade do sinal. |
-| | | | |
+| \cite{Zhou_ambient} | Identifica sinais de interferência utilizando uma quantidade inferior de dados. | Quanto maior a sobreposição, maior a carga computacional necessária para processar os canais diferentes. | Os autores apresentam um método que combina processamento de sinal e cancelamento de ruído adaptativo para filtrar e eliminar interferências do ambiente. Duplicando o sinal recebido em dois canais diferentes, sobrepondo um sobre o outro e eliminando as interferências em ambos de forma a evitar perdas dos espectros. |
 
 
 Para este trabalho, a metodologia proposta pode ser resumida da seguinte forma: 
 
 
+
+
 ## 1.9. Resultados
 
-
-## 1.10. Desenvolvimento
+Os dados de temperatura coletados foram salvos em um arquivo csv, testados com o algoritmo de intervalo de confiança móvel ajustado para avaliar o dado em uma amostra dos últimos 10 valores. 
+Os resultados podem ser visualizados na Figura ..., onde os pontos verdes significam que foram coletados e os em vermelhos foram ignorados.
+![alt text](imagens/sensores/Cleaning_sensor_data_overlay_visualization.png "Title")
+Nota-se a dificuldade do algoritmo em considerar os dados que estão em uma curva assedente ou decrescente, mas destacasse por conseguir capturar os dados da ponta de todos os grandes picos de sinal.
+![alt text](imagens/sensores/indice.png "Title")
+Durante os testes percebesse que a coleta levou um tempo considerável para validar algum valor, tendo em vista que algumas aplicações podem não permitir que suas coletas demorem mais que alguns segundos, aconselhasse utilizar uma regra de coleta do valor caso o algoritmo leve muitos passos para realizar a proxima coleta.
+![alt text](imagens/sensores/indice2.png "Title")
+E interessante notar que a quantidade de dados utilizada no vetor de amostra onde foi realizado o calculo de intervalo de confiança, amostra com 5 valores se mostraram aceitáveis mesmo coletando dados consideráveis fora do comum, acima de 20 valores os valores começam a ficar mais restritos, o algoritmo passa a ignorar muitos valores, não conseguindo pegar o pico das curvas mais acentuadas.
+![alt text](imagens/sensores/indice3.png "Title")
+![alt text](imagens/sensores/indice4.png "Title")
 
 ## 1.11. Conclusão
 

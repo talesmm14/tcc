@@ -4,65 +4,76 @@
 
 \chapter{Introdução}\label{intro}
 \section{Conceitos Introdutórios e Problematização}
-Com os avanços recentes na miniaturização de componentes eletrônicos de prateleira (COTS), construir 
-satélites deixou de ser exclusividade de governos e grandes empresas apoiadas por governos, agora 
-universidades, empresas menores e grupos entusiastas podem construir e lançar ao espaço em um ou dois 
-anos pequenas espaçonaves de baixo custo, baixa potência com componentes de prateleiras prontos para 
-uso \cite{Poghosyan2017}.
 
-Está tecnologia vem permitindo que países em desenvolvimento e emergentes possam entrar no setor espacial, 
-o desenvolvimento, operação e análise de dados dessas pequenas espaçonaves promovem e estimulam a educação 
-científica em mais de 80 universidades em todo o mundo que possuem programas nessas áreas, estes programas 
-ocasionam uma importante atividade comercial, com muitos desses projetos surgindo como projetos acadêmicos 
-\cite{Woellert2011}. O padrão de um CubeSat de uma unidade (1U) e de 10 x 10 x 10 cm³, tendo seu peso 
-limitado a 1,33 kg podendo ser composto por um ou mais unidades seguindo o mesmo padrão, este padrão foi 
-inicialmente desenvolvido em 1999 pelos professores Jordi Puig-Suari na Cal Poly e Bob Twiggs na Universidade 
-de Stanford, cada uma dessas espaçonaves pode ser lançadas ao custo de 50 a 200 mil dólares\cite{Selva2012}, 
-este custo pode variar dependendo das tecnologias empregadas e plataforma de lançamento.
-
-% \begin{figure}[H]
-% 	\centering
-% 	\includegraphics[width=15cm]{imagens/cubesat_nasa_image.jpg}
-% 	\caption{CubeSat RadFxSat}
-% 	Fonte: Portal "www.nasa.gov", The Radio Amateur Satellite Corporation (AMSAT) e Vanderbilt University.
-% 	\label{fig: CubeSat RadFxSat}
-% \end{figure}
-
-A fim de diminuir custos estas plataformas podem ser construídas com tecnologias de código aberto. Os CubeSat's 
-de código aberto populares possuem uma característica em comum, utilizam o sistema operacional de tempo real de 
-código aberto FreeRTOS, pois além de ser um dos RTOS (Sistema operacional de Tempo Real) mais adotado para projetos e um dos mais populares segundo 
-a \cite{Lynx}. E um dos RTOS com maior documentação e maior comunidade na internet, sendo um dos favoritos em 
-projetos de código aberto por ter maior aceitação e entendimento do publico. O mesmo e pequeno, simples e confiável 
-sendo amplamente usado na indústria de microeletrônica, sendo escrito em C com partes em assembler \cite{nicolas2019avaliaccao}.
+O mundo moderno e cercado por sensores passivos que coletam dados de praticamente tudo, para monitoramento ou tomada de decisão a maioria desses sensores e bombardeada de interferências indesejáveis o tempo todo. Seja pela baixa qualidade dos sensores ou pela grande quantidade de intervenções aleatórias de fontes externas que podem prejudicar o resultado final. 
+Umas das abordagens mais populares para escapar de valores discrepantes, e a utilização do calculo de média móvel para remover ruídos, no entanto essa abordagem não apresenta uma boa eficiência energética e demanda muito tempo para conseguir refletir mudanças bruscas no conjunto de dados utilizado \cite{International_Conference__Zhuang}. 
 
 
-Desta forma, pretendeu-se avaliar um novo sistema operacional de tempo real para a utilização do mesmo no 
-desenvolvimento de CubeSats, visto que o projeto Zephyr. De acordo com \cite{nyffenegger2020connecting}destaca 
-que o Zephyr RTOS é um sistema relativamente novo no mercado, destacando-se em sua construção pensada para operar 
-em ambientes restritos a poucos recursos de memoria e consumo de energia, permitindo que aplicativos complexos 
-sejam executados em dispositivos altamente limitados. É altamente modular, permitindo que os usuários configurem 
-o funcionamento do sistema de acordo com as necessidades do projeto sem prejudicar os requisitos, entretanto 
-por se tratar de um sistema novo, implica em ter um suporte difícil para iniciantes, exigindo um nível de 
-habilidade alta na compreensão e configuração de sistemas Linux com Makefiles, um ponto destacado negativamente 
-está na carência de resoluções de problemas na internet e documentação para iniciantes fraca de explicações, 
-tornando a curva de aprendizado bastante íngreme. Utilizar Zephyr em um projeto de Cubesat não 
-e uma ideia muito distante, abrindo uma janela de possíveis trabalhos na área que possam 
-trazer grandes contribuições, possibilitando o surgimento deste trabalho.
+
+A maior desses métodos interferem no resultado apresentado, mudando características importantes como picos e alterações bruscas no alor, e importante que o método de filtragem distorça o minio possível principalmente se tratar de dados que irão participar de tomadas de decisões importantes, outro principal problema na filtragem de dados e a falta de um critério quantitativo da qualidade do filtro \cite{kalambet2011noise}.
 
 
-Em \cite{Slacka} o autor destaca algumas dificuldades ao se desenvolver um sistema operacional para missões de 
-cubesat, pois nem sempre o sistema poderá estar acessível a um operador humano, tornando a responsabilidade do 
-software em tomar atitudes em tempo real mais desafiadoras, o sistema precisa ter confiabilidade e tolerância a 
-falhas de software e hardware. Também informa que sistemas operacionais de tempo real como o 
-FreeRTOS empregam muitas funcionalidades complexas e custosas que não necessariamente serão empregadas em uma 
-missão de cubesat.
+
+% Com os avanços recentes na miniaturização de componentes eletrônicos de prateleira (COTS), construir 
+% satélites deixou de ser exclusividade de governos e grandes empresas apoiadas por governos, agora 
+% universidades, empresas menores e grupos entusiastas podem construir e lançar ao espaço em um ou dois 
+% anos pequenas espaçonaves de baixo custo, baixa potência com componentes de prateleiras prontos para 
+% uso \cite{Poghosyan2017}.
+
+% Está tecnologia vem permitindo que países em desenvolvimento e emergentes possam entrar no setor espacial, 
+% o desenvolvimento, operação e análise de dados dessas pequenas espaçonaves promovem e estimulam a educação 
+% científica em mais de 80 universidades em todo o mundo que possuem programas nessas áreas, estes programas 
+% ocasionam uma importante atividade comercial, com muitos desses projetos surgindo como projetos acadêmicos 
+% \cite{Woellert2011}. O padrão de um CubeSat de uma unidade (1U) e de 10 x 10 x 10 cm³, tendo seu peso 
+% limitado a 1,33 kg podendo ser composto por um ou mais unidades seguindo o mesmo padrão, este padrão foi 
+% inicialmente desenvolvido em 1999 pelos professores Jordi Puig-Suari na Cal Poly e Bob Twiggs na Universidade 
+% de Stanford, cada uma dessas espaçonaves pode ser lançadas ao custo de 50 a 200 mil dólares\cite{Selva2012}, 
+% este custo pode variar dependendo das tecnologias empregadas e plataforma de lançamento.
+
+% % \begin{figure}[H]
+% % 	\centering
+% % 	\includegraphics[width=15cm]{imagens/cubesat_nasa_image.jpg}
+% % 	\caption{CubeSat RadFxSat}
+% % 	Fonte: Portal "www.nasa.gov", The Radio Amateur Satellite Corporation (AMSAT) e Vanderbilt University.
+% % 	\label{fig: CubeSat RadFxSat}
+% % \end{figure}
+
+% A fim de diminuir custos estas plataformas podem ser construídas com tecnologias de código aberto. Os CubeSat's 
+% de código aberto populares possuem uma característica em comum, utilizam o sistema operacional de tempo real de 
+% código aberto FreeRTOS, pois além de ser um dos RTOS (Sistema operacional de Tempo Real) mais adotado para projetos e um dos mais populares segundo 
+% a \cite{Lynx}. E um dos RTOS com maior documentação e maior comunidade na internet, sendo um dos favoritos em 
+% projetos de código aberto por ter maior aceitação e entendimento do publico. O mesmo e pequeno, simples e confiável 
+% sendo amplamente usado na indústria de microeletrônica, sendo escrito em C com partes em assembler \cite{nicolas2019avaliaccao}.
+
+
+% Desta forma, pretendeu-se avaliar um novo sistema operacional de tempo real para a utilização do mesmo no 
+% desenvolvimento de CubeSats, visto que o projeto Zephyr. De acordo com \cite{nyffenegger2020connecting}destaca 
+% que o Zephyr RTOS é um sistema relativamente novo no mercado, destacando-se em sua construção pensada para operar 
+% em ambientes restritos a poucos recursos de memoria e consumo de energia, permitindo que aplicativos complexos 
+% sejam executados em dispositivos altamente limitados. É altamente modular, permitindo que os usuários configurem 
+% o funcionamento do sistema de acordo com as necessidades do projeto sem prejudicar os requisitos, entretanto 
+% por se tratar de um sistema novo, implica em ter um suporte difícil para iniciantes, exigindo um nível de 
+% habilidade alta na compreensão e configuração de sistemas Linux com Makefiles, um ponto destacado negativamente 
+% está na carência de resoluções de problemas na internet e documentação para iniciantes fraca de explicações, 
+% tornando a curva de aprendizado bastante íngreme. Utilizar Zephyr em um projeto de Cubesat não 
+% e uma ideia muito distante, abrindo uma janela de possíveis trabalhos na área que possam 
+% trazer grandes contribuições, possibilitando o surgimento deste trabalho.
+
+
+% Em \cite{Slacka} o autor destaca algumas dificuldades ao se desenvolver um sistema operacional para missões de 
+% cubesat, pois nem sempre o sistema poderá estar acessível a um operador humano, tornando a responsabilidade do 
+% software em tomar atitudes em tempo real mais desafiadoras, o sistema precisa ter confiabilidade e tolerância a 
+% falhas de software e hardware. Também informa que sistemas operacionais de tempo real como o 
+% FreeRTOS empregam muitas funcionalidades complexas e custosas que não necessariamente serão empregadas em uma 
+% missão de cubesat.
 
 
 \section{Objetivos e Escopo de Pesquisa}
 \subsection{Objetivos de Pesquisa}
 Visto a exorbitante quantidade de dados provindo de sensores, somando a incerteza da qualidade de fabricação dos componentes eletrônicos de baixo custo disponíveis em ampla quantidade no mercado, torna o desenvolvimento para sistemas criticos que dependem da veracidade dos valores provindos dos sensores, ambiente assíncrono com múltiplas tarefas em simultâneo, complexos e custosos para as equipes de engenheiros de software, que utilizam de tempo para garantir a integridade e veracidades de todos os valores. 
 
-Com isso em mente o trabalho aqui proposto se dispõem de construir uma biblioteca de código aberto, que disponibilizara funções adequadas para a filtragem de dados provindo de sensores em ambiente de tempo real com multitarefas, testando a coleta e filtragem de dados no processador dual core ESP32 no sistema operacional de tempo real \cite{Zephyr}.
+Com isso em mente o trabalho aqui proposto se dispõem em testar o método de intervalo de confiança, como uma alternativa aos métodos tradicionais para obtenção de dados provindos de sensores sem interferência de ruídos, com dados coletados de sensores conectados aos processador ESP32 no sistema operacional de tempo real \cite{Zephyr}.
+% Com isso em mente o trabalho aqui proposto se dispõem de construir uma biblioteca de código aberto, que disponibilizara funções adequadas para a filtragem de dados provindo de sensores em ambiente de tempo real com multitarefas, testando a coleta e filtragem de dados no processador dual core ESP32 no sistema operacional de tempo real \cite{Zephyr}.
 
 \subsection{Objetivos secundários}
 Os objetivos secundários a serem alcançados são:
@@ -73,19 +84,22 @@ Os objetivos secundários a serem alcançados são:
 \end{itemize}
 
 
-\subsection{Escopo da Pesquisa}
-O escopo desta pesquisa abrange um conjunto de funções escritas na linguagem C para a filtragem de dados indesejáveis vindos de sensores diversos, funções quais... % TODO: Inserir métodos e pesquisas relevantes.
-, tento como característica atuar de forma amigável junto a um sistema operacional de tempo real. Assim, em um primeiro momento considerou-se desenvolver e testar a biblioteca sobre o Chip ESP32 da fabricante Espressif e em conjunto com o sistema operacional Zephyr um projeto mantido pela Fundação Linux.  
+% \subsection{Escopo da Pesquisa}
+% O escopo desta pesquisa abrange a utilização do método de intervalo de confiança móvel para a filtragem de dados indesejáveis vindo de sensores diversos em tempo real de execução, tendo como característica atuar de forma amigável junto a um sistema operacional de tempo real. Assim, em um primeiro momento considerou-se desenvolver e testar as funções sobre o microprocessador ESP32 da fabricante Espressif, em conjunto com o sistema operacional Zephyr um projeto mantido pela fundação Linux.
+
+% O escopo desta pesquisa abrange um conjunto de funções escritas na linguagem C para a filtragem de dados indesejáveis vindos de sensores diversos, funções quais... % TODO: Inserir métodos e pesquisas relevantes.
+% , tento como característica atuar de forma amigável junto a um sistema operacional de tempo real. Assim, em um primeiro momento considerou-se desenvolver e testar a biblioteca sobre o Chip ESP32 da fabricante Espressif e em conjunto com o sistema operacional Zephyr um projeto mantido pela Fundação Linux.  
 
 
 \section{Justificativa}
-Dados provindos do mundo real são constantemente contaminados com ruídos ou podem não corresponder a realidade, esse tipo de situação pode afetar perigosamente um software qualquer que lida com dados de sensores. Muitos programas podem depender que essa resposta deva ser rápida o suficiente para não comprometer o desempenho e a segurança do programa, um veiculo automato ou um equipamento medico por exemplo não podem trabalhar com dados incorretos, mesmo que sejam em curtos períodos de tempo, os mesmos dependem que a resposta vinda dos sensores sejam rápidas e verdadeiras, com as respostas discrepantes sendo descartadas não comprometendo sua missão. 
-Assim então este trabalho visa contribuir com a construção de uma biblioteca na linguagem C é de código aberto, onde será oferecido funções para tratamento de dados ruidosos advindos do mundo real, cuidando de se preocupar em trabalhar em conjunto com o RTOS Zephyr, economizando tempo de desenvolvimento e centralizando código aberto para todo e qualquer projetista de software interessado em consumir e contribuir ao projeto.
+Dados provindos do mundo real são constantemente contaminados com ruídos ou podem não corresponder a realidade, esse tipo de situação pode afetar perigosamente um programa de computador qualquer que lida com dados de sensores. Muitos programas podem depender que essa resposta deva ser rápida o suficiente para não comprometer o desempenho e a segurança do programa, um veiculo automato ou um equipamento medico por exemplo não podem trabalhar com dados incorretos, mesmo que sejam em curtos períodos de tempo, os mesmos dependem que a resposta vinda dos sensores sejam rápidas e verdadeiras, com as respostas discrepantes sendo descartadas não comprometendo sua missão. 
+Assim, em um primeiro momento considerou-se desenvolver e testar uma função de intervalo de confiança móvel para a filtragem de dados indesejáveis vindo de sensores diversos em tempo real, tendo como característica atuar de forma amigável junto a um sistema operacional de tempo real sobre o microprocessador ESP32 da fabricante Espressif, em conjunto com o sistema operacional Zephyr um projeto mantido pela fundação Linux.
+% Assim então este trabalho visa contribuir com a construção de uma biblioteca na linguagem C é de código aberto, onde será oferecido funções para tratamento de dados ruidosos advindos do mundo real, cuidando de se preocupar em trabalhar em conjunto com o RTOS Zephyr, economizando tempo de desenvolvimento e centralizando código aberto para todo e qualquer projetista de software interessado em consumir e contribuir ao projeto.
 
 
 \section{Organização do Trabalho}
 Este trabalho está organizado da seguinte forma, para o capítulo 1 apresentou-se a introdução da pesquisa, com dados e justificativas baseadas na bibliografia de suas áreas, contendo também os objetivos do trabalho, além do escopo e justificativas. Já no capítulo 2 apresenta-se uma revisão bibliométrica acerca dos trabalhos relacionados e do escopo deste projeto. O capítulo 3 contém aspectos da metodologia adotada e os requisitos necessários, com o  capítulo 4 
 % TODO: Inserir mudanças para projeto novo
-possuindo a definição do experimento e de seus  critérios detalhadamente, que por ultimo contendo o capítulo 5 traz as conclusões retiradas desta pesquisa, com suas possíveis contribuições e benefícios para a sociedade, comunidade científica e de desenvolvimento de  CubeSats.
+possuindo os resultados obtidos detalhadamente, que por ultimo contendo o capítulo 5 traz as conclusões retiradas desta pesquisa, com suas possíveis contribuições e benefícios para a sociedade, comunidade científica e de desenvolvimento em sistemas embarcados.
 
 % Texto corrido
