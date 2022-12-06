@@ -5,14 +5,14 @@
 \chapter{Introdução}\label{intro}
 \section{Conceitos Introdutórios e Problematização}
 
-O mundo moderno e cercado por sensores passivos que coletam dados de praticamente tudo, para monitoramento ou tomada de decisão a maioria desses dispositivos e bombardeada de interferências indesejáveis o tempo todo. Seja pela baixa qualidade dos equipamentos ou pela grande quantidade de intervenções aleatórias de fontes externas que podem prejudicar o resultado final. 
+O mundo moderno é cercado por sensores passivos que coletam dados de praticamente tudo, para monitoramento ou tomada de decisão, a maioria desses dispositivos é bombardeada de interferências indesejáveis o tempo todo. Seja pela baixa qualidade dos equipamentos ou pela grande quantidade de intervenções aleatórias de fontes externas que podem prejudicar o resultado final.
 
-Umas das abordagens mais populares para escapar de valores discrepantes, e a utilização do calculo de média móvel para remover ruídos, no entanto essa abordagem não apresenta uma boa eficiência energética e demanda muito tempo para conseguir refletir mudanças bruscas no conjunto de dados utilizado \cite{International_Conference__Zhuang}. 
+Umas das abordagens mais populares para escapar de valores discrepantes, e a utilização do cálculo de média móvel para remover ruídos, no entanto essa abordagem não apresenta uma boa eficiência energética e demanda muito tempo para conseguir refletir mudanças bruscas no conjunto de dados utilizado \cite{International_Conference__Zhuang}. 
 Os dados ruidosos se caracterizam como leituras perdidas dos sensores ou leituras imprecisas e não confiáveis, dificultando o trabalho das aplicações que tentam usar os valores colhidos em sua forma original \cite{Jeffery_Pipelined_Framework}, com isso quase todas as aplicações que tentam ser confiáveis utilizam algum tipo de algoritmo de filtragem de dados advindos de sensores eletrônicos.
-Os sensores modernos são construídos de forma a serem pequenos, baratos e eficientes energeticamente, para que possam ser utilizados em todos os lugares de forma massiva e descartável, consequentemente a qualidade destes não e eficiente o suficiente para não apresentar problemas com interferências \cite{tan2005sensoclean}.
+Os sensores modernos são construídos de forma a serem pequenos, baratos e eficientes energeticamente, para que possam ser utilizados em todos os lugares de forma massiva e descartável, consequentemente a qualidade destes não é eficiente o suficiente para não apresentar problemas com interferências \cite{tan2005sensoclean}.
 
 
-A maior parte desses métodos interferem no valores finais mudando características importantes como picos e alterações bruscas no alor, e importante que o método de filtragem distorça o minio possível principalmente se tratar de dados que irão participar de tomadas de decisões importantes, outro principal problema na filtragem de dados e a falta de um critério quantitativo da qualidade do filtro \cite{kalambet2011noise}.
+A maior parte desses métodos interferem no valores finais mudando características importantes como picos e alterações bruscas no valor, é importante que o método de filtragem distorça o mínimo possível principalmente se tratar de dados que irão participar de tomadas de decisões importantes, outro principal problema na filtragem de dados e a falta de um critério quantitativo da qualidade do filtro \cite{kalambet2011noise}.
 
 
 
@@ -72,7 +72,7 @@ A maior parte desses métodos interferem no valores finais mudando característi
 
 \section{Objetivos e Escopo de Pesquisa}
 \subsection{Objetivos de Pesquisa}
-Visto a exorbitante quantidade de dados provindo de sensores, somando a incerteza da qualidade de fabricação dos componentes eletrônicos de baixo custo disponíveis em ampla quantidade no mercado, torna o desenvolvimento para sistemas criticos que dependem da veracidade dos valores provindos dos sensores, ambiente assíncrono com múltiplas tarefas em simultâneo, complexos e custosos para as equipes de engenheiros de software, que utilizam de tempo para garantir a integridade e veracidades de todos os valores. 
+Visto a exorbitante quantidade de dados provindo de sensores, somando a incerteza da qualidade de fabricação dos componentes eletrônicos de baixo custo disponíveis em ampla quantidade no mercado, torna o desenvolvimento para sistemas críticos que dependem da veracidade dos valores provindos dos sensores, ambiente assíncrono com múltiplas tarefas em simultâneo, complexos e custosos para as equipes de engenheiros de software, que utilizam de tempo para garantir a integridade e veracidades de todos os valores.
 
 Com isso em mente o trabalho aqui proposto se dispõem em testar o método de intervalo de confiança, como uma alternativa aos métodos tradicionais para obtenção de dados provindos de sensores sem interferência de ruídos, com dados coletados de sensores conectados aos processador ESP32 no sistema operacional de tempo real \cite{Zephyr}.
 % Com isso em mente o trabalho aqui proposto se dispõem de construir uma biblioteca de código aberto, que disponibilizara funções adequadas para a filtragem de dados provindo de sensores em ambiente de tempo real com multitarefas, testando a coleta e filtragem de dados no processador dual core ESP32 no sistema operacional de tempo real \cite{Zephyr}.
@@ -94,7 +94,7 @@ Os objetivos secundários a serem alcançados são:
 
 
 \section{Justificativa}
-Dados provindos do mundo real são constantemente contaminados com ruídos ou podem não corresponder a realidade, esse tipo de situação pode afetar perigosamente um programa de computador qualquer que lida com dados de sensores. Muitos programas podem depender que essa resposta deva ser rápida o suficiente para não comprometer o desempenho e a segurança do programa, um veiculo automato ou um equipamento medico por exemplo não podem trabalhar com dados incorretos, mesmo que sejam em curtos períodos de tempo, os mesmos dependem que a resposta vinda dos sensores sejam rápidas e verdadeiras, com as respostas discrepantes sendo descartadas não comprometendo sua missão. 
+Dados provindos do mundo real são constantemente contaminados com ruídos ou podem não corresponder à realidade, esse tipo de situação pode afetar perigosamente um programa de computador qualquer que lida com dados de sensores. Muitos programas podem depender que essa resposta deva ser rápida o suficiente para não comprometer o desempenho e a segurança do programa, um veículo autômato ou um equipamento médico por exemplo não podem trabalhar com dados incorretos, mesmo que sejam em curtos períodos de tempo, os mesmos dependem que a resposta vinda dos sensores sejam rápidas e verdadeiras, com as respostas discrepantes sendo descartadas não comprometendo sua missão. 
 Assim, em um primeiro momento considerou-se desenvolver e testar uma função de intervalo de confiança móvel para a filtragem de dados indesejáveis vindo de sensores diversos em tempo real, tendo como característica atuar de forma amigável junto a um sistema operacional de tempo real sobre o microprocessador ESP32 da fabricante Espressif, em conjunto com o sistema operacional Zephyr um projeto mantido pela fundação Linux.
 % Assim então este trabalho visa contribuir com a construção de uma biblioteca na linguagem C é de código aberto, onde será oferecido funções para tratamento de dados ruidosos advindos do mundo real, cuidando de se preocupar em trabalhar em conjunto com o RTOS Zephyr, economizando tempo de desenvolvimento e centralizando código aberto para todo e qualquer projetista de software interessado em consumir e contribuir ao projeto.
 
@@ -102,6 +102,7 @@ Assim, em um primeiro momento considerou-se desenvolver e testar uma função de
 \section{Organização do Trabalho}
 Este trabalho está organizado da seguinte forma, para o capítulo 1 apresentou-se a introdução da pesquisa, com dados e justificativas baseadas na bibliografia de suas áreas, contendo também os objetivos do trabalho, além do escopo e justificativas. Já no capítulo 2 apresenta-se uma revisão bibliométrica acerca dos trabalhos relacionados e do escopo deste projeto. O capítulo 3 contém aspectos da metodologia adotada e os requisitos necessários, com o  capítulo 4 
 % TODO: Inserir mudanças para projeto novo
-possuindo os resultados obtidos detalhadamente, que por ultimo contendo o capítulo 5 traz as conclusões retiradas desta pesquisa, com suas possíveis contribuições e benefícios para a sociedade, comunidade científica e de desenvolvimento em sistemas embarcados.
+possuindo os resultados obtidos detalhadamente, que por último contendo o capítulo 5 traz as conclusões retiradas desta pesquisa, com suas possíveis contribuições e benefícios para a sociedade, comunidade científica e de desenvolvimento em sistemas embarcados.
+ 
 
 % Texto corrido

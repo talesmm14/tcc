@@ -57,13 +57,13 @@ Aqui serão apresentados os 5 artigos recentes relacionados a esse trabalho, ten
 
     \endhead
     \hline
-    \cite{Arab_LSTM_ResNet} &   O trabalho propõe utilizar uma técnica de aprendizado profundo para classificar e eliminar ruídos de sistemas de comunicação via micro-ondas, aproveitando-se da aptidão do algorítimo em se adestrasse com os dados coletados em tempo real. & Algoritmo pode ser treinado em tempo real e acompanhar diferentes tipos de ruídos. & Necessita de uma grande quantidade de dados já coletados para treinamento, exigência de grande capacidade de recurso de computação. \\ \hline
+    \cite{Arab_LSTM_ResNet} &   O trabalho propõe utilizar uma técnica de aprendizado profundo para classificar e eliminar ruídos de sistemas de comunicação via micro-ondas, aproveitando-se da aptidão do algoritmo em se adestrar se com os dados coletados em tempo real.	& Algoritmo pode ser treinado em tempo real e acompanhar diferentes tipos de ruídos. & Necessita de uma grande quantidade de dados já coletados para treinamento, exigência de grande capacidade de recurso de computação. \\ \hline
    
     \cite{Kamata_mems} &   O seguinte estudo propõe uma filtragem para processamento de sinal de um componente eletrônico giroscópio embarcado e avaliando seu desempenho. &   A técnica pode ser utilizada também para acelerômetros, e viabiliza o uso de componentes de custo baixo e alta precisão. & Limitasse a um ambiente de sensores específicos. \\ \hline
     
-    \cite{Ning_magnetometer} &   Aqui os autores implementa uma combinações de filtros para eliminar dados ruidosos em tempo real e compensar a interferência dos erros de um sensor magnético, utilizando de diversos métodos como Auto-Regressão e Média móvel, para modelar a medição de ruído, afim de excluir dados errados do resultado final. &   O método utilizado e adaptativo e abrangente, podendo resolver ruídos dinamicamente. & Os testes não foram realizados durante o processo de coleta de dados. \\ \hline
+    \cite{Ning_magnetometer} &   Aqui os autores implementa uma combinação de filtros para eliminar dados ruidosos em tempo real e compensar a interferência dos erros de um sensor magnético, utilizando de diversos métodos como Auto-Regressão e Média móvel, para modelar a medição de ruído, a fim de excluir dados errados do resultado final. &   O método utilizado é adaptativo e abrangente, podendo resolver ruídos dinamicamente. & Os testes não foram realizados durante o processo de coleta de dados. \\ \hline
     
-    \cite{Kaan_emg} &   Aqui e proposto um novo método de processamento de dados de sensores de eletromiografia sensível, utilizando um algorítimo adaptativo em tempo real para eliminar os ruídos provindos de fontes elétricas de corrente alternada, sem perturbar os dados reais do sensor, ao qual conseguiu superar cinco alternativas existentes de ultima geração para tratamento de sinal de eletromiografia, mantendo a qualidade do sinal.  &  Seu comportamento adaptativo exibe uma vantagem em manter os dados coletados o mais proximo possível dos dados reais, sem diminuir a potência do sinal. & Por estar no estado da arte, ainda não apresenta outros estudos comprovando sua utilização em tempo real. \\ \hline
+    \cite{Kaan_emg} &   Aqui é proposto um novo método de processamento de dados de sensores de eletromiografia sensível, utilizando um algoritmo adaptativo em tempo real para eliminar os ruídos provindos de fontes elétricas de corrente alternada, sem perturbar os dados reais do sensor, ao qual conseguiu superar cinco alternativas existentes de última geração para tratamento de sinal de eletromiografia, mantendo a qualidade do sinal.  &  Seu comportamento adaptativo exibe uma vantagem em manter os dados coletados o mais próximo possível dos dados reais, sem diminuir a potência do sinal. & Por estar no estado da arte, ainda não apresenta outros estudos comprovando sua utilização em tempo real. \\ \hline
     
     \cite{Zhou_ambient} &   Os autores apresentam um método que combina processamento de sinal e cancelamento de ruído adaptativo para filtrar e eliminar interferências do ambiente. Duplicando o sinal recebido em dois canais diferentes, sobrepondo um sobre o outro e eliminando as interferências em ambos de forma a evitar perdas dos espectros. &   Identifica sinais de interferência utilizando uma quantidade inferior de dados. & Quanto maior a sobreposição, maior a carga computacional necessária para processar os canais diferentes. \\ \hline
     
@@ -101,13 +101,13 @@ Aqui serão apresentados os 5 artigos recentes relacionados a esse trabalho, ten
 
 
 \subsection{Análise exploratória dos dados}
-É utilizado no presente trabalho um conjunto de dados coletado através do sensor de temperatura termistor de 100k acomodado no pino 21 do microcontrolador esp32. 
+É utilizado no presente trabalho um conjunto de dados coletados através do sensor de temperatura termistor de 100k acomodado no pino 21 do microcontrolador esp32. 
 
-O conjunto de dados coletados contem 1592 linhas sem valores ausentes e 544 valores únicos com os valores \ang{32.14}c e \ang{33.47}c sendo os que mais se repetem com 35 aparições, todos os valores flutuando entre \ang{1.05}c e \ang{97.35}c graus, tendo média de \ang{37.19}c, desvio padrão de 13.33, primeiro quartil de 31.80, segundo quartil 33.00 e terceiro quartil em 35.33. 
+O conjunto de dados coletados contém 1592 linhas sem valores ausentes e 544 valores únicos com os valores \ang{32.14}c e \ang{33.47}c sendo os que mais se repetem com 35 aparições, todos os valores flutuando entre \ang{1.05}c e \ang{97.35}c graus, tendo média de \ang{37.19}c, desvio padrão de 13.33, primeiro quartil de 31.80, segundo quartil 33.00 e terceiro quartil em 35.33.
 Os valores foram coletados no intervalo de aproximadamente 2 minutos, com todos os valores sendo processados em python com as bibliotecas pandas, numpy, matplotlib e scipy.
 
 
-Na Figura~\ref{fig: hist} abaixo visualiza-se uma concentração maior de valores entre \ang{20}c e \ang{40}c graus com os valores seguintes podendo estar entre ruídos ou picos de temperatura capturados pelo sensor. 
+Na Figura~\ref{fig: hist} abaixo visualiza-se uma concentração maior de valores entre \ang{20}c e \ang{40}c graus com os valores seguintes podendo estar entre ruídos e picos de temperatura capturados pelo sensor. 
 
 \begin{figure}[H]
 	\centering
@@ -137,7 +137,7 @@ Tendo em vista que a média de temperatura do local de coleta da amostra estava 
 
 Verifica-se na Figuras~\ref{fig: boxplot} a grande presença de valores discrepantes acima de \ang{40}c e abaixo de \ang{20}c.
 
-Abaixo na Figura~\ref{fig: bruto} podemos visualizar todo o conjunto de dados, nota-se a presença de grandes picos de temperatura que foram induzidos na amostra propositalmente afim de diferenciar o ruido do sensor de um pico de temperatura real, esses picos foram introduzidos através do aquecimento do sensor de temperatura duas vezes durante a coleta de dados.
+Abaixo na Figura~\ref{fig: bruto} podemos visualizar todo o conjunto de dados, nota-se a presença de grandes picos de temperatura que foram induzidos na amostra propositalmente a fim de diferenciar o ruído do sensor de um pico de temperatura real, esses picos foram introduzidos através do aquecimento do sensor de temperatura duas vezes durante a coleta de dados.
 
 
 \begin{figure}[H]
@@ -148,7 +148,7 @@ Abaixo na Figura~\ref{fig: bruto} podemos visualizar todo o conjunto de dados, n
 	\label{fig: bruto}
 \end{figure}
 
-As linhas verticais discrepantes indicam possíveis ruídos, onde a temperatura alcançou valores muito diferentes em períodos extremante curtos. Esses ruídos podem ter sido gerados por baixa qualidade do termistor ou pela exposição ao ambiente dos fios de conexão entre o termistor e o microcontrolador.
+As linhas verticais discrepantes indicam possíveis ruídos, onde a temperatura alcançou valores muito diferentes em períodos extremamente curtos. Esses ruídos podem ter sido gerados por baixa qualidade do termistor ou pela exposição ao ambiente dos fios de conexão entre o termistor e o microcontrolador.
 
 
 \begin{figure}[H]
@@ -159,7 +159,7 @@ As linhas verticais discrepantes indicam possíveis ruídos, onde a temperatura 
 	\label{fig: bruto_100p}
 \end{figure}
 
-Na Figura~\ref{fig: bruto_100p} percebe-se que a leitura do sensor sempre apresenta alguma variação, por mais pequena que seja, essa pequena diferença na coleta de dados pode não significar um problema, podendo ser tratada através de um simples cálculo de média. A criticidade dessa variação deve ser avaliada em cada projeto, com os dados ruidosos muito fora da média e esporádicos, interferindo significadamente no resultado final. 
+Na Figura~\ref{fig: bruto_100p} percebe-se que a leitura do sensor sempre apresenta alguma variação, por mais pequena que seja, essa pequena diferença na coleta de dados pode não significar um problema, podendo ser tratada através de um simples cálculo de média. A criticidade dessa variação deve ser avaliada em cada projeto, com os dados ruidosos muito fora da média e esporádicos, interferindo significativamente no resultado final.
 
 \begin{figure}[H]
 	\centering
@@ -169,7 +169,7 @@ Na Figura~\ref{fig: bruto_100p} percebe-se que a leitura do sensor sempre aprese
 	\label{fig: bruto_100u}
 \end{figure}
 
-Por fim na Figura~\ref{fig: bruto_100u} podemos analisar os últimos 100 dados, nos quais nota-se a presença de um pico de temperatura que começa a subir em \ang{33.05}c com sua maxima perto dos \ang{36.0}c, essa característica pode ser importante por mais que esteja em um curto período de tempo, e pode ser distinguida de um ruído pela sua característica de subida e decida prolongada. 
+Por fim na Figura~\ref{fig: bruto_100u} podemos analisar os últimos 100 dados, nos quais nota-se a presença de um pico de temperatura que começa a subir em \ang{33.05}c com sua máxima perto dos \ang{36.0}c, essa característica pode ser importante por mais que esteja em um curto período de tempo, e pode ser distinguida de um ruído pela sua característica de subida e descida prolongada. 
 
 O algoritmo utilizado neste trabalho é bem simples, um vetor é responsável por guardar os últimos valores coletados para realizar o cálculo de intervalo de confiança, uma variável define o tamanho da amostra. Com o vetor completamente preenchido e o cálculo realizado, o algoritmo verifica se o dado coletado se encontra dentro do espaço entre os dois intervalos, caso seja contemplado o valor é adicionado a variável de resultado ao qual finaliza o laço de repetição sendo assim retornado ao fim do algoritmo, caso não seja contemplado o algoritmo segue em ritmo contínuo até encontrar um resultado verdadeiro.
 
@@ -198,7 +198,7 @@ O algoritmo utilizado neste trabalho é bem simples, um vetor é responsável po
 		}
 
 
-		\tcc*[f]{Retorna valor verdadeiro e vetor com as ultimas amostras} \\
+		\tcc*[f]{Retorna valor verdadeiro e vetor com as últimas amostras} \\
 		\Retorna $resultado$, $VA$; 
     }
     \caption{Algoritmo para coleta de valor considerado verdadeiro dentro do intervalo de confiança}
