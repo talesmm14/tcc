@@ -1,42 +1,13 @@
 
 \chapter{Conclusão}\label{cap:conclusao}
 
-Os sensores fazem parte da revolução tecnológica que o mundo tem passado, os dados coletados pelos mesmos são utilizados nas mais diversas esferas, são importantíssimos para as tomadas de decisão e estão sempre sujeitos a interferências.
+Os sensores fazem parte da revolução tecnológica que o mundo tem passado, os dados coletados pelos mesmos são utilizados nas mais diversas esferas, são relevantes para as tomadas de decisão e estão sempre sujeitos a interferências.
  
-Espera-se que todo sinal vindo de qualquer sensor esteja com algum ruído, e que sejam tratados de alguma forma. Para isso existem diversas funções para se retirar valores discrepantes, muitas delas interferem na forma do sinal real tratando o dado e retirando um novo valor resultante e de maior precisão, essa ação pode ser prejudicial em muitos do casos alterando o real valor e dificultando ou atrasando a visualização de mudanças bruscas, muito importantes em algumas analise de dados. No ambiente de sistemas embarcados é muito importante que qualquer algoritmo respeite as limitações de memória, processamento e tempo. Algumas funções podem exigir muito processamento ou até mesmo muita memória para realizar todos os cálculos responsáveis pela filtragem, com esse problema é importante que a função esteja dentro dos parâmetros para trabalhar em ambiente restrito.
-Este trabalho teve como objetivo apresentar o desvio de confiança como uma boa alternativa para ser utilizada como filtro em ambiente embarcado, além disso era importante que os dados filtrados fossem os mais originais possíveis. O resultado foi um algoritmo que trabalhou bem com um pequeno vetor de amostra móvel, que manteve os dados de forma original mas com o crivo dos valores dentro de um intervalo aceitável de confiança. Mas observou-se problemas importantes, como não conseguir registrar sinais em curvas muito prolongadas, o que tornava a espera por um novo sinal confiável muito longa e atrapalhava o andamento do programa, por mais que o algoritmo tenha se saído bem em retornar os valores superiores de todos os picos de valores. Também notou-se que os dados resultantes por serem intocáveis, entregavam a possibilidade do método ser utilizado em conjunto com outros que posteriormente coletariam os dados, filtrando-os em busca de valores mais amenizados dependendo da aplicação.
+Espera-se que todo sinal vindo de qualquer sensor esteja com algum ruído, e que sejam tratados de alguma forma. Para isso existem diversas funções para se retirar valores discrepantes, muitas delas interferem na forma do sinal real tratando o dado e retirando um novo valor resultante e de maior precisão, essa ação pode ser prejudicial em muitos dos casos alterando o real valor e dificultando ou atrasando a visualização de mudanças bruscas, muito importantes em algumas analise de dados. No ambiente de sistemas embarcados é muito importante que qualquer algoritmo respeite as limitações de memória, processamento e tempo. Algumas funções podem exigir muito processamento ou até mesmo muita memória para realizar todos os cálculos responsáveis pela filtragem, com esse problema é importante que a função esteja dentro dos parâmetros para trabalhar em ambiente restrito.
+Este trabalho teve como objetivo apresentar o desvio de confiança como uma boa alternativa para ser utilizada como filtro em ambiente embarcado, além disso é importante que os dados filtrados permaneçam os mais originais possíveis. 
+O resultado encontrado com o algoritmo proposto é capaz de manipular um vetor de amostra móvel com eficácia, além de manter os dados de forma original mas com o crivo dos valores dentro de um intervalo aceitável de confiança. Mas observou-se problemas importantes, como não conseguir registrar sinais em curvas muito prolongadas, o que tornava a espera por um novo sinal confiável muito longa e atrapalhava o andamento do programa, por mais que o algoritmo tenha se saído bem em retornar os valores superiores de todos os picos de valores. Também notou-se que os dados resultantes por serem intocáveis, entregavam a possibilidade do método ser utilizado em conjunto com outros que posteriormente coletariam os dados, filtrando-os em busca de valores mais amenizados dependendo da aplicação.
  
 O tempo envolvido neste trabalho não foi o suficiente para a realização de todos os cálculos em linguagem C em um sistema embarcado, mas o tratamento provou-se ser viável e poderia ser aplicado em conjunto com outros métodos em trabalhos futuros. Retornando à comunidade de desenvolvimento de filtros digitais em sistemas embarcados uma alternativa aberta a ser utilizada.
-
-
-
-
-% O mercado de pequenos satélites e de extrema importância para qualquer pais, 
-% universidade ou empresa que deseja entrar no ramo espacial, já que o mesmo 
-% representa uma grande parcela dos lançamentos com um custo relativamente baixo 
-% mas com um grande potencial de avanço tecnológico.
-
-% Esperasse que o Zephyr seja capaz de suportar uma missão de CubeSat completa 
-% já que o mesmo é bastante completo. Os testes aqui presentes buscam validar se seu 
-% tempo de resposta e compatível com outro RTOS já usado no mercado, com essa 
-% contribuição aguardamos que as equipes possam ter outra oferta de peso para 
-% desenvolvimento, com uma comunidade grande e com possibilidade de ser ainda 
-% maior, como também provando a qualidade do processador ESP32 em ser versátil 
-% a qualquer sistema operacional do mercado, com sua rápida adoção pela comunidade. 
-% Os testes deste trabalho não devem ser usados exclusivamente para 
-% a escolha correta de um RTOS, já que se deve levar em consideração muitos 
-% outros fatores não abordados neste trabalho, já que projetos de espaçonaves 
-% aderem muitos outros campos, não sendo exclusividade somente do tempo como 
-% uma variável exclusivamente importante. 
-% Também com o estudo gerado, esperasse que o mesmo seja usado em outras 
-% plataformas fora o ESP32, atribuindo métricas importantes para a escolha de um 
-% RTOS novo em uma missão. 
-
-% Missões espaciais tem muitos critérios, este trabalho deseja ser o ponta pé em 
-% outros trabalhos que também possam avaliar e definir novas métricas de escolha, 
-% que facilitem e deem tempo a equipes de construção, já que o principal objetivo 
-% de um pequeno satélite e ser barato, seu tempo de desenvolvimento conta muito em 
-% seu custo final.
 
 
 \section{Trabalhos Futuros}

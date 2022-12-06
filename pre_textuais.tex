@@ -115,23 +115,23 @@
 % resumo em português
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
-	A leitura de dados vindos de sensores em tempo real sempre foi uma tarefa difícil e custosa. Há uma grande quantidade de ruído proveniente da baixa qualidade dos sensores e sequelas resultantes do ambiente, que produzem uma imensa quantidade de dados imprecisos e incorretos, estes os quais atrapalham na tomada de decisão de sistemas embarcados. O problema e muito estudado pela comunidade científica, diversos trabalhos apontam diferentes formas de tratar e ignorar ruídos advindos de sensores. Notou-se a grande presença de artigos recentes que aprofundam o assunto em diversas áreas do conhecimento aonde a leitura de dados tem um papel critico e decisivo no resultado final, os quais são tratados e apresentados aqui com uma revisão bibliométrica que apresenta uma visão dos termos, artigos e autores dos últimos 5 anos deste a concepção deste trabalho. Neste trabalho foi implementado uma função de intervalo de confiança móvel, que pode ser utilizada em conjunto com outros métodos para obter dados mais precisos sem interferir no resultado final, o código tem como objetivo trabalhar de forma amigável em ambiente de sistema embarcado onde memoria e processamento são recursos escassos e valiosos. Os resultados mostraram que o intervalo de confiança pode ser utilizado em certas ocasiões onde o tempo de espera não e tão custoso, retornando dados sempre dendro de um padrão aceitável de leitura mas perdendo qualidade na leitura de grandes curvas.
+	A leitura de dados vindos de sensores em tempo real sempre foi uma tarefa difícil e custosa. Há uma grande quantidade de ruído proveniente da baixa qualidade dos sensores e sequelas resultantes do ambiente, que produzem uma imensa quantidade de dados imprecisos e incorretos, estes os quais atrapalham na tomada de decisão de sistemas embarcados. O problema é muito estudado pela comunidade científica, diversos trabalhos apontam diferentes formas de tratar e ignorar ruídos advindos de sensores. Notou-se a grande presença de artigos recentes que aprofundam o assunto em diversas áreas do conhecimento onde a leitura de dados tem um papel crítico e decisivo no resultado final, os quais são tratados e apresentados aqui com uma revisão bibliométrica que apresenta uma visão dos termos, artigos e autores dos últimos 5 anos desde a concepção deste trabalho. Neste trabalho foi implementado uma função de intervalo de confiança móvel, que pode ser utilizada em conjunto com outros métodos para obter dados mais precisos sem interferir no resultado final, o código tem como objetivo trabalhar de forma amigável em ambiente de sistema embarcado onde memória e processamento são recursos escassos e valiosos. Os resultados mostraram que o intervalo de confiança pode ser utilizado em certas ocasiões onde o tempo de espera não é tão custoso, retornando dados sempre dentro de um padrão aceitável de leitura mas perdendo qualidade na leitura de grandes curvas.
 	
 	% Neste trabalho também foi implementado funções de filtro populares e uma função de filtragem probabilística, em um repositório de código aberto apelidado de zscilib, focado em um conjunto de funções úteis para computação científica, análise de dados e manipulação de dados no contexto de dispositivos de hardware embarcado, desenvolvido especialmente para o sistema operacional de tempo real Zephyr mantido pela fundação Linux. As contribuições aqui propostas serão integradas a comunidade de código aberto e servirão para que outros pesquisadores, estudantes e atuantes da área possam usufruir e contribuir com a implementação código proposto.
 
 
 
-	\textbf{Palavras-chaves}: Filtering algorithm, Onboard computer, Software, Sensor, Noise reduction.
+	\textbf{Palavras-chaves}: Algoritmo de filtragem, Sistemas embarcados, Software, Sensor, Redução de ruído.
 \end{resumo}
 
 % resumo em inglês
 \begin{resumo}[Abstract]
 	\begin{otherlanguage*}{english}
-		Reading data from sensors in real time has always been a complicated and costly task. There is a large amount of noise from the low quality of the sensors and consequences resulting from the environment, which produce a huge amount of inaccurate and incorrect data, which hinders decision-making in embedded systems. The problem is much studied by the scientific community, several works point out different ways of treating and ignoring noise coming from sensors. It was noted the great presence of recent articles that deepen the subject in several areas of knowledge where the reading of data has a critical and decisive role in the final result, which are treated and presented here with a bibliometric review that gives an overview of the terms, articles, and authors from the last 5 years since the conception of this work. In this work, a mobile confidence interval function was implemented, which can be used in conjunction with other methods to obtain more accurate data without interfering with the final result, the code aims to work in a friendly way in an embedded system environment where memory and processing they are scarce and valuable resources. The results showed that the confidence interval can be used in certain occasions where the waiting time is not so costly, always returning data within an acceptable reading pattern but losing quality when reading large curves. 
+		...
 		\vspace{\onelineskip}
 
 		\noindent
-		\textbf{Key-words}: Filtering algorithm, Onboard computer, Software, Sensor, Noise reduction.
+		\textbf{Key-words}: Filtering algorithm, Embedded systems, Software, Sensor, Noise reduction.
 	\end{otherlanguage*}
 \end{resumo}
 
@@ -158,9 +158,11 @@
 % ---
 \begin{siglas}
 	\item RTOS - Sistema operacional de tempo-real.
-	\item ISR - Interrupt Service Routines.
+	\item ISR - Rotinas de serviço de interrupção.
 	\item SO - Sistema operacional.
 	\item IC - Intervalo de confiança.
+	\item SRAM - Memória Estática de Acesso Aleatório
+	\item ROM - Memória de somente leitura
 \end{siglas}
 % ---
 

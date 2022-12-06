@@ -1,8 +1,82 @@
 \chapter{Resultados}\label{cap:resultados}
 \section{Introdução}
 
-Os dados de temperatura coletados foram salvos em um arquivo csv, testados com o algoritmo de intervalo de confiança móvel ajustado para avaliar o dado em uma amostra dos últimos 10 valores.
-Na tabela~\ref{tab:tamanhovetor} mostra a quantidade de dados que foram considerados válidos em comparação a quantidade de últimas amostras coletadas, o algoritmo visa rodar em ambiente embarcado limitado onde quantidade de memória e processamento são escassos, com isso o tamanho do vetor pode ser uma variável significativa na tomada de decisão. O vetor escolhido apresenta 10 casas de amostra e suas características foram descritas logo em seguida.
+
+O algoritmo utilizado neste trabalho possui complexidade baixa, um vetor é responsável por guardar os últimos valores coletados para realizar o cálculo de intervalo de confiança, uma variável define o tamanho da amostra. Com o vetor completamente preenchido e o cálculo realizado, o algoritmo verifica se o dado coletado se encontra dentro do espaço entre os dois intervalos, caso seja contemplado o valor é adicionado a variável de resultado ao qual finaliza o laço de repetição sendo assim retornado ao fim do algoritmo, caso não seja contemplado o algoritmo segue em ritmo contínuo até encontrar um resultado verdadeiro.
+
+\begin{algorithm}[H]
+    \Entrada{Tamanho do vetor de amostras ($TV$), Vetor de amostras ($VA$)}
+    \Saida{Valor considerado verdadeiro ($resultado$), Vetor de amostras ($VA$)}
+    \Inicio{
+		\While{$resultado == SemValor$}{
+			$V \leftarrow coletaDadoDoSensor()$; \tcc*[f]{Coleta dado do sensor} \\
+
+			% \tcc*[f]{Verifica se o vetor já foi completamente preenchido} \\
+			\Se{$tamanho(VA) \geq TV$}{ 
+
+				% \tcc*[f]{Retira intervalo de confiança} \\
+				$primeiroIntervalo$, $segundoIntervalo \leftarrow intervaloDeConfianca($VA$)$; 
+
+				% \tcc*[f]{Verifica se o valor está dentro do intervalo de confiança} \\
+				\Se{$V \geq primeiroIntervalo$ \&\& $V \leq segundoIntervalo$}{
+					$resultado \leftarrow V$; %\tcc*[f]{Adiciona o valor ao retorno} \\
+				}
+				
+				$VA \rightarrow primeiroElemento$; \tcc*[f]{Remove elemento mais velho} \\
+			}
+
+			$VA \leftarrow V$; \tcc*[f]{Adiciona valor para dentro do vetor de amostra} \\
+		}
+
+
+		\tcc*[f]{Retorna valor verdadeiro e vetor com as últimas amostras} \\
+		\Retorna $resultado$, $VA$; 
+    }
+    \caption{Algoritmo para coleta de valor considerado verdadeiro dentro do intervalo de confiança}
+    \label{algoritmo:alg1}
+\end{algorithm}
+
+Durante a execução do algoritmo notou-se o problema de laço teoricamente infinito caso não seja encontrado um valor dentro do intervalo de confiança, esse tempo pode ser prejudicial ou não dependendo da aplicação, para solução deste problema aconselha-se que seja definido um tempo limite para coleta do dado mesmo que esteja fora do intervalo de confiança. 
+
+\begin{algorithm}[H]
+    \Entrada{Tamanho do vetor de amostras ($TV$), Vetor de amostras ($VA$), Tempo limite de tentativas ($T$)}
+    \Saida{Valor considerado verdadeiro ($resultado$), Vetor de amostras ($VA$)}
+    \Inicio{
+		\While{$resultado == SemValor$}{
+
+			$V \leftarrow coletaDadoDoSensor()$; \tcc*[f]{Coleta dado do sensor} \\
+
+			\Se{$T \leq 0$}{ 
+				$resultado \leftarrow V$;
+			}
+			$T \rightarrow 1$;  \tcc*[f]{Decrementa tempo} \\
+
+			\Se{$tamanho(VA) \geq TV$}{ 
+
+				$primeiroIntervalo$, $segundoIntervalo \leftarrow intervaloDeConfianca($VA$)$; 
+
+				\Se{$V \geq primeiroIntervalo$ \&\& $V \leq segundoIntervalo$}{
+					$resultado \leftarrow V$; 
+				}
+				
+				$VA \rightarrow primeiroElemento$; \tcc*[f]{Remove elemento mais velho} \\
+			}
+
+			$VA \leftarrow V$; \tcc*[f]{Adiciona valor para dentro do vetor de amostra} \\
+		}
+
+
+		\tcc*[f]{Retorna valor verdadeiro e vetor com as últimas amostras} \\
+		\Retorna $resultado$, $VA$; 
+    }
+    \caption{Algoritmo que considera o tempo na coleta do sensor}
+    \label{algoritmo:alg_com_temp}
+\end{algorithm}
+
+Principalmente em ambiente embarcado, onde as ISR podem interromper a leitura do sensor em um tempo crítico, ou as rotinas de seguranças são capazes de reiniciar o sistema devido a característica de loop infinito ou de bloqueio do sistema advindo da função utilizada caso não seja utilizado um tempo limite para obtenção do dado.
+
+Os dados de temperatura coletados são utilizados para compor um arquivo CSV, testados com o algoritmo de intervalo de confiança móvel ajustado para avaliar o dado em uma amostra dos últimos 10 valores mostrado em~\ref{algoritmo:alg1}.
+A tabela~\ref{tab:tamanhovetor} apresenta a quantidade de dados que foram considerados válidos em comparação a quantidade de últimas amostras coletadas, o algoritmo visa executar em ambiente embarcado limitado onde quantidade de memória e processamento são escassos, com isso o tamanho do vetor pode ser uma variável significativa na tomada de decisão. O vetor escolhido apresenta 10 casas de amostra e suas características foram descritas logo em seguida.
 
 \begin{longtable}{|p{4cm}|p{3.5cm}|}
     \hiderowcolors
@@ -49,7 +123,7 @@ Na tabela~\ref{tab:tamanhovetor} mostra a quantidade de dados que foram consider
 É importante ressaltar que em ambiente de sistema embarcado, a quantidade de memória disponível para armazenar um vetor com muitas posições é pequena. Com isso, se torna um ponto positivo o sistema que consiga entregar uma filtragem aceitável com pouca alocação de memória.
 
 % Os resultados podem ser visualizados na Figura~\ref{fig: Cleaning_sensor_data_overlay_visualization}, onde os pontos verdes significam que foram coletados e os em vermelhos foram ignorados. Já no gráfico ..
-Na Figura~\ref{fig: graficos_tamanhos_amostras} podemos visualizar como o algoritmo se comporta de acordo com o tamanho do vetor de amostras, percebe-se que quanto maior o vetor menor a taxa de dados que passam pelo filtro, também presenciamos uma pior leitura nos picos de sinais já que o mesmo só começa a considerar os valores válidos quando a curva já está em queda. O vetor com 5 amostra tem um período menor para considerar os novos valores, com isso muitos dos valores foram considerados limpos, isso pode ser bom visando que o tempo de coleta seja curto, mas em casos que deseja-se uma maior precisão um período maior de coleta parece ser mais adequado. 
+Na Figura~\ref{fig: graficos_tamanhos_amostras} pode-se visualizar como o algoritmo se comporta de acordo com o tamanho do vetor de amostras, percebe-se que quanto maior o vetor menor a taxa de dados que passam pelo filtro, também presenciamos uma pior leitura nos picos de sinais já que o mesmo só começa a considerar os valores válidos quando a curva já está em queda. O vetor com 5 amostra tem um período menor para considerar os novos valores, com isso muitos dos valores foram considerados limpos, podendo ser considerados benéficos visando o tempo de coleta curto, mas em casos que deseja-se uma maior precisão um período maior de coleta parece ser mais adequado. 
 
 
 \begin{figure}[H]
@@ -60,7 +134,7 @@ Na Figura~\ref{fig: graficos_tamanhos_amostras} podemos visualizar como o algori
 	\label{fig: graficos_tamanhos_amostras}
 \end{figure}
 
-Com 10 valores percebe-se que o algoritmo consegue pegar bem a ponta dos picos de temperatura, ignorando muitos dos ruídos mas com uma boa taxa de validação de dados, por isso levamos em consideração essa quantidade de amostras no teste, mas vale lembrar que essa quantidade pode e deve ser customizada de acordo com o problema, limitações e tempo em que a aplicação irá existir.
+Com 10 valores percebe-se que o algoritmo consegue capturar adequadamente a ponta dos picos de temperatura, ignorando muitos dos ruídos mas com uma boa taxa de validação de dados, por isso levamos em consideração essa quantidade de amostras no teste, mas vale lembrar que essa quantidade pode e deve ser customizada de acordo com o problema, limitações e tempo em que a aplicação irá existir.
 
 Nota-se a dificuldade do algoritmo em considerar os dados que estão em uma curva ascendente ou decrescente, mas destacam-se por conseguir capturar os dados da ponta de todos os grandes picos de sinal, em todos dos casos o tempo em que se levou para uma nova coleta depois de uma queda ou subida brusca e considerável, deixando claro que em caso de uma curva muito longa o programa pode travar esperando uma resposta, por isso é de importância avaliar se deve haver um controle de chamada do valor mesmo que esteja fora do intervalo mas com um tempo já decorrido consideravelmente.
 
@@ -73,7 +147,7 @@ Nota-se a dificuldade do algoritmo em considerar os dados que estão em uma curv
 	\label{fig: indice}
 \end{figure}
 
-No trecho da figura~\ref{fig: indice} temos o trecho das primeiras 100 linhas, podemos notar como o algoritmo coleta os dados de forma precisa por mais que o desvio dos valores não seja grande, esses dados podem ser tratados posteriormente com uma simples média móvel ou outra função de preferência.
+No trecho da figura~\ref{fig: indice} temos o trecho das primeiras 100 linhas, podemos notar como o algoritmo coleta os dados de forma precisa por mais que o desvio dos valores possua uma amplitude reduzida, esses dados podem ser tratados posteriormente com média móvel ou outra função de preferência.
 
 
 \begin{figure}[H]
@@ -84,7 +158,7 @@ No trecho da figura~\ref{fig: indice} temos o trecho das primeiras 100 linhas, p
 	\label{fig: indice2}
 \end{figure}
 
-Na Figura~\ref{fig: indice2} o programa mostra sua falha em capturar curvas expressivas de dados, conseguindo capturar os valores do topo mas ignorando grande parte dos valores. Essa característica indesejável não parece ser corrigida com nenhum tamanho de amostra utilizado aqui neste trabalho, com todas falhando em lidar com sinuosidades.
+Na Figura~\ref{fig: indice2} torna-se evidente a falha do método proposto em capturar curvas expressivas de dados, conseguindo capturar os valores do topo mas ignorando grande parte dos valores. Essa característica indesejável não parece ser corrigida com nenhum tamanho de amostra utilizado aqui neste trabalho, com todas falhando em lidar com sinuosidades.
 
 \begin{figure}[H]
 	\centering
@@ -94,7 +168,7 @@ Na Figura~\ref{fig: indice2} o programa mostra sua falha em capturar curvas expr
 	\label{fig: indice4}
 \end{figure}
 
-Na Figura~\ref{fig: indice4} podemos visualizar bem alguns ruídos que se destacam dos dados originais e como o algoritmo se comporta na sua filtragem, os valores que chegam a ter \ang{17}c de diferença são descartados já que apresentam características de ruído pela sua dessemelhança em tão pouco tempo.
+Na Figura~\ref{fig: indice4} pode-se visualizar com exatidão alguns ruídos que se destacam dos dados originais e como o algoritmo se comporta na sua filtragem, os valores que chegam a ter \ang{17}c de diferença são descartados já que apresentam características de ruído pela sua dessemelhança em tão pouco tempo.
 
 \begin{figure}[H]
 	\centering
@@ -106,41 +180,3 @@ Na Figura~\ref{fig: indice4} podemos visualizar bem alguns ruídos que se destac
 
 Já na Figura~\ref{fig: indice3} presenciamos ruídos discrepantes de forma muito negativa e muito positiva, nota-se que os dados de 920 a 950 podem ser considerados ruídos pelo seu curto espaço de tempo, mas pela quantidade de amostra ser pequena alguns dos valores entraram como verdadeiros, enfatizando ainda mais que o tamanho do vetor de amostra deve ser dimensionado de acordo com os propósitos de precisão da aplicação.
 
-Durante a execução do algoritmo notou-se o problema de laço teoricamente infinito caso não seja encontrado um valor dentro do intervalo de confiança, esse tempo pode ser prejudicial ou não dependendo da aplicação, então aconselha-se que seja definido um tempo limite para coleta do dado mesmo que esteja fora do intervalo de confiança. 
-
-\begin{algorithm}[H]
-    \Entrada{Tamanho do vetor de amostras ($TV$), Vetor de amostras ($VA$), Tempo limite de tentativas ($T$)}
-    \Saida{Valor considerado verdadeiro ($resultado$), Vetor de amostras ($VA$)}
-    \Inicio{
-		\While{$resultado == SemValor$}{
-
-			$V \leftarrow coletaDadoDoSensor()$; \tcc*[f]{Coleta dado do sensor} \\
-
-			\Se{$T \leq 0$}{ 
-				$resultado \leftarrow V$;
-			}
-			$T \rightarrow 1$;  \tcc*[f]{Decrementa tempo} \\
-
-			\Se{$tamanho(VA) \geq TV$}{ 
-
-				$primeiroIntervalo$, $segundoIntervalo \leftarrow intervaloDeConfianca($VA$)$; 
-
-				\Se{$V \geq primeiroIntervalo$ \&\& $V \leq segundoIntervalo$}{
-					$resultado \leftarrow V$; 
-				}
-				
-				$VA \rightarrow primeiroElemento$; \tcc*[f]{Remove elemento mais velho} \\
-			}
-
-			$VA \leftarrow V$; \tcc*[f]{Adiciona valor para dentro do vetor de amostra} \\
-		}
-
-
-		\tcc*[f]{Retorna valor verdadeiro e vetor com as últimas amostras} \\
-		\Retorna $resultado$, $VA$; 
-    }
-    \caption{Algoritmo que considera o tempo na coleta do sensor}
-    \label{algoritmo:alg_com_temp}
-\end{algorithm}
-
-Principalmente em ambiente embarcado, onde as rotinas de interrupção podem interromper a leitura do sensor em um tempo crítico, ou as rotinas de seguranças podem reiniciar o sistema por culpa da característica de loop infinito ou de bloqueio do sistema advindo da função utilizada.
