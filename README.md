@@ -5,7 +5,7 @@ ALUNO: Tales Monteiro Melquiades,
 
 ## 1.1. Entrega
 
-- [ ] Introdução
+- [X] Introdução
 - [X] Objetivos e Escopo de Pesquisa
 - [X] Escopo de Pesquisa
 - [X] Justificativas
