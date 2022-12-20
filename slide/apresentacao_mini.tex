@@ -1,0 +1,990 @@
+%% abtex2-modelo-slides.tex, v-1.0 gfabinhomat
+%% Copyright 2012-2016 by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is Fábio Rodrigues Silva, 
+%% member of abnTeX2 team, led by Lauro César Araujo. 
+%% Further information are available on 
+%% http://www.abntex.net.br/
+%%
+%% This work consists of the files abntex2-modelo-slides.tex, 
+%% abntex2-modelo-references.bib and abntex2-modelo-marca.pdf
+%%
+%% Modelo desenvolvido por Fábio Rodrigues Silva (gfabinhomat@gmail.com)
+%% Mais informações podem ser obtidas no guia do usuário Beamer 
+%% (http://linorg.usp.br/CTAN/macros/latex/contrib/beamer/doc/beameruserguide.pdf)
+%% Informações rápidas podem ser acessadas em http://en.wikibooks.org/wiki/LaTeX/Presentations
+
+
+% Apresentações em widescreen. Outros valores possíveis: 1610, 149, 54, 43 e 32.
+% Por padrão, as apresentações são no formato 4:3 (sem o aspectratio).
+%\documentclass[aspectratio=169]{beamer}	 	
+\documentclass[]{beamer}	 	
+
+\usetheme{Berlin}
+\usecolortheme{default}
+\usefonttheme[onlymath]{serif}			% para fontes matemáticas
+% Enconte mais temas e cores em http://www.hartwork.org/beamer-theme-matrix/ 
+% Veja também http://deic.uab.es/~iblanes/beamer_gallery/index.html
+
+% Customizações de Cores: fg significa cor do texto e bg é cor do fundo
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{alerted text}{fg=red}
+\setbeamercolor{author}{fg=blue}
+\setbeamercolor{institute}{fg=blue}
+\setbeamercolor{date}{fg=green}
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{framesubtitle}{fg=white}
+\setbeamercolor{block title}{bg=blue, fg=white}		%Cor do título
+\setbeamercolor{block body}{bg=gray, fg=darkgray}	%Cor do texto (bg= fundo; fg=texto)
+\setbeamerfont{title}{family=\rmfamily,series=\bfseries,size={\fontsize{14}{16}}}
+%\setbeamertemplate{caption}[numbered]
+%\setbeamertemplate{bibliography item}{[\theenumiv]}
+\setbeamertemplate{bibliography item}{}
+
+% ---
+% PACOTES
+% ---
+\usepackage[alf]{abntex2cite}		% Citações padrão ABNT
+\usepackage[brazil]{babel}		% Idioma do documento
+\usepackage{color}			% Controle das cores
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{txfonts}			% Fontes virtuais
+\usepackage{subfig}
+\usepackage{sidecap}
+\usepackage{verbatim}
+\graphicspath{{imagens/}}
+
+
+
+
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+
+
+
+\usepackage{subfig}
+\usepackage{graphicx}			% Inclusão de gráficos
+
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{soul}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{spreadtab}
+\usepackage{multirow}
+\usepackage{amsthm}
+\usepackage{url}
+
+
+\usepackage[portuguese, ruled, linesnumbered]{algorithm2e}
+
+\usepackage{algorithmic}
+
+% Utilizado para customizar as fontes das equações 
+\usepackage{fixmath}
+\usepackage{verbatim}
+
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+
+
+\graphicspath{{imagens/}}
+
+
+\usepackage{longtable}
+%\usepackage{csvsimple,booktabs}
+\usepackage{pgfplotstable}
+\usepackage{filecontents}
+%\usepackage{tabu}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{float}
+
+\usepackage{multirow}
+%\usepackage[table]{xcolor}
+
+%\usepackage{colortbl}
+%\definecolor{lightgray}{gray}{0.9}
+
+\usepackage[brazil]{babel} % for European Portuguese use portuguese
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{brazil}
+\citeoption{abnt-etal-cite=2}
+% ---
+
+
+\title{Modelagem mono e multiobjetivo para o 
+problema de sequenciamento de tarefas em 
+máquinas paralelas não relacionadas}
+\author[Hugo Cavalcante Lima]{Hugo Cavalcante Lima \\ Orientador: Prof. Me. Douglas Chagas da Silva
+{\\ \footnotesize\ttfamily yugolemom@gmail.com}}
+\institute{%
+	Universidade Estadual do Tocantins - UNITINS
+	%\par 
+	\\
+	Curso de Sistemas de Informação
+}
+\date{2018}
+
+
+
+% --- Informações do documento ---
+
+% ---
+
+% ----------------- INÍCIO DO DOCUMENTO --------------------------------------
+\begin{document}
+
+% ----------------- NOVO SLIDE --------------------------------
+\begin{frame}
+
+\begin{minipage}{1\linewidth}
+  \centering
+  \center
+  \includegraphics[width=0.4\textwidth]{imagens/unitins.png}
+ 
+\end{minipage}
+
+\titlepage
+
+\end{frame}
+
+% ----------------- NOVO SLIDE --------------------------------
+\begin{frame}{Sumário}
+\tableofcontents
+\end{frame}
+
+% ----------------- NOVO SLIDE --------------------------------
+\section{Introdução}
+\begin{frame}{Introdução}
+%\framesubtitle{Otimização}
+	\begin{itemize}
+		\item Melhorar o processo produtivo, de modo a conseguir eficiência e produtividade;
+		\item Problemas mono-objetivo e multiobjetivo;
+		\item Otimização de equipamentos e ativos, visando lucratividade;
+		\item Organizar o sequenciamento e otimizar objetivos conflitantes.
+	\end{itemize}
+\end{frame}
+
+\begin{comment}
+	\begin{frame}{Motivação}
+
+		Desenvolver uma modelagem para o problema e a aplicação dos conceitos de otimização,
+		possibilitando uma melhor utilização dos recursos no processo de fabricação.
+			
+	\end{frame}
+\end{comment}
+% ----------------- NOVO SLIDE --------------------------------
+
+\begin{frame}{Objetivo Geral}
+	
+	Elaborar uma formulação matemática para os problemas e desenvolver algoritmos mono-objetivos 
+	e multiobjetivos para o problema de sequenciamento de máquinas paralelas não relacionadas.
+
+\end{frame}
+
+\begin{frame}{Objetivos Específicos}
+
+	\begin{itemize}
+		\item Compreender os conceitos envolvendo problemas de sequenciamento de máquinas;
+		\item Propor a formulação matemática para o problema abordado;
+		\item Implementar algoritmos mono-objetivos e multiobjetivos para a resolução do problema;
+		\item Demonstrar os resultados objetivos.
+	\end{itemize}
+	
+\end{frame}
+
+% ----------------- NOVO SLIDE --------------------------------
+
+\section{Referencial Teórico}
+\begin{frame}{Conceitos de Otimização}
+
+	\begin{itemize}
+	\item Buscar as melhores soluções para o aproveitamento de recursos;
+	\item Baseado nas variáveis do Projeto. 
+	\end{itemize}
+
+	\begin{equation}\label{equacao:otimizacao}
+		{ arg \ {min/max} \ f_{obj}(x)  }
+	\end{equation}
+	de modo que:
+	\begin{equation}\label{equacao:otimizacao_II}
+		{ g_{i}(x) \leq 0 \ para \ i = 1,...,n_{g} }
+	\end{equation}
+	\begin{equation}\label{equacao:otimizacao_III}
+		{ h_{j}(x) \leq 0 \ para \ i = 1,...,n_{h} }
+	\end{equation}
+	\begin{equation}\label{equacao:otimizacao_IV}
+		{ lb_{k} \leq x_{k} \leq ub_{k} \ para \ i = 1,...,n_{x} }
+	\end{equation}
+
+\end{frame}
+\begin{comment}
+	\begin{frame}{Conceitos de Otimização}
+		\framesubtitle{Região de busca e Ponto ótimo}
+
+		\begin{figure}[!htb]
+			\begin{center}
+				\includegraphics[scale=0.5]{imagens/grafico_ponto_busca}
+			\end{center}
+			\label{figura:grafico_ponto_busca}
+			\caption{Região de busca e Ponto ótimo - (AZUMA, 2011)}	
+		\end{figure}
+		
+	\end{frame}	
+\end{comment}
+\begin{frame}{Conceitos de Otimização}
+	\framesubtitle{Metas da otimização multiobjetivo}
+	
+	\begin{enumerate}
+		\item Alcançar um conjunto de soluções que esteja o mais próximo da fronteira de Pareto;
+		\item Atingir um conjunto de soluções com a maior diversidade de valores possíveis;
+		\item Conseguir atingir as outras duas metas anteriores com o menor gasto de processamento computacional possível.
+	\end{enumerate}
+		
+\end{frame}
+
+\begin{frame}{Conceitos de Otimização}
+	\framesubtitle{Metas da otimização multiobjetivo}
+	
+	\begin{figure}[!htb]	
+		\begin{center}
+			\includegraphics[scale=0.6]{fronteira_pareto}
+		\end{center}
+		\caption{Metas da otimização multiobjetivo - (AZUMA, 2011)}
+		\label{figura:fronteira_pareto}
+	\end{figure}	
+
+\end{frame}
+
+% ----------------- NOVO SLIDE ---------------------- %
+
+
+\begin{frame}{Métodos de Otimização}
+	
+	Os Métodos são classificados conforme a função objetivo e suas restrições e fundamental
+	escolher a técnica mais apropriada ao problema.	
+	
+	\begin{itemize}
+		\item Programação linear
+		\item Programação não linear
+		\item Programação linear inteira
+	\end{itemize}	
+\end{frame}
+\begin{comment}
+	\begin{frame}{Métodos de Otimização}
+		
+		\begin{table}[!htb]
+			\centering
+			\label{tab:programacao_linear_x_nao_linear}
+			\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|l|l|l|}
+			\hline
+			\multicolumn{1}{|c|}{\textbf{Quesito}} & \multicolumn{1}{c|}{\textbf{Programação linear}} & \multicolumn{1}{c|}{\textbf{Programação não-linear}} \\ \hline
+			Representação do problema & \begin{tabular}[c]{@{}l@{}}Restrita, porque não considera \\ aspectos causadores de não \\ linearidade, tais como:eficiência \\ e ineficiência de produtos em \\ escalas diferentes, efeitos da \\ quantidade de venda nos preços \\ unitários.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Abrangente à medida que tenta\\ incorporar esses aspectos\\ desconsiderandos no modelo linear.\end{tabular} \\ \hline
+			Nível de complexidade & \begin{tabular}[c]{@{}l@{}}Simplificado, devido à abordagem \\ restrita do problema.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Complexo,em virtude da riqueza e \\ abrangência abordada.\end{tabular} \\ \hline
+			Custo de processamento & Baixo & Alto \\ \hline
+			Aplicabilidade & \begin{tabular}[c]{@{}l@{}}Quando o problema tem limitada \\ área de soluções possíveis e existe \\ boa noção sobre o posicionamento \\ da solução ótima, possibilitando \\ aproximação linear adequada.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ao contrário, quando o problema\\ tem ampla área de soluções \\ possíveis e inexiste boa noção sobre \\ o possicionamento da solução ótima,\\ dificultando aproximação linear\\ adequada.\end{tabular} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Nível de cautela na análise\\ dos resultados\end{tabular} & Alto & \begin{tabular}[c]{@{}l@{}}Baixo, devido ao maior esforço de incluir\\ os aspectos que causam não-linearidade.\end{tabular} \\ \hline
+			\end{tabular}%
+			}
+			\caption{Programação linear x não-linear - (CORRAR, 2004)}
+		\end{table}    
+	\end{frame}
+
+
+\begin{frame}{Métodos de Otimização}
+	\framesubtitle{Programação Linear Inteira e Binária}
+	\begin{itemize}
+		\item Quando todas as variáveis do problema pertencem ao conjunto dos números inteiros;
+		\item Problemas onde existe uma série de decisões ("sim" ou "não").
+	\end{itemize}
+	\centering
+	\textbf{"É viável um investimento fixo ?"}
+
+	\begin{equation}\label{equacao:programacao_inteira}
+		x_j = \begin{cases}0 & se\ a \ decisao\ \mathbold{j} \ for \ nao\\1 & se\ a \ decisao\ \mathbold{j} 
+			\ for \ sim\ 
+		\end{cases}
+	\end{equation}
+
+\end{frame}
+\end{comment}
+%\begin{frame}{Métodos de Otimização}
+%	\framesubtitle{Programação Linear Inteira e Binária}
+	
+%		Problemas considerados difíceis, deste modo é recomendado, recorrer 
+%		a soluções que possam percorrer os espaços de soluções de forma cautelosa.
+%\end{frame}
+
+\begin{comment}
+	\begin{frame}{Métodos de Otimização}
+		\framesubtitle{Método Branch and Bound}
+
+		\begin{itemize}
+			\item Método emprega o conceito básico de dividir e conquistar;
+			\item \textbf{Particionamento,Poda}.
+		\end{itemize}
+
+	\end{frame}
+\end{comment}
+
+\begin{comment}
+	\begin{frame}{Métodos de Otimização}
+		\framesubtitle{Método Branch and Bound}
+
+		\begin{figure}
+			\begin{minipage}{.5\textwidth}
+					\centering
+					\includegraphics[scale=0.32,keepaspectratio=true]{limites_branch_bound}
+					%\caption{Limites no método e a solução ótima}
+					\label{figura:limites_branch_bound}
+			\end{minipage}%
+			\begin{minipage}{.5\textwidth}
+					\centering
+					\includegraphics[scale=0.35,keepaspectratio=true]{representacao_branch_bound}
+					%\caption{Particionamento no método}
+					\label{figura:representacao_branch_bound}
+			\end{minipage}
+			\caption{Branch and Bound - (ALBUQUERQUE, 2011)}	
+		\end{figure}
+
+	\end{frame}
+
+	\begin{frame}{Métodos de Otimização}
+		\framesubtitle{Método Branch and Bound}
+		\begin{itemize}
+			\item $z_{i} = U$ Solução ideal foi processada acontece a poda por resolução;
+			\item $z_{i} > U$ O limite inferior e maior do que o limite global, poda por limitação;
+			\item $z_{i} < U$ O ramo pode conter uma solução, acontece o particionamento;
+			\item Diante de um subproblema com solução impraticável ocorre a poda.
+		\end{itemize}
+	\end{frame}
+\end{comment}
+
+\begin{comment}
+	\begin{frame}{Métodos de Otimização}
+		\framesubtitle{Programação de tarefas em máquinas paralelas}
+		\begin{itemize}
+			\item Programação de tarefas (\textit{job scheduling});
+			\item Máquinas paralelas (idênticas,uniformes e não relacionadas).
+		\end{itemize}	
+	\end{frame}
+
+	\begin{frame}{Métodos de Otimização}
+		\framesubtitle{Programação de tarefas em máquinas paralelas}
+		\begin{itemize}
+			\item Atraso total das tarefas (\textit{makespan});
+			\item Atraso total ponderado (\textit{tardiness});
+			\item Adiantamento total ponderado (\textit{lateness});
+			\item Soma ponderada de atrasos e adiantamentos.
+		\end{itemize}	
+	\end{frame}
+
+\end{comment}
+
+\section{Metodologia}
+
+	\begin{frame}{Metodologia}
+		\framesubtitle{Problema de máquina paralelas não relacionadas}
+		\begin{itemize}
+			\item As entradas do problema foram construídas de maneira determinística conforme sugerido pelos autores;
+		\end{itemize}	
+			Variáveis iniciais do problema:
+		\begin{itemize}
+			\item A data de entrega de cada tarefa ($t_{ij} $ ): $6$;
+    		\item O número de máquinas ($M$): $5$;
+   			\item O número de tarefas ($N$): $25$. 
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}{Formulação Matemática Proposta}	
+		Problema de minimização do tempo total de entrega (\textit{makespan}):
+		\begin{equation}\label{equacao:minimizacao_tempo_entrega}
+			\begin{cases}
+				1. \ \ c_{1} = min \ Z  \\  
+				2. \ \ \sum_{i=1}^M  \sum_{j=1}^N  \ t_{ij} \cdot x_{ij} \leq c_{1} \\
+				3. \ \ \sum_{i=1}^M  \ x_{ij} = 1,j = 1, ...,N  \\
+				4. \  \ x_{ij} = 0 \ ou \ 1,i = 1, ...,m;\ j = 1, ...,N 
+			\end{cases}
+		\end{equation}
+	\end{frame}
+
+	\begin{frame}{Formulação Matemática Proposta}	
+		O atraso $L_{j}$ de cada tarefa e apresentado pela Equação \ref{equacao:atraso_tarefa}:
+
+		\begin{equation} \label{equacao:atraso_tarefa}
+			L_{j} = max(C_{j} - d_{j},0)
+		\end{equation}
+	\end{frame}
+
+	\begin{frame}{Formulação Matemática Proposta}	
+		O adiantamento $T_{j}$ de cada tarefa e apresentado pela Equação \ref{equacao:adiantamento_tarefa}:
+
+		\begin{equation}\label{equacao:adiantamento_tarefa}
+			T_{j} = max(d_{j} - C_{j},0)
+		\end{equation}
+	\end{frame}
+
+	\begin{frame}{Formulação Matemática Proposta}	
+		O Conjunto de Equações \ref{equacao:minimizacao_soma_atrasos} para
+    resolução do problema de minimização da soma ponderada dos atrasos: 
+
+
+		\begin{equation}\label{equacao:minimizacao_soma_atrasos}
+			\begin{cases}
+				1.\ \   c_{2} = min \ (\sum_{j=1}^N \ w_{j}   \cdot L_{j} ) \\ 
+				2.\ \   \sum_{i=1}^M  \sum_{j=1}^N  \ (w_{j} \cdot L_{j}) \cdot x_{ij} \leq c_{2} \\
+				3.\ \   \sum_{i=1}^M  \ x_{ij} = 1,j = 1, ...,N \\
+				4.\ \   x_{ij} = 0 \ ou \ 1,i = 1, ...,m;\ j = 1, ...,N
+			\end{cases}
+		\end{equation}
+	\end{frame}
+
+	\begin{frame}{Formulação Matemática Proposta}	
+		O Conjunto de Equações \ref{equacao:minimizacao_soma_adiantamentos} para
+    resolução do problema de minimização da soma ponderada dos adiantamentos: 
+
+
+		\begin{equation}\label{equacao:minimizacao_soma_adiantamentos}
+			\begin{cases}
+			1. \ \ c_{3} = min \ (\sum_{j=1}^N \ w_{j}   \cdot T_{j} ) \\ 
+			2. \ \ \sum_{i=1}^M  \sum_{j=1}^N  \ (w_{j} \cdot T_{j})  \cdot x_{ij} \leq c_{3} \\
+			3. \ \ \sum_{i=1}^M  \ x_{ij} = 1,j = 1, ...,N \\
+			4. \ \ x_{ij} = 0 \ ou \ 1,i = 1, ...,m;\ j = 1, ...,N
+			\end{cases}
+		\end{equation}
+
+	\end{frame}
+
+	\begin{frame}{Formulação Matemática Proposta}	
+		O Conjunto de Equações \ref{equacao:minimizacao_soma_atrasos_adiantamentos} para
+		resolução do problema de minimização da soma ponderada de atrasos e adiantamentos: 
+	
+	
+		\begin{equation}\label{equacao:minimizacao_soma_atrasos_adiantamentos}
+			\begin{cases}
+				1.\ \  c_{4} = min \ (\sum_{j=1}^N \ w_{j}   \cdot (L_{j} \cdot T_{j}) ) \\ 
+				2.\ \  \sum_{i=1}^M  \sum_{j=1}^N  \ (w_{j} \cdot (L_{j} + T_{j}))  \cdot x_{ij} \leq c_{4} \\
+				3.\ \  \sum_{i=1}^M  \ x_{ij} = 1,j = 1, ...,N \\
+				4.\ \  x_{ij} = 0 \ ou \ 1,i = 1, ...,m;\ j = 1, ...,N
+			\end{cases}
+		\end{equation}
+	\end{frame}
+
+	\begin{frame}{Formulação Matemática Proposta}	
+		Agrupamento de equações para os problemas multiobjetivos:
+
+		O Conjunto de Equações \ref{equacao:makespan_minimizacao_soma_atrasos_adiantamentos} para
+		resolução do problema da minimização do \textit{makespan} $\times$ minimização da soma
+		ponderada dos atrasos e adiantamentos: 
+
+
+		\begin{equation}\label{equacao:makespan_minimizacao_soma_atrasos_adiantamentos}
+			\begin{cases}
+			1.\ \  c_{1} = min \ Z \\
+			2.\ \  c_{4} = min  \ \left (  \sum_{j=1}^N  \ w_{j} \cdot (L_{j} + T_{j})\right ) \\
+			3.\ \  \sum_{i=1}^M  \  \sum_{j=1}^N  \ (w_{i} \cdot T_{j} )\ x_{ij} \leq c_{1} \\
+			4.\ \  \sum_{i=1}^M  \  \sum_{j=1}^N  \ (w_{i} \cdot T_{j} )\ x_{ij} \leq c_{4} \\
+			5.\ \  \sum_{i=1}^M  \ x_{ij} = 1,j = 1, ...,N \\
+			6.\ \  x_{ij} = 0 \ ou \ 1,i = 1, ...,m;\ j = 1, ...,N
+			\end{cases}
+		\end{equation}
+
+	\end{frame}
+
+	\begin{frame}{Formulação Matemática Proposta}	
+			O Conjunto de Equações \ref{equacao:minimizacao_soma_atrasos_minimizacao_soma_adiantamentos} para
+		resolução do problema da minimização da soma ponderada dos atrasos $\times$
+		minimização da soma ponderada dos adiantamentos: 
+
+		\begin{equation}\label{equacao:minimizacao_soma_atrasos_minimizacao_soma_adiantamentos}
+			\begin{cases}
+			1. \ \    c_{2} = min  \ \left (  \sum_{j=1}^N  \ w_{j} \cdot L_{j}\right ) \\
+			2. \ \    c_{3} = min  \ \left (  \sum_{j=1}^N  \ w_{j} \cdot T_{j}\right ) \\
+			3. \ \     \sum_{i=1}^M  \  \sum_{j=1}^N  \ (w_{i} \cdot T_{j} )\ x_{ij} \leq c_{2} \\
+			4. \ \     \sum_{i=1}^M  \  \sum_{j=1}^N  \ (w_{i} \cdot T_{j} )\ x_{ij} \leq c_{3} \\
+			5. \ \     \sum_{i=1}^M  \ x_{ij} = 1,j = 1, ...,N \\
+			6. \ \     x_{ij} = 0 \ ou \ 1,i = 1, ...,m;\ j = 1, ...,N
+			\end{cases}
+		\end{equation}
+
+	\end{frame}
+
+	\begin{frame}{Metodologia}
+		\framesubtitle{Materiais}
+		\begin{itemize}
+			\item MATLAB\textsuperscript{\textregistered} R2017B;
+			\item RStudio V1.0.53;
+			\item Notebook HP\textsuperscript{\textregistered}  Pavilion dv4-2173nr,com processador 
+			Intel\textsuperscript{\textregistered}  Core i5-430M de 2.26GHz,  8GB de memória RAM e sistema 
+			Linux Ubuntu 16.04 64bits. 
+		\end{itemize}
+	\end{frame}
+
+
+\begin{frame}{Algoritmos}
+	\begin{itemize}
+		\item Equações matemáticas foram implementadas utilizando o Matlab\textsuperscript{\textregistered};
+		\item As saídas dos dados foram processadas pelo Software RStudio\textsuperscript{\textregistered}.
+		\item Foram realizados cálculos estatísticos nos resultados para avaliação do desenvolvimento dos 
+		métodos.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+	\scalebox{.9}{                        %new code
+		\begin{algorithm}[H]              %new code
+			\Entrada{Processamento Tarefa/Máquina em dias ($F$),Número de 
+			Testes ($It$) e Interações ($Zt$), Máquinas ($M$), Tarefas ($N$), Coeficientes de desiqualdades($Aeq$ e $beq$), Limites ($lb$ e $ub$), var inteiras ($intcon$) }
+			\Saida{Resultado vetor de soluções ótimas ($x$) e a Solução otimizada ($result$)}
+			\Inicio{				
+				$beq \leftarrow ones(N,1)$; // Inicializa o  vetor de desiqualdades
+				
+				$lb \leftarrow zeros(intcon,1)$; // Inicializa o vetor de Limites inferiores
+
+				$ub \leftarrow ones(intcon,1)$; / Inicializa o vetor de Limites superiores
+
+				$Aeq=kron(eye(N),ones(1,M))$; // Matriz com Coeficientes
+
+				\Para{i de 1 até It }{
+					\Para{j  de 1 até Zt }{
+						$[x,result] = intlinprog(F,intcon,[ \ ],[ \ ],Aeq,beq,lb,ub)$; 
+					}
+				}
+			}
+			\label{algoritmo:makespan}
+			\caption{Algoritmo para o atraso total das tarefas}
+		\end{algorithm}
+	}
+
+	\scalebox{.8}{                        %new code
+		\begin{algorithm}[H]              %new code
+			\Entrada{($fl$) variável auxiliar e a variável com data de entrega de cada tarefa $dd$}
+			\Saida{vetor de soluções ótimas ($x$) e a Solução otimizada ($result$)}
+			\Inicio{
+				// Criando novo vetor de tarefas com restrição de atrasos
+
+				$fl=f-dd$; 
+				
+				\Para{j de 1 até intcon }{  // Laço que vai empregar a restricao do atraso de cada tarefa 
+					\Para{i  de 1 até M }{
+						$fl(M * (j-1) + i)= w(j) * fl( M * (j-1) + i)$;            
+					}
+				}
+			
+				$fl(fl<0) = 0$; // Remove todos os valores inferiores a zero. 
+				  
+				\Para{i de 1 até It }{
+					\Para{j  de 1 até Zt }{
+						$[x,result] = intlinprog(fl,intcon,[ \ ],[ \ ],Aeq,beq,lb,ub)$; 
+					}
+				}
+			}
+			\caption{Algoritmo para o atraso total ponderado}
+			\label{algoritmo:tardiness}
+		\end{algorithm}
+	}
+
+	\scalebox{.8}{                        %new code
+		\begin{algorithm}[H]              %new code
+			\Entrada{($fl$) variável auxiliar e a variável com data de entrega de cada tarefa $dd$}
+			\Saida{vetor de soluções ótimas ($x$) e a Solução otimizada ($result$)}
+			\Inicio{
+						 
+				// Criando novo vetor de tarefas com restrição de adiantamentos
+
+				$ft=dd-f$; 
+		
+				// Laço que vai empregar a restricao do adiantamento de cada tarefa 
+				
+				\Para{j de 1 até intcon }{  
+					\Para{i  de 1 até M }{
+						$ft(M * (j-1) + i)= w(j) * ft( M * (j-1) + i)$;            
+					}
+				}
+				  
+				\Para{i de 1 até It }{
+					\Para{j  de 1 até Zt }{
+						$[x,result] = intlinprog(ft,intcon,[ \ ],[ \ ],Aeq,beq,lb,ub)$; 
+					}
+				}
+			}
+			\caption{Algoritmo para o adiantamento total ponderado }
+			\label{algoritmo:lateness}
+		\end{algorithm}
+	}
+
+	\scalebox{.8}{                        %new code
+		\begin{algorithm}[H]              %new code
+			\Entrada{($ftl$) variável auxiliar e a variável com data de entrega de cada
+			tarefa $dd$}
+			\Saida{Vetor de soluções ótimas ($x$) e a Solução otimizada ($result$)}
+			\Inicio{
+				$ftl=abs(f-dd)$; // Criando novo vetor com valores absolutos das tarefas
+		
+				// Laço que vai empregar a restrição a cada tarefa 
+				
+				\Para{j de 1 até intcon }{  
+					\Para{i  de 1 até M }{
+						$ftl(M * (j-1) + i)= w(j) * ftl( M * (j-1) + i)$;            
+					}
+				}
+			
+				\Para{i de 1 até It }{
+					\Para{j  de 1 até Zt }{
+						$[x,result] = intlinprog(ft,intcon,[ \ ],[ \ ],Aeq,beq,lb,ub)$; 
+					}
+				}
+			}
+			\caption{Algoritmo soma ponderada de atrasos e adiantamentos}
+			\label{algoritmo:soma_atrasos_adiantamentos}
+		\end{algorithm}
+	}
+
+	\scalebox{.8}{                        %new code
+		\begin{algorithm}[H]              %new code
+			\Entrada{($ftl$) variável auxiliar e a variável com data de entrega de cada
+			tarefa $dd$}
+			\Saida{Vetor de soluções ótimas ($x$) e a Solução otimizada ($result$)}
+			\Inicio{			
+				//funcao makespan
+	
+				$fm = fmakespan(f,N,M)$;
+		
+				//funcao soma adiantamentos e atrasos
+	
+				$ftl = fsomaAd(f,N,M,dd)$;
+				
+				\Para{i de 1 até It }{
+					\Para{j  de 1 até Zt }{
+						
+						// Empregas as retrições da relação entre makespan, atrasos e adiantamentos 
+	
+						$fx=Restric(fm,ftl)$;
+	
+						$[x,result] = intlinprog(fx,intcon,[ \ ],[ \ ],Aeq,beq,lb,ub)$; 
+					}
+				}
+			}
+			\caption{Algoritmo para a soma ponderada de atrasos e adiantamentos x Makespan}
+			\label{algoritmo:makespan_minimizacao_soma_atrasos_adiantamentos}
+		\end{algorithm}
+	}
+
+	\scalebox{.8}{  
+		\begin{algorithm}[H]                         %new code
+			\Entrada{($ftl$) variável auxiliar e a variável com data de entrega de cada tarefa ($dd$)}
+			\Saida{Vetor de soluções ótimas ($x$) e a Solução otimizada ($result$)}
+			\Inicio{
+				//funcões da soma ponderada dos atrasos e soma adiantamentos
+
+				$ft = ftardiness(f,N,M,dd)$;
+
+				$fl = flateness(f,N,M,dd)$;
+				
+				\Para{i de 1 até It }{
+					\Para{j  de 1 até Zt }{
+						
+						// Empregas as retrições da relação entre atrasos e adiantamentos 
+
+						$fx=Restric2(ft,fl)$;
+
+						$[x,result] = intlinprog(fx,intcon,[ \ ],[ \ ],Aeq,beq,lb,ub)$; 
+					}
+				}
+			}
+			\caption{Algoritmo para a soma ponderada de atrasos x adiantamentos}
+			\label{algoritmo:minimizacao_soma_atrasos_minimizacao_soma_adiantamentos}
+		\end{algorithm}
+	}
+\end{frame}
+
+\section{Resultados}
+\begin{frame}[allowframebreaks]{Resultados}
+	
+	\begin{table}[!htb]
+		\centering
+		\label{my-label}
+		\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|c|c|l|c|c|}
+		\hline
+		\multirow{2}{*}{} & \multicolumn{4}{c|}{Mono objetivo} \\ \cline{2-5} 
+		 & \multicolumn{1}{l|}{Makespan} & Tardiness & \multicolumn{1}{l|}{Lateness} & \begin{tabular}[c]{@{}c@{}}Atrasos \\ e \\ adiantamentos\end{tabular} \\ \hline
+		Otimização & \textbf{48} & \multicolumn{1}{c|}{\textbf{0}} & \textbf{0} & \textbf{112} \\ \hline
+		\multirow{2}{*}{} & \multicolumn{4}{c|}{Multi objetivo} \\ \cline{2-5} 
+		 & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Makespan \\ x \\ Atrasos e adiantamentos\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Tardiness \\ x \\ Lateness\end{tabular}} \\ \hline
+		Pontos Pareto & \multicolumn{2}{c|}{\textbf{16}} & \multicolumn{2}{c|}{\textbf{8}} \\ \hline
+		Ponto otímo & \multicolumn{2}{c|}{\textbf{{[}48,122{]}}} & \multicolumn{2}{c|}{\textbf{{[}0,0{]}}} \\ \hline
+		Pontos \textgreater Freq. & \multicolumn{2}{c|}{\textbf{{[}150,112{]}}} & \multicolumn{2}{c|}{\textbf{{[}0,167{]}}} \\ \hline
+		Qt x \textgreater Freq. & \multicolumn{2}{c|}{\textbf{13}} & \multicolumn{2}{c|}{\textbf{7}} \\ \hline
+		\end{tabular}%
+		}
+	\end{table}
+
+	\begin{table}[!htb]
+		\centering
+		\label{tab:multi_estatisticos}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			 & \multicolumn{2}{c|}{MULTI-1} & \multicolumn{2}{c|}{MULTI-2} \\ \hline
+			Média & 117.1 & 186.9 & 88.2 & 55.04 \\ \hline
+			Mediana & 125 & 128 & 80 & 37 \\ \hline
+			Variância & 1126.139 & 16453.89 & 5333.306 & 3396.366 \\ \hline
+			Desvio Padrão & 33.558 & 128.2727 & 73.02949 & 58.27835 \\ \hline
+			\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Intervalo de \\ Confiança\end{tabular}} & 107.5229 & 150.4453 & 67.44525 & 38.47748 \\ \cline{2-5} 
+			 & \multicolumn{1}{l|}{126.5971} & \multicolumn{1}{l|}{223.3547} & \multicolumn{1}{l|}{108.95475} & \multicolumn{1}{l|}{71.60252} \\ \hline
+			\textbf{Mínimo} & \textbf{48} & \textbf{112} & \textbf{0} & \textbf{0} \\ \hline
+			Máximo & 150 & 521 & 167 & 143 \\ \hline
+		\end{tabular}
+		\caption{Dados estatísticos para os problemas multiobjetivos}
+	\end{table}
+
+	\begin{figure}
+		\label{figura:tm_figura}
+		\begin{center}
+			\includegraphics[scale=0.32,keepaspectratio=true]{tm_figura}
+		\end{center}
+		\caption{Soma ponderada dos atrasos e adiantamentos x Makespan}
+		%\legend{Fonte: Autor}
+	\end{figure}
+
+	\begin{figure}		
+		\label{figura:tl_figura}	
+		\begin{center}
+			\includegraphics[scale=0.32,keepaspectratio=true]{tl_figura}
+		\end{center}
+		\caption{Soma ponderada dos adiantamentos x Soma ponderada dos atrasos}    
+		%\legend{Fonte: Autor}
+	\end{figure}
+
+	
+\end{frame}
+
+
+\section{Conclusões}
+\begin{frame}{Conclusões}
+	\begin{itemize}
+		\item Os algorítimos mostraram-se eficientes na distribuição das soluções na fronteira Pareto;
+        \item A modelagem é genérica para qualquer tipo de entrada, considerando 5 máquinas, mais pode
+        ser aplicada para qualquer quantidade de máquinas e tarefas;
+		\item Os algorítimos implementados apresentaram baixo consumo computacional;
+        \item A ToolBox nativa do Matlab proporcionou maior agilidade no desenvolvimento das soluções;
+        \item As soluções demonstraram ser interessantes mais precisam ser melhoradas.
+        	
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Trabalhos futuros}
+	\begin{itemize}
+		\item Testar outros métodos de programação linear com Simplex, Dual Simplex;
+		\item Realizar estudo na resolução das funções multiobjetivos deste trabalho empregando
+		métodos de apoio a decisão multicritério;
+		\item Avaliar o desempenho e viabilidade dos métodos de apoio a decisão, por meio de algorítimos.	
+	\end{itemize}
+\end{frame}
+% ----------------- NOVO SLIDE --------------------------------
+\section{Referências}
+
+%\begin{frame}[allowframebreaks]{Referências}
+%\bibliography{OUTROS_ARTIGOS,TCC_ALUNOS_DOUGLAS}
+%\bibliography{Mendeley}
+
+%\end{frame}
+
+\begin{frame}[allowframebreaks]{Referências}
+	%\framesubtitle{\TeX, \LaTeX, and Beamer}
+	\begin{thebibliography}{9}
+		\providecommand{\abntrefinfo}[3]{}
+		\providecommand{\abntbstabout}[1]{}
+		\abntbstabout{v-1.9.6 }
+		
+		\bibitem[ALBUQUERQUE, SANTOS e FILHO 2011]{Albuquerque2011}
+		\abntrefinfo{ALBUQUERQUE, SANTOS e FILHO}{ALBUQUERQUE; SANTOS; FILHO}{2011}
+		{ALBUQUERQUE, M.~C. et al. {Heuristica de Programa{\c{c}}{\~{a}}o
+		  Matem{\'{a}}tica para o Problema de Fluxo Multiproduto Binario}. In:
+		  \emph{Simp{\'{o}}sio Brasileiro de Pesquisa Operacional}. [S.l.: s.n.], 2011.
+		  p. 2147--2156.}
+		
+		\bibitem[AMORIM 2006]{AMORIM2006}
+		\abntrefinfo{AMORIM}{AMORIM}{2006}
+		{AMORIM, E. d.~A.
+		\emph{{Fluxo de pot{\^{e}}ncia {\'{o}}timo em sistemas multimercados
+		  atrav{\'{e}}s de um algor{\'{i}}tmo evolutivo multiobjetivo}}.
+		Tese (Doutorado) --- Universidade Estadual Paulista, 2006.}
+		
+		\bibitem[AZUMA 2011]{AZUMA2011}
+		\abntrefinfo{AZUMA}{AZUMA}{2011}
+		{AZUMA, R.~M. et~al.
+		\emph{{Otimiza{\c{c}}{\~{a}}o multiobjetivo em problema de estoque e roteamento
+		  gerenciados pelo fornecedor}}.
+		1--113~p. Tese (Mestrado) --- Universidade Estadual de Campinas, 2011.}
+		
+		\bibitem[CORRAR, THE{\'{O}}PHILO e BERGMANN 2004]{CORRAR2004}
+		\abntrefinfo{CORRAR, THE{\'{O}}PHILO e BERGMANN}{CORRAR; THE{\'{O}}PHILO;
+		  BERGMANN}{2004}
+		{CORRAR, L.~J. et al. \emph{{Pesquisa operacional para decis{\~{a}}o em
+		  contabilidade e administra{\c{c}}{\~{a}}o: contabilometria}}. S{\~{a}}o
+		  Paulo: Atlas, 2004.}
+		
+		\bibitem[CORREIA 2017]{CORREIA2017}
+		\abntrefinfo{CORREIA}{CORREIA}{2017}
+		{CORREIA, A. M.~P.
+		Monografia, \emph{{An{\'{a}}lise de m{\'{e}}todos escalares aplicados a
+		  problema multiobjetivos}}. [S.l.]: Universidade Estadual do Tocantins, 2017.
+		  1--63~p.}
+		
+		\bibitem[COUTINHO 2008]{Coutinho2008}
+		\abntrefinfo{COUTINHO}{COUTINHO}{2008}
+		{COUTINHO, B.~C.
+		\emph{{Proposta de Algoritmo H{\'{i}}brido para o Problema de Tarefas em
+		  Ambientes Distribu{\'{i}}dos Homog{\^{e}}neos}}.
+		Tese (Mestrado) --- Universidade Federal do Esp{\'{i}}rito Santo, 2008.}
+		
+		\bibitem[COUTINHO e {DE OLIVEIRA} 2009]{COUTINHO2009}
+		\abntrefinfo{COUTINHO e {DE OLIVEIRA}}{COUTINHO; {DE OLIVEIRA}}{2009}
+		{COUTINHO, B.~C.; {DE OLIVEIRA}, E.~S. {Fixa{\c{c}}{\~{a}}o de vari{\'{a}}veis
+		  do modelo matem{\'{a}}tico aplicado na solu{\c{c}}{\~{a}}o do problema de
+		  escalonamento de tarefas em ambientes distribu{\'{i}}dos homog{\^{e}}neos}.
+		\emph{SBPO - Simp{\'{o}}sio Brasileiro de Pesquisa Operacional}, 2009.}
+		
+		\bibitem[ETCHEVERRY 2012]{ETCHEVERRY2012}
+		\abntrefinfo{ETCHEVERRY}{ETCHEVERRY}{2012}
+		{ETCHEVERRY, G.~V.
+		\emph{{Programa{\c{c}}{\~{a}}o de tarefas em m{\'{a}}quinas paralelas
+		  n{\~{a}}o-relacionadas com tempos de setup dependentes da sequ{\^{e}}ncia}}.
+		1--54~p. Tese (Mestrado) --- Universidade Federal do Rio Grande do Sul, 2012.}
+		
+		\bibitem[HADDAD 2012]{HADDAD2012}
+		\abntrefinfo{HADDAD}{HADDAD}{2012}
+		{HADDAD, M.~N. \emph{{Algoritmos heur{\'{i}}sticos h{\'{i}}bridos para o
+		  problema de sequenciamento em m{\'{a}}quinas paralelas n{\~{a}}o-relacionadas
+		  com tempos de prepara{\c{c}}{\~{a}}o dependentes da sequ{\^{e}}ncia}}. 2012.}
+		
+		\bibitem[HILLIER e LIEBERMAN 2006]{HILLIER2006}
+		\abntrefinfo{HILLIER e LIEBERMAN}{HILLIER; LIEBERMAN}{2006}
+		{HILLIER, F.~S.; LIEBERMAN, G.~J. \emph{{Introdu{\c{c}}ao a Pesquisa
+		  Operacional}}. 8. ed. S{\~{a}}o Paulo: McGraw-Hill Interamericana do Brasil
+		  Ltda, 2006.
+		ISBN 85-86804-68-1.}
+		
+		\bibitem[HILLIER e LIEBERMAN 2013]{HILLIER2013}
+		\abntrefinfo{HILLIER e LIEBERMAN}{HILLIER; LIEBERMAN}{2013}
+		{\underline{\ \ \ \ \ \ \ \ }. \emph{{Introdu{\c{c}}{\~{a}}o {\`{a}} pesquisa
+		  operacional}}. [S.l.: s.n.], 2013.}
+		
+		\bibitem[KAWAMURA 2006]{KAWAMURA2006}
+		\abntrefinfo{KAWAMURA}{KAWAMURA}{2006}
+		{KAWAMURA, M.~S.
+		\emph{{Aplica{\c{c}}{\~{a}}o do m{\'{e}}todo branch-and-bound na
+		  programa{\c{c}}{\~{a}}o de tarefas em uma {\'{u}}nica m{\'{a}}quina com data
+		  de entrega comum sob penalidades de adiantamento e atraso.}}
+		Tese (Tese de Doutorado) --- Universidade de S{\~{a}}o Paulo, 2006.}
+		
+		\bibitem[MARTINS 2017]{MARTINS2017}
+		\abntrefinfo{MARTINS}{MARTINS}{2017}
+		{MARTINS, R.~C. \emph{{An{\'{a}}lise de algoritmos evolucion{\'{a}}rios na
+		  resolu{\c{c}}{\~{a}}o de fun{\c{c}}{\~{o}}es de benchmark irrestritas.}}
+		  [S.l.]: Universidade Estadual do Tocantins, 2017.}
+		
+		\bibitem[MINEIRO 2007]{MINEIRO2007}
+		\abntrefinfo{MINEIRO}{MINEIRO}{2007}
+		{MINEIRO, A.
+		\emph{{Aplica{\c{c}}{\~{a}}o de programa{\c{c}}{\~{a}}o n{\~{a}}o-linear como
+		  ferramenta de aux{\'{i}}lio {\`{a}} tomada de decis{\~{a}}o na gest{\~{a}}o
+		  de um clube de investimento}}.
+		91~p. Tese (Mestrado) --- UNIFEI, Itajub{\'{a}}, 2007.}
+		
+		\bibitem[M{\"{U}}LLER e DIAS 2002]{MULLER2002}
+		\abntrefinfo{M{\"{U}}LLER e DIAS}{M{\"{U}}LLER; DIAS}{2002}
+		{M{\"{U}}LLER, F.~M.; DIAS, O.~B. {Algoritmo para o problema de
+		  seq{\"{u}}enciamento em m{\'{a}}quinas paralelas n{\~{a}}o-relacionadas}.
+		\emph{Revista Produ{\c{c}}{\~{a}}o}, v.~12, n.~2, p. 6--17, 2002.
+		ISSN 0103-6513.}
+		
+		\bibitem[NARI{\~{N}}O, MARTHA e {DE MENEZES} 2014]{NARINO2014}
+		\abntrefinfo{NARI{\~{N}}O, MARTHA e {DE MENEZES}}{NARI{\~{N}}O; MARTHA; {DE
+		  MENEZES}}{2014}
+		{NARI{\~{N}}O, G. A.~R. et al.
+		\emph{{Otimiza{\c{c}}{\~{a}}o de risers em caten{\'{a}}ria com amortecedores
+		  hidrodin{\^{a}}micos}}.
+		18~p. Tese (Mestrado) --- PUC-Rio, 2014.}
+		
+		\bibitem[PACHAMANOVA e FABOZZI 2010]{PACHAMANOVA2010}
+		\abntrefinfo{PACHAMANOVA e FABOZZI}{PACHAMANOVA; FABOZZI}{2010}
+		{PACHAMANOVA, D.~A.; FABOZZI, F.~J. \emph{{Simulation and Optimization in
+		  Finance: Modeling with MATLAB,@ RISK, or VBA}}. [S.l.]: John Wiley {\&} Sons,
+		  2010. 787~p.
+		ISBN 9780470371893.}
+		
+		\bibitem[QUEIROZ 2011]{QUEIROZ2011}
+		\abntrefinfo{QUEIROZ}{QUEIROZ}{2011}
+		{QUEIROZ, M.~M. de.
+		\emph{{M{\'{e}}todos heur{\'{i}}sticos aplicados ao problema de
+		  programa{\c{c}}{\~{a}}o da frota de navios PLVs}}.
+		Tese (Doutorado) --- Universidade de S{\~{a}}o Paulo, 2011.}
+		
+		\bibitem[REIS, DUQUE e VILLELA 2010]{REIS2010}
+		\abntrefinfo{REIS, DUQUE e VILLELA}{REIS; DUQUE; VILLELA}{2010}
+		{REIS, D.~C. et al. {Problema da Aloca{\c{c}}{\~{a}}o de Monitores de Qualidade
+		  de Energia El{\'{e}}trica em Redes de Transmiss{\~{a}}o}.
+		\emph{XVIII Congresso Brasileiro de Autom{\'{a}}tica}, p.~1--6, 2010.}
+		
+		\bibitem[ROCHA 2006]{ROCHA2006}
+		\abntrefinfo{ROCHA}{ROCHA}{2006}
+		{ROCHA, P.~L.
+		\emph{{Um problema de sequenciamento em m{\'{a}}quinas paralelas
+		  n{\~{a}}o-relacionadas com tempos de prepara{\c{c}}{\~{a}}o dependentes de
+		  m{\'{a}}quina e da sequ{\^{e}}ncia:: modelos e algoritmos exato}}.
+		1--70~p. Tese (Mestrado) --- Universidade Federal de Minas Gerais, 2006.}
+		
+		\bibitem[SECCHI 2015]{SECCHI2015}
+		\abntrefinfo{SECCHI}{SECCHI}{2015}
+		{SECCHI, A.~R. \emph{{COQ-897 - Otimiza{\c{c}}{\~{a}}o de Processos}}. Rio de
+		  Janeiro: [s.n.], 2015.}
+		
+		\bibitem[SERAFINI, ANZANELLO e KAHMANN 2016]{SERAFINI2016}
+		\abntrefinfo{SERAFINI, ANZANELLO e KAHMANN}{SERAFINI; ANZANELLO; KAHMANN}{2016}
+		{SERAFINI, L. et al. {Heur{\'{i}}stica para minimiza{\c{c}}{\~{a}}o do atraso
+		  total de tarefas baseada em curvas de aprendizado e aspectos
+		  ergon{\^{o}}micos}.
+		\emph{Revista Produ{\c{c}}{\~{a}}o Online}, Florian{\'{o}}polis, p. 550--574,
+		  2016.}
+		
+		\bibitem[SILVA 2008]{SILVA2008}
+		\abntrefinfo{SILVA}{SILVA}{2008}
+		{SILVA, V.~V. et~al. {Uma heur{\'{i}}stica h{\'{i}}brida para o problema de
+		  escalonamento de tarefas peri{\'{o}}dico em m{\'{a}}quinas paralelas}.
+		\emph{XXVIII Encontro Nacional de Engenharia de Produ{\c{c}}{\~{a}}o}, p.
+		  1--13, 2008.}
+		
+		\bibitem[XAVIER 2003]{XAVIER2003}
+		\abntrefinfo{XAVIER}{XAVIER}{2003}
+		{XAVIER, E.~C. et~al.
+		\emph{{Algoritmos de aproxima{\c{c}}{\~{a}}o para problemas de escalonamento de
+		  tarefas em maquinas}}.
+		1--148~p. Tese (Mestrado) --- Unicamp, 2003.}
+		
+		\bibitem[YUNES 2000]{YUNES2000}
+		\abntrefinfo{YUNES}{YUNES}{2000}
+		{YUNES, T.~H. et~al.
+		\emph{{Problemas de escalonamento no transporte coletivo:
+		  programa{\c{c}}{\~{a}}o por restri{\c{c}}{\~{o}}es e outras tecnicas}}.
+		Tese (Mestrado) --- Unicamp, 2000.}
+		
+	\end{thebibliography}
+  \end{frame}
+% ----------------- FIM DO DOCUMENTO -----------------------------------------
+\end{document}

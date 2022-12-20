@@ -36,35 +36,46 @@ Para a implementação do método de intervalo de confiança, além da realizaç
 		\hline
 		Sensor de temperatura termistor de 100k                         & 1                \\
 		\hline
+		Resistor de 100k               									& 1					\\
+		\hline
     
     \end{longtable}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth,height=\textwidth]{imagens/sensores/WhatsApp Image 2022-12-19 at 22.42.12.jpeg}
+	\caption{Foto do equipamento utilizado para a concepção desse trabalho}
+	Fonte: Autor.
+	\label{fig: equipamento}
+\end{figure}
 
 O equipamento utilizado trata-se de um kit de desenvolvimento, apelidado de ESP32 DEV Kit v1 que acompanha o controlador ESP-WROOM-32, microprocessador Tensilica Xtensa 32-bit LX6 de dois cores, clock de até 240MHz, memória ROM de 448KB e SRAM de 520KB, e um termistor genérico de 100k que varia sua resistência dependendo da temperatura do ambiente retornando os dados para a análise.
 
 
 \subsection{Análise exploratória dos dados}
-Para avaliar o método de IC, foi necessário criar um conjunto de dados coletados através de um sensor de temperatura termistor de 100k acomodado no pino 21 do kit de desenvolvimento ESP32, aqui serão descritas as características mais importantes do dataset.
+Para avaliar o método de IC foi necessário criar um dataset com os dados coletados no ambiente de testes em cima do kit de desenvolvimento exibido na Figura~\ref{fig: equipamento}, os dados foram enviados via comunicação serial onde o algoritmo aqui proposto escrito na linguagem C sobre o sistema operacional Zephyr na versão 3.2.0, retornava os dados coletados do sensor informando quais foram retornados dentro do IC. Para isso um sensor de temperatura termistor de 100k foi acomodado no pino 21 do kit de desenvolvimento ESP32, os dados retornados foram armazenados em uma planilha csv e em seguida transformados em um dataset no qual aqui serão descritas suas características mais importantes.
 
-O conjunto contém 1592 linhas sem valores ausentes e 544 valores únicos com os valores \ang{32.14}c e \ang{33.47}c sendo os que mais se repetem com 35 aparições, todos os valores flutuando entre \ang{1.05}c e \ang{97.35}c graus, tendo média de \ang{37.19}c, desvio padrão de 13.33, primeiro quartil de 31.80, segundo quartil 33.00 e terceiro quartil em 35.33.
-Os valores foram coletados no intervalo de aproximadamente 2 minutos, com todos os valores sendo processados na linguagem de programação Python na versão 3.11.0 com as bibliotecas pandas, numpy, matplotlib e scipy.
+Os valores foram coletados no intervalo de aproximadamente 2 minutos, com a analise de todos os valores sendo processados na linguagem de programação Python na versão 3.11.0 com as bibliotecas \textit{Pandas}\footnote{https://pandas.pydata.org/}, \textit{NumPy}\footnote{https://numpy.org/}, {Matplotlib}\footnote{https://matplotlib.org/} e {SciPy}\footnote{https://scipy.org/}.   
+
+O conjunto contém 1592 linhas sem valores ausentes e 544 valores únicos com os valores \ang{32.14}C e \ang{33.47}C sendo os que mais se repetem com 35 aparições, todos os valores flutuando entre \ang{1.05}C e \ang{97.35}C graus, tendo média de \ang{37.19}C, desvio padrão de 13.33, primeiro quartil de 31.80, segundo quartil 33.00 e terceiro quartil em 35.33.
 
 
-Na Figura~\ref{fig: hist} abaixo visualiza-se uma concentração maior de valores entre \ang{20}c e \ang{40}c graus com os valores seguintes podendo estar entre ruídos e picos de temperatura capturados pelo sensor. 
+Na Figura~\ref{fig: hist} abaixo visualiza-se uma concentração maior de valores entre \ang{20}C e \ang{40}C graus com os valores seguintes podendo estar entre ruídos e picos de temperatura capturados pelo sensor. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=15cm]{imagens/sensores/hist.png}
-	\caption{histograma do conjunto de dados}
+	\caption{histograma do dataset}
 	Fonte: Autor com base na biblioteca pandas.
 	\label{fig: hist}
 \end{figure}
 
-Tendo em vista que a média de temperatura do local de coleta da amostra estava entre \ang{33}c graus, pode-se visualizar uma grande quantidade de valores aproximados na Figura~\ref{fig: hist2}. 
+Tendo em vista que a média de temperatura do local de coleta da amostra estava entre \ang{33}C graus, pode-se visualizar uma grande quantidade de valores aproximados na Figura~\ref{fig: hist2}. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=15cm]{imagens/sensores/hist2.png}
-	\caption{histograma do conjunto de dados entre 20 e 40 graus}
+	\caption{histograma do dataset entre 20 e 40 graus}
 	Fonte: Autor com base na biblioteca pandas.
 	\label{fig: hist2}
 \end{figure}
@@ -72,20 +83,20 @@ Tendo em vista que a média de temperatura do local de coleta da amostra estava 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=15cm]{imagens/sensores/boxplot.png}
-	\caption{Boxplot do conjunto de dados}
+	\caption{Boxplot do dataset}
 	Fonte: Autor com base na biblioteca matplotlib.
 	\label{fig: boxplot}
 \end{figure}
 
-Verifica-se na Figuras~\ref{fig: boxplot} a grande presença de valores discrepantes acima de \ang{40}c e abaixo de \ang{20}c.
+Verifica-se na Figuras~\ref{fig: boxplot} a grande presença de valores discrepantes acima de \ang{40}C e abaixo de \ang{20}c.
 
-Abaixo na Figura~\ref{fig: bruto} pode-se visualizar todo o conjunto de dados, nota-se a presença de grandes picos de temperatura que foram induzidos na amostra propositalmente a fim de diferenciar o ruído do sensor de um pico de temperatura real, esses picos foram introduzidos através do aquecimento do sensor de temperatura duas vezes durante a coleta de dados.
+Abaixo na Figura~\ref{fig: bruto} pode-se visualizar todo o dataset, nota-se a presença de grandes picos de temperatura que foram induzidos na amostra propositalmente , através de um esqueiro com a chama direcionada ao sensor de temperatura a fim de diferenciar o ruído do sensor de um pico de temperatura real, esses picos foram introduzidos através do aquecimento do sensor de temperatura duas vezes durante a coleta de dados.
 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=15cm]{imagens/sensores/bruto.png}
-	\caption{Plotagem gráfica do conjunto de dados completo}
+	\caption{Plotagem gráfica do dataset completo}
 	Fonte: Autor.
 	\label{fig: bruto}
 \end{figure}
@@ -111,7 +122,7 @@ Na Figura~\ref{fig: bruto_100p} percebe-se que a leitura do sensor sempre aprese
 	\label{fig: bruto_100u}
 \end{figure}
 
-Por fim na Figura~\ref{fig: bruto_100u} podemos analisar os últimos 100 dados, nos quais nota-se a presença de um pico de temperatura que começa a subir em \ang{33.05}c com sua máxima perto dos \ang{36.0}c, essa característica pode ser importante por mais que esteja em um curto período de tempo, e pode ser distinguida de um ruído pela sua característica de subida e descida prolongada. 
+Por fim na Figura~\ref{fig: bruto_100u} podemos analisar os últimos 100 dados, nos quais nota-se a presença de um pico de temperatura que começa a subir em \ang{33.05}C com sua máxima perto dos \ang{36.0}C, essa característica pode ser importante por mais que esteja em um curto período de tempo, e pode ser distinguida de um ruído pela sua característica de subida e descida prolongada. 
 
 
 

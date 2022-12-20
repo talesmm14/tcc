@@ -7,7 +7,7 @@
 
 O mundo moderno é cercado por sensores passivos que coletam dados de praticamente tudo, para monitoramento ou tomada de decisão, a maioria desses dispositivos é bombardeada de interferências indesejáveis o tempo todo. Seja pela baixa qualidade dos equipamentos ou pela grande quantidade de intervenções aleatórias de fontes externas que podem prejudicar o resultado final.
 
-Umas das abordagens mais populares para escapar de valores discrepantes, e a utilização do cálculo de média móvel ou média móvel ponderada para remover ruídos, no entanto essa abordagem não apresenta uma boa eficiência energética e demanda muito tempo para conseguir refletir mudanças bruscas no conjunto de dados utilizado \cite{International_Conference__Zhuang}. 
+Umas das abordagens mais populares para escapar de valores discrepantes, e a utilização do cálculo de média móvel ou média móvel ponderada para remover ruídos, no entanto essa abordagem não apresenta uma boa eficiência energética e demanda muito tempo para conseguir refletir mudanças bruscas no dataset utilizado \cite{International_Conference__Zhuang}. 
 Os dados ruidosos se caracterizam como leituras perdidas dos sensores ou leituras imprecisas e não confiáveis, dificultando o trabalho das aplicações que tentam usar os valores colhidos em sua forma original \cite{Jeffery_Pipelined_Framework}, com isso quase todas as aplicações que tentam ser confiáveis utilizam algum tipo de algoritmo de filtragem de dados advindos de sensores eletrônicos.
 Os sensores modernos são construídos de forma a serem pequenos, baratos e eficientes energeticamente, para que possam ser utilizados em todos os lugares de forma massiva e descartável, consequentemente a qualidade não é eficiente o suficiente para não apresentar problemas com interferências \cite{tan2005sensoclean}. 
 
@@ -27,16 +27,17 @@ O trabalho aqui proposto se dispõe em testar o método de intervalo de confian�
 \subsection{Objetivos secundários}
 Os objetivos secundários a serem alcançados são:
 \begin{itemize}
-\item Realizar uma revisão bibliométrica de trabalhos que utilizam de métodos probabilísticos para filtragem de dados de sensores
-\item Avaliar a utilização do método aqui proposto como uma alternativa aos métodos de média móvel e média móvel ponderada
+\item Realizar uma revisão bibliométrica de trabalhos que utilizam de métodos probabilísticos para filtragem de dados de sensores;
+\item Avaliar a utilização do método aqui proposto como uma alternativa aos métodos de média móvel e média móvel ponderada;
 % \item Disponibilizar o código de forma aberta a comunidade, para que possa ser utilizado por qualquer outro interessado em tratar dados de sensores em ambiente de multitarefas 
-\item Escrever funções de filtragem utilizando os métodos de Desvio padrão e Intervalo de confiança
+\item Escrever funções de filtragem utilizando os métodos de Desvio padrão e Intervalo de confiança.
 \end{itemize}
 
 
 \section{Justificativa}
 Dados provindos do mundo real são constantemente contaminados com ruídos ou podem não corresponder à realidade, esse tipo de situação pode afetar perigosamente um programa de computador qualquer que lida com dados de sensores. Muitos programas podem depender que essa resposta deva ser rápida o suficiente para não comprometer o desempenho e a segurança do programa, um veículo autômato ou um equipamento médico por exemplo não podem trabalhar com dados incorretos, mesmo que sejam em curtos períodos de tempo, os mesmos dependem que a resposta vinda dos sensores sejam rápidas e verdadeiras, com as respostas discrepantes sendo descartadas não comprometendo sua missão. 
-Assim, em um primeiro momento considerou-se desenvolver e testar uma função de intervalo de confiança móvel para a filtragem de dados indesejáveis vindo de sensores diversos em tempo real, tendo como característica atuar de forma amigável junto a um RTOS sobre o microprocessador ESP32 da fabricante Espressif, em conjunto com o RTOS Zephyr um projeto mantido pela fundação Linux.
+
+Assim, em um primeiro momento considerou-se desenvolver e testar uma função de intervalo de confiança móvel para a filtragem de dados indesejáveis vindo de sensores diversos em tempo real, tendo como característica atuar de forma amigável junto a um RTOS sobre o microprocessador ESP32 da fabricante Espressif, em conjunto com o RTOS Zephyr um projeto mantido pela Linux Foundation.
 % Assim então este trabalho visa contribuir com a construção de uma biblioteca na linguagem C é de código aberto, onde será oferecido funções para tratamento de dados ruidosos advindos do mundo real, cuidando de se preocupar em trabalhar em conjunto com o RTOS Zephyr, economizando tempo de desenvolvimento e centralizando código aberto para todo e qualquer projetista de software interessado em consumir e contribuir ao projeto.
 
 
